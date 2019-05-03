@@ -1,0 +1,16 @@
+owner = ENG
+controller = ENG
+add_core = TRI
+add_core = CYR
+trade_goods = grain
+life_rating = 35
+terrain = semi_desert
+colonial = 2
+1992.1.1 = {
+owner = TRI
+controller = TRI
+add_core = TRI
+add_core = CYR
+life_rating = 35
+colonial = 0
+}

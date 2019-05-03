@@ -1,0 +1,186 @@
+political_decisions = {
+
+	jointheoic = {
+		picture = "jointheoic"
+		potential = {
+NOT = { government = proletarian_dictatorship }
+			OR = { pop_majority_religion = sunni pop_majority_religion = ibad pop_majority_religion = shiite has_country_flag = muslim } # flag from political_events.txt desecularization
+			NOT = { religious_policy = pro_atheism }
+			NOT = { has_country_modifier = oic_member }
+			year = 1969
+			OR = {
+				NOT = { badboy = 1 }
+				AND = {
+					part_of_sphere = yes
+					sphere_owner = { has_country_modifier = oic_chairmanship }
+				}
+				AND = {
+					is_vassal = yes
+					overlord = { has_country_modifier = oic_chairmanship }
+				}
+			}
+			NOT = { is_vassal = yes overlord = { religious_policy = moralism NOT = { has_country_flag = muslim } } } # not vassal of a non-muslim moralist state
+		}
+		allow = {
+			war = no
+			election = no
+		}
+		effect = {
+			prestige = 10
+			add_country_modifier = { name = oic_member duration = -1 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	leavetheoic = {
+		picture = "jointheoic"
+		potential = {
+			OR = {
+government = proletarian_dictatorship
+				religious_policy = pro_atheism
+				NOT = { OR = { pop_majority_religion = sunni pop_majority_religion = ibad pop_majority_religion = shiite has_country_flag = muslim } }
+			}
+			has_country_modifier = oic_member
+			NOT = { has_country_modifier = oic_chairmanship }
+		}
+		allow = {
+			war = no
+			election = no
+		}
+		effect = {
+			prestige = -20
+			remove_country_modifier = oic_member
+			remove_country_modifier = oichigh
+			remove_country_modifier = oicmedium
+			remove_country_modifier = oiclow
+			clr_country_flag = oichigh
+			clr_country_flag = oicmedium
+			clr_country_flag = oiclow
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	changeoic = {
+		picture = "jointheoic"
+		potential = {
+			has_country_modifier = oic_chairmanship
+			OR = { has_country_modifier = oichigh
+				has_country_modifier = oicmedium
+				has_country_modifier = oiclow }
+		}
+		alert = no
+		allow = {
+			war = no
+		}
+		effect = {
+			clr_global_flag = oichigh
+			clr_global_flag = oicmedium
+			clr_global_flag = oiclow
+			remove_country_modifier = oichigh
+			remove_country_modifier = oicmedium
+			remove_country_modifier = oiclow
+			any_country = {
+				limit = { has_country_modifier = oic_member }
+				remove_country_modifier = oichigh
+				remove_country_modifier = oicmedium
+				remove_country_modifier = oiclow
+				clr_country_flag = oichigh
+				clr_country_flag = oicmedium
+				clr_country_flag = oiclow
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					AND = { has_global_flag = oichigh OR = { economic_policy = state_capitalism economic_policy = planned_economy } }
+					AND = { has_global_flag = oicmedium economic_policy = interventionism }
+					AND = { has_global_flag = oiclow economic_policy = laissez_faire }
+				}
+			}
+		}
+	}
+
+	oichigh = {
+		picture = "jointheoic"
+
+		potential = {
+			has_country_modifier = oic_chairmanship
+			NOT = { OR = { has_country_modifier = oichigh
+					has_country_modifier = oicmedium
+					has_country_modifier = oiclow } }
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			add_country_modifier = { name = oichigh duration = -1 }
+			any_country = { limit = { has_country_modifier = oic_member } add_country_modifier = { name = oichigh duration = -1 } }
+			set_global_flag = oichigh
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { OR = { economic_policy = state_capitalism economic_policy = planned_economy } }
+			}
+		}
+	}
+	oicmedium = {
+		picture = "jointheoic"
+
+		potential = {
+			has_country_modifier = oic_chairmanship
+			NOT = { OR = { has_country_modifier = oichigh
+					has_country_modifier = oicmedium
+					has_country_modifier = oiclow } }
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			add_country_modifier = { name = oicmedium duration = -1 }
+			any_country = { limit = { has_country_modifier = oic_member } add_country_modifier = { name = oicmedium duration = -1 } }
+			set_global_flag = oicmedium
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { economic_policy = interventionism }
+			}
+		}
+	}
+	oiclow = {
+		picture = "jointheoic"
+
+		potential = {
+			has_country_modifier = oic_chairmanship
+			NOT = { OR = { has_country_modifier = oichigh
+					has_country_modifier = oicmedium
+					has_country_modifier = oiclow } }
+		}
+		allow = {
+			war = no
+		}
+		effect = {
+			add_country_modifier = { name = oiclow duration = -1 }
+			any_country = { limit = { has_country_modifier = oic_member } add_country_modifier = { name = oiclow duration = -1 } }
+			set_global_flag = oiclow
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { economic_policy = laissez_faire }
+			}
+		}
+	}
+
+
+
+}

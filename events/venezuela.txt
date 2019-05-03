@@ -1,0 +1,169 @@
+country_event = {
+  id = 8017801
+  title = EVT_8017801_NAME
+  desc = EVT_8017801_DESC
+  picture = "nwo2_venezuela"
+  fire_only_once = yes
+
+  trigger = {
+    tag = VNZ
+	year = 1945 NOT = { year = 1990 }
+  }
+
+  mean_time_to_happen = { months = 1  }
+
+  option = {
+    name = EVT_8017801_A
+	government = democracy country_event = 800054
+	ai_chance = { factor = 0.9 }
+  }
+
+option = {
+    name = "Stick to the status quo"
+add_country_modifier = { name = revolution_chaos duration = 3650 }
+	ai_chance = { factor = 0.1 }
+  }
+
+}
+country_event = {
+  id = 8017803
+  title = EVT_8017803_NAME
+  desc = EVT_8017803_DESC
+  picture = "nwo2_venezuela"
+  fire_only_once = yes
+
+  trigger = {
+    tag = VNZ
+	year = 1948 NOT = { year = 1990 }
+	government = democracy
+  }
+
+  mean_time_to_happen = { months = 4  }
+
+  option = {
+    name = EVT_8017803_A
+	any_pop = { militancy = 0.5 consciousness = 1 }
+	government = presidential_dictatorship 
+	country_event = 800050
+	ai_chance = { factor = 0.9 }
+  }
+
+option = {
+    name = "Stick to the status quo"
+add_country_modifier = { name = revolution_chaos duration = 3650 }
+	ai_chance = { factor = 0.1 }
+  }
+
+}
+country_event = {
+  id = 8017804
+  title = EVT_8017804_NAME
+  desc = EVT_8017804_DESC
+  picture = "nwo2_assassination_of_chalbaud"
+  fire_only_once = yes
+
+  trigger = {
+    tag = VNZ
+	year = 1951 NOT = { year = 1990 }
+	government = presidential_dictatorship
+  }
+
+  mean_time_to_happen = { months = 1  }
+
+  option = {
+    name = EVT_8017804_A
+	any_pop = { militancy = 0.5 consciousness = 1 }
+  }
+}
+country_event = {
+  id = 8017805
+  title = EVT_8017805_NAME
+  desc = EVT_8017805_DESC
+  picture = "nwo2_marcos_jimenez"
+  fire_only_once = yes
+
+  trigger = {
+    tag = VNZ
+	year = 1952 NOT = { year = 1990 }
+	government = presidential_dictatorship
+  }
+
+  mean_time_to_happen = { months = 1  }
+
+  option = {
+    name = EVT_8017805_A
+	any_pop = { militancy = 0.5 consciousness = 1 }
+	ai_chance = { factor = 0.9 }
+  }
+
+  option = {
+    name = EVT_8017805_B
+	government = democracy country_event = 800054
+	ai_chance = { factor = 0.1 }
+  }
+}
+country_event = {
+  id = 8017807
+  title = EVT_8017807_NAME
+  desc = EVT_8017807_DESC
+  picture = "nwo2_punto_fijo_pact"
+  fire_only_once = yes
+
+  trigger = {
+    tag = VNZ
+	year = 1958 NOT = { year = 1990 }
+	government = presidential_dictatorship
+  }
+
+  mean_time_to_happen = { months = 1  }
+
+  option = {
+    name = EVT_8017807_A
+	government = democracy country_event = 800054
+	any_pop = { limit = { OR = { pop_majority_ideology = communist pop_majority_ideology = traditionalist pop_majority_ideology = populist } } militancy = 4.0 consciousness = 2 }
+	any_pop = { limit = { OR = { pop_majority_ideology = conservative pop_majority_ideology = liberal pop_majority_ideology = progressive } } militancy = -2.0  consciousness = -2 }
+	set_country_flag = punto_fijo
+	ai_chance = { factor = 0.95 }
+  }
+
+  option = {
+    name = EVT_8017807_B
+	any_pop = { consciousness = 1 }
+	government = democracy country_event = 800054
+	ai_chance = { factor = 0.05 }
+  }
+}
+country_event = { # Communist Insurgency
+  id = 8017808
+  title = EVT_8017808_NAME
+  desc = EVT_8017808_DESC
+  picture = "venezuela_communist_insurgency"
+  fire_only_once = yes
+
+  trigger = {
+    tag = VNZ
+	year = 1962 NOT = { year = 1990 }
+	NOT = { ruling_party_ideology = socialist }
+	NOT = { ruling_party_ideology = communist }
+	has_country_flag = punto_fijo
+	government = presidential_dictatorship
+  }
+
+  mean_time_to_happen = { months = 1  }
+
+  option = {
+    name = EVT_8017807_A
+	any_pop = { limit = { pop_majority_ideology = communist } militancy = 4.0 consciousness = 2 }
+	any_pop = { limit = { pop_majority_ideology = socialist } militancy = 2 consciousness = 2 }
+	ai_chance = { factor = 0.95 }
+  }
+
+  option = {
+    name = EVT_8017807_B
+	any_pop = { consciousness = 1 }
+	any_pop = { militancy = -1 consciousness = 1 }
+	any_pop = { limit = { OR = { pop_majority_ideology = conservative pop_majority_ideology = liberal } } consciousness = 2 }
+	prestige = -2
+	ai_chance = { factor = 0.05 }
+  }
+}

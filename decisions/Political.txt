@@ -1,0 +1,116 @@
+# replace_path vic2 bug force "P"olitical.txt as name
+political_decisions = {
+
+	five_year_plan = {
+			picture = "five_year_plan"
+			potential = {
+OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 }
+		NOT = { has_country_modifier = five_year_plan }
+			}
+
+			allow = {
+				government = proletarian_dictatorship
+				public_switched_telephone_network = 1
+				war = no
+			}
+
+			effect = {
+				prestige = 5
+add_country_modifier = { name = five_year_plan duration = 1825 }
+			}
+			ai_will_do = { factor = 1 }
+	}
+
+	leave_soi = {
+		alert = no
+		picture = "leave_soi"
+		potential = {
+			part_of_sphere = yes
+			OR = { ai = no sphere_owner = { NOT = { relation = { who = THIS value = -100 } } } }
+		}
+		allow = {
+			is_secondary_power = yes
+			has_recently_lost_war = no
+			sphere_owner = { NOT = { relation = { who = THIS value = -150 } } }
+		}
+		effect = { 
+			sphere_owner = { country_event = { id = 13201 days = 0 } }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	nationalize = {
+		alert = no
+		picture = "nationalize"	
+		potential = {
+			is_greater_power = no
+			can_nationalize = yes 
+NOT = { has_country_modifier = nationalisation_in_progress }
+		}
+		allow = {
+
+			#part_of_sphere = yes
+
+			is_greater_power = no
+			is_vassal = no
+			election = no
+
+NOT = { sphere_owner = { tag = RUS } has_global_flag = blocsenabled OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } }
+
+			OR = { 
+			ai = no
+			ruling_party_ideology = communist
+			ruling_party_ideology = communist_social
+any_greater_power = { is_sphere_leader_of = THIS NOT = { relation = { who = THIS value = -150 } } } 
+			}
+	
+		}
+		effect = {
+			nationalize = yes
+
+			badboy = 5
+
+add_country_modifier = { name = nationalisation_in_progress duration = 3650 }
+
+			country_event = 96086 
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	newly_industrialized_country = {
+		picture = "newly_industrialized_country"
+		alert = no
+		potential = {
+			nationalvalue = nv_development
+		}
+		
+		allow = {
+			fossil_fuel_power = 1
+			oil_well = 1
+			radio = 1
+			television = 1
+			intensive_farming = 1
+			mineral_processing = 1
+			modern_roads = 1
+			early_highway = 1
+			electricity = 1
+			petrochemical_industry = 1
+			nuclear_power = 1
+			plastic_industry = 1
+		}
+		effect = {
+			prestige = 20
+			country_event = 18590
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

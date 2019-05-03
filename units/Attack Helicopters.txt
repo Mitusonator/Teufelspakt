@@ -1,0 +1,44 @@
+#Attack Helicopters
+missile = {
+	icon = 12
+	
+	type = land
+	sprite = Fighter
+	active = no
+	unit_type = cavalry
+	floating_flag = no
+	
+	#Core Abilities
+	priority = 35
+	max_strength = 3
+	default_organisation = 30
+	maximum_speed = 5.00
+	weighted_value = 6.0
+
+
+	#Building Costs
+	build_time = 150
+	# cost 4M * 100 = 0.4B
+	build_cost = {
+		aeroplanes = 6.5
+		weaponry = 5
+		fuel = 12.5
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		aeroplanes = 0.5
+		small_arms = 0.012
+		weaponry = 0.075
+		fuel = 0.07
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 1
+	attack = 4
+	defence = 3
+	discipline = 1.0
+	support = 0.0
+	maneuver = 3
+}

@@ -1,0 +1,145 @@
+
+
+#Set up Rebel Tag
+country_event = {
+	id = 1400072
+	title = "Rebellion grows stronger"
+	desc = "$FROMCOUNTRY$ is supporting rebel groups in our country, allowing them to be much more organised and a much greater threat to our nation."
+	picture = "crisis_starting"
+	
+is_triggered_only = yes
+
+option = {
+name = "Good"
+
+FROM = { any_owned = { limit = { is_capital = no controlled_by_rebels = yes } secede_province = THIS } }
+
+civilized = yes
+
+primary_culture = FROM
+
+relation = { who = FROM value = -200 }
+
+money = 500000
+weaponry = 100
+small_arms = 100
+FROM = {
+war = {
+	target = THIS
+	attacker_goal = { casus_belli = civil_war }
+	defender_goal = { casus_belli = civil_war }
+	call_ally = no
+}
+	}
+		}
+
+}
+
+#In the event Rebels are at peace
+country_event = {
+	id = 1400073
+title = "Peace"
+desc = "All countries will now be returned to normal"
+	picture = "un_trust_territory"
+
+trigger = {
+exists = yes
+OR = { tag = R01 tag = R02 tag = R03 tag = R04 tag = R05 tag = R06 tag = R07 tag = R08 tag = R09 tag = R10 }
+war = no
+NOT = { has_country_modifier = stalemate }
+}
+
+option = {
+name = "Set them free"
+
+any_country = { 
+limit = { exists = no any_core = { owned_by = THIS } } 
+country_event = 1400074
+}
+
+any_country = { 
+limit = { exists = yes relation = { who = THIS value = 100 } any_core = { owned_by = THIS } } 
+country_event = { id = 1400075 days = 2 }
+}
+
+		}
+}
+
+#Independence for non existent countries
+country_event = {
+	id = 1400074
+	title = "Independence of $COUNTRY$"
+	desc = "$FROMCOUNTRY$ is supporting rebel groups in our country, allowing them to be much more organised and a much greater threat to our nation."
+	picture = "crisis_internationalisation"
+	
+is_triggered_only = yes
+
+option = {
+name = "Rejoice"
+
+FROM = { release = THIS }
+
+any_country = { limit = { neighbour = THIS exists = yes has_country_modifier = proxy_rebel } country_event = 1400080 }
+
+#Communists
+
+random_owned = { 
+limit = { owner = { FROM = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } } } }
+owner = { government = proletarian_dictatorship country_event = 800052 ruling_party_ideology = communist }
+}
+
+#Theocracy
+
+random_owned = { 
+limit = { owner = { FROM = { government = theocracy } } }
+owner = { government = theocracy country_event = 800050 ruling_party_ideology = traditionalist }
+}
+
+#Nationalist
+
+random_owned = { 
+limit = { owner = { FROM = { government = populist_dictatorship } } }
+owner = { government = populist_dictatorship country_event = 800050 ruling_party_ideology = nationalist }
+}
+
+#Sectarian
+
+random_owned = { 
+limit = { owner = { FROM = { government = nationalist_dictatorship } } }
+owner = { government = nationalist_dictatorship country_event = 800050 ruling_party_ideology = nationalist }
+}
+
+#Absolute Monarchy
+
+random_owned = { 
+limit = { owner = { FROM = { government = absolute_monarchy } } }
+owner = { government = absolute_monarchy country_event = 800050 ruling_party_ideology = traditionalist }
+}
+
+#HM Monarchy
+
+random_owned = { 
+limit = { owner = { FROM = { OR = { government = hms_government government = hms_government1 } } } }
+owner = { government = hms_government1 country_event = 800054 ruling_party_ideology = conservative }
+}
+
+#Democracy
+
+random_owned = { 
+limit = { owner = { FROM = { OR = { government = democracy government = democracy1 } } } }
+owner = { government = democracy country_event = 800054 ruling_party_ideology = liberal }
+}
+
+#Socialist Democracy
+
+random_owned = { 
+limit = { owner = { FROM = { government = socialist_democracy } } }
+owner = { government = socialist_democracy country_event = 800054 ruling_party_ideology = communist_social }
+}
+
+FROM = { any_owned = { limit = { is_core = THIS } secede_province = THIS } }
+
+
+		}
+
+}

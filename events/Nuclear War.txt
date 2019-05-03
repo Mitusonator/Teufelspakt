@@ -1,0 +1,223 @@
+### Nuclear Strike (LOW CAPABILITY) ###
+country_event = {
+	id = 1331429
+	title = "Struck by $FROMCOUNTRY_ADJ$ Nuclear Weapons"
+	desc = "Our Capital and Cities have been destroyed."
+	picture = "nuclear_strike"
+	
+allow_multiple_instances = yes	
+
+
+is_triggered_only = yes
+	
+	option = {
+name = "We have to prepare for a counter strike"
+
+FROM = { 
+add_country_modifier = { name = recently_attacked_nuke duration = 31 }
+
+add_country_modifer = { name = nuke_fallout duration = 18250 }
+
+#any_pop = { reduce_pop = 0.90 }
+
+set_country_flag = has_nuke_clouds
+
+any_owned = { limit = { is_capital = yes }
+add_province_modifier = { name = nuke_low duration = 18250 }
+set_province_flag = disease
+set_province_flag = nuked_before
+infrastructure = -2
+}
+
+any_owned = { limit = { total_pops = 1000000 }
+add_province_modifier = { name = nuke_low duration = 18250 }
+set_province_flag = disease
+set_province_flag = nuked_before
+infrastructure = -2
+}
+
+any_pop = { reduce_pop = 0.90 }
+
+}
+		}
+
+	}
+
+### Nuclear Strike (MEDIUM CAPABILITY) ###
+country_event = {
+	id = 1331430
+	title = "Struck by $FROMCOUNTRY_ADJ$ Nuclear Weapons"
+	desc = "Capital, cities and major towns have been annihilated."
+	picture = "nuclear_strike"
+	
+
+allow_multiple_instances = yes
+	
+is_triggered_only = yes
+	
+	option = {
+name = "We have to prepare for a counter strike"
+
+FROM = { 
+add_country_modifier = { name = recently_attacked_nuke duration = 31 }
+
+add_country_modifier = { name = nuke_fallout duration = 27375 }
+
+#any_pop = { reduce_pop = 0.80 }
+
+set_country_flag = has_nuke_clouds
+
+any_owned = { limit = { is_capital = yes }
+add_province_modifier = { name = nuke_medium duration = 27375 }
+set_province_flag = disease
+set_province_flag = nuked_before
+infrastructure = -4
+}
+
+any_owned = { limit = { AND = { total_pops = 500000 NOT = { total_pops = 1000000 } } }
+add_province_modifier = { name = nuke_low duration = 18250 }
+set_province_flag = disease
+set_province_flag = nuked_before
+infrastructure = -2
+}
+
+any_owned = { limit = { total_pops = 1000000 }
+add_province_modifier = { name = nuke_medium duration = 27375 }
+set_province_flag = disease
+set_province_flag = nuked_before
+infrastructure = -4
+}
+
+any_pop = { reduce_pop = 0.80 }
+
+}
+		}
+
+	}
+
+
+### Nuclear Strike (MAX CAPABILITY) ###
+country_event = {
+	id = 1331431
+	title = "Struck by $FROMCOUNTRY_ADJ$ Nuclear Weapons"
+	desc = "Capital, cities, major towns and smaller towns have been annihilated."
+	picture = "nuclear_strike"
+	
+
+allow_multiple_instances = yes
+	
+is_triggered_only = yes
+	
+	option = {
+name = "We have to prepare for a counter strike"
+
+FROM = { 
+add_country_modifier = { name = recently_attacked_nuke duration = 31 }
+
+add_country_modifier = { name = nuke_fallout duration = 36500 }
+
+#any_pop = { reduce_pop = 0.70 }
+
+set_country_flag = has_nuke_clouds
+
+any_owned = { limit = { is_capital = yes }
+add_province_modifier = { name = nuke_high duration = 36500 }
+set_province_flag = disease
+set_province_flag = nuked_before
+infrastructure = -6
+}
+
+any_owned = { limit = { AND = { total_pops = 250000 NOT = { total_pops = 500000 } } }
+add_province_modifier = { name = nuke_low duration = 18250 }
+set_province_flag = disease
+set_province_flag = nuked_before
+infrastructure = -2
+}
+
+any_owned = { limit = { AND = { total_pops = 500000 NOT = { total_pops = 1000000 } } }
+add_province_modifier = { name = nuke_medium duration = 27375 }
+set_province_flag = disease
+set_province_flag = nuked_before
+infrastructure = -4
+}
+
+any_owned = { limit = { total_pops = 1000000 }
+add_province_modifier = { name = nuke_high duration = 36500 }
+set_province_flag = disease
+set_province_flag = nuked_before
+infrastructure = -6
+}
+
+any_pop = { reduce_pop = 0.70 }
+
+}
+		}
+
+	}
+
+### Nuclear Ultimatum Received (Target Nations) ###
+country_event = {
+	id = 1331432
+	title = "The $FROMCOUNTRY_ADJ$ Nuclear Ultimatum"
+	desc = "If we do not agree to end the war with $FROMCOUNTRY$, they will launch a nuclear strike!"
+	picture = "nuclear_ultimatum"
+	
+	
+
+is_triggered_only = yes
+	
+	option = {
+name = "Accept the ultimatum"
+
+prestige = -50
+FROM = { end_war = THIS }
+FROM = { prestige = 10 }
+ai_chance = { factor = 0.9 modifier = { is_greater_power = no factor = 1 } }
+		}
+option = {
+name = "Reject the ultimatum (Face Nuclear Armageddon)"
+
+random_country = { limit = { war_with = THIS has_country_modifier = nukes_used_recently has_country_modifier = nuclear_cap_high } 
+country_event = 1331431 }
+random_country = { limit = { war_with = THIS has_country_modifier = nukes_used_recently has_country_modifier = nuclear_cap_medium } 
+country_event = 1331430 }
+random_country = { limit = { war_with = THIS has_country_modifier = nukes_used_recently has_country_modifier = nuclear_cap_low } 
+country_event = 1331429 }
+
+country_event = 1331433
+ai_chance = { factor = 0.1 modifier = { is_greater_power = no factor = 0 } }
+		}
+	}
+### Nuclear Strike (Target Nations) ###
+country_event = {
+	id = 1331433
+	title = "Struck by $FROMCOUNTRY_ADJ$ Nuclear Weapons"
+	desc = "We have had our population centres destroyed by $FROMCOUNTRY$'s nuclear bombs."
+	picture = "nuclear_strike"
+
+is_triggered_only = yes
+	
+	major = yes
+	option = {
+name = "Terrible!"
+prestige = -50
+any_pop = { militancy = 10 }
+		}
+	}
+
+### Nuclear Second Strike Launch by Target Nation ###
+country_event = {
+	id = 1331434
+	title = "$FROMCOUNTRY_ADJ$ Nuclear Retaliation"
+	desc = "We have had our population centres destroyed by $FROMCOUNTRY$'s nuclear bombs."
+	picture = "nuclear_strike"
+
+is_triggered_only = yes
+	
+	major = yes
+	option = {
+name = "Terrible!"
+prestige = -50
+any_pop = { militancy = 10 }
+		}
+	}

@@ -1,0 +1,71 @@
+country_event = { # Malta Independence
+  id = 8004200
+  title = EVT_8004200_NAME
+  desc = EVT_8004200_DESC
+  picture = "malta_independence"
+  fire_only_once = yes
+
+  trigger = {
+    tag = ENG
+government = hms_government
+    year = 1964 
+	NOT = { year = 1990 }
+	NOT = { exists = MAL }
+	owns = 854 # Malta
+  }
+
+  mean_time_to_happen = { months = 9 }
+
+  option = {
+    name = EVT_8004200_A
+	prestige = 10
+	release = MAL
+	MAL = { set_country_flag = full_independance }
+MAL = { government = hms_government1 country_event = 800054 }
+	ENG = { diplomatic_influence = { who = MAL value = 200 } }
+	ai_chance = { factor = 0.7 }
+  }
+
+  option = {
+    name = "Follow through with the plan to integrate Malta"
+	prestige = -25
+	any_pop = { limit = { culture = maltese } militancy = 5 consciousness = 6 }
+	add_accepted_culture = maltese
+	854 = { add_core = ENG }
+	ai_chance = { factor = 0.3 }
+  }
+  
+}
+country_event = { # Malta Republic
+  id = 8004201
+  title = EVT_8004201_NAME
+  desc = EVT_8004201_DESC
+  picture = "malta_independence"
+  fire_only_once = yes
+
+  trigger = {
+    tag = MAL
+    year = 1974 
+	is_vassal = no
+OR = { government = hms_government government = hms_government1 }
+	NOT = { year = 1990 }
+	exists = MAL
+	OR = { ruling_party_ideology = socialist ruling_party_ideology = communist }
+  }
+
+  mean_time_to_happen = { months = 2 }
+
+  option = {
+    name = EVT_8004201_A
+	government = democracy 
+	country_event = 800054
+	ai_chance = { factor = 0.8 }
+  }
+
+  option = {
+    name = EVT_8004201_B
+	government = hms_government1
+	ai_chance = { factor = 0.2 }
+  }
+  
+}

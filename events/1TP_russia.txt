@@ -1,0 +1,451 @@
+country_event = {
+  id = 9999999
+  title = "Establishment of 2nd Russian Republic"
+  desc = "As the aniversary of liberation from communist yoke aproches rappidly occupying powers decided that time has come to establish proper Russian state. It was decided that Russia shall follow democratic principles in the spirit of February Revolution."
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = RUS
+			 government = mandate_government
+             year = 1953
+			 month = 5
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "Long live the Free Russia!"
+			set_country_flag = end_of_rus_occupation
+	        government = democracy
+			ruling_party_ideology = conservative
+            political_reform = universal_voting
+            political_reform = regulated_opinion
+            political_reform = limited_meetings
+            political_reform = open_unregulated #Elitist
+            political_reform = firewall_publishing
+            
+            political_reform = gender_equal #State Unions
+            
+            political_reform = parties_only_nominated
+            political_reform = open_immigration
+            
+            political_reform = lgbt_outlawed #no_draft
+            
+            political_reform = minorities_equal_rights
+            political_reform = proportional_representation
+			
+			any_pop = {
+				ideology = {
+					factor = 0.30
+					value = conservative
+				}
+			}
+			any_pop = {
+				ideology = {
+					factor = 0.20
+					value = socialist
+				}
+			}
+			any_pop = {
+				ideology = {
+					factor = 0.15
+					value = big_tent
+				}
+			}
+			any_pop = {
+				ideology = {
+					factor = 0.05
+					value = liberal
+				}
+			}
+  }
+
+}
+
+country_event = {
+  id = 9999998
+  title = "Revision of Russian Constitution"
+  desc = "Russian Constitution wasn't established fully freely, now when occupation forces are gone it's time for trye self-determination."
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = RUS
+			 government = democracy
+             year = 1954
+			 month = 5
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "Stay on the course"
+			any_pop = {
+				ideology = {
+					factor = 0.30
+					value = socialist
+				}
+			}
+			any_pop = {
+				ideology = {
+					factor = 0.20
+					value = communist
+				}
+			}	
+			ai_chance = { factor = 0.6 }
+  }
+  option = {
+            name = "We Need Stronger government to protect us from red scourge!"
+            country_event = 9999997
+			ai_chance = { factor = 0.4 }
+  }
+}
+
+country_event = {
+  id = 9999997
+  title = "Tsardom or Dictatorship?"
+  desc = "Now that we decided that our constitution is insufficient it's time to decide how to reform it."
+  picture = "bahrain_independence"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "Return of the Tsardom!"
+			country_event = 9999996
+			ai_chance = { factor = 0.5 }
+  }
+  option = {
+            name = "New Champion of the Nation!"
+            country_event = 9999995
+			ai_chance = { factor = 0.5 }
+  }
+}
+
+country_event = {
+  id = 9999996
+  title = "Parliamentarism or Tsarist Autocracy?"
+  desc = "Will we be content with the Monarch serving as unifying figurehead or wil he (or she) held real power?"
+  picture = "bahrain_independence"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "Parliamentarism!"
+			government = hms_government
+			ruling_party_ideology = conservative
+			any_pop = {
+				ideology = {
+					factor = 0.10
+					value = conservative
+				}
+			}
+			ai_chance = { factor = 0.8 }
+  }
+  option = {
+            name = "Tsarist Autocracy!"
+			government = absolute_monarchy
+			ruling_party_ideology = traditionalist
+			political_reform = none_voting
+			any_pop = {
+				ideology = {
+					factor = 0.30
+					value = traditionalist
+				}
+			}
+			ai_chance = { factor = 0.2 }
+  }
+}
+
+country_event = {
+  id = 9999995
+  title = "Embracing Fascism or Military rule?"
+  desc = "Will leadership of our nation fall at the hands of military or radical fascist regime?"
+  picture = "bahrain_independence"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "Fascist Revolution!"
+			government = populist_dictatorship
+			ruling_party_ideology = populist
+		    political_reform = none_voting
+		    political_reform = ruling_party_opinion
+		    political_reform = censored_publishing
+		    political_reform = gender_role_based
+		    political_reform = parties_not_allowed
+		    political_reform = nobody_gets_out
+		    political_reform = minorities_oppression
+		    political_reform = no_meetings
+		    political_reform = quality_of_service
+			any_pop = {
+				ideology = {
+					factor = 0.50
+					value = populist
+				}
+			}
+			ai_chance = { factor = 0.5 }
+  }
+  option = {
+            name = "Military rule!"
+			government = nationalist_dictatorship
+			ruling_party_ideology = nationalist
+		    political_reform = none_voting
+		    political_reform = ruling_party_opinion
+		    political_reform = censored_publishing
+		    political_reform = gender_role_based
+		    political_reform = parties_not_allowed
+		    political_reform = nobody_gets_out
+		    political_reform = no_meetings
+		    political_reform = quality_of_service
+			any_pop = {
+				ideology = {
+					factor = 0.20
+					value = nationalist
+				}
+			}
+			ai_chance = { factor = 0.5 }
+  }
+}
+
+country_event = {
+  id = 9999994 # Caucasian Occupation Zone
+  title = "Fate of Caucasia"
+  desc = "Now that mandatory rule has ended in Russian mainland its time to decide the fate of our occupation zone."
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = FRA
+             year = 1954
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "Give the land North of Caucasus to Russia and grant independence to Nations South of Caucasus"
+            ai_chance = { factor = 0.4 }
+			FRA = { inherit = CAU }
+			any_owned = { limit = { is_core = RUS }  secede_province = RUS  remove_core = CAU }
+			release = GEO
+			release = ARM
+			release = AZB
+  }
+  option = {
+            name = "Give the land North of Caucasus to Ukraine and grant independence to Nations South of Caucasus"
+			ai_chance = { factor = 0.15 }
+			1048 = { add_core = UKR }
+			1050 = { add_core = UKR }
+			1041 = { add_core = UKR }
+			1040 = { add_core = UKR }
+			1036 = { add_core = UKR }
+			1049 = { add_core = UKR }
+			1051 = { add_core = UKR }
+			1056 = { add_core = UKR }
+			FRA = { inherit = CAU }
+			any_owned = { limit = { is_core = UKR }  secede_province = UKR  remove_core = CAU }
+			release = GEO
+			release = ARM
+			release = AZB
+			release = NCS
+  }
+  option = {
+            name = "Give the land North of Caucasus to Russia and create Caucasian Republic in the South of Caucasus"
+            ai_chance = { factor = 0.3 }
+			FRA = { inherit = CAU }
+			any_owned = { limit = { is_core = RUS }  secede_province = RUS  remove_core = CAU }
+			release = CAU
+  }
+  option = {
+            name = "Give the land North of Caucasus to Ukraine and create Caucasian Republic in the South of Caucasus"
+            ai_chance = { factor = 0.1 }
+			1048 = { add_core = UKR }
+			1050 = { add_core = UKR }
+			1041 = { add_core = UKR }
+			1040 = { add_core = UKR }
+			1036 = { add_core = UKR }
+			1049 = { add_core = UKR }
+			1051 = { add_core = UKR }
+			FRA = { inherit = CAU }
+			any_owned = { limit = { is_core = UKR }  secede_province = UKR  remove_core = CAU }
+			release = CAU
+  }
+  option = {
+            name = "Establish Caucasian Republic on the whole mandate area"
+            ai_chance = { factor = 0.05 }
+			release_vassal = CAU
+  }
+}
+
+country_event = {
+  id = 9999993 # Caucasian Occupation Zone
+  title = "Fate of Turkestan"
+  desc = "Now that mandatory rule has ended in Russian mainland its time to decide the fate of our occupation zone."
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = ENG
+             year = 1954
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "Release Turkic republics"
+            ai_chance = { factor = 0.1 }
+			ENG = { inherit = TRS }
+			release = KAZ
+			release = UZB
+			release = KYR
+			release = TAJ
+			release = TKR
+  }
+  option = {
+            name = "Give ethnic Russian land to Siberian Zone and release Turkic republics"
+            ai_chance = { factor = 0.1 }
+			ENG = { inherit = TRS }
+			any_owned = { limit = { is_core = FER }  secede_province = FER  remove_core = TRS }
+			release = KAZ
+			release = UZB
+			release = KYR
+			release = TAJ
+			release = TKR
+  }
+  option = {
+            name = "Give the ethnic russian land to Siberian Zone and Establish Turkestan"
+            ai_chance = { factor = 0.3 }
+			ENG = { inherit = TRS }
+			any_owned = { limit = { is_core = FER }  secede_province = FER  remove_core = TRS }
+			release = TRS
+  }
+  option = {
+            name = "Establish Turkestani Republic on the whole mandate area"
+            ai_chance = { factor = 0.5 }
+			release_vassal = TRS
+  }
+}
+
+country_event = {
+  id = 9999992 
+  title = "Fate of Sibera"
+  desc = "Now that mandatory rule has ended in Russian mainland its time to decide the fate of our occupation zone."
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = USA
+             year = 1954
+			 month = 3
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "Return Siberia to Russia"
+            ai_chance = { factor = 0.3 }
+			USA = { inherit = FER }
+			any_owned = { limit = { is_core = FER }  secede_province = RUS }
+  }
+  option = {
+            name = "Establish Siberian Republic"
+            ai_chance = { factor = 0.7 }
+			release_vassal = FER
+  }
+}
+
+country_event = {
+  id = 9999991
+  title = "Fate of Baltic Occupation Zone"
+  desc = "Now that mandatory rule has ended in Russian mainland its time to decide the fate of our occupation zone."
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = GER
+             year = 1954
+			 month = 3
+  }
+
+  mean_time_to_happen = { days = 1 }
+
+  
+   option = {
+            name = "Incorporate Occupation zone into the Reich and return ethnic Russian territory but keep Peterburg"
+            ai_chance = { factor = 0.3 }
+			994 = { secede_province = GER }
+			996 = { secede_province = GER }
+			997 = { secede_province = GER }
+			1006 = { secede_province = GER }
+			996 = { secede_province = RUS }
+			997 = { secede_province = RUS }
+			1006 = { secede_province = RUS }
+			UBD = { government = sar_government }
+			release = UBD
+			badboy = 10
+  }
+   option = {
+            name = "Incorporate Occupation zone into the Reich and return ethnic Russian territory"
+            ai_chance = { factor = 0.3 }
+			994 = { secede_province = GER }
+			996 = { secede_province = GER }
+			997 = { secede_province = GER }
+			1006 = { secede_province = GER }
+			994 = { secede_province = RUS }
+			996 = { secede_province = RUS }
+			997 = { secede_province = RUS }
+			1006 = { secede_province = RUS }
+			UBD = { government = sar_government }
+			release = UBD
+			badboy = 5
+  } 
+  option = {
+            name = "Incorporate Occupation zone into the Reich"
+            ai_chance = { factor = 0.3 }
+            UBD = { government = sar_government }
+			994 = { add_core = UBD }
+			996 = { add_core = UBD }
+			997 = { add_core = UBD }
+			1006 = { add_core = UBD }
+			badboy = 15
+  }
+  option = {
+            name = "Establish Baltic Republic and return ethnic Russian territory but keep Petersburg as military base"
+            ai_chance = { factor = 0.3 }
+			994 = { secede_province = GER }
+			996 = { secede_province = GER }
+			997 = { secede_province = GER }
+			1006 = { secede_province = GER }
+			996 = { secede_province = RUS }
+			997 = { secede_province = RUS }
+			1006 = { secede_province = RUS }
+			release = UBD
+			badboy = 5
+  }
+  option = {
+            name = "Establish Baltic Republic and return ethnic Russian territory"
+            ai_chance = { factor = 0.3 }
+			994 = { secede_province = GER }
+			996 = { secede_province = GER }
+			997 = { secede_province = GER }
+			1006 = { secede_province = GER }
+			994 = { secede_province = RUS }
+			996 = { secede_province = RUS }
+			997 = { secede_province = RUS }
+			1006 = { secede_province = RUS }
+			release = UBD
+  }
+  option = {
+            name = "Establish Baltic Republic on the whole mandate area"
+            ai_chance = { factor = 0.5 }
+			994 = { add_core = UBD }
+			996 = { add_core = UBD }
+			997 = { add_core = UBD }
+			1006 = { add_core = UBD }
+			release_vassal = UBD
+			badboy = 1
+  }
+}

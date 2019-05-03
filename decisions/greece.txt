@@ -1,0 +1,66 @@
+political_decisions = {
+
+	colossus_of_rhodes = {
+		picture = "colossus_of_rhodes"
+		potential = {
+			owns = 846
+			NOT = { has_global_flag = colossus_of_rhodes }
+			year = 2002
+		}
+
+		allow = {
+			money = 5000
+			war = no
+			year = 2012
+		}
+
+		effect = {
+			prestige = 10
+			set_global_flag = colossus_of_rhodes
+			money = -5000
+		}
+	}
+
+	greek_epirus = {
+		picture = "unite_with_greece"
+		potential = {
+			primary_culture = greek
+			owns = 853
+			NOT = {
+				has_global_flag = greek_epirus
+			}
+		}
+		allow = {
+			election = no
+			NOT = { ruling_party_ideology = liberal }
+			NOT = { ruling_party_ideology = progressive }
+		}
+		effect = {
+			prestige = 15
+			853 = { change_province_name = "Argyrokastro" }
+			set_global_flag = greek_epirus 
+		}
+	}
+
+	albanian_epirus = {
+		picture = "claim_greater_albania"
+		potential = {
+			primary_culture = albanian
+			owns = 853
+			has_global_flag = greek_epirus
+		}
+		allow = { 
+			election = no
+			NOT = {
+				is_vassal = yes
+				overlord = { primary_culture = greek }
+			}
+		}
+		effect = {
+			prestige = 15
+			853 = { change_province_name = "Gjirokaster" }
+			clr_global_flag = greek_epirus 
+		} 
+	}
+
+}

@@ -1,0 +1,349 @@
+military_goods = {
+
+	small_arms = {
+		cost = 2.4 # 24
+		color = { 208 202 127 }
+		overseas_penalty = yes
+	}
+
+	weaponry = {
+		cost = 4.3 # 86
+		color = { 189 118 22 }
+		overseas_penalty = yes
+	}
+
+	ships = {
+		cost = 15.0
+		color = { 145 130 86 }
+		overseas_penalty = yes
+	}
+
+	aeroplanes = {
+		cost = 15.0 # 88
+		color = { 221 213 182 }
+		overseas_penalty = yes
+	}
+}
+raw_material_goods = {
+
+	fish = {
+		cost = 1.4
+		color = { 128 98 73 }
+	}
+
+	cattle = {
+		cost = 1.4
+		color = { 84 227 40 }
+	}
+
+	wool = {
+		cost = 1.4
+		color = { 234 195 158 }
+	}
+
+	fruit = {
+		cost = 1.4
+		color = { 255 0 0 }
+	}
+
+	grain = {
+		cost = 1.4
+		color = { 219 157 36 }
+	}
+
+	rice = {
+		cost = 1.4
+		color = { 125 158 43 }
+	}
+
+	timber = {
+		cost = 1.4
+		color = { 146 72 17 }
+	}
+
+	oil_seeds = {
+		cost = 1.4
+		color = { 213 177 118 }
+	}
+
+	iron = {
+		cost = 1.5
+		color = { 111 111 111 }
+	}
+
+	other_minerals = {
+		cost = 1.5
+		color = { 69 0 182 }
+	}
+
+	copper = {
+		cost = 1.5
+		color = { 11 29 177 }
+	}
+
+	bauxite = {
+		cost = 1.5
+		color = { 11 129 77 }
+	}
+
+	coal = {
+		cost = 1.5
+		color = { 11 29 77 }
+	}
+
+	gas = {
+		cost = 1.5
+		color = { 0 255 0 }
+	}
+
+	petroleum = {
+		cost = 1.5
+		color = { 0 0 0 }
+	}
+
+	rubber = {
+		cost = 1.4
+		color = { 123 110 86 }
+	}
+
+	gold_silver = {
+		cost = 1.5
+		overseas_penalty = yes
+		color = { 253 199 110 }
+	}
+
+	sugar = {
+		cost = 1.4
+		color = { 181 228 102 }
+	}
+
+	tea = {
+		cost = 1.4
+		color = { 201 135 15 }
+	}
+
+	tobacco = {
+		cost = 1.4
+		color = { 100 69 30 }
+	}
+
+	coffee = {
+		cost = 1.4
+		color = { 27 19 7 }
+	}
+
+	cotton = {
+		cost = 1.4
+		color = { 255 255 255 }
+	}
+}
+industrial_goods = {
+
+	copper_wire = {
+		cost = 3.3
+		color = { 55 41 9 }
+	}
+
+	fuel = {
+		cost = 1.0
+		color = { 145 110 89 }
+	}
+
+	steel = {
+		cost = 3.8
+		color = { 95 128 147 }
+	}
+
+	lumber = {
+		cost = 1.0
+		color = { 180 94 26 }
+	}
+
+	inorganic_chemicals = {
+		cost = 5.2
+		color = { 133 101 35 }
+	}
+
+	fabric = {
+		cost = 1.5
+		color = { 186 50 40 }
+	}
+
+	plastics = {
+		cost = 1.6
+		color = { 211 200 199 }
+	}
+
+	paper = {
+		cost = 3.4
+		color = { 216 185 77 }
+	}
+
+	glass = {
+		cost = 1.2
+		color = { 201 200 199 }
+	}
+
+	machine_parts = {
+		cost = 1.6
+		color = { 177 198 196 }
+	}
+
+	aluminium = {
+		cost = 12.0
+		color = { 192 68 20 }
+	}
+
+	integrated_circuits = {
+		cost = 11.4
+		color = { 155 255 0 }
+	}
+
+	clothes = {
+		cost = 3.9
+		color = { 217 17 19 }
+	}
+
+	optics = {
+		cost = 14 # 0.14
+		color = { 255 155 0 }
+	}
+
+}
+consumer_goods = {
+
+	cigarettes = {
+		cost = 2.4
+		color = { 253 199 110 }
+	}
+
+	footwear = {
+		cost = 4.7
+		color = { 253 199 110 }
+	}
+
+	furniture = {
+		cost = 3.2
+		color = { 173 129 40 }
+	}
+
+	beverages = {
+		cost = 5.4
+		color = { 76 5 0 }
+	}
+
+	electric_gear = {
+		cost = 5.1
+		color = { 255 255 0 }
+	}
+
+	pharmaceuticals = {
+		cost = 1.0
+		color = { 253 199 110 }
+	}
+
+	computers = {
+		cost = 4.4
+		color = { 255 255 100 }
+		available_from_start = no
+	}
+
+	telecommunications = {
+		cost = 3.0
+		color = { 123 112 54 }
+		available_from_start = no
+	}
+
+	automobiles = {
+		cost = 5.1
+		color = { 61 67 64 }
+	}
+
+	jewellery = {
+		cost = 3.3
+		color = { 253 199 110 }
+	}
+
+	beverage_tobacco = {
+		cost = 5.8
+		color = { 253 199 110 }
+		available_from_start = no
+	}
+
+	health = {
+		cost = 2.9
+		color = { 114 162 47 }
+		available_from_start = no
+	}
+
+	furniture_houseware = {
+		cost = 4.5
+		color = { 255 140 184 }
+		available_from_start = no
+	}
+
+	clothes_footwear = {
+		cost = 7.8
+		color = { 234 227 40 }
+		available_from_start = no
+	}
+
+	canned_food = {
+		cost = 0.5
+		color = { 255 39 12 }
+	}
+
+	cement = {
+		cost = 0.6
+		color = { 185 187 164 }
+	}
+
+	heating_electricity = {
+		cost = 0.7
+		color = { 186 50 40 }
+		available_from_start = no
+	}
+
+	transport = {
+		cost = 3.1
+		color = { 123 0 54 }
+		available_from_start = no
+	}
+
+	communication = { # c.500 cellpones per unit
+		cost = 4.0
+		color = { 129 63 6 }
+		available_from_start = no
+	}
+
+	education_rnd = {
+		cost = 4.0
+		color = { 253 199 110 }
+		available_from_start = no
+	}
+
+	culture = {
+		cost = 4.6
+		color = { 255 255 100 }
+		available_from_start = no
+	}
+
+	recreation = {
+		cost = 6.1
+		color = { 123 112 54 }
+		available_from_start = no
+	}
+
+	financial_services = {
+		cost = 18.0
+		color = { 61 67 64 }
+		available_from_start = no
+	}
+
+	credit = {
+		cost = 10
+		color = { 61 167 64 }
+		tradeable = no
+		money = yes
+	}
+}

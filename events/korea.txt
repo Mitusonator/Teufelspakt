@@ -1,0 +1,300 @@
+country_event = {
+  id = 8011903
+  title = EVT_8011903_NAME
+  desc = EVT_8011903_DESC
+  picture = "nwo2_juche"
+  fire_only_once = yes
+
+  trigger = {
+    tag = NKO
+	government = proletarian_dictatorship
+    year = 1970 NOT = { year = 1980 }
+    NOT = { alliance_with = RUS alliance_with  = CHI }
+  }
+
+  mean_time_to_happen = { months = 36 }
+
+  option = {
+    name = EVT_8011903_A
+	add_country_modifier = { name = may_day duration = 3500 }
+  }
+}
+country_event = {
+  id = 8011904
+  title = EVT_8011904_NAME
+  desc = EVT_8011904_DESC
+  picture = "kim_jong_il"
+  fire_only_once = yes
+
+  trigger = {
+    tag = NKO
+	government = proletarian_dictatorship
+	NOT = { has_global_flag = blocsenabled }
+    year = 1994 
+  }
+
+  mean_time_to_happen = { months = 6 }
+
+  option = {
+    name = EVT_8011904_A
+	any_pop = { consciousness = -2.0 }
+	add_country_modifier = { name = famine duration = 3650 }
+  }
+}
+#Start of the Syngman Rhee dictatorship
+country_event = {
+  id = 8008105
+  title = "Presidency of Syngman Rhee"
+  desc = EVTDESC8008105
+  picture = "start_of_rhee_dictatorship"
+  fire_only_once = yes
+
+  trigger = {
+    	OR = { tag = KOR tag = SKO }
+	exists = NKO
+    	NOT = { year = 1990 }
+	war = no
+	election = no
+	government = democracy
+  }
+
+  mean_time_to_happen = { months = 6 }
+
+  option = {
+    name = "Turn Korea into an authoritarian state"
+	any_pop = { militancy = -5.0 consciousness = 2 }
+	government = presidential_dictatorship
+	country_event = 800050
+	ai_chance = { factor = 0.8 }
+  }
+
+option = {
+    name = "Stick to the status quo"
+add_country_modifier = { name = revolution_chaos duration = 3650 }
+	ai_chance = { factor = 0.2 }
+  }
+
+}
+#End of the Syngman Rhee dictatorship
+country_event = {
+  id = 8008106
+  title = EVT_8008106_NAME
+  desc = EVT_8008106_DESC
+  picture = "nwo2_korean_april_revolution"
+  fire_only_once = yes
+
+  trigger = {
+    OR = { tag = KOR tag = SKO }
+    year = 1960 NOT = { year = 1990 }
+	government = presidential_dictatorship
+  }
+
+  mean_time_to_happen = { months = 4 }
+
+  option = {
+    name = "Oust Syngman Rhee"
+	any_pop = { militancy = -5.0 consciousness = 2 }
+	government = democracy
+	country_event = 800054
+	ai_chance = { factor = 0.8 }
+  }
+
+option = {
+    name = "Stick to the status quo"
+add_country_modifier = { name = revolution_chaos duration = 3650 }
+	ai_chance = { factor = 0.2 }
+  }
+
+}
+country_event = {
+  id = 8008107
+  title = EVT_8008107_NAME
+  desc = EVT_8008107_DESC
+  picture = "nwo2_korean_5_16_coup"
+  fire_only_once = yes
+
+  trigger = {
+    OR = { tag = KOR tag = SKO }
+    year = 1961 NOT = { year = 1990 }
+    government = democracy
+  }
+
+  mean_time_to_happen = { months = 8  }
+
+  option = {
+    name = EVT_8008107_A
+	government = presidential_dictatorship 
+	country_event = 800050
+	ruling_party_ideology = conservative
+    define_general = { name = "Yun Bo-seon" personality = energetic background = no_background }
+	ai_chance = { factor = 0.9 }
+  }
+
+option = {
+    name = "Stick to the status quo"
+add_country_modifier = { name = revolution_chaos duration = 3650 }
+	ai_chance = { factor = 0.1 }
+  }
+
+}
+country_event = {
+  id = 8008112
+  title = EVT_8008112_NAME
+  desc = EVT_8008112_DESC
+  picture = "nwo2_republic_of_korea_authoritarianism"
+  fire_only_once = yes
+
+  trigger = {
+    OR = { tag = KOR tag = SKO }
+	government = presidential_dictatorship
+    year = 1974 NOT = { year = 1980 }
+	has_country_flag = fourth_republic
+  }
+
+  mean_time_to_happen = { months = 1  }
+
+  option = {
+    name = EVT_8008112_A
+	government = democracy country_event = 800054
+	ai_chance = { factor = 0.9 }
+  }
+
+option = {
+    name = "Stick to the status quo"
+add_country_modifier = { name = revolution_chaos duration = 3650 }
+	ai_chance = { factor = 0.1 }
+  }
+
+}
+country_event = {
+  id = 8008113
+  title = EVT_8008113_NAME
+  desc = EVT_8008113_DESC
+  picture = "nwo2_republic_of_korea_authoritarianism"
+  fire_only_once = yes
+
+  trigger = {
+    OR = { tag = KOR tag = SKO }
+    year = 1980 NOT = { year = 1982 }
+	government = democracy
+  }
+
+  mean_time_to_happen = { months = 1  }
+
+  option = {
+    name = EVT_8008113_A
+	government = presidential_dictatorship 
+	country_event = 800050
+	ai_chance = { factor = 0.9 }
+  }
+
+option = {
+    name = "Stick to the status quo"
+add_country_modifier = { name = revolution_chaos duration = 3650 }
+	ai_chance = { factor = 0.1 }
+  }
+
+}
+country_event = {
+  id = 8008122
+  title = EVT_8008122_NAME
+  desc = EVT_8008122_DESC
+  picture = "nwo2_republic_of_korea_authoritarianism"
+  fire_only_once = yes
+
+  trigger = {
+    OR = { tag = KOR tag = SKO }
+    year = 1972 NOT = { year = 1978 }
+	government = presidential_dictatorship
+  }
+
+  mean_time_to_happen = { months = 5 }
+
+  option = {
+    name = EVT_8008122_A
+	any_pop = { limit = { NOT = { pop_majority_ideology = conservative } } militancy = -1.0  consciousness = -2 }
+	set_country_flag = fourth_republic
+  }
+}
+country_event = {
+  id = 8008123
+  title = EVT_8008123_NAME
+  desc = EVT_8008123_DESC
+  picture = "nwo2_republic_of_korea_democracy"
+  fire_only_once = yes
+
+  trigger = {
+    OR = { tag = KOR tag = SKO }
+    year = 1987 NOT = { year = 1990 }
+	government = presidential_dictatorship 
+  }
+
+  mean_time_to_happen = { months = 4 }
+
+  option = {
+    name = EVT_8008123_A
+	any_pop = { militancy = -1.0  consciousness = 1 }
+	government = democracy country_event = 800054
+	ai_chance = { factor = 0.9 }
+  }
+
+option = {
+    name = "Stick to the status quo"
+add_country_modifier = { name = revolution_chaos duration = 3650 }
+	ai_chance = { factor = 0.1 }
+  }
+
+}
+
+country_event = { # Choi Soon-sil gate
+  id = 8008124
+  title = EVT_8008124_NAME
+  desc = EVT_8008124_DESC
+  picture = "choi_soon_sil_gate"
+  fire_only_once = yes
+
+  trigger = {
+    OR = { tag = KOR tag = SKO }
+    year = 2016
+	government = democracy 
+	ruling_party_ideology = conservative
+  }
+
+  mean_time_to_happen = { months = 4 }
+
+  option = {
+    name = EVT_8008124_A
+	any_pop = { militancy = -1.0  consciousness = 0.1 }
+	any_pop = { limit = { pop_majority_ideology = conservative } ideology = { factor = 0.5 value = liberal } }
+	ai_chance = { factor = 0.95 }
+  }
+
+  option = {
+    name = EVT_8008124_B
+	any_pop = { militancy = 0.5  consciousness = 0.3 }
+	any_pop = { limit = { pop_majority_ideology = conservative } ideology = { factor = 0.5 value = liberal } } 
+	ai_chance = { factor = 0.05 }
+  }
+  
+}
+
+#Korean Unification
+country_event = {
+	id = 1400031
+	title = "Reunification of Korea"
+	desc = EVTDESC1400031
+	picture = "koreareunification"
+	fire_only_once = yes
+
+	trigger = {
+		tag = KOR
+		NOT = { exists = SKO }
+		NOT = { exists = NKO }
+	}
+
+	option = {
+		name = "Rejoice!"
+		prestige = 100
+	}
+
+}

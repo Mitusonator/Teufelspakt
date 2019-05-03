@@ -1,0 +1,1056 @@
+political_decisions = {
+
+##################Enable Blocs under events###################
+
+##############Join Communist Bloc##################
+
+join_communist_bloc = {
+		picture = "joincommunistbloc"
+		potential = {
+			NOT = { OR = { tag = RUS tag = USA } }
+			exists = USA
+			exists = RUS
+			NOT = { has_country_flag = joindemo }
+			NOT = { has_country_flag = joincomm }
+			
+			has_global_flag = blocsenabled 
+			}
+
+			allow = {
+
+election = no
+
+is_vassal = no
+
+NOT = { sphere_owner = { has_country_modifier = democratic_bloc_leader } }
+
+OR = { government = proletarian_dictatorship1 government = proletarian_dictatorship ruling_party_ideology = communist ruling_party_ideology = communist_social }
+
+relation = { who = RUS value = 150 }
+
+		}
+		effect = {
+			set_country_flag = joincomm
+			prestige = 10
+			relation = { who = RUS value = 50 }
+			relation = { who = USA value = -100 }
+
+			clr_country_flag = joinnam
+			remove_country_modifier = independent_bloc
+			any_country = {
+		limit = { exists = yes has_country_flag = joinnam }
+			relation = { who = THIS value = -50 }
+			diplomatic_influence = { who = THIS value = -25 }
+			}
+			
+add_country_modifier = { name = communist_bloc duration = -1 }
+			random_country = {
+	limit = { has_country_modifier = communist_bloc_leader }
+			relation = { who = THIS value = 50 }
+			diplomatic_influence = { who = THIS value = 25 }
+			}
+			random_country = {
+	limit = { has_country_modifier = democratic_bloc_leader }
+			relation = { who = THIS value = -100 }
+			}
+			random_country = { limit = { has_country_modifier = communist_bloc_leader } country_event = 8225000 }
+			any_country = { limit = { has_country_flag = joincomm } country_event = 19809 }
+
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					ruling_party_ideology = communist_social
+					ruling_party_ideology = socialist
+				}
+			}
+			modifier = {
+				factor = 0
+				part_of_sphere = yes
+				sphere_owner = { has_country_modifier = democratic_bloc_leader }
+			}
+		}		
+		
+	}
+
+##############Join democratic Bloc#####################
+
+join_democratic_bloc = {
+		picture = "joindemocraticbloc"
+		potential = {
+			NOT = { OR = { tag = RUS tag = USA } }
+			exists = USA
+			exists = RUS
+			NOT = { has_country_flag = joindemo }
+			NOT = { has_country_flag = joincomm }
+			
+			has_global_flag = blocsenabled
+			}
+		allow = {
+
+is_vassal = no
+
+election = no
+
+NOT = { sphere_owner = { has_country_modifier = communist_bloc_leader } }
+
+			OR = {   
+				ruling_party_ideology = liberal 
+				ruling_party_ideology = progressive
+				ruling_party_ideology = socialist
+				ruling_party_ideology = conservative
+				ruling_party_ideology = big_tent
+			}
+
+		relation = { who = USA value = 150 }
+
+		}
+		effect = {
+			set_country_flag = joindemo
+			prestige = 10
+add_country_modifier = { name = democratic_bloc duration = -1 }
+
+			clr_country_flag = joinnam
+			remove_country_modifier = independent_bloc
+			any_country = {
+		limit = { exists = yes has_country_flag = joinnam }
+			relation = { who = THIS value = -50 }
+			diplomatic_influence = { who = THIS value = -25 }
+			}
+			
+			random_country = {
+				limit = { has_country_modifier = democratic_bloc_leader }
+				relation = { who = THIS value = 50 }
+				diplomatic_influence =  { who = THIS value = 25 }
+			}
+			random_country = {
+				limit = { has_country_modifier = communist_bloc_leader }
+				relation = { who = THIS value = -100 }
+			}
+			any_country = { limit = { has_country_flag = joindemo } country_event = 19809 }
+
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				part_of_sphere = yes
+				sphere_owner = { has_country_modifier = communist_bloc_leader }
+			}
+		}	
+
+	}
+
+########################Join NAM#########################
+
+join_nam_bloc = {
+		picture = "joinnambloc"
+		potential = {
+			NOT = { OR = { tag = RUS tag = USA } }
+		RUS = { government = proletarian_dictatorship }
+			USA = { government = democracy }
+			exists = USA
+			exists = RUS
+			NOT = { has_country_flag = joinnam }
+			NOT = { has_country_flag = joindemo }
+			NOT = { has_country_flag = joincomm }
+			has_global_flag = blocsenabled
+			has_global_flag = namformed
+			has_country_flag = is_disabled_for_now
+					}
+		allow = { 
+		election = no 
+		NOT = { OR = {
+
+AND = {
+			OR = {   
+				ruling_party_ideology = liberal 
+				ruling_party_ideology = progressive
+				ruling_party_ideology = socialist
+				ruling_party_ideology = conservative
+				ruling_party_ideology = big_tent
+			}
+			relation = { who = USA value = 150 }
+}
+
+AND = {
+NOT = { sphere_owner = { has_country_modifier = democratic_bloc_leader } }
+
+
+OR = { government = proletarian_dictatorship1 government = proletarian_dictatorship ruling_party_ideology = communist ruling_party_ideology = communist_social }
+relation = { who = RUS value = 150 }
+}
+
+		} }
+		}
+		effect = {
+			set_country_flag = joinnam
+			prestige = 10
+			remove_country_modifier = independent_bloc
+			any_country = {
+		limit = { exists = yes has_country_flag = joinnam }
+			relation = { who = THIS value = 50 }
+			diplomatic_influence = { who = THIS value = 25 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+##################Leave Communist bloc########################
+
+leave_communist_bloc = {
+		picture = "leavebloc"
+		potential = {
+			NOT = { OR = { tag = RUS tag = USA } }
+			exists = USA
+			exists = RUS
+			has_country_flag = joincomm
+			has_global_flag = blocsenabled
+			NOT = { has_country_modifier = independent_bloc }
+		}
+
+		alert = no
+
+		allow = {
+
+is_vassal = no
+
+NOT = { ruling_party_ideology = communist }
+NOT = { ruling_party_ideology = communist_social }
+
+			OR = {
+				ai = no
+RUS = { NOT = { relation = { who = THIS value = 0 } } }
+				NOT = {
+					OR = {
+government = proletarian_dictatorship1 
+government = proletarian_dictatorship 
+ruling_party_ideology = communist 
+ruling_party_ideology = communist_social
+					}
+				}
+
+				AND = {
+					part_of_sphere = yes
+sphere_owner = { has_country_modifier = democratic_bloc_leader }
+				}
+			}
+		}
+		effect = {
+			clr_country_flag = joincomm
+			prestige = -10
+
+remove_country_modifier = commhigh
+remove_country_modifier = commmedium
+remove_country_modifier = commlow 
+
+remove_country_modifier = communist_bloc 			random_country = {
+	limit = { has_country_modifier = communist_bloc_leader }
+				relation = { who = THIS value = -200 }
+				diplomatic_influence =  { who = THIS value = -200 }
+				country_event = 8225001
+			}
+			random_country = {
+				limit = { has_country_modifier = democratic_bloc_leader }
+				relation = { who = THIS value = 100 }
+				diplomatic_influence = { who = THIS value = 10 }
+			}
+any_country = { limit = { has_country_flag = joincomm } country_event = 19810 }
+
+			set_country_flag = joinnam
+			remove_country_modifier = independent_bloc
+			any_country = {
+		limit = { exists = yes has_country_flag = joinnam }
+			relation = { who = THIS value = 50 }
+			diplomatic_influence = { who = THIS value = 25 }
+			}
+
+			remove_country_modifier = communist_bloc
+			RUS  = { country_event = 8225001 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+########################Leave Demo bloc#######################
+
+leave_democratic_bloc = {
+		picture = "leavebloc"
+		potential = {
+			NOT = { OR = { tag = RUS tag = USA } }
+			exists = USA
+			exists = RUS
+			has_country_flag = joindemo
+			has_global_flag = blocsenabled
+			NOT = { has_country_modifier = independent_bloc }
+		}
+		alert = no
+		allow = {
+
+is_vassal = no
+			
+			OR = {
+				ai = no
+
+USA = { NOT = { relation = { who = THIS value = 0 } } }
+				government = proletarian_dictatorship
+				government = proletarian_dictatorship1
+				ruling_party_ideology = communist 
+				ruling_party_ideology = communist_social
+				AND = {
+					part_of_sphere = yes
+sphere_owner = { has_country_modifier = communist_bloc_leader }
+				}
+			}
+		}
+		effect = {
+			clr_country_flag = joindemo
+	remove_country_modifier = democratic_bloc
+	remove_country_modifier = demohigh
+	remove_country_modifier = demomedium
+	remove_country_modifier = demolow 
+			prestige = -10
+			random_country = {
+	limit = { has_country_modifier = communist_bloc_leader }
+				relation = { who = THIS value = 100 }
+		diplomatic_influence =  { who = THIS value = 10 }
+			}
+			random_country = {
+	limit = { has_country_modifier = democratic_bloc_leader }
+				relation = { who = THIS value = -200 }
+		diplomatic_influence = { who = THIS value = -200 }
+			}
+			any_country = { limit = { has_country_flag = joindemo } country_event = 19810 }
+			
+			set_country_flag = joinnam
+			remove_country_modifier = independent_bloc
+			any_country = {
+		limit = { exists = yes has_country_flag = joinnam }
+			relation = { who = THIS value = 50 }
+			diplomatic_influence = { who = THIS value = 25 }
+			}
+
+			remove_country_modifier = democratic_bloc
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+###### Leave NAM bloc #######################
+
+leave_nam_bloc = {
+		picture = "leavebloc"
+		potential = {
+		has_country_flag = joinnam
+		has_global_flag = blocsenabled
+		}
+		allow = {
+		
+			OR = {
+				AND = {
+					relation = { who = USA value = 150 } 
+					OR = {   
+					ruling_party_ideology = progressive
+					ruling_party_ideology = liberal 
+					ruling_party_ideology = socialist
+					ruling_party_ideology = conservative
+					ruling_party_ideology = big_tent 
+					}
+
+NOT = { sphere_owner = { has_country_modifier = communist_bloc_leader } }
+
+				}
+
+				AND = {
+		relation = { who = RUS value = 150 }
+			
+			OR = {
+			government = proletarian_dictatorship
+			government = proletarian_dictatorship1
+			ruling_party_ideology = communist
+			ruling_party_ideology = communist_social
+			}
+
+NOT = { sphere_owner = { has_country_modifier = democratic_bloc_leader } }
+				}
+			}
+		}
+		effect = {
+			prestige = -10
+			any_country = {
+		limit = { exists = yes has_country_flag = joinnam }
+			relation = { who = THIS value = -50 }
+			diplomatic_influence = { who = THIS value = -25 }
+			}
+			clr_country_flag = joinnam
+add_country_modifier = { name = independent_bloc duration = -1 }
+		}
+		alert = no
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+###################### Alliances #######################
+
+	# NATO
+	alliance_nato = {
+			picture = "alliance_nato"
+			potential = {
+has_global_flag = form_nato
+NOT = { has_global_flag = nato_abolish }
+is_vassal = no
+NOT = { tag = RUS }	
+NOT = { has_country_modifier = alliance_sato }			
+NOT = { has_country_modifier = csto_alliance }
+NOT = { has_country_modifier = rio_pact }		
+NOT = { has_country_modifier = alliance_nato }
+NOT = { has_country_modifier = leave_alliance_nato }
+
+				OR = {
+	capital_scope = { OR = { is_core = USA is_core = CAN } }
+					tag = TUR
+			capital_scope = { continent = europe }
+				}
+			
+			}
+
+			allow = {
+
+NOT = { badboy = 0.6 }
+
+NOT = { ruling_party_ideology = communist }
+NOT = { ruling_party_ideology = communist_social }
+
+NOT = { in_sphere = RUS }
+
+NOT = { has_country_flag = neutrality }
+NOT = { has_country_modifier = neutrality }
+
+war = no
+
+OR = { 
+has_country_modifier = nato_leader
+sphere_owner = { has_country_modifier = alliance_nato } 
+any_greater_power = { has_country_modifier = nato_leader 
+relation = { who = THIS value = 100 } } 
+}
+
+OR = { government = socialist_democracy government = democracy government = democracy1 government = hms_government government = hms_government1 }
+
+			}
+
+			effect = {
+				set_country_flag = nato_flag_member
+
+				random_country = {
+					limit = {
+						tag = THIS
+						NOT = { tag = USA }
+					}
+					create_alliance = USA
+				}
+				any_country = { 
+					limit = {
+					has_country_modifier = alliance_nato
+					}
+					relation = { who = THIS value = 200 }
+					create_alliance = THIS
+				}
+				add_country_modifier = {
+					name = alliance_nato
+					duration = 1825
+				}
+			}
+		ai_will_do = {
+			factor = 1
+		modifier = { tag = CHC factor = 0 }
+		}		
+	}
+
+	leave_alliance_nato = {
+			picture = "alliance_nato"
+			potential = {
+OR = { has_country_modifier = alliance_nato has_country_flag = nato_flag_member }
+			}
+
+			allow = {
+
+				NOT = { 
+					OR = { 
+has_country_modifier = nato_leader
+
+any_greater_power = { has_country_modifier = nato_leader 
+alliance_with = THIS }
+
+any_greater_power = { has_country_modifier = nato_leader 
+is_sphere_leader_of = THIS }
+
+sphere_owner = { has_country_modifier = alliance_nato }
+					}
+				}
+
+				OR = { 
+is_vassal = yes
+
+has_country_modifier = neutrality
+
+has_country_flag = neutrality
+
+NOT = { OR = { government = socialist_democracy government = democracy government = democracy1 government = hms_government government = hms_government1 } }
+
+any_greater_power = { has_country_modifier = nato_leader 
+relation = { who = THIS value = -100 } }
+				}
+			}
+
+			effect = {
+			remove_country_modifier = alliance_nato
+			clr_country_flag = nato_flag_member	
+			remove_country_modifier = natohigh
+			remove_country_modifier = natomedium
+			remove_country_modifier = natolow
+			clr_country_flag = natohigh
+			clr_country_flag = natomedium
+			clr_country_flag = natolow
+
+			remove_country_modifier = nato_leader
+			clr_country_flag = nato_leader
+
+				add_country_modifier = {
+					name = leave_alliance_nato
+					duration = 3650
+				}
+				any_country = { 
+			limit = { has_country_modifier = alliance_nato }
+					relation = { who = THIS value = -50 }
+					leave_alliance = THIS
+				}
+				
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+	#Inter-American Treaty of Reciprocal Assistance
+	rio_pact = {
+			picture = "rio_pact"
+			potential = {
+				year = 1947
+				is_vassal = no
+	USA = { government = democracy is_greater_power = yes }
+			NOT = { has_country_modifier = rio_pact }
+			NOT = { has_country_modifier = alliance_sato }
+OR = { tag = USA NOT = { has_country_modifier = alliance_nato } }
+			NOT = { has_country_modifier = leave_rio_pact }
+				NOT = { tag = CAN }
+				OR = {
+					tag = USA
+			capital_scope = { continent = north_america }
+			capital_scope = { continent = south_america }
+				}
+				OR = {
+				USA = { has_country_modifier = rio_pact }
+				tag = USA
+				}
+			}
+
+			allow = {
+
+		NOT = { badboy = 0.6 }
+
+		war = no
+
+		NOT = { has_country_flag = neutrality }
+		NOT = { has_country_modifier = neutrality }
+		NOT = { ruling_party_ideology = communist }
+		NOT = { ruling_party_ideology = communist_social }
+				NOT =  {
+					has_country_modifier = rio_pact
+					has_country_modifier = leave_rio_pact
+				}
+				NOT = { tag = CAN }
+
+OR = { tag = USA sphere_owner = { has_country_modifier = rio_pact } relation = { who = USA value = 50 } }
+
+			}
+
+			effect = {
+				random_country = {
+					limit = {
+						tag = THIS
+						NOT = { tag = USA }
+					}
+					create_alliance = USA
+				}
+				any_country = { 
+					limit = {
+					has_country_modifier = rio_pact
+					}
+					relation = { who = THIS value = 200 }
+					create_alliance = THIS
+				}
+				add_country_modifier = {
+					name = rio_pact
+					duration = 1825
+				}
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+	leave_rio_pact = {
+			picture = "rio_pact"
+			potential = {
+				has_country_modifier = rio_pact
+			}
+
+			allow = {
+				has_country_modifier = rio_pact
+				NOT = { 
+					OR = { 
+					tag = USA
+					alliance_with = USA
+					in_sphere = USA
+	sphere_owner = { has_country_modifier = rio_pact }
+					}
+				}
+						
+OR = { is_vassal = yes has_country_modifier = neutrality has_country_flag = neutrality ruling_party_ideology = communist ruling_party_ideology = communist_social NOT = { relation = { who = USA value = -100 } } }
+						
+			}
+
+			effect = {
+				remove_country_modifier = rio_pact
+				any_country = { 
+			limit = { has_country_modifier = rio_pact }
+					relation = { who = THIS value = -50 }
+					leave_alliance = THIS
+				}
+				add_country_modifier = {
+					name = leave_rio_pact
+					duration = 3650
+				}
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+	#Warsaw Pact
+	warsaw_pact = {
+			picture = "warsaw_pact"
+			potential = {
+
+has_global_flag = form_nato
+
+has_global_flag = warsaw_pact_active
+
+has_global_flag = blocsenabled
+
+NOT = { has_global_flag = dissolve_warsaw_pact }
+NOT = { has_country_modifier = warsaw_pact }
+NOT = { has_country_modifier = leave_warsaw_pact }
+
+NOT = { has_country_modifier = alliance_sato }
+				
+OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 }
+
+			}
+
+			allow = {
+	
+war = no
+
+OR = { tag = RUS sphere_owner = { has_country_modifier = warsaw_pact } ai = no }
+
+OR = { is_vassal = no overlord = { has_country_modifier = warsaw_pact } }
+
+NOT = { has_country_flag = neutrality }
+NOT =  { has_country_modifier = neutrality }
+
+OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 }
+
+relation = { who = RUS value = 50 }
+
+			}
+
+			effect = {
+				random_country = {
+					limit = {
+						tag = THIS
+						NOT = { tag = RUS }
+					}
+					create_alliance = RUS
+				}
+				add_country_modifier = {
+					name = warsaw_pact
+					duration = 3650
+				}
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+	leave_warsaw_pact = {
+			picture = "warsaw_pact"
+			potential = {
+				has_global_flag = blocsenabled
+				has_country_modifier = warsaw_pact
+				NOT = { tag = RUS }
+			}
+
+			allow = {
+				has_country_modifier = warsaw_pact
+				NOT = { vassal_of = RUS }
+				NOT = { 
+					OR = {
+					alliance_with = RUS
+		sphere_owner = { has_country_modifier = warsaw_pact }
+		overlord = { has_country_modifier = warsaw_pact }
+					}
+				}
+				OR = { 
+
+has_country_modifier = neutrality 
+has_country_flag = neutrality
+
+NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } }
+
+AND = { is_vassal = no NOT = { relation = { who = RUS value = 0 } } }
+				}
+			}
+
+			effect = {
+				remove_country_modifier = warsaw_pact
+				leave_alliance = RUS
+				add_country_modifier = {
+					name = leave_warsaw_pact
+					duration = 3650
+				}
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+	# CSTO
+	csto_alliance = {
+			picture = "csto_alliance"
+			potential = {
+				year = 1992
+		is_vassal = no
+		NOT = { has_global_flag = blocsenabled }
+		NOT = { has_country_modifier = alliance_sato }
+		NOT = { has_country_modifier = alliance_nato }
+		NOT =  { has_country_modifier = csto_alliance }
+		NOT =  { has_country_modifier = leave_csto_alliance }
+				OR = {
+					tag = RUS
+					tag = BYE
+					tag = ARM
+					tag = GEO
+					tag = UKR
+					tag = AZB
+					tag = SOT
+					tag = TRD
+					tag = ABK
+					tag = KAZ
+					capital_scope = { continent = asia }
+				}
+				OR = {
+			RUS = { has_country_modifier = csto_alliance }
+					tag = RUS
+				}
+			}
+
+			allow = {
+
+NOT = { badboy = 0.6 }
+
+NOT = { has_country_flag = neutrality }
+NOT = { has_country_modifier = neutrality }
+war = no
+				OR = { tag = RUS tag = KAZ }
+				OR = { in_sphere = RUS tag = RUS }
+	OR = { tag = RUS relation = { who = RUS value = 50 } }
+
+OR = { tag = RUS RUS = { has_country_modifier = csto_alliance } }
+
+			NOT = { government = proletarian_dictatorship }
+			NOT = { government = proletarian_dictatorship1 }
+
+			}
+
+			effect = {
+				random_country = {
+					limit = {
+						tag = THIS
+						NOT = { tag = RUS }
+					}
+					create_alliance = RUS
+				}
+				any_country = { 
+					limit = {
+					has_country_modifier = csto_alliance
+					}
+					relation = { who = THIS value = 200 }
+					create_alliance = THIS
+				}
+				add_country_modifier = {
+					name = csto_alliance
+					duration = 1825
+				}
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+	leave_csto_alliance = {
+			picture = "csto_alliance"
+			potential = {
+				has_country_modifier = csto_alliance
+				NOT = { 
+					OR = {
+					tag = RUS
+					alliance_with = RUS
+					in_sphere = RUS
+					}
+				}
+			}
+
+			allow = {
+				has_country_modifier = csto_alliance
+				NOT = { 
+					tag = RUS
+					alliance_with = RUS
+					in_sphere = RUS
+				}
+				OR = {
+				is_vassal = yes 
+				has_country_modifier = neutrality 
+				has_country_flag = neutrality	
+				government = proletarian_dictatorship
+				government = proletarian_dictatorship1
+			NOT = { relation = { who = RUS value = -100 } }
+				}
+			}
+
+			effect = {
+				remove_country_modifier = csto_alliance
+				any_country = { 
+			limit = { has_country_modifier = csto_alliance }
+					relation = { who = THIS value = -50 }
+					leave_alliance = THIS
+				}
+				add_country_modifier = {
+					name = leave_csto_alliance
+					duration = 3650
+				}
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+	#ANZUS
+	anzus_alliance = {
+			picture = "anzus_alliance"
+			potential = {
+				year = 1951
+
+USA = { is_greater_power = yes government = democracy }
+
+		is_vassal = no
+		NOT = { has_country_modifier = anzus_alliance }
+		NOT = { has_country_modifier = leave_anzus_alliance }
+
+OR = { 
+tag = USA 
+USA = { has_country_modifier = anzus_alliance } 
+}
+
+				OR = {
+					tag = USA
+			capital_scope = { continent = oceania }
+				}
+
+			}
+
+			allow = {
+
+NOT = { badboy = 0.6 }
+
+		war = no
+		NOT = { has_country_flag = neutrality }
+		NOT =  { has_country_modifier = neutrality }
+		NOT = { government = proletarian_dictatorship }
+		NOT = { government = proletarian_dictatorship1 }
+		NOT = { ruling_party_ideology = communist }
+		NOT = { ruling_party_ideology = communist_social }
+
+OR = { tag = USA sphere_owner = { has_country_modifier = anzus_alliance } relation = { who = USA value = 50 } }
+				}
+
+			effect = {
+				random_country = {
+					limit = {
+						tag = THIS
+						NOT = { tag = USA }
+					}
+					create_alliance = USA
+				}
+				any_country = { 
+					limit = {
+					has_country_modifier = anzus_alliance
+					}
+					relation = { who = THIS value = 200 }
+					create_alliance = THIS
+				}
+				add_country_modifier = {
+					name = anzus_alliance
+					duration = 1825
+				}
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+	leave_anzus_alliance = {
+			picture = "anzus_alliance"
+			potential = {
+				has_country_modifier = anzus_alliance
+			}
+
+			allow = {
+				has_country_modifier = anzus_alliance
+				NOT = { 
+					OR = { 
+					tag = USA
+					alliance_with = USA
+					in_sphere = USA
+					}
+				}
+				OR = { 
+			has_country_modifier = neutrality
+			has_country_flag = neutrality
+			is_vassal = yes
+			government = proletarian_dictatorship1	
+			government = proletarian_dictatorship		
+			NOT = { relation = { who = USA value = -100 } }
+				}
+			}
+
+			effect = {
+				remove_country_modifier = anzus_alliance
+				any_country = { 
+		limit = { has_country_modifier = anzus_alliance }
+					relation = { who = THIS value = -50 }
+					leave_alliance = THIS
+				}
+				add_country_modifier = {
+					name = leave_anzus_alliance
+					duration = 3650
+				}
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+	# SCO
+	sco_pact = {
+			picture = "sco_pact"
+			potential = {
+NOT = { has_country_flag = neutrality }
+	CHI = { NOT = { ruling_party_ideology = communist } }
+		CHI = { exists = yes }
+		NOT = { has_country_modifier = sco_pact }
+		NOT = { has_country_modifier = leave_sco_pact }
+
+
+OR = { capital_scope = { continent = asia } neighbour = CHI }
+							
+			}
+
+			allow = {
+
+war = no
+
+NOT = { badboy = 0.6 }
+
+CHI = { exists = yes }
+OR = { 
+
+AND = { 
+CHI = { is_greater_power = yes } 
+tag = CHI 
+year = 2001 
+}
+
+cultural_imperialism = 1 
+
+globalization = 1 
+
+		}
+
+OR = { is_greater_power = yes in_sphere = CHI is_our_vassal = CHI tag = CHI }
+
+OR = { relation = { who = CHI value = 50 } tag = CHI }
+
+							}
+
+			effect = {
+random_country = { limit = { exists = yes tag = CHI } create_alliance = THIS relation = { who = THIS value = 100 } }
+				add_country_modifier = {
+					name = sco_pact
+					duration = 1825
+				}
+			}
+
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+	leave_sco_pact = {
+			picture = "sco_pact"
+			potential = {
+				has_country_modifier = sco_pact
+				NOT = { tag = CHI }	
+			}
+
+			allow = {
+				has_country_modifier = sco_pact
+					NOT = { alliance_with = CHI }
+					NOT = { in_sphere = CHI }
+					NOT = { vassal_of = CHI }
+			}
+
+			effect = {
+				remove_country_modifier = sco_pact
+				add_country_modifier = {
+					name = leave_sco_pact
+					duration = 3650
+				}
+			}
+		ai_will_do = {
+			factor = 1
+		}		
+	}
+
+}

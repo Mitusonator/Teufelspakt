@@ -1,0 +1,143 @@
+country_event = { # United Nations Security Council Resolution 7
+  id = 8014301
+  title = EVT_8014301_NAME
+  desc = EVT_8014301_DESC
+  picture = "generalissimo_francisco_franco"
+  fire_only_once = yes
+
+  trigger = {
+    tag = SPA
+	year = 1946 NOT = { year = 1990 }
+	government = populist_dictatorship
+  }
+
+  mean_time_to_happen = { months = 4 }
+
+  option = {
+    name = EVT_8014302_A # We are all alone
+add_country_modifier = { name = boycott_fascism duration = -1 }
+  }
+  
+}
+
+country_event = {
+  id = 8014302
+  title = EVT_8014302_NAME
+  desc = EVT_8014302_DESC
+  picture = "colonial_unrest"
+  fire_only_once = yes
+
+  trigger = {
+    tag = SPA
+	owns = 1968 NOT = { year = 1990 }
+	NOT = { exists = EQG }
+	has_country_flag = disabled_for_now
+	OR = { exists = CMR exists = GAB }
+  }
+
+  mean_time_to_happen = { months = 48 }
+
+  option = {
+    name = EVT_8014302_A
+	release = EQG
+	badboy = -10
+	prestige = 10
+	ai_chance = { factor = 0.8 }
+  }
+  option = {
+    name = EVT_8014302_B
+	badboy = 2
+	prestige = -20
+	ai_chance = { factor = 0.2 }
+  }
+
+  
+}
+country_event = {
+  id = 8014304
+  title = EVT_8014304_NAME
+  desc = EVT_8014304_DESC
+  picture = "nwo2_death_of_franco"
+  fire_only_once = yes
+
+  trigger = {
+    	tag = SPA
+    	year = 1975
+	NOT = { year = 1990 }
+	government = populist_dictatorship
+  }
+
+  mean_time_to_happen = { months = 6 }
+
+  option = {
+    name = EVT_DEATH
+  }
+}
+country_event = {
+  id = 8014312
+  title = EVT_8014312_NAME
+  desc = EVT_8014312_DESC
+  picture = "nwo2_juan_carlos_i"
+  fire_only_once = yes
+
+  trigger = {
+    tag = SPA
+	is_vassal = no
+	has_country_flag = juan_carlos
+    year = 1978 
+	NOT = { year = 1990 }
+	government = populist_dictatorship
+  }
+
+  mean_time_to_happen = { months = 2 }
+
+  option = {
+    name = EVT_8014312_A
+	any_pop = { militancy = -1.0 consciousness = 3.0 }
+	government = hms_government country_event = 800054
+	ruling_party_ideology = conservative
+	badboy = -100
+	remove_country_modifier = boycott_fascism
+
+any_pop = { 
+
+limit = { OR = { is_accepted_culture = yes is_primary_culture = yes } }
+
+ideology = {
+	factor = 0.75
+	value = conservative
+}
+
+	}
+
+	ai_chance = { factor = 0.8 }
+  }
+  option = {
+    name = EVT_8014312_B
+	prestige = -20
+	any_pop = { militancy = 2.0 consciousness = 4.0 }
+add_country_modifier = { name = revolution_chaos duration = 3650 }
+	ai_chance = { factor = 0.2 }
+  }
+}
+country_event = {
+  id = 8014313
+  title = "Fall of the Francoist Regime"
+  desc = EVT_8014312_DESC
+  picture = "fall_of_franco"
+
+  trigger = {
+    	tag = SPA
+	has_country_modifier = boycott_fascism
+	NOT = { government = populist_dictatorship }
+  }
+
+  mean_time_to_happen = { months = 1 }
+
+  option = {
+    name = "Down with Fascism!"
+	prestige = 25
+	badboy = -50
+	remove_country_modifier = boycott_fascism
+  }
+}

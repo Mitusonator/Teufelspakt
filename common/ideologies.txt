@@ -1,0 +1,875 @@
+# If you add types, and use those tags, do not change them without changing everywhere they are used.
+
+centre_left_group = {
+big_tent = { # Social liberal
+        color = { 255 170 0 }
+       
+        can_reduce_militancy = yes
+       
+        add_political_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+       
+        remove_political_reform = {
+            base = 0
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+
+        add_social_reform = {
+            base = 0.6
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+
+            }          
+        }
+        remove_social_reform = {
+            base = 0.1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 9 social_movement_strength = 0.9 } }
+
+            }          
+        }
+       
+        add_military_reform = { base = 0.5 }
+        add_economic_reform = { base = -0.5 }
+    }  
+
+    progressive = { # social democrat
+        color = { 194 30 86 }
+        date = 1900.1.1
+       
+        can_reduce_militancy = yes
+       
+        add_political_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+       
+        remove_political_reform = {
+            base = 0
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+
+        add_social_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+
+            }          
+        }
+        remove_social_reform = {
+            base = 0.1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 9 social_movement_strength = 0.9 } }
+
+            }          
+        }
+
+        add_military_reform = { base = 0.5 }
+        add_economic_reform = { base = 1 }
+    }
+}
+
+centre_right_group = {
+
+    conservative = { # social conservative
+        color = { 0 0 255 }
+       
+        can_reduce_militancy = yes
+       
+        add_political_reform = {
+            base = 0.1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+       
+        remove_political_reform = {
+            base = 0
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+
+        add_social_reform = {
+            base = 0.2
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+
+            }          
+        }
+        remove_social_reform = {
+            base = 0.1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 9 social_movement_strength = 0.9 } }
+
+            }          
+        }
+       
+        add_military_reform = { base = 0.5 }
+        add_economic_reform = { base = -0.5 }
+    }
+
+    liberal = { # market liberal
+        color = { 255 216 0 }
+
+        can_reduce_militancy = yes
+       
+        add_political_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+       
+        remove_political_reform = {
+            base = 0
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+
+        add_social_reform = {
+            base = 0
+            group = {
+                modifier = { factor = 0.2 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.2 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+
+            }          
+        }
+        remove_social_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 9 social_movement_strength = 0.9 } }
+
+            }          
+        }
+       
+        add_military_reform = { base = 0.5 }
+        add_economic_reform = { base = 1 }
+    }
+}
+
+left_group = {  
+    socialist = { # libertarian socialist
+        uncivilized = no
+        color = { 233 58 58 }
+        date = 1860.1.1
+       
+        can_reduce_militancy = yes
+       
+        add_political_reform = {
+            base = 0.4
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+            modifier = {
+                factor = 1
+                NOT = { ruling_party_ideology = socialist }
+            }
+        }
+       
+        remove_political_reform = {
+            base = 0
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+            modifier = {
+                factor = 0.0
+                ruling_party_ideology = socialist
+            }
+        }
+
+        add_social_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.2 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.2 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+
+            }          
+        }
+        remove_social_reform = {
+            base = 0
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 9 social_movement_strength = 0.9 } }
+
+            }          
+        }
+    }
+    communist = { # authoritarian socialist
+        uncivilized = yes
+        color = { 200 0 0 }
+        date = 1865.1.1
+       
+        can_reduce_militancy = yes
+       
+        add_political_reform = {
+            base = 0
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+            modifier = {
+                factor = 0.4
+                NOT = { ruling_party_ideology = communist }
+            }
+        }
+       
+        remove_political_reform = {
+            base = 0
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+            modifier = {
+                factor = 1.0
+                ruling_party_ideology = communist
+            }
+        }
+
+        add_social_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+
+            }          
+        }
+        remove_social_reform = {
+            base = 0.0
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 9 social_movement_strength = 0.9 } }
+
+            }          
+        }  
+    }
+	
+    communist_social = { # Left-Wing Nationalist
+        uncivilized = yes
+        color = { 127 0 0 }
+        date = 1865.1.1
+       
+        can_reduce_militancy = yes
+       
+        add_political_reform = {
+            base = 0
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+       
+        remove_political_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+
+        add_social_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+
+            }          
+        }
+        remove_social_reform = {
+            base = 0.4
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 9 social_movement_strength = 0.9 } }
+
+            }          
+        }  
+    }
+}
+
+right_group = {
+populist = { # fascism
+        uncivilized = no
+        color = { 142 57 0 }
+        date = 1905.1.1
+       
+        can_reduce_militancy = yes
+       
+        add_political_reform = {
+            base = 0
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+       
+        remove_political_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+
+        add_social_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+
+            }          
+        }
+        remove_social_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 9 social_movement_strength = 0.9 } }
+
+            }          
+        }
+       
+        add_military_reform = { base = 0.5 }
+        add_economic_reform = { base = -0.5 }
+    }
+
+    nationalist = { # authoritarian
+        color = { 110 110 110 }
+       
+        can_reduce_militancy = yes
+       
+        add_political_reform = {
+            base = 0.4
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+       
+        remove_political_reform = {
+            base = 0.4
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+
+        add_social_reform = {
+            base = 0.5
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+
+            }          
+        }
+        remove_social_reform = {
+            base = 0.4
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 9 social_movement_strength = 0.9 } }
+
+            }          
+        }
+    }
+
+    traditionalist = { # right wing nationalist
+        uncivilized = no
+        color = { 45 45 45 }
+        date = 1905.1.1
+       
+        can_reduce_militancy = yes
+       
+        add_political_reform = {
+            base = 0
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+       
+        remove_political_reform = {
+            base = 1
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 political_movement_strength = 0.1 } }
+                modifier = { factor = 0.1 OR = { militancy = 2 political_movement_strength = 0.2 } }
+                modifier = { factor = 0.1 OR = { militancy = 3 political_movement_strength = 0.3 } }
+                modifier = { factor = 0.1 OR = { militancy = 4 political_movement_strength = 0.4 } }
+                modifier = { factor = 0.1 OR = { militancy = 5 political_movement_strength = 0.5 } }
+                modifier = { factor = 0.1 OR = { militancy = 6 political_movement_strength = 0.6 } }
+                modifier = { factor = 0.1 OR = { militancy = 7 political_movement_strength = 0.7 } }
+                modifier = { factor = 0.1 OR = { militancy = 8 political_movement_strength = 0.8 } }
+                modifier = { factor = 0.1 OR = { militancy = 9 political_movement_strength = 0.9 } }
+            }
+        }
+
+        add_social_reform = {
+            base = 0.5
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+
+            }          
+        }
+        remove_social_reform = {
+            base = 0.5
+            group = {
+                modifier = { factor = 0.1 OR = { militancy = 1 social_movement_strength = 0.1 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 2 social_movement_strength = 0.2 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 3 social_movement_strength = 0.3 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 4 social_movement_strength = 0.4 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 5 social_movement_strength = 0.5 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 6 social_movement_strength = 0.6 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 7 social_movement_strength = 0.7 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 8 social_movement_strength = 0.8 } }
+
+                modifier = { factor = 0.1 OR = { militancy = 9 social_movement_strength = 0.9 } }
+
+            }          
+        }
+       
+        add_military_reform = { base = 0.5 }
+        add_economic_reform = { base = -0.5 }
+       
+    }
+}

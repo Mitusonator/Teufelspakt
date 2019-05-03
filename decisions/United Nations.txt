@@ -1,0 +1,63 @@
+political_decisions = {
+
+	jointheunga = {
+		picture = "united_nations_general_assembly"
+		potential = {
+			has_country_modifier = united_nations
+			NOT = { has_country_modifier = united_nations_ga_member }
+		}
+		allow = {
+			war = no
+OR = { is_vassal = no overlord = { tag = RUS has_global_flag = blocsenabled } }
+		}
+		effect = {
+			prestige = 20
+			add_country_modifier = { name = united_nations_ga_member duration = -1 }
+
+add_country_modifier = { name = newly_independent_country duration = 365 }
+
+		}
+		ai_will_do = { 
+			factor = 1 
+		}
+	}
+	jointheunsc = {
+		picture = "united_nations_security_council"
+		potential = {
+			has_country_modifier = united_nations
+			OR = {
+
+				tag = ENG
+				tag = USA
+				tag = GER
+				tag = FRA 
+
+AND = { tag = CHI year = 1992 NOT = { KMT = { has_country_modifier = unsc_permanent_member } } }
+
+AND = { tag = CHI has_country_flag = not_participating_UNSC KMT = { exists = no } }
+
+AND = { tag = KMT has_country_flag = not_participating_UNSC CHI = { exists = no } }
+
+AND = { tag = KMT NOT = { year = 1991 } NOT = { CHI = { has_country_modifier = unsc_permanent_member } } }
+
+			}
+	NOT = { has_country_modifier = unsc_permanent_member }
+	NOT = { has_country_flag = not_participating_UNSC }
+		}
+		allow = {
+			war = no
+			is_vassal = no
+		}
+		effect = {
+			prestige = 50
+			country_event = 1512261
+	clr_country_flag = not_participating_UNSC
+			add_country_modifier = { name = unsc_permanent_member duration = -1 }
+			232 = { add_province_modifier = { name = un_headquarters duration = -1 } } #NYC
+		}
+		ai_will_do = { 
+			factor = 1 
+		}
+	}
+	
+}

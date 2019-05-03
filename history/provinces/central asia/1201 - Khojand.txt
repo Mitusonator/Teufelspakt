@@ -1,0 +1,15 @@
+owner = TRS
+controller = TRS
+add_core = TRS
+add_core = TAJ
+trade_goods = bauxite
+life_rating = 35
+terrain = mountain_grassland
+colonial = 2
+1992.1.1 = {
+owner = TAJ
+controller = TAJ
+add_core = TAJ
+life_rating = 35
+colonial = 0
+}
