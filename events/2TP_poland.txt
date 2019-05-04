@@ -425,6 +425,7 @@ country_event = {
              tag = GER
 			 has_global_flag = POL_civil_war
 			 POL = { war = yes }
+			 exists = POL
   }
 
   mean_time_to_happen = { months = 1 }
@@ -438,7 +439,7 @@ country_event = {
   
   option = {
             name = EVT_9999981_B #Size Danzig and demand more 
-			ai_chance = { factor = 0.6 }
+			ai_chance = { factor = 0.30 }
 			GER = { inherit = DZG }
 			badboy = 7.5
             694 = { add_core = GER }
@@ -451,7 +452,7 @@ country_event = {
   }
   option = {
             name = EVT_9999981_C #Size Danzig and demand even more 
-			ai_chance = { factor = 0.6 }
+			ai_chance = { factor = 0.20 }
 			GER = { inherit = DZG }
 			badboy = 10
             694 = { add_core = GER }
@@ -470,6 +471,10 @@ country_event = {
 			707 = { add_core = GER }
 			POL = { country_event = 9999980 }
   }
+  option = {
+            name = EVT_9999981_D #Do nothing 
+			ai_chance = { factor = 0.1 }
+  }
 
 }
 
@@ -479,33 +484,29 @@ country_event = {
   desc = EVT_9999980_DESC
   picture = "bahrain_independence"
   is_triggered_only = yes
-   
-
-  mean_time_to_happen = { months = 1 }
+ 
   
   option = {
             name = EVT_9999980_A #Agree to german terms
-			ai_chance = { factor = 0.4 }
+			ai_chance = { factor = 0.2 }
             any_owned = { limit = { is_core = GER }  secede_province = GER }
   }
   
   option = {
             name = EVT_9999980_B #Refuse Ultimatum 
-			ai_chance = { factor = 0.6 }
+			ai_chance = { factor = 0.8 }
 			GER = { country_event = 9999979 }
   }
 
 }
 
 country_event = {
-  id = 9999979 #GER- Poland Refuse
+  id = 9999979 #GER - Poland Refuse
   title = EVT_9999979_NAME
   desc = EVT_9999979_DESC
   picture = "bahrain_independence"
   is_triggered_only = yes
-   
-
-  mean_time_to_happen = { months = 1 }
+  
   
   option = {
             name = EVT_9999979_A #It was just a bluff...
@@ -520,10 +521,10 @@ country_event = {
 			war = {
 			 target = POL
 			 attacker_goal = {
-				casus_belli = territorial_dispute
+				casus_belli = humiliate
 			 }
 			 defender_goal = {
-				casus_belli = territorial_dispute
+				casus_belli = humiliate
 			 }
 		    }
   }
@@ -548,9 +549,10 @@ country_event = {
   mean_time_to_happen = { days = 1 }
   
   option = {
-            name = EVT_9999978_A #It was just a bluff...
-			ai_chance = { factor = 0.4 }
+            name = EVT_9999978_A #Surrender
+			ai_chance = { factor = 1 }
             any_owned = { limit = { is_core = GER }  secede_province = GER }
+			clr_global_flag = pol_ger_border_war
   }
 
 }
@@ -573,9 +575,482 @@ country_event = {
   mean_time_to_happen = { days = 1 }
   
   option = {
-            name = EVT_9999978_A #It was just a bluff...
-			ai_chance = { factor = 0.4 }
+            name = EVT_9999978_A #Surrender
+			ai_chance = { factor = 1 }
             any_owned = { limit = { is_core = POL }  secede_province = POL }
+			clr_global_flag = pol_ger_border_war
+  }
+
+}
+
+country_event = {
+  id = 9999976 #German Intervention in Polish Civil War - Lithuania
+  title = EVT_9999976_NAME
+  desc = EVT_9999976_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = GER
+			 has_global_flag = POL_civil_war
+			 UBD = { vassal_of = GER }
+			 LIT = { war = yes }
+			 exists = LIT
+  }
+
+  mean_time_to_happen = { months = 1 }
+  
+  option = {
+            name = EVT_9999976_A #Demand Anexation to Baltic State
+			ai_chance = { factor = 0.8 }
+            LIT = { country_event = 9999975 }
+			badboy = 5
+  }
+  
+  option = {
+            name = EVT_9999976_B #Do Nothing 
+			ai_chance = { factor = 0.2 }
+  }
+
+}
+
+country_event = {
+  id = 9999975 #LIT - German Demand
+  title = EVT_9999975_NAME
+  desc = EVT_9999975_DESC
+  picture = "bahrain_independence"
+  is_triggered_only = yes
+   
+
+  mean_time_to_happen = { months = 1 }
+  
+  option = {
+            name = EVT_9999975_A #Agree to german terms
+			ai_chance = { factor = 0.2 }
+            GER = { inherit = LIT }
+  }
+  
+  option = {
+            name = EVT_9999975_B #Refuse Ultimatum 
+			ai_chance = { factor = 0.8 }
+			GER = { country_event = 9999974 }
+  }
+
+}
+
+country_event = {
+  id = 9999974 #GER - Lithuania Refuse
+  title = EVT_9999974_NAME
+  desc = EVT_9999974_DESC
+  picture = "bahrain_independence"
+  is_triggered_only = yes
+   
+
+  mean_time_to_happen = { months = 1 }
+  
+  option = {
+            name = EVT_9999974_A #It was just a bluff...
+			ai_chance = { factor = 0.1 }
+            badboy = -1
+  }
+  
+  option = {
+            name = EVT_9999974_B #So it is war 
+			ai_chance = { factor = 0.9 }
+			set_global_flag = lit_ger_border_war
+			war = {
+			 target = LIT
+			 attacker_goal = {
+				casus_belli = humiliate
+			 }
+			 defender_goal = {
+				casus_belli = humiliate
+			 }
+		    }
+  }
+
+}
+
+country_event = {
+  id = 9999973 #LIT-GER war German Victory
+  title = EVT_9999973_NAME
+  desc = EVT_9999973_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+     tag = LIT
+ 	 NOT = { war_with = GER }
+	 LIT = { has_recently_lost_war = yes }
+	 GER = { has_recently_lost_war = no }
+	 has_global_flag = lit_ger_border_war
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999973_A #Surrender
+			ai_chance = { factor = 1 }
+            UBD = { inherit = LIT }
+			clr_global_flag = lit_ger_border_war
+  }
+
+}
+
+country_event = {
+  id = 9999973 #LIT-GER war Lithuanian Victory
+  title = EVT_9999973_NAME
+  desc = EVT_9999973_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+     tag = GER
+ 	 NOT = { war_with = GER }
+	 GER = { has_recently_lost_war = yes }
+	 LIT = { has_recently_lost_war = no }
+	 has_global_flag = lit_ger_border_war
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999973_A #Surrender
+			ai_chance = { factor = 0.4 }
+            any_owned = { limit = { is_core = LIT }  secede_province = LIT }
+			clr_global_flag = lit_ger_border_war
+  }
+
+}
+
+country_event = {
+  id = 9999972 #Ukrainian Intervention in Polish Civil War
+  title = EVT_9999972_NAME
+  desc = EVT_9999972_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = UKR
+			 has_global_flag = POL_civil_war
+			 SPL = { war = yes }
+			 exists = SPL
+  }
+
+  mean_time_to_happen = { months = 1 }
+  
+  option = {
+            name = EVT_9999972_A #Demand Ethnic Ukrainian land
+			ai_chance = { factor = 0.4 }
+            SPL = { country_event = 9999971 }
+			badboy = 10
+  }
+  option = {
+            name = EVT_9999972_B #Do nothing 
+			ai_chance = { factor = 0.6 }
+  }
+
+}
+
+country_event = {
+  id = 9999971 #SPL - Ukrainian Demand
+  title = EVT_9999971_NAME
+  desc = EVT_9999971_DESC
+  picture = "bahrain_independence"
+  is_triggered_only = yes
+   
+
+  mean_time_to_happen = { months = 1 }
+  
+  option = {
+            name = EVT_9999971_A #Agree to ukrainian terms
+			ai_chance = { factor = 0.10 }
+            any_owned = { limit = { is_core = UKR }  secede_province = UKR }
+  }
+  
+  option = {
+            name = EVT_9999971_B #Refuse Ultimatum 
+			ai_chance = { factor = 0.90 }
+			UKR = { country_event = 9999970 }
+  }
+
+}
+
+country_event = {
+  id = 9999970 #UKR - Social Poland Refuse
+  title = EVT_9999970_NAME
+  desc = EVT_9999970_DESC
+  picture = "bahrain_independence"
+  is_triggered_only = yes
+   
+
+  mean_time_to_happen = { months = 1 }
+  
+  option = {
+            name = EVT_9999970_A #It was just a bluff...
+			ai_chance = { factor = 0.4 }
+            badboy = -1
+  }
+  
+  option = {
+            name = EVT_9999970_B #So it is war 
+			ai_chance = { factor = 0.6 }
+			set_global_flag = spl_ukr_border_war
+			war = {
+			 target = POL
+			 attacker_goal = {
+				casus_belli = humiliate
+			 }
+			 defender_goal = {
+				casus_belli = humiliate
+			 }
+		    }
+  }
+
+}
+
+country_event = {
+  id = 9999970 #SPL-UKR war Ukrainan Victory
+  title = EVT_9999970_NAME
+  desc = EVT_9999970_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+     tag = SPL
+ 	 NOT = { war_with = UKR }
+	 SPL = { has_recently_lost_war = yes }
+	 UKR = { has_recently_lost_war = no }
+	 has_global_flag = spl_ukr_border_war
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999970_A #Surrender
+			ai_chance = { factor = 0.4 }
+            any_owned = { limit = { is_core = UKR }  secede_province = UKR }
+			clr_global_flag = spl_ukr_border_war
+  }
+
+}
+
+country_event = {
+  id = 9999969 #SPL-UKR war Polish Victory
+  title = EVT_9999969_NAME
+  desc = EVT_9999969_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+     tag = UKR
+ 	 NOT = { war_with = UKR }
+	 UKR = { has_recently_lost_war = yes }
+	 SPL = { has_recently_lost_war = no }
+	 has_global_flag = spl_ukr_border_war
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999969_A #Surrender
+			ai_chance = { factor = 0.4 }
+            960 = { secede_province = SPL }
+			958 = { secede_province = SPL }
+			961 = { secede_province = SPL }
+			clr_global_flag = spl_ukr_border_war
+  }
+
+}
+
+country_event = {
+  id = 9999968 #Ukraine is at war - Russia demands its territory
+  title = EVT_9999968_NAME
+  desc = EVT_9999968_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = RUS
+			 has_country_flag = end_of_rus_occupation
+			 UKR = { war = yes }
+			 exists = UKR
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999968_A #Demand Ethnic Russian land
+			ai_chance = { factor = 0.4 }
+            UKR = { country_event = 9999967 }
+			badboy = 5
+  }
+  option = {
+            name = EVT_9999968_B #Demand Ethnic Russian land including Novorossiya
+			ai_chance = { factor = 0.3 }
+			980 = { add_core = RUS }
+			975 = { add_core = RUS }
+			976 = { add_core = RUS }
+            UKR = { country_event = 9999967 }
+			badboy = 7.5
+  }
+  option = {
+            name = EVT_9999968_C #Demand Ethnic Russian land including Novorossiya + access to Crimea 
+			ai_chance = { factor = 0.2 }
+			980 = { add_core = RUS }
+			975 = { add_core = RUS }
+			976 = { add_core = RUS }
+			973 = { add_core = RUS }
+			965 = { add_core = RUS }
+            UKR = { country_event = 9999967 }
+			badboy = 10
+  }
+  
+  option = {
+            name = EVT_9999968_D #Do nothing 
+			ai_chance = { factor = 0.1 }
+  }
+
+}
+
+country_event = {
+  id = 9999967 #UKR - Russian Demand
+  title = EVT_9999967_NAME
+  desc = EVT_9999967_DESC
+  picture = "bahrain_independence"
+  is_triggered_only = yes
+   
+
+  mean_time_to_happen = { months = 1 }
+  
+  option = {
+            name = EVT_9999967_A #Agree to russian terms
+			ai_chance = { factor = 0.05 }
+            any_owned = { limit = { is_core = RUS }  secede_province = RUS }
+  }
+  
+  option = {
+            name = EVT_9999967_B #Refuse Ultimatum 
+			ai_chance = { factor = 0.95 }
+			UKR = { country_event = 9999966 }
+  }
+
+}
+
+country_event = {
+  id = 9999966 #RUS - Ukraine Refuse
+  title = EVT_9999966_NAME
+  desc = EVT_9999966_DESC
+  picture = "bahrain_independence"
+  is_triggered_only = yes
+   
+
+  mean_time_to_happen = { months = 1 }
+  
+  option = {
+            name = EVT_9999966_A #It was just a bluff...
+			ai_chance = { factor = 0.4 }
+            badboy = -1
+  }
+  
+  option = {
+            name = EVT_9999966_B #So it is war 
+			ai_chance = { factor = 0.6 }
+			set_global_flag = rus_ukr_border_war
+			war = {
+			 target = UKR
+			 attacker_goal = {
+				casus_belli = humiliate
+			 }
+			 defender_goal = {
+				casus_belli = humiliate
+			 }
+		    }
+  }
+
+}
+
+country_event = {
+  id = 9999965 #RUS-UKR war Russian Victory
+  title = EVT_9999965_NAME
+  desc = EVT_9999965_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+     tag = UKR
+ 	 NOT = { war_with = RUS }
+	 UKR = { has_recently_lost_war = yes }
+	 RUS = { has_recently_lost_war = no }
+	 has_global_flag = rus_ukr_border_war
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999965_A #Surrender
+			ai_chance = { factor = 0.4 }
+			any_owned = { limit = { is_core = RUS }  secede_province = RUS }
+			clr_global_flag = rus_ukr_border_war
+  }
+
+}
+
+country_event = {
+  id = 9999964 #RUS-UKR war Russian Victory
+  title = EVT_9999964_NAME
+  desc = EVT_9999964_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+     tag = RUS
+ 	 NOT = { war_with = UKR }
+	 RUS = { has_recently_lost_war = yes }
+	 UKR = { has_recently_lost_war = no }
+	 has_global_flag = rus_ukr_border_war
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999964_A #Surrender
+			ai_chance = { factor = 0.4 }
+			prestige = 100
+			clr_global_flag = rus_ukr_border_war
+  }
+
+}
+
+country_event = {
+  id = 9999972 #Rommania want to stop Ukraine
+  title = EVT_9999972_NAME
+  desc = EVT_9999972_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = ROM
+			 OR { UKR = { war_with = SPL }  UKR = { war_with = POL } }
+			 exists = UKR
+  }
+
+  mean_time_to_happen = { months = 1 }
+  
+  option = {
+			war = {
+			 target = UKR
+			 attacker_goal = {
+				casus_belli = humiliate
+			 }
+			 defender_goal = {
+				casus_belli = humiliate
+			 }
+		    }
+  }
+  option = {
+            name = EVT_9999972_B #Do nothing 
+			ai_chance = { factor = 0.6 }
   }
 
 }
