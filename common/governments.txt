@@ -131,7 +131,7 @@ nationalist_dictatorship =
 	communist_social = yes
 	nationalist = yes	
 	election = no
-	appoint_ruling_party = yes
+	appoint_ruling_party = no
 	flagType = nationalist
 }
 # rigth_group dictatorship
