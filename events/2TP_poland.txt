@@ -1,7 +1,7 @@
 country_event = {
   id = 9999990
-  title = "Socialist and Nationalist Partisans"
-  desc = "Despite the end of the WW2 many nationalists, that reject collaboration with Germany, and socialists, that couldn't accept defeat of Soviet Union, roam through the countryside causing great turmoil. We can only hope that situation doesn't get out of control."
+  title = EVT_9999990_NAME
+  desc = EVT_9999990_DESC 
   picture = "bahrain_independence"
   fire_only_once = yes
 
@@ -14,7 +14,7 @@ country_event = {
   mean_time_to_happen = { days = 1 }
   
   option = {
-            name = "And we hope so!"
+            name = EVT_9999990_A
 			
 			any_pop = { militancy = 1.0  consciousness = 2  }
 			any_pop = {
@@ -41,8 +41,8 @@ country_event = {
 
 country_event = {
   id = 9999989
-  title = "Unreast of Minorities"
-  desc = "Even before the war strife between the minorities was a problem in 2nd Polish Republic - now with the acquisition of new territories it's starting to reach even greater levels."
+  title = EVT_9999989_NAME
+  desc = EVT_9999989_DESC
   picture = "bahrain_independence"
   fire_only_once = yes
 
@@ -55,7 +55,7 @@ country_event = {
   mean_time_to_happen = { days = 1 }
   
   option = {
-            name = "What do you mean? They don't want to speak Polish?!"
+            name = EVT_9999989_A
 			
 		any_pop = {
 			limit = {
@@ -69,8 +69,8 @@ country_event = {
 
 country_event = {
   id = 9999988
-  title = "Prison break"
-  desc = "Recent reports state that high profile socialist political prisoners were freed from the prison by armed partisans."
+  title = EVT_9999988_NAME
+  desc = EVT_9999988_DESC
   picture = "bahrain_independence"
   fire_only_once = yes
 
@@ -94,8 +94,8 @@ country_event = {
 
 country_event = {
   id = 9999987
-  title = "Riots in big cities"
-  desc = "Lwow, Krakow, Lodz, Warsaw, Poznan those cities were caught under riots, people are tired of post-war rationing and they demand better living conditions and relaxation of military law."
+  title = EVT_9999987_NAME
+  desc = EVT_9999987_DESC
   picture = "bahrain_independence"
   fire_only_once = yes
 
@@ -109,7 +109,7 @@ country_event = {
   
   option = {
   	ai_chance = { factor = 0.6 }
-            name = "Someone said military law?"
+            name = EVT_9999987_A
 			
 		any_pop = {
             militancy = 1
@@ -119,7 +119,7 @@ country_event = {
   
   option = {
   	        ai_chance = { factor = 0.4 }
-            name = "Give in to their demands"
+            name = EVT_9999987_B
 		money = -50000
 	    political_reform = lgbt_outlawed		
 		any_pop = {
@@ -132,8 +132,8 @@ country_event = {
 
 country_event = {
   id = 9999986
-  title = "Farmers Protests"
-  desc = "Food situation in cities is stil dire and we have has to relly on mandatory grain supply enforced on the peasants, however the prolonging situation starts to spark discontent, among rural population, that sparked in the form of country wide protest."
+  title = EVT_9999986_NAME
+  desc = EVT_9999986_DESC
   picture = "bahrain_independence"
   fire_only_once = yes
 
@@ -146,7 +146,7 @@ country_event = {
   mean_time_to_happen = { days = 1 }
   
   option = {
-            name = "Is everyone already rioting?"
+            name = EVT_9999986_A
 			
 		any_pop = {
             militancy = 1
@@ -158,8 +158,8 @@ country_event = {
 
 country_event = {
   id = 9999985
-  title = "Chaos in the south! Chaos in the east!"
-  desc = "We are not quite sure yet what is happening but military forces were unable to stop the rioters and were forced to flee to central Poland to regroup, however they are assuring us that this situation is only temporary."
+  title = EVT_9999985_NAME
+  desc = EVT_9999985_DESC
   picture = "bahrain_independence"
   fire_only_once = yes
 
@@ -171,7 +171,7 @@ country_event = {
   mean_time_to_happen = { days = 1 }
   
   option = {
-            name = "Is everyone already rioting?"
+            name = EVT_9999985_A
 			
 		any_pop = {
             militancy = 1
@@ -183,8 +183,8 @@ country_event = {
 
 country_event = {
   id = 9999984
-  title = "Polish Civil War"
-  desc = "When the Germans came we were unable to stop them, yet we fought bravely even under the occupation, but the government... the government in London betrayed us! And now we socialists see, we patriots see no more German fabrications will cover the eyes of truth seekers the true enemy is fascism and our crypto-fascist overlords! No matter if your cause is simple welfare of the people that went into peril with Soviet tragedy or patriotic duty that pushes you forward; We will be victorious and the traitors of the nation, traitors of the people, shall hang!"
+  title = EVT_9999984_NAME
+  desc = EVT_9999984_DESC
   picture = "bahrain_independence"
   fire_only_once = yes
 
@@ -197,7 +197,7 @@ country_event = {
   mean_time_to_happen = { days = 1 }
   
   option = {
-            name = "Death to all who oppose the will of the people and nations!"
+            name = EVT_9999984_A
 			ai_chance = { factor = 0 }
 			
             release = BYE
@@ -237,7 +237,7 @@ country_event = {
   }
   
   option = {
-            name = "It's time to stop this madness!"
+            name = EVT_9999984_B
 				ai_chance = { factor = 1 }
 			
             release = BYE
