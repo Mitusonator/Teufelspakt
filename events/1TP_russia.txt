@@ -375,7 +375,7 @@ country_event = {
   
    option = {
             name = "Incorporate Occupation zone into the Reich and return ethnic Russian territory but keep Peterburg"
-            ai_chance = { factor = 0.3 }
+            ai_chance = { factor = 0.2 }
 			994 = { secede_province = GER }
 			996 = { secede_province = GER }
 			997 = { secede_province = GER }
@@ -384,12 +384,11 @@ country_event = {
 			997 = { secede_province = RUS }
 			1006 = { secede_province = RUS }
 			UBD = { government = sar_government }
-			release = UBD
 			badboy = 10
   }
    option = {
             name = "Incorporate Occupation zone into the Reich and return ethnic Russian territory"
-            ai_chance = { factor = 0.3 }
+            ai_chance = { factor = 0.2 }
 			994 = { secede_province = GER }
 			996 = { secede_province = GER }
 			997 = { secede_province = GER }
@@ -399,12 +398,11 @@ country_event = {
 			997 = { secede_province = RUS }
 			1006 = { secede_province = RUS }
 			UBD = { government = sar_government }
-			release = UBD
 			badboy = 5
   } 
   option = {
             name = "Incorporate Occupation zone into the Reich"
-            ai_chance = { factor = 0.3 }
+            ai_chance = { factor = 0.1 }
             UBD = { government = sar_government }
 			994 = { add_core = UBD }
 			996 = { add_core = UBD }
@@ -414,7 +412,7 @@ country_event = {
   }
   option = {
             name = "Establish Baltic Republic and return ethnic Russian territory but keep Petersburg as military base"
-            ai_chance = { factor = 0.3 }
+            ai_chance = { factor = 0.2 }
 			994 = { secede_province = GER }
 			996 = { secede_province = GER }
 			997 = { secede_province = GER }
@@ -422,12 +420,12 @@ country_event = {
 			996 = { secede_province = RUS }
 			997 = { secede_province = RUS }
 			1006 = { secede_province = RUS }
-			release = UBD
+			release_vassal = UBD
 			badboy = 5
   }
   option = {
             name = "Establish Baltic Republic and return ethnic Russian territory"
-            ai_chance = { factor = 0.3 }
+            ai_chance = { factor = 0.1 }
 			994 = { secede_province = GER }
 			996 = { secede_province = GER }
 			997 = { secede_province = GER }
@@ -436,11 +434,11 @@ country_event = {
 			996 = { secede_province = RUS }
 			997 = { secede_province = RUS }
 			1006 = { secede_province = RUS }
-			release = UBD
+			release_vassal = UBD
   }
   option = {
             name = "Establish Baltic Republic on the whole mandate area"
-            ai_chance = { factor = 0.5 }
+            ai_chance = { factor = 0.2 }
 			994 = { add_core = UBD }
 			996 = { add_core = UBD }
 			997 = { add_core = UBD }

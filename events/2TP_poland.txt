@@ -428,7 +428,7 @@ country_event = {
 			 exists = POL
   }
 
-  mean_time_to_happen = { months = 1 }
+  mean_time_to_happen = { days = 3 }
   
   option = {
             name = EVT_9999981_A #Size Danzig
@@ -598,7 +598,7 @@ country_event = {
 			 exists = LIT
   }
 
-  mean_time_to_happen = { months = 1 }
+  mean_time_to_happen = { days = 3 }
   
   option = {
             name = EVT_9999976_A #Demand Anexation to Baltic State
@@ -621,13 +621,11 @@ country_event = {
   picture = "bahrain_independence"
   is_triggered_only = yes
    
-
-  mean_time_to_happen = { months = 1 }
   
   option = {
             name = EVT_9999975_A #Agree to german terms
 			ai_chance = { factor = 0.2 }
-            GER = { inherit = LIT }
+            UBD = { inherit = LIT }
   }
   
   option = {
@@ -645,8 +643,6 @@ country_event = {
   picture = "bahrain_independence"
   is_triggered_only = yes
    
-
-  mean_time_to_happen = { months = 1 }
   
   option = {
             name = EVT_9999974_A #It was just a bluff...
@@ -737,7 +733,7 @@ country_event = {
 			 exists = SPL
   }
 
-  mean_time_to_happen = { months = 1 }
+  mean_time_to_happen = { days = 3 }
   
   option = {
             name = EVT_9999972_A #Demand Ethnic Ukrainian land
@@ -759,8 +755,6 @@ country_event = {
   picture = "bahrain_independence"
   is_triggered_only = yes
    
-
-  mean_time_to_happen = { months = 1 }
   
   option = {
             name = EVT_9999971_A #Agree to ukrainian terms
@@ -783,8 +777,6 @@ country_event = {
   picture = "bahrain_independence"
   is_triggered_only = yes
    
-
-  mean_time_to_happen = { months = 1 }
   
   option = {
             name = EVT_9999970_A #It was just a bluff...
@@ -810,7 +802,7 @@ country_event = {
 }
 
 country_event = {
-  id = 9999970 #SPL-UKR war Ukrainan Victory
+  id = 9999962 #SPL-UKR war Ukrainan Victory
   title = EVT_9999970_NAME
   desc = EVT_9999970_DESC
   picture = "bahrain_independence"
@@ -920,8 +912,6 @@ country_event = {
   picture = "bahrain_independence"
   is_triggered_only = yes
    
-
-  mean_time_to_happen = { months = 1 }
   
   option = {
             name = EVT_9999967_A #Agree to russian terms
@@ -944,8 +934,6 @@ country_event = {
   picture = "bahrain_independence"
   is_triggered_only = yes
    
-
-  mean_time_to_happen = { months = 1 }
   
   option = {
             name = EVT_9999966_A #It was just a bluff...
