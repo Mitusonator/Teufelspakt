@@ -8,6 +8,7 @@ country_event = {
 		NOT = {
 			government = proletarian_dictatorship
 			government = proletarian_dictatorship1
+			government = sar_government
 		}
 		civilized = yes
 		vote_franschise = none_voting
@@ -37,6 +38,7 @@ country_event = {
 			government = populist_dictatorship
 			government = nationalist_dictatorship
 			AND = { ruling_party_ideology = traditionalist  government = absolute_monarchy }
+			government = sar_government
 		}
 		civilized = yes
 		vote_franschise = none_voting
@@ -66,6 +68,7 @@ country_event = {
 			government = nationalist_dictatorship
 			government = mandate_government
 			government = absolute_monarchy
+			government = sar_government
 		}
 		civilized = yes
 		vote_franschise = none_voting
@@ -281,6 +284,7 @@ country_event = {
 		vote_franschise = none_voting
 		NOT = { government = proletarian_dictatorship }
 		NOT = { government = proletarian_dictatorship1 }
+		NOT = { government = sar_government }
 		OR = {
 			ruling_party_ideology = communist_social
 			ruling_party_ideology = communist

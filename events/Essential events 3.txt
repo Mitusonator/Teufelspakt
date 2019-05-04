@@ -453,7 +453,7 @@ NOT = { OR = { tag = IAR tag = TRE tag = DZG tag = SCS tag = UNT tag = TGZ tag =
 		name = "Rejoice!"
 		government = democracy
 		remove_country_modifier = sar_status
-		set_country_flag = endofsarstatus2
+		#set_country_flag = endofsarstatus2
 		}
 	}
 #Defcon 5

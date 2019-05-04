@@ -962,85 +962,85 @@ OR = { is_greater_power = no AND = { government = proletarian_dictatorship rulin
 		}
 }
 
-#Fall of the USSR
-country_event = {
-	id = 1991
-	title = "The Russian Federation"
-  	desc = EVT_8014249_DESC
-  	picture = "rus_form_pic"
-	
-	
-	trigger = {
-		tag = RUS
-		government = democracy
-		NOT = { has_country_flag = eussr }
-	}
-	
-	option = {
-		name = "It is the end of Communist rule!"
-
-		prestige_factor = -0.8
-
-remove_country_modifier = uss_timer
-
-clr_country_flag = economic_malaise
-
-add_country_modifier = { name = economic_malaise duration = 3650 }
-
-add_country_modifier = { name = revolution_chaos duration = 3650 }
-
-add_country_modifier = { name = stockcrash duration = 1825 }
-
-add_country_modifier = { name = recession duration = 3650 }
-
-all_core = { 
-limit = { OR = { 
-	AND = { is_core = UKR NOT = { is_core = CRI } }
-	is_core = BYE 
-	is_core = GEO 
-	is_core = AZB 
-	is_core = ARM 
-	is_core = TKR
-	is_core = MOL
-	is_core = UZB 
-	is_core = KYR 
-	is_core = TAJ 
-	is_core = KAZ 
-	is_core = LIT
-	is_core = LAT
-	is_core = EST
-} } 
-remove_core = RUS
-}
-
-random_owned = { limit = { owner = { NOT = { has_global_flag = breakup_of_ussr } } } owner = { country_event = 8225005 } }
-
-any_country = { 
-limit = { vassal_of = RUS } 
-country_event = 1512136 
-}
-
-any_country = { limit = { exists = no OR = { tag = UKR tag = BYE tag = GEO tag = AZB tag = ARM tag = TKR tag = MOL tag = UZB tag = KYR tag = TAJ tag = KAZ tag = MOL tag = LIT tag = LAT tag = EST } } country_event = 1512240 }
-
-random_owned = { limit = { owner = { owns = 549 } } owner = { 549 = { secede_province = GER } } }
-
-GER = { inherit = ICB }
-
-ruling_party_ideology = socialist
-
-badboy = -1000
-
-any_pop = { 
-limit = { has_pop_culture = russian }
-ideology = {
-	factor = 0.5
-	value = socialist
-}
-	}
-		set_country_flag = eussr
-		#country_event = 8014271
-		}
-}
+##Fall of the USSR
+#country_event = {
+#	id = 1991
+#	title = "The Russian Federation"
+#  	desc = EVT_8014249_DESC
+#  	picture = "rus_form_pic"
+#	
+#	
+#	trigger = {
+#		tag = RUS
+#		government = democracy
+#		NOT = { has_country_flag = eussr }
+#	}
+#	
+#	option = {
+#		name = "It is the end of Communist rule!"
+#
+#		prestige_factor = -0.8
+#
+#remove_country_modifier = uss_timer
+#
+#clr_country_flag = economic_malaise
+#
+#add_country_modifier = { name = economic_malaise duration = 3650 }
+#
+#add_country_modifier = { name = revolution_chaos duration = 3650 }
+#
+#add_country_modifier = { name = stockcrash duration = 1825 }
+#
+#add_country_modifier = { name = recession duration = 3650 }
+#
+#all_core = { 
+#limit = { OR = { 
+#	AND = { is_core = UKR NOT = { is_core = CRI } }
+#	is_core = BYE 
+#	is_core = GEO 
+#	is_core = AZB 
+#	is_core = ARM 
+#	is_core = TKR
+#	is_core = MOL
+#	is_core = UZB 
+#	is_core = KYR 
+#	is_core = TAJ 
+#	is_core = KAZ 
+#	is_core = LIT
+#	is_core = LAT
+#	is_core = EST
+#} } 
+#remove_core = RUS
+#}
+#
+#random_owned = { limit = { owner = { NOT = { has_global_flag = breakup_of_ussr } } } owner = { country_event = 8225005 } }
+#
+#any_country = { 
+#limit = { vassal_of = RUS } 
+#country_event = 1512136 
+#}
+#
+#any_country = { limit = { exists = no OR = { tag = UKR tag = BYE tag = GEO tag = AZB tag = ARM tag = TKR tag = MOL tag = UZB tag = KYR tag = TAJ tag = KAZ tag = MOL tag = LIT tag = LAT tag = EST } } country_event = 1512240 }
+#
+#random_owned = { limit = { owner = { owns = 549 } } owner = { 549 = { secede_province = GER } } }
+#
+#GER = { inherit = ICB }
+#
+#ruling_party_ideology = socialist
+#
+#badboy = -1000
+#
+#any_pop = { 
+#limit = { has_pop_culture = russian }
+#ideology = {
+#	factor = 0.5
+#	value = socialist
+#}
+#	}
+#		set_country_flag = eussr
+#		#country_event = 8014271
+#		}
+#}
 
 #Senegal leave
 country_event = {
