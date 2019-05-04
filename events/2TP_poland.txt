@@ -413,3 +413,169 @@ country_event = {
   }
 
 }
+
+country_event = {
+  id = 9999981 #German Intervention in Polish Civil War
+  title = EVT_9999981_NAME
+  desc = EVT_9999981_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = GER
+			 has_global_flag = POL_civil_war
+			 POL = { war = yes }
+  }
+
+  mean_time_to_happen = { months = 1 }
+  
+  option = {
+            name = EVT_9999981_A #Size Danzig
+			ai_chance = { factor = 0.4 }
+            GER = { inherit = DZG }
+			badboy = 5
+  }
+  
+  option = {
+            name = EVT_9999981_B #Size Danzig and demand more 
+			ai_chance = { factor = 0.6 }
+			GER = { inherit = DZG }
+			badboy = 7.5
+            694 = { add_core = GER }
+			700 = { add_core = GER }
+			699 = { add_core = GER }
+			701 = { add_core = GER }
+			685 = { add_core = GER }
+			689 = { add_core = GER }
+			POL = { country_event = 9999980 }
+  }
+  option = {
+            name = EVT_9999981_C #Size Danzig and demand even more 
+			ai_chance = { factor = 0.6 }
+			GER = { inherit = DZG }
+			badboy = 10
+            694 = { add_core = GER }
+			700 = { add_core = GER }
+			699 = { add_core = GER }
+			701 = { add_core = GER }
+			685 = { add_core = GER }
+			689 = { add_core = GER }
+			2584 = { add_core = GER }
+			717 = { add_core = GER }
+			712 = { add_core = GER }
+			710 = { add_core = GER }
+			708 = { add_core = GER }
+			709 = { add_core = GER }
+			719 = { add_core = GER }
+			707 = { add_core = GER }
+			POL = { country_event = 9999980 }
+  }
+
+}
+
+country_event = {
+  id = 9999980 #POL - German Demand
+  title = EVT_9999980_NAME
+  desc = EVT_9999980_DESC
+  picture = "bahrain_independence"
+  is_triggered_only = yes
+   
+
+  mean_time_to_happen = { months = 1 }
+  
+  option = {
+            name = EVT_9999980_A #Agree to german terms
+			ai_chance = { factor = 0.4 }
+            any_owned = { limit = { is_core = GER }  secede_province = GER }
+  }
+  
+  option = {
+            name = EVT_9999980_B #Refuse Ultimatum 
+			ai_chance = { factor = 0.6 }
+			GER = { country_event = 9999979 }
+  }
+
+}
+
+country_event = {
+  id = 9999979 #GER- Poland Refuse
+  title = EVT_9999979_NAME
+  desc = EVT_9999979_DESC
+  picture = "bahrain_independence"
+  is_triggered_only = yes
+   
+
+  mean_time_to_happen = { months = 1 }
+  
+  option = {
+            name = EVT_9999979_A #It was just a bluff...
+			ai_chance = { factor = 0.4 }
+            badboy = -1
+  }
+  
+  option = {
+            name = EVT_9999979_B #So it is war 
+			ai_chance = { factor = 0.6 }
+			set_global_flag = pol_ger_border_war
+			war = {
+			 target = POL
+			 attacker_goal = {
+				casus_belli = territorial_dispute
+			 }
+			 defender_goal = {
+				casus_belli = territorial_dispute
+			 }
+		    }
+  }
+
+}
+
+country_event = {
+  id = 9999978 #POL-GER war German Victory
+  title = EVT_9999978_NAME
+  desc = EVT_9999978_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+     tag = POL
+ 	 NOT = { war_with = GER }
+	 POL = { has_recently_lost_war = yes }
+	 GER = { has_recently_lost_war = no }
+	 has_global_flag = pol_ger_border_war
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999978_A #It was just a bluff...
+			ai_chance = { factor = 0.4 }
+            any_owned = { limit = { is_core = GER }  secede_province = GER }
+  }
+
+}
+
+country_event = {
+  id = 9999977 #POL-GER war Polish Victory
+  title = EVT_9999978_NAME
+  desc = EVT_9999978_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+     tag = GER
+ 	 NOT = { war_with = GER }
+	 GER = { has_recently_lost_war = yes }
+	 POL = { has_recently_lost_war = no }
+	 has_global_flag = pol_ger_border_war
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999978_A #It was just a bluff...
+			ai_chance = { factor = 0.4 }
+            any_owned = { limit = { is_core = POL }  secede_province = POL }
+  }
+
+}
