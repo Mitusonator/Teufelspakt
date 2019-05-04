@@ -1,5 +1,6 @@
 capital = 706
 primary_culture = polish
+culture = silesians
 religion = secularism
 government = democracy
 plurality = 6.0
@@ -9,7 +10,7 @@ non_state_culture_literacy = 0.10
 civilized = yes
 prestige = 1000
 last_election = 1944.4.1
-ruling_party = party_communist_0_POL
+ruling_party = "party_conservative_0_POL"
 upper_house = {
 	populist = 4
 	liberal = 21

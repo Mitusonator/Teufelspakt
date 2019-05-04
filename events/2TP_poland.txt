@@ -1,0 +1,278 @@
+country_event = {
+  id = 9999990
+  title = "Socialist and Nationalist Partisans"
+  desc = "Despite the end of the WW2 many nationalists, that reject collaboration with Germany, and socialists, that couldn't accept defeat of Soviet Union, roam through the countryside causing great turmoil. We can only hope that situation doesn't get out of control."
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = POL
+             year = 1953
+			 month = 5
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "And we hope so!"
+			
+			any_pop = { militancy = 1.0  consciousness = 2  }
+			any_pop = {
+				ideology = {
+					factor = 0.10
+					value = communist_social
+				}
+			}
+			any_pop = {
+				ideology = {
+					factor = 0.05
+					value = traditionalist
+				}
+			}
+			any_pop = {
+				ideology = {
+					factor = 0.05
+					value = communist
+				}
+			}
+  }
+
+}
+
+country_event = {
+  id = 9999989
+  title = "Unreast of Minorities"
+  desc = "Even before the war strife between the minorities was a problem in 2nd Polish Republic - now with the acquisition of new territories it's starting to reach even greater levels."
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = POL
+             year = 1953
+			 month = 7
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "What do you mean? They don't want to speak Polish?!"
+			
+		any_pop = {
+			limit = {
+				is_primary_culture = no
+			}
+            militancy = 1
+		}
+  }
+
+}
+
+country_event = {
+  id = 9999988
+  title = "Prison break"
+  desc = "Recent reports state that high profile socialist political prisoners were freed from the prison by armed partisans."
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = POL
+             year = 1953
+			 month = 11
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "What's going on in this country!!!"
+			
+		any_pop = {
+            militancy = 1
+		}
+  }
+
+}
+
+country_event = {
+  id = 9999987
+  title = "Riots in big cities"
+  desc = "Lwow, Krakow, Lodz, Warsaw, Poznan those cities were caught under riots, people are tired of post-war rationing and they demand better living conditions and relaxation of military law."
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = POL
+             year = 1954
+			 month = 5
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+  	ai_chance = { factor = 0.6 }
+            name = "Someone said military law?"
+			
+		any_pop = {
+            militancy = 1
+			consciousness = 2
+		}
+  }
+  
+  option = {
+  	        ai_chance = { factor = 0.4 }
+            name = "Give in to their demands"
+		money = -50000
+	    political_reform = lgbt_outlawed		
+		any_pop = {
+            consciousness = 1
+			money = 100
+		}
+  }
+
+}
+
+country_event = {
+  id = 9999986
+  title = "Farmers Protests"
+  desc = "Food situation in cities is stil dire and we have has to relly on mandatory grain supply enforced on the peasants, however the prolonging situation starts to spark discontent, among rural population, that sparked in the form of country wide protest."
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = POL
+             year = 1954
+			 month = 10
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "Is everyone already rioting?"
+			
+		any_pop = {
+            militancy = 1
+			consciousness = 1
+		}
+  }
+
+}
+
+country_event = {
+  id = 9999985
+  title = "Chaos in the south! Chaos in the east!"
+  desc = "We are not quite sure yet what is happening but military forces were unable to stop the rioters and were forced to flee to central Poland to regroup, however they are assuring us that this situation is only temporary."
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = POL
+             year = 1955
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "Is everyone already rioting?"
+			
+		any_pop = {
+            militancy = 1
+			consciousness = 1
+		}
+  }
+
+}
+
+country_event = {
+  id = 9999984
+  title = "Polish Civil War"
+  desc = "When the Germans came we were unable to stop them, yet we fought bravely even under the occupation, but the government... the government in London betrayed us! And now we socialists see, we patriots see no more German fabrications will cover the eyes of truth seekers the true enemy is fascism and our crypto-fascist overlords! No matter if your cause is simple welfare of the people that went into peril with Soviet tragedy or patriotic duty that pushes you forward; We will be victorious and the traitors of the nation, traitors of the people, shall hang!"
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = POL
+             year = 1955
+			 month = 3
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "Death to all who oppose the will of the people and nations!"
+			ai_chance = { factor = 0 }
+			
+            release = BYE
+		    war = {
+			 target = BYE
+			 attacker_goal = {
+				casus_belli = civil_war
+			 }
+			 defender_goal = {
+				casus_belli = become_independent
+			 }
+		    }
+			
+            release = LIT
+		    war = {
+			 target = LIT
+			 attacker_goal = {
+				casus_belli = civil_war
+			 }
+			 defender_goal = {
+				casus_belli = become_independent
+			 }
+		    }
+			
+            release = SPL
+			POL = { all_core = { add_core = SPL } }
+		    war = {
+			 target = SPL
+			 attacker_goal = {
+				casus_belli = civil_war
+			 }
+			 defender_goal = {
+				casus_belli = civil_war
+			 }
+		    }
+			change_tag_no_core_switch = SPL
+  }
+  
+  option = {
+            name = "It's time to stop this madness!"
+				ai_chance = { factor = 1 }
+			
+            release = BYE
+		    war = {
+			 target = BYE
+			 attacker_goal = {
+				casus_belli = civil_war
+			 }
+			 defender_goal = {
+				casus_belli = become_independent
+			 }
+		    }
+			
+            release = LIT
+		    war = {
+			 target = LIT
+			 attacker_goal = {
+				casus_belli = civil_war
+			 }
+			 defender_goal = {
+				casus_belli = become_independent
+			 }
+		    }
+			
+            release = SPL
+			POL = { all_core = { add_core = SPL } }
+		    war = {
+			 target = SPL
+			 attacker_goal = {
+				casus_belli = civil_war
+			 }
+			 defender_goal = {
+				casus_belli = civil_war
+			 }
+		    }
+  }    
+
+}

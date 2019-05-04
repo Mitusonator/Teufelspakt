@@ -3,6 +3,7 @@ controller = GER
 add_core = GER
 add_core = BOH
 add_core = CZH
+add_core = POL
 trade_goods = coal
 life_rating = 35
 terrain = deciduous_forest_mountains
