@@ -45,11 +45,11 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "party_populist_0_XEA"
+		name = "Zadruga"
 		citizenship_policy = residency
-		economic_policy = state_capitalism
+		economic_policy = planned_economy
 		ideology = populist
-		religious_policy = secularized
+		religious_policy = pro_atheism
 		trade_policy = protectionism
 		war_policy = jingoism
 		start_date = 1836.1.1
@@ -67,7 +67,7 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "party_communist_0_XEA"
+		name = "Komunistyczna Partia Eurazji"
 		citizenship_policy = full_citizenship
 		economic_policy = planned_economy
 		ideology = communist

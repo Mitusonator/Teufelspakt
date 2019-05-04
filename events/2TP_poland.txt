@@ -182,7 +182,7 @@ country_event = {
 }
 
 country_event = {
-  id = 9999984
+  id = 9999984 #Polish Civil War
   title = EVT_9999984_NAME
   desc = EVT_9999984_DESC
   picture = "bahrain_independence"
@@ -199,6 +199,8 @@ country_event = {
   option = {
             name = EVT_9999984_A
 			ai_chance = { factor = 0 }
+			
+			set_global_flag = POL_civil_war
 			
             release = BYE
 		    war = {
@@ -238,7 +240,9 @@ country_event = {
   
   option = {
             name = EVT_9999984_B
-				ai_chance = { factor = 1 }
+			ai_chance = { factor = 1 }
+			
+			set_global_flag = POL_civil_war
 			
             release = BYE
 		    war = {
@@ -274,5 +278,138 @@ country_event = {
 			 }
 		    }
   }    
+
+}
+
+country_event = {
+  id = 9999983 #SPL Victory
+  title = EVT_9999983_NAME
+  desc = EVT_9999983_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = SPL
+             has_global_flag = POL_civil_war
+			 NOT = { exists = POL }
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999983_A #Small Poland
+			ai_chance = { factor = 0.4 }
+			
+		any_pop = {
+			955 = { secede_province = RUT }
+			956 = { secede_province = RUT }
+			957 = { secede_province = RUT }
+			959 = { secede_province = RUT }
+		}
+		remove_accepted_culture = ukrainian
+		government = populist_dictatorship
+		ruling_party_ideology = traditionalist
+		prestige = 500
+  }
+  
+  option = {
+            name = EVT_9999983_B #Polish Federation  
+			ai_chance = { factor = 0.6 }
+			set_country_flag = SPL_federation
+			SPL = { inherit = BYE }
+			SPL = { inherit = LIT }
+			government = proletarian_dictatorship
+			add_accepted_culture = byelorussian
+			add_accepted_culture = lithuanian
+			prestige = 1000
+  }
+
+}
+
+country_event = {
+  id = 9999982 #Shape of the Federation
+  title = EVT_9999982_NAME
+  desc = EVT_9999982_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = SPL
+             has_country_flag = SPL_federation
+			 NOT = { exists = POL }
+  }
+
+  mean_time_to_happen = { months = 3 }
+  
+  option = {
+            name = EVT_9999982_A #Federation of Socialism and Nations
+			ai_chance = { factor = 0.40 }
+            any_pop = { militancy = -5.0 }
+  }
+  option = {
+             name = EVT_9999982_B #Socialist and Democratic Federation 
+             ai_chance = { factor = 0.40 }
+			 any_pop = { militancy = -5.0 }
+		     government = socialist_democracy
+		     political_reform = registered_voting
+			 ruling_party_ideology = socialist
+  }
+  
+  option = {
+            name = EVT_9999982_C #Revival of Soviet Union  
+			ai_chance = { factor = 0.10 }
+			any_pop = { militancy = -3.0 }
+            SPL = { all_core = { add_core = XEA } }
+			BYE = { all_core = { add_core = XEA } }
+			UKR = { all_core = { add_core = XEA } }
+			RUS = { all_core = { add_core = XEA } }
+			FER = { all_core = { add_core = XEA } }
+			TRS = { all_core = { add_core = XEA } }
+			MGL = { all_core = { add_core = XEA } }
+			MCK = { all_core = { add_core = XEA } }
+			FIN = { all_core = { add_core = XEA } }
+			LIT = { all_core = { add_core = XEA } }
+			LAT = { all_core = { add_core = XEA } }
+			EST = { all_core = { add_core = XEA } }
+			MLD = { all_core = { add_core = XEA } }
+			add_accepted_culture = russian
+			add_accepted_culture = latvian
+			add_accepted_culture = estonian
+			government = proletarian_dictatorship
+			change_tag = XEA
+			ruling_party_ideology = communist
+  }
+  
+  option = {
+            name = EVT_9999982_D #Slavic Nationalism  
+			ai_chance = { factor = 0.10 }
+			any_pop = { militancy = -1.0 }
+            SPL = { all_core = { add_core = XEA } }
+			BYE = { all_core = { add_core = XEA } }
+			UKR = { all_core = { add_core = XEA } }
+			RUS = { all_core = { add_core = XEA } }
+			FER = { all_core = { add_core = XEA } }
+			LIT = { all_core = { add_core = XEA } }
+			CZH = { all_core = { add_core = XEA } }
+			LAT = { all_core = { add_core = XEA } }
+			EST = { all_core = { add_core = XEA } }
+			MLD = { all_core = { add_core = XEA } }
+			TRS = { all_core = { limit = { NOT = { is_core = ETS } } add_core = XEA } }
+			
+			683 = { add_core = XEA }
+			682 = { add_core = XEA }
+			681 = { add_core = XEA }
+			546 = { add_core = XEA }
+			679 = { add_core = XEA }
+			680 = { add_core = XEA }
+			695 = { add_core = XEA }
+			697 = { add_core = XEA }
+			add_accepted_culture = russian
+			add_accepted_culture = czech
+			add_accepted_culture = slovak
+			government = populist_dictatorship
+			change_tag = XEA
+			ruling_party_ideology = populist
+  }
 
 }
