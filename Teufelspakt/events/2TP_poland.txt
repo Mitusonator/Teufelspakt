@@ -120,7 +120,7 @@ country_event = {
   option = {
   	        ai_chance = { factor = 0.4 }
             name = EVT_9999987_B
-		money = -50000
+		money = -10000
 	    political_reform = lgbt_outlawed		
 		any_pop = {
             consciousness = 1

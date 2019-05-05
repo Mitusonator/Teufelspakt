@@ -1,5 +1,7 @@
 capital = 967
 primary_culture = russian
+culture = ukrainian
+culture = tatar
 religion = secularism
 government = democracy
 plurality = 15.0
