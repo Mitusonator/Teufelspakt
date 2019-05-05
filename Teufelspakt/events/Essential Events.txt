@@ -272,14 +272,14 @@ add_province_modifier = { name = family_values1 duration = 18250 }
 #ISR population boom
 country_event = {
 	id = 1200236
-	title = "Israeli Population Boom"
+	title = "Polish Population Boom"
 	desc = "The war is over and the population is booming, many people are starting to feel that it is ok to have larger families."
 	picture = "germanpopulationboom"
 	
 	
 	trigger = {
 		year = 1950
-		tag = ISR
+		OR = { tag = POL  AND = { tag = SPL  NOT { exists = POL } } }
 		war = no
 		NOT = { year = 1989 }
 		NOT = { has_country_flag = isrpopboom }

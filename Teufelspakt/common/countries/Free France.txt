@@ -1,7 +1,29 @@
 graphical_culture = FrenchGC
 color = { 65 105 225 }
 party = {
-		name = "party_conservative_0_FRA"
+		name = "Petain's Faction"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = nationalist
+		religious_policy = moralism
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1972.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "French Army"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = nationalist
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1972.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "Popular Republican Movement"
 		citizenship_policy = limited_citizenship
 		economic_policy = interventionism
 		ideology = conservative
@@ -9,10 +31,209 @@ party = {
 		trade_policy = free_trade
 		war_policy = pro_military
 		start_date = 1836.1.1
-		end_date = 2092.1.1
+		end_date = 1967.1.1
 }
 party = {
-		name = "party_liberal_0_FRA"
+		name = "Rally of the French People"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = conservative
+		religious_policy = moralism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1947.1.1
+		end_date = 1955.1.1
+}
+party = {
+		name = "CNRS"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = conservative
+		religious_policy = moralism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1954.1.1
+		end_date = 1958.1.1
+}
+party = {
+		name = "Union for the New Republic"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = conservative
+		religious_policy = moralism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1958.1.1
+		end_date = 1967.1.1
+}
+party = {
+		name = "UDR"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = moralism
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1967.1.1
+		end_date = 1976.1.1
+}
+party = {
+		name = "Rally for the Republic"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = moralism
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1976.1.1
+		end_date = 2002.1.1
+}
+party = {
+		name = "Union for a Popular Movement"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = moralism
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 2002.1.1
+		end_date = 2015.1.1
+}
+party = {
+		name = "The Republicans"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 2015.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "SFIO"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 1969.1.1
+}
+party = {
+		name = "The Socialist Party"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = pro_atheism
+		trade_policy = free_trade
+		war_policy = pacifism
+		start_date = 1969.1.1
+		end_date = 2100.1.1
+}
+party = {
+	name = "CNIP"
+	citizenship_policy = residency
+	economic_policy = laissez_faire
+	ideology = traditionalist
+	religious_policy = moralism
+	trade_policy = free_trade
+	war_policy = jingoism
+	start_date = 1836.1.1
+	end_date = 2092.1.1
+}
+party = {
+		name = "Radical Party"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = liberal
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "Republican Party of Liberty"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 1951.1.1
+}
+party = {
+		name = "UDSR"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = big_tent
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 1964.1.1
+}
+party = {
+		name = "Union for French Democracy"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = liberal
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1978.1.1
+		end_date = 2007.1.1
+}
+party = {
+		name = "Democratic Centre"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1967.1.1
+		end_date = 1976.1.1
+}
+party = {
+		name = "Centre of Social Democrats"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1976.1.1
+		end_date = 1995.1.1
+}
+
+party = {
+		name = "Centre of Social Democrats"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = big_tent
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1995.1.1
+		end_date = 1998.1.1
+}
+party = {
+		name = "Centre of Social Democrats"
+		citizenship_policy = limited_citizenship
+		economic_policy = laissez_faire
+		ideology = big_tent
+		religious_policy = moralism
+		trade_policy = free_trade
+		war_policy = pacifism
+		start_date = 1969.1.1
+		end_date = 1976.1.1
+}
+party = {
+		name = "Democratic Movement"
 		citizenship_policy = full_citizenship
 		economic_policy = laissez_faire
 		ideology = liberal
@@ -23,62 +244,62 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "party_socialist_0_FRA"
-		citizenship_policy = limited_citizenship
-		economic_policy = state_capitalism
-		ideology = socialist
-		religious_policy = pro_atheism
-		trade_policy = protectionism
-		war_policy = pacifism
-		start_date = 1836.1.1
-		end_date = 2092.1.1
-}
-party = {
-		name = "party_progressive_0_FRA"
+		name = "The Greens"
 		citizenship_policy = full_citizenship
 		economic_policy = interventionism
 		ideology = progressive
 		religious_policy = pro_atheism
 		trade_policy = protectionism
 		war_policy = pacifism
-		start_date = 1836.1.1
-		end_date = 2092.1.1
+		start_date = 1984.1.1
+		end_date = 2010.1.1
 }
+#party = {
+#		name = "Europe Ecology – The Greens"
+#		citizenship_policy = full_citizenship
+#		economic_policy = interventionism
+#		ideology = progressive
+#		religious_policy = pro_atheism
+#		trade_policy = protectionism
+#		war_policy = pacifism
+#		start_date = 2010.1.1
+#		end_date = 2100.1.1
+#}
 party = {
-		name = "party_populist_0_FRA"
+		name = "Parti Franciste"
 		citizenship_policy = residency
 		economic_policy = state_capitalism
 		ideology = populist
 		religious_policy = secularized
 		trade_policy = protectionism
 		war_policy = jingoism
-		start_date = 1836.1.1
+		start_date = 1930.1.1
 		end_date = 2092.1.1
 }
 party = {
-		name = "OAS"
+		name = "National Front (Nationalist)"
 		citizenship_policy = residency
 		economic_policy = state_capitalism
 		ideology = traditionalist
 		religious_policy = moralism
 		trade_policy = protectionism
 		war_policy = jingoism
-		start_date = 1836.1.1
+		start_date = 1972.1.1
 		end_date = 2092.1.1
 }
 party = {
-		name = "party_communist_0_FRA"
-		citizenship_policy = full_citizenship
-		economic_policy = planned_economy
-		ideology = communist
-		religious_policy = pro_atheism
-		trade_policy = protectionism
-		war_policy = pacifism
-		start_date = 1836.1.1
-		end_date = 2092.1.1
+	name = "CPNT"
+	citizenship_policy = residency
+	economic_policy = interventionism
+	ideology = traditionalist
+	religious_policy = moralism
+	trade_policy = protectionism
+	war_policy = jingoism
+	start_date = 1989.1.1
+	end_date = 2092.1.1
 }
 party = {
-		name = "party_communist_social"
+		name = "PCF (Market Socialist)"
 		citizenship_policy = full_citizenship
 		economic_policy = state_capitalism
 		ideology = communist_social
@@ -88,32 +309,43 @@ party = {
 		start_date = 1836.1.1
 		end_date = 2092.1.1
 }
+party = {
+		name = "En Marche!"
+		citizenship_policy = full_citizenship
+		economic_policy = laissez_faire
+		ideology = big_tent
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pacifism
+		start_date = 2016.1.1
+		end_date = 2092.1.1
+}
 unit_names = {
 	carrier = {
-		"Brennus" "Charles Martel" "Carnot" "Jaur�guiberry" "Mass�na" Bouvet Charlemagne "St Louis" Gaulois I�na Suffren R�publique Patrie Libert� Justice V�rit� D�mocratie Danton Voltaire Diderot Condorcet Mirebeau Vergniaud "Henri IV"
+		"Brennus" "Charles Martel" "Carnot" "Jaurďż˝guiberry" "Massďż˝na" Bouvet Charlemagne "St Louis" Gaulois Iďż˝na Suffren Rďż˝publique Patrie Libertďż˝ Justice Vďż˝ritďż˝ Dďż˝mocratie Danton Voltaire Diderot Condorcet Mirebeau Vergniaud "Henri IV"
 	}
 	transportship = {
 	}
 	modern_frigate = {
-		"Asmod�e" "Gomer" "Darien" "Labrador" "Ulloa" "Cacique" "Canada" "Christophe Colomb" "Eldorado" "Magellan" "Montezuma" "Or�noque" "Panama" "Albatros" "Descartes" "Vauban" "Caffarelli" "Mogador" "Pomone" "Isly" "Bellone" "Foudre" "Imp�ratrice Eug�nie" "Souveraine" "Audacieuse" "Imp�tueuse" "Ardente" "Victoire" "Guerri�re" "Renomm�e" "Dana�" "Pandore" "Z�nobie" "Clorinde" "Astr�e"
+		"Asmodďż˝e" "Gomer" "Darien" "Labrador" "Ulloa" "Cacique" "Canada" "Christophe Colomb" "Eldorado" "Magellan" "Montezuma" "Orďż˝noque" "Panama" "Albatros" "Descartes" "Vauban" "Caffarelli" "Mogador" "Pomone" "Isly" "Bellone" "Foudre" "Impďż˝ratrice Eugďż˝nie" "Souveraine" "Audacieuse" "Impďż˝tueuse" "Ardente" "Victoire" "Guerriďż˝re" "Renommďż˝e" "Danaďż˝" "Pandore" "Zďż˝nobie" "Clorinde" "Astrďż˝e"
 	}
 	cruiser = {
-		"Clovis" "Maurice de Saxe" "Vercingetorix" "Richemont" "Dunois" "Ney" "Leger" "Vauban" "Conde" "Turenne" "Montebello" "Austerlitz" "Souverain" "Navarin" "Ulm" "Wagram" "Alg�siras" "Arcole" "Friedland" "Imp�rial" "Eylau" "Tilsitt" "Jena" "Auerstadt" "Marengo" "Toulon" "Bellone" "Glorieuse" "Gracieuse" "Audacieuse" "Imp�tueuse" "Ardente" "Victoire" "Guerri�re" "T�m�raire" "Triomphant" "Tigre" "Pers�v�rante" "Vigilant" "Tenace" "�lan" "Duguay Trouin" "Lamotte-Picquet" "Primaguet" "Duquesne" "Tourville" "Colbert" "Foch" "Alg�rie" "Jeanne D'Arc" "Maroc" "Lafayette" "Davout" "Suchet" "Forbin" "Surcouf" "Cosmao" "Lalande" "Galil�e" "Lavoisier" "Linois" "La Galissionere" "Jean de Vienne" "Gloire" "Marseillaise" "Georges Leygues" "De Grasse" "La Fantasque" "Iphigenie" "Naiade" "Arethuse" "Dubourdieu" "Milan" "Belliqueuse" "Sfax" "Tage" "Amiral C�cille" "Davout" "Suchet" "Co�tlogon" "Forbin" "Surcouf" "Cosmao" "Lalande" "Troude" "Galil�e" "Lavoisier" "Linois" "Tunisi�" "Isly" "Bugeaud" "Chasseloup-Laubat" "Friant" "Descartes" "Pascal" "Cassard" "D'Assas" "Du Chayla" "Catinat" "Protet" "D'Entrecasteaux" "Guichen" "Ch�teaurenault" "D'Estr�es" "Infernet" "Jurien de la Gravi�re" "Pluton" "Emile Bertin" "Dupuy de Lome" "Admiral Charner" "Bruix" "Chanzy" "Latouche-Treville" "Pothau" "Dupetit-Thouars" "Gueydon" "Montcalm" "Desaix" "Dupleix" "Kleber" "Amiral Aube" "Conde" "Sully" "Leon Gambetta" "Victor Hugo" "Jules Michelet" "Ernest Renan" "Edgar Quinet" "Waldeck-Rousseau" "Thionville" "Metz" "Mulhouse" "Colmar" "D'Assas" "Du Chayla" "Catinat" "Protet" "D'Entrecasteaux" "Guichen" "Ch�teaurenault"
+		"Clovis" "Maurice de Saxe" "Vercingetorix" "Richemont" "Dunois" "Ney" "Leger" "Vauban" "Conde" "Turenne" "Montebello" "Austerlitz" "Souverain" "Navarin" "Ulm" "Wagram" "Algďż˝siras" "Arcole" "Friedland" "Impďż˝rial" "Eylau" "Tilsitt" "Jena" "Auerstadt" "Marengo" "Toulon" "Bellone" "Glorieuse" "Gracieuse" "Audacieuse" "Impďż˝tueuse" "Ardente" "Victoire" "Guerriďż˝re" "Tďż˝mďż˝raire" "Triomphant" "Tigre" "Persďż˝vďż˝rante" "Vigilant" "Tenace" "ďż˝lan" "Duguay Trouin" "Lamotte-Picquet" "Primaguet" "Duquesne" "Tourville" "Colbert" "Foch" "Algďż˝rie" "Jeanne D'Arc" "Maroc" "Lafayette" "Davout" "Suchet" "Forbin" "Surcouf" "Cosmao" "Lalande" "Galilďż˝e" "Lavoisier" "Linois" "La Galissionere" "Jean de Vienne" "Gloire" "Marseillaise" "Georges Leygues" "De Grasse" "La Fantasque" "Iphigenie" "Naiade" "Arethuse" "Dubourdieu" "Milan" "Belliqueuse" "Sfax" "Tage" "Amiral Cďż˝cille" "Davout" "Suchet" "Coďż˝tlogon" "Forbin" "Surcouf" "Cosmao" "Lalande" "Troude" "Galilďż˝e" "Lavoisier" "Linois" "Tunisiďż˝" "Isly" "Bugeaud" "Chasseloup-Laubat" "Friant" "Descartes" "Pascal" "Cassard" "D'Assas" "Du Chayla" "Catinat" "Protet" "D'Entrecasteaux" "Guichen" "Chďż˝teaurenault" "D'Estrďż˝es" "Infernet" "Jurien de la Graviďż˝re" "Pluton" "Emile Bertin" "Dupuy de Lome" "Admiral Charner" "Bruix" "Chanzy" "Latouche-Treville" "Pothau" "Dupetit-Thouars" "Gueydon" "Montcalm" "Desaix" "Dupleix" "Kleber" "Amiral Aube" "Conde" "Sully" "Leon Gambetta" "Victor Hugo" "Jules Michelet" "Ernest Renan" "Edgar Quinet" "Waldeck-Rousseau" "Thionville" "Metz" "Mulhouse" "Colmar" "D'Assas" "Du Chayla" "Catinat" "Protet" "D'Entrecasteaux" "Guichen" "Chďż˝teaurenault"
 	}
 	modern_cruiser = {
-		"Dunkerque" "Strasbourg" "Richelieu" "Clemenceau" "Petain" "Napol�on" "Poincare" "Louis XIV" "Alsace" "Bourgogne" "Poitou" "Calais" "Rouen" "Brest" "D�vastation" "Courbet" "Amiral Duperr�" "Terrible" "Indomptable" "Caiman" "Requin" "Admiral Baudin" "Formidable" "Hoche" "Marceau" "Magenta" "Neptune" "Brennus" "Charles Martel" "Carnot" "Jaur�guiberry" "Mass�na" "Bouvet" "Charlemagne" "Saint Louis" "Gaulois" "Henri IV" "I�na" "Suffren" "R�publique" "Patrie" "D�mocratie" "Justice" "Libert�" "Verit�" "Danton" "Diderot" "Mirabeau" "Vergniaud" "Voltaire" "Condorcet" "Courbet" "France" "Jean Bart" "Paris" "Fleurus" "Bretagne" "Lorraine" "Provence" "Bearn" "Flandre" "Gascoigne" "Languedoc" "Normandie" "Guyenne" "Champagne" "Auvergne" "Lille" "Lyon" "Orleans" "La Rochelle" "Bourdeaux"
+		"Dunkerque" "Strasbourg" "Richelieu" "Clemenceau" "Petain" "Napolďż˝on" "Poincare" "Louis XIV" "Alsace" "Bourgogne" "Poitou" "Calais" "Rouen" "Brest" "Dďż˝vastation" "Courbet" "Amiral Duperrďż˝" "Terrible" "Indomptable" "Caiman" "Requin" "Admiral Baudin" "Formidable" "Hoche" "Marceau" "Magenta" "Neptune" "Brennus" "Charles Martel" "Carnot" "Jaurďż˝guiberry" "Massďż˝na" "Bouvet" "Charlemagne" "Saint Louis" "Gaulois" "Henri IV" "Iďż˝na" "Suffren" "Rďż˝publique" "Patrie" "Dďż˝mocratie" "Justice" "Libertďż˝" "Veritďż˝" "Danton" "Diderot" "Mirabeau" "Vergniaud" "Voltaire" "Condorcet" "Courbet" "France" "Jean Bart" "Paris" "Fleurus" "Bretagne" "Lorraine" "Provence" "Bearn" "Flandre" "Gascoigne" "Languedoc" "Normandie" "Guyenne" "Champagne" "Auvergne" "Lille" "Lyon" "Orleans" "La Rochelle" "Bourdeaux"
 	}
 	frigate = {
-		"Condor" "Epervier" "Faucon" "Vautour" "Wattignies" "Levrier" "Casablanca" "D'Iberville" "Cassini" "Lahire" "Circ�" "Hermione" "Pallas" "S�miramis" "Armorique" "Junon" "Magicienne" "Th�mis" "Flore"
+		"Condor" "Epervier" "Faucon" "Vautour" "Wattignies" "Levrier" "Casablanca" "D'Iberville" "Cassini" "Lahire" "Circďż˝" "Hermione" "Pallas" "Sďż˝miramis" "Armorique" "Junon" "Magicienne" "Thďż˝mis" "Flore"
 	}
 	modern_destroyer = {
-		"Congreve" "Foudroyante" "Lave" "Tonnante" "Gloire" "Invincible" "Normandie" "Couronne" "Magenta" "Solferino" "Flandre" "Gauloise" "Magnanime" "Provence" "Revanche" "Savoie" "Surveillante" "Valeureuse" "H�ro�ne"
+		"Congreve" "Foudroyante" "Lave" "Tonnante" "Gloire" "Invincible" "Normandie" "Couronne" "Magenta" "Solferino" "Flandre" "Gauloise" "Magnanime" "Provence" "Revanche" "Savoie" "Surveillante" "Valeureuse" "Hďż˝roďż˝ne"
 	}
 	destroyer = {
-		"Alexandre" "Breslaw" "Prince J�r�me" "Ville de Paris" "Ville de Nantes" "Duguay-Trouin" "Tage" "Donawerth" "Saint Louis" "Fontenoy" "Turenne" "Ville de Bordeaux" "Castiglione" "Mass�na" "Bayard" "Ville de Lyon" "Louis XIV"
+		"Alexandre" "Breslaw" "Prince Jďż˝rďż˝me" "Ville de Paris" "Ville de Nantes" "Duguay-Trouin" "Tage" "Donawerth" "Saint Louis" "Fontenoy" "Turenne" "Ville de Bordeaux" "Castiglione" "Massďż˝na" "Bayard" "Ville de Lyon" "Louis XIV"
 	}
 	submarine = {
-		"Oc�an" "Marengo" "Suffren" "Friedland" "Richelieu" "Colbert" "Trident"
+		"Ocďż˝an" "Marengo" "Suffren" "Friedland" "Richelieu" "Colbert" "Trident"
 	}
 
 }

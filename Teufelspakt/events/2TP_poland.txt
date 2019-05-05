@@ -83,7 +83,7 @@ country_event = {
   mean_time_to_happen = { days = 1 }
   
   option = {
-            name = "What's going on in this country!!!"
+            name = "EVT_9999988_A"
 			
 		any_pop = {
             militancy = 1
@@ -198,7 +198,7 @@ country_event = {
   
   option = {
             name = EVT_9999984_A
-			ai_chance = { factor = 0 }
+			ai_chance = { factor = 1 }
 			
 			set_global_flag = POL_civil_war
 			
@@ -301,15 +301,13 @@ country_event = {
             name = EVT_9999983_A #Small Poland
 			ai_chance = { factor = 0.4 }
 			
-		any_pop = {
-			955 = { secede_province = RUT }
-			956 = { secede_province = RUT }
-			957 = { secede_province = RUT }
-			959 = { secede_province = RUT }
-			960 = { secede_province = RUT }
-			958 = { secede_province = RUT }
-			961 = { secede_province = RUT }
-		}
+	    955 = { secede_province = RUT }
+		956 = { secede_province = RUT }
+		957 = { secede_province = RUT }
+		959 = { secede_province = RUT }
+		960 = { secede_province = RUT }
+		958 = { secede_province = RUT }
+		961 = { secede_province = RUT }
 		remove_accepted_culture = ukrainian
 		government = populist_dictatorship
 		ruling_party_ideology = traditionalist

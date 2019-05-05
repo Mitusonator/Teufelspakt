@@ -15,8 +15,8 @@ is_vassal = no
 capital_scope = { continent = europe } 
 860 = { is_core = THIS }
 
-AND = { tag = RUS OR = { ruling_party_ideology = progressive ruling_party_ideology = liberal } } 
-AND = { tag = BYE OR = { ruling_party_ideology = progressive ruling_party_ideology = liberal } } 
+AND = { tag = RUS OR = { ruling_party_ideology = progressive ruling_party_ideology = liberal ruling_party_ideology = big_tent } } 
+AND = { tag = BYE OR = { ruling_party_ideology = progressive ruling_party_ideology = liberal ruling_party_ideology = big_tent } } 
 
 			} 
 		
@@ -142,7 +142,7 @@ AND = { part_of_sphere = yes sphere_owner = { has_country_flag = deny_superstate
 		ai_will_do = { factor = 1 }
 	}
 	
-	xeu_single_market= {
+	xeu_single_market = {
 		picture = "single_market"
 		potential = {
 NOT = { has_country_flag = hide_superstate }
@@ -155,8 +155,8 @@ NOT = { has_country_flag = hide_superstate }
 capital_scope = { continent = europe } 
 860 = { is_core = THIS } 
 
-AND = { tag = RUS OR = { ruling_party_ideology = progressive ruling_party_ideology = liberal } } 
-AND = { tag = BYE OR = { ruling_party_ideology = progressive ruling_party_ideology = liberal } } 
+AND = { tag = RUS OR = { ruling_party_ideology = progressive ruling_party_ideology = liberal ruling_party_ideology = big_tent  } } 
+AND = { tag = BYE OR = { ruling_party_ideology = progressive ruling_party_ideology = liberal ruling_party_ideology = big_tent } } 
 
 } 
 	
@@ -172,7 +172,7 @@ AND = { tag = BYE OR = { ruling_party_ideology = progressive ruling_party_ideolo
 			war = no
 		}
 		effect = {
-any_owned = {  add_province_modifier = { name = single_market duration = -1 } }
+capital_scope = {  add_province_modifier = { name = single_market duration = -1 } }
 		}
 		ai_will_do = { factor = 1 }
 	}
@@ -202,7 +202,7 @@ OR = { modern_stock_exchange = 1 AND = { year = 1999 has_country_flag = erm_flag
 		effect = {
 add_country_modifier = { name = xeu_member duration = -1 }
 add_country_modifier = { name = eec duration = -1 }
-any_owned = { add_province_modifier = { name = currency_union_province duration = -1 } }
+capital_scope = { add_province_modifier = { name = currency_union_province duration = -1 } }
 		}
 		ai_will_do = { factor = 1 } 
 	}
@@ -226,7 +226,7 @@ OR = { government = democracy government = democracy1 government = socialist_dem
 			all_core = { add_core = XEU }
 			add_accepted_culture = european
 		}
-		ai_will_do = { factor = 1 } # modifier = { factor = 1 consciousness = 2 } }
+		ai_will_do = { factor = 1 } # modifier = { factor = 1 consciousness = 2 } 
 	}
 	xeu_defence_union = {
 		picture = "defence_union_xeu"
@@ -250,7 +250,7 @@ NOT = { has_country_flag = hide_superstate }
 			#has_unclaimed_cores = no
 		}
 		effect = {
-			any_owned = { add_province_modifier = { name = defence_union duration = -1 } }
+			capital_scope = { add_province_modifier = { name = defence_union duration = -1 } }
 		}
 		ai_will_do = { factor = 1 } 
 	}
@@ -434,8 +434,8 @@ NOT = { OR = { ruling_party_ideology = traditionalist ruling_party_ideology = na
 			set_country_flag = trade_block_ambition
 			set_country_flag = xeu_ambition
 			set_country_flag = in_trade_block
-			any_owned = { add_province_modifier = { name = single_market duration = -1 } }	
-			any_owned = { add_province_modifier = { name = currency_union_province duration = -1 } }
+			capital_scope = { add_province_modifier = { name = single_market duration = -1 } }	
+			capital_scope = { add_province_modifier = { name = currency_union_province duration = -1 } }
 			all_core = { add_core = XEU }
 			prestige = 10
 			

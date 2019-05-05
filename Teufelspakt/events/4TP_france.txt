@@ -1,0 +1,132 @@
+country_event = {
+  id = 9999956 #French Civil War
+  title = EVT_9999956_NAME
+  desc = EVT_9999956_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = POL
+             year = 1954
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999956_A
+			ai_chance = { factor = 1 }
+			
+			set_global_flag = FRA_civil_war
+			
+            release_vassal = UFR
+			
+			FRA = { all_core = { add_core = UFR } }
+		    war = {
+			 target = FRA
+			 attacker_goal = {
+				casus_belli = civil_war
+			 }
+			 defender_goal = {
+				casus_belli = civil_war
+			 }
+		    }
+  }    
+
+}
+
+country_event = {
+  id = 9999955 #Vichy Victory
+  title = EVT_9999955_NAME
+  desc = EVT_9999955_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = UFR
+             has_global_flag = FRA_civil_war
+			 war = no
+			 NOT = { exists = FRA }
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999955_A #Victory
+			ai_chance = { factor = 1 }
+			
+        change_tag = FRA
+		government = populist_dictatorship
+		ruling_party_ideology = traditionalist
+		prestige = 2000
+  }
+
+}
+
+country_event = {
+  id = 9999954 #German Intervention in French Civil War
+  title = EVT_9999954_NAME
+  desc = EVT_9999954_DESC
+  picture = "bahrain_independence"
+  fire_only_once = yes
+
+  trigger = {
+             tag = GER
+			 has_global_flag = POL_civil_war
+			 POL = { war = yes }
+			 exists = POL
+  }
+
+  mean_time_to_happen = { days = 3 }
+  
+  option = {
+            name = EVT_9999954_A #Size Luxemburg
+			ai_chance = { factor = 0.3 }
+            GER = { inherit = LUX }
+			badboy = 2.5
+  }
+  
+  option = {
+            name = EVT_9999954_B #Size Luxemburg and Alsace 
+			ai_chance = { factor = 0.6 }
+			GER = { inherit = LUX }
+			GER = { inherit = ALS }
+			badboy = 5
+			FRA = { country_event = 9999953 }
+  }
+  option = {
+            name = EVT_9999954_C #Do nothing 
+			ai_chance = { factor = 0.1 }
+  }
+
+}
+
+country_event = {
+  id = 9999953 #Alsace annexation - French reaction
+  title = EVT_9999953_NAME
+  desc = EVT_9999953_DESC
+  picture = "bahrain_independence"
+  is_triggered_only = yes
+ 
+  
+  option = {
+            name = EVT_9999953_A #Accept annexation
+			ai_chance = { factor = 0.9 }
+            prestige = -50
+  }
+  
+  option = {
+            name = EVT_9999953_B #Declare War on Germany 
+			ai_chance = { factor = 0.1 }
+			war = {
+			 target = GER
+			 attacker_goal = {
+				casus_belli = acquire_core_state 
+				state_province_id = 409
+			 }
+			 defender_goal = {
+				casus_belli = humiliate
+			 }
+		    }
+  }
+
+}

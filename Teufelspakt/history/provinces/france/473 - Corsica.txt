@@ -1,7 +1,8 @@
 owner = FRA
 controller = FRA
+add_core = UFR
 add_core = FRA
-add_core =  COR
+dd_core =  COR
 trade_goods = fish
 life_rating = 35
 terrain = dry_forest_mountains
