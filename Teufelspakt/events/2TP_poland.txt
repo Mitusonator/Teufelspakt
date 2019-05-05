@@ -698,7 +698,7 @@ country_event = {
 }
 
 country_event = {
-  id = 9999973 #LIT-GER war Lithuanian Victory
+  id = 9999961 #LIT-GER war Lithuanian Victory
   title = EVT_9999973_NAME
   desc = EVT_9999973_DESC
   picture = "bahrain_independence"
