@@ -4,6 +4,12 @@ RUS = {
 	influence_value = 0
 	military_access = yes
 }
+IRS = {
+	level = 5
+	value = 200
+	influence_value = 25
+	military_access = yes
+}
 AUS = {
 	level = 5
 	value = 200

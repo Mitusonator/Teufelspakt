@@ -1,5 +1,6 @@
-owner = ITA
-controller = ITA
+owner = IRS
+controller = IRS
+add_core = IRS
 add_core = ITA
 trade_goods = wool
 life_rating = 35

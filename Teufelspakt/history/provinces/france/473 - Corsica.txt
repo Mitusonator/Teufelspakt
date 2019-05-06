@@ -3,6 +3,7 @@ controller = FRA
 add_core = UFR
 add_core = FRA
 dd_core =  COR
+add_core = IRS
 trade_goods = fish
 life_rating = 35
 terrain = dry_forest_mountains

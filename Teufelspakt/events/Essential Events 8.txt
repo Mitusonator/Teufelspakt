@@ -6173,7 +6173,7 @@ title = "Italian Population Boom"
 fire_only_once = yes
 
 trigger = {
-tag = ITA
+OR = { tag = ITA tag = IRS }
 year = 1946
 NOT = { year = 1990 }
 }

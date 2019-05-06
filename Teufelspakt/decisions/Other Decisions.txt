@@ -20,6 +20,72 @@ prestige = 100
 		ai_will_do = { 
 			factor = 1 
 			}
+}
+
+unite_italy_ITA = {
+	picture = "claim_greater_italy"
+	potential = {
+		tag = ITA
+		exists = ITA
+		exists = IRS
 	}
+	allow = {
+			war = no
+			IRS = { is_vassal = no }
+			IRS = { war = no }
+			OR = {
+			      AND = {
+	                     IRS = { NOT = { government = populist_dictatorship } }
+			             IRS = { ai = yes }
+	                     ITA = { NOT = { government = populist_dictatorship } }
+			      }
+			      AND = { 
+			             ITA = { government = populist_dictatorship }
+						 ITA = { ai = no }
+	                     IRS = { government = populist_dictatorship }
+			      }
+			}
+	}
+	effect = {
+              ITA = { inherit = IRS }
+              prestige = 100
+	}
+	ai_will_do = { 
+		factor = 1 
+	}
+}
+
+unite_italy_IRS = {
+	picture = "claim_greater_italy"
+	potential = {
+		tag = IRS
+		exists = ITA
+		exists = IRS
+	}
+	allow = {
+			war = no
+			ITA = { is_vassal = no }
+			ITA = { war = no }
+			OR = {
+			      AND = {
+	                     IRS = { NOT = { government = populist_dictatorship } }
+			             IRS = { ai = no }
+	                     ITA = { NOT = { government = populist_dictatorship } }
+			      }
+			      AND = { 
+			             ITA = { government = populist_dictatorship }
+						 ITA = { ai = yes }
+	                     IRS = { government = populist_dictatorship }
+			      }
+			}
+	}
+	effect = {
+              IRS = { inherit = ITA }
+              prestige = 100
+	}
+	ai_will_do = { 
+		factor = 1 
+	}
+}
 
 }

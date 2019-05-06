@@ -459,6 +459,7 @@ TRS = "countries/Turkestani Republic.txt"
 CAU = "countries/Caucasus.txt"
 ALS = "countries/Alsace.txt"
 SPL = "countries/Socialist Poland.txt"
+IRS = "countries/Italian Social_Republic.txt"
 
 #Occupation of Germany tags
 

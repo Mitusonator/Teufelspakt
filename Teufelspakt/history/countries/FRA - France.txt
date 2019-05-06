@@ -82,6 +82,7 @@ schools = FRA_tech_school
 decision = united_nations
 decision = jointheunga
 decision = jointheunsc
+decision = atomic_setup
 oob = "/FRA_oob.txt"
 
 1992.1.1 = {

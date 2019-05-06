@@ -2,6 +2,7 @@ owner = UFR
 controller = UFR
 add_core = UFR
 add_core = FRA
+add_core = IRS
 trade_goods = coal
 life_rating = 35
 terrain = deciduous_forest_mountains

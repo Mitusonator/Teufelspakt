@@ -1,5 +1,6 @@
 capital = 771
 primary_culture = croat
+culture = bosniak
 religion = secularism
 government = populist_dictatorship
 plurality = 7.000000000000001

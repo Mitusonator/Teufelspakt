@@ -2,6 +2,7 @@ owner = UFR
 controller = UFR
 add_core = UFR
 add_core = FRA
+add_core = IRS
 trade_goods = grain
 life_rating = 35
 terrain = urban_venice

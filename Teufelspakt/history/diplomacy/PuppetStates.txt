@@ -396,12 +396,6 @@ vassal = {
 	end_date = 1986.1.1
 }
 vassal = {
-	first = USA
-	second = JAP
-	start_date = 1945.1.1
-	end_date = 1986.1.1
-}
-vassal = {
 	first = BOS
 	second = HZB
 	start_date = 1991.1.1

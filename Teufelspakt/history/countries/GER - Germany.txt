@@ -76,6 +76,7 @@ nonstate_consciousness = 1
 decision = united_nations
 decision = jointheunga
 decision = jointheunsc
+decision = atomic_setup
 
 schools = industrial_tech_school
 

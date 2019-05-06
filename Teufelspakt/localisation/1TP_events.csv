@@ -4,6 +4,10 @@
 ##;;;;;;;;;;;X
 # Events;;;;;;;;;;;X
 ##;;;;;;;;;;;X
+unite_italy_ITA_title;Italian Unification;;;;;;;;x
+unite_italy_ITA_desc;Finaly! With our governments being compatible Italy can reunite once again.;;;;;;;;x
+unite_italy_IRS_title;Italian Unification;;;;;;;;x
+unite_italy_IRS_desc;Finaly! With our governments being compatible Italy can reunite once again.;;;;;;;;x
 EVT_9999990_NAME;Socialist and Nationalist Partisans;;;;;;;;;;;;;x;;;;
 EVT_9999990_DESC;Despite the end of the WW2 many nationalists, that reject collaboration with Germany, and socialists, that couldn't accept defeat of Soviet Union, roam through the countryside causing great turmoil. We can only hope that situation doesn't get out of control.;;;;;;;;;;;;;x;;;;
 EVT_9999990_A;And we hope so!;;;;;;;;;;;;;x;;;;

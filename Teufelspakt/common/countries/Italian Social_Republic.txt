@@ -1,5 +1,5 @@
 graphical_culture = ItalianGC
-color = { 125 171 84 }
+color = { 85 170 125 }
 party = {
 		name = "party_conservative_0_ITA"
 		citizenship_policy = limited_citizenship
@@ -45,7 +45,7 @@ party = {
 		end_date = 2100.1.1
 }
 party = {
-		name = "party_populist_0_ITA"
+		name = "Partito Nazionale Fascista"
 		citizenship_policy = residency
 		economic_policy = state_capitalism
 		ideology = populist

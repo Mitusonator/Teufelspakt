@@ -17,18 +17,22 @@ develop_the_atomic_bomb = {
 	}
 
 	allow = {
-NOT = { AND = { tag = JAP has_country_modifier = article_9 } }
+#NOT = { AND = { tag = JAP has_country_modifier = article_9 } }
 		election = no
 		OR = { 
-			AND = { tag = RUS ai = yes year = 1945 }
+		    AND = { tag = JAP ai = yes year = 1953 money = 2000000 }
+			AND = { tag = RUS ai = yes year = 1959 money = 2000000 }
+			AND = { tag = UKR ai = yes year = 1960 money = 2000000 }
 			AND = { tag = ENG ai = yes year = 1949 money = 2000000 }
 			AND = { tag = FRA ai = yes year = 1956 money = 2000000 }
 			AND = { tag = CHI ai = yes year = 1960 money = 2000000 }
+			AND = { tag = KMT ai = yes year = 1960 money = 2000000 }
 
 			AND = { tag = HND ai = yes year = 1970 money = 2000000 }
 			AND = { tag = PAK ai = yes year = 1980 money = 2000000 }
 			AND = { tag = NKO ai = yes year = 2003 }
-			AND = { tag = ISR ai = yes year = 1963 money = 2000000 }
+			AND = { tag = POL ai = yes year = 1958 money = 2000000 }
+			AND = { tag = SPL ai = yes year = 1958 money = 2000000 }
 			AND = { tag = SAF ai = yes year = 1979 money = 2000000 }
 
 			AND = { 
@@ -83,7 +87,7 @@ NOT = { has_country_flag = hydrogen_bomb_developed }
 
 allow = {
 is_greater_power = yes
-OR = { AND = { tag = RUS ai = yes } AND = { ai = yes NOT = { badboy = 0.56 } money = 2000000 } ai = no }
+OR = { AND = { tag = GER ai = yes } AND = { ai = yes NOT = { badboy = 0.56 } money = 2000000 } ai = no }
 icbm = 1
 	}
 

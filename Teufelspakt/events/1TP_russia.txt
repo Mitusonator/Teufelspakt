@@ -1,7 +1,7 @@
 country_event = {
   id = 9999999
   title = "Establishment of 2nd Russian Republic"
-  desc = "As the aniversary of liberation from communist yoke aproches rappidly occupying powers decided that time has come to establish proper Russian state. It was decided that Russia shall follow democratic principles in the spirit of February Revolution."
+  desc = "As the aniversary of liberation from communist yoke approaches rapidly occupying powers decided that time has come to establish proper Russian state. It was decided that Russia shall follow democratic principles in the spirit of February Revolution."
   picture = "russian_flag"
   fire_only_once = yes
 
