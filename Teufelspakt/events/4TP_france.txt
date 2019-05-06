@@ -2,12 +2,13 @@ country_event = {
   id = 9999956 #French Civil War
   title = EVT_9999956_NAME
   desc = EVT_9999956_DESC
-  picture = "bahrain_independence"
+  picture = "petain_de_gaulle"
   fire_only_once = yes
 
   trigger = {
              tag = POL
              year = 1954
+			 month = 2
   }
 
   mean_time_to_happen = { days = 1 }
@@ -38,7 +39,7 @@ country_event = {
   id = 9999955 #Vichy Victory
   title = EVT_9999955_NAME
   desc = EVT_9999955_DESC
-  picture = "bahrain_independence"
+  picture = "petain_de_gaulle"
   fire_only_once = yes
 
   trigger = {
@@ -66,7 +67,7 @@ country_event = {
   id = 9999954 #German Intervention in French Civil War
   title = EVT_9999954_NAME
   desc = EVT_9999954_DESC
-  picture = "bahrain_independence"
+  picture = "german_ethnic_map"
   fire_only_once = yes
 
   trigger = {
@@ -104,7 +105,7 @@ country_event = {
   id = 9999953 #Alsace annexation - French reaction
   title = EVT_9999953_NAME
   desc = EVT_9999953_DESC
-  picture = "bahrain_independence"
+  picture = "german_ethnic_map"
   is_triggered_only = yes
  
   

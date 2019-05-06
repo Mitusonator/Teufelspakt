@@ -2,7 +2,7 @@ country_event = {
   id = 9999999
   title = "Establishment of 2nd Russian Republic"
   desc = "As the aniversary of liberation from communist yoke aproches rappidly occupying powers decided that time has come to establish proper Russian state. It was decided that Russia shall follow democratic principles in the spirit of February Revolution."
-  picture = "bahrain_independence"
+  picture = "russian_flag"
   fire_only_once = yes
 
   trigger = {
@@ -67,7 +67,7 @@ country_event = {
   id = 9999998
   title = "Revision of Russian Constitution"
   desc = "Russian Constitution wasn't established fully freely, now when occupation forces are gone it's time for trye self-determination."
-  picture = "bahrain_independence"
+  picture = "russian_flag"
   fire_only_once = yes
 
   trigger = {
@@ -106,7 +106,7 @@ country_event = {
   id = 9999997
   title = "Tsardom or Dictatorship?"
   desc = "Now that we decided that our constitution is insufficient it's time to decide how to reform it."
-  picture = "bahrain_independence"
+  picture = "russian_flag"
   is_triggered_only = yes
 
   mean_time_to_happen = { days = 1 }
@@ -127,7 +127,7 @@ country_event = {
   id = 9999996
   title = "Parliamentarism or Tsarist Autocracy?"
   desc = "Will we be content with the Monarch serving as unifying figurehead or wil he (or she) held real power?"
-  picture = "bahrain_independence"
+  picture = "russian_flag"
   is_triggered_only = yes
 
   mean_time_to_happen = { days = 1 }
@@ -163,7 +163,7 @@ country_event = {
   id = 9999995
   title = "Embracing Fascism or Military rule?"
   desc = "Will leadership of our nation fall at the hands of military or radical fascist regime?"
-  picture = "bahrain_independence"
+  picture = "russian_flag"
   is_triggered_only = yes
 
   mean_time_to_happen = { days = 1 }
@@ -215,7 +215,7 @@ country_event = {
   id = 9999994 # Caucasian Occupation Zone
   title = "Fate of Caucasia"
   desc = "Now that mandatory rule has ended in Russian mainland its time to decide the fate of our occupation zone."
-  picture = "bahrain_independence"
+  picture = "caucasus_topography"
   fire_only_once = yes
 
   trigger = {
@@ -281,10 +281,10 @@ country_event = {
 }
 
 country_event = {
-  id = 9999993 # Caucasian Occupation Zone
+  id = 9999993 # Turkestani Occupation Zone
   title = "Fate of Turkestan"
   desc = "Now that mandatory rule has ended in Russian mainland its time to decide the fate of our occupation zone."
-  picture = "bahrain_independence"
+  picture = "central_asia_countries"
   fire_only_once = yes
 
   trigger = {
@@ -333,7 +333,7 @@ country_event = {
   id = 9999992 
   title = "Fate of Sibera"
   desc = "Now that mandatory rule has ended in Russian mainland its time to decide the fate of our occupation zone."
-  picture = "bahrain_independence"
+  picture = "siberia_map"
   fire_only_once = yes
 
   trigger = {
@@ -361,7 +361,7 @@ country_event = {
   id = 9999991
   title = "Fate of Baltic Occupation Zone"
   desc = "Now that mandatory rule has ended in Russian mainland its time to decide the fate of our occupation zone."
-  picture = "bahrain_independence"
+  picture = "baltic_countries"
   fire_only_once = yes
 
   trigger = {

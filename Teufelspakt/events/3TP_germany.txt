@@ -2,7 +2,7 @@ country_event = {
   id = 9999960 #Berlin Parade
   title = EVT_9999960_NAME
   desc = EVT_9999960_DESC
-  picture = "bahrain_independence"
+  picture = "parade_in_berlin"
   fire_only_once = yes
 
   trigger = {
@@ -25,7 +25,7 @@ country_event = {
   id = 9999959 #Retirement of Adolf Hitler
   title = EVT_9999959_NAME
   desc = EVT_9999959_DESC
-  picture = "bahrain_independence"
+  picture = "hitler_speech"
   is_triggered_only = yes
   
   option = {
@@ -39,7 +39,7 @@ country_event = {
   id = 9999958 #Death of Hitler
   title = EVT_9999958_NAME
   desc = EVT_9999958_DESC
-  picture = "bahrain_independence"
+  picture = "hitler_dead"
   fire_only_once = yes
 
   trigger = {
@@ -61,7 +61,7 @@ country_event = {
   id = 9999957 #Goering unable to serve, new chancellor!
   title = EVT_9999957_NAME
   desc = EVT_9999957_DESC
-  picture = "bahrain_independence"
+  picture = "new_reichchancellor"
   fire_only_once = yes
 
   trigger = {

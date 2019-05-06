@@ -2,7 +2,7 @@ country_event = {
   id = 9999990
   title = EVT_9999990_NAME
   desc = EVT_9999990_DESC 
-  picture = "bahrain_independence"
+  picture = "nwo2_cursed_soldiers"
   fire_only_once = yes
 
   trigger = {
@@ -43,7 +43,7 @@ country_event = {
   id = 9999989
   title = EVT_9999989_NAME
   desc = EVT_9999989_DESC
-  picture = "bahrain_independence"
+  picture = "nwo2_1970_polish_riots"
   fire_only_once = yes
 
   trigger = {
@@ -71,7 +71,7 @@ country_event = {
   id = 9999988
   title = EVT_9999988_NAME
   desc = EVT_9999988_DESC
-  picture = "bahrain_independence"
+  picture = "nwo2_1970_polish_riots"
   fire_only_once = yes
 
   trigger = {
@@ -96,7 +96,7 @@ country_event = {
   id = 9999987
   title = EVT_9999987_NAME
   desc = EVT_9999987_DESC
-  picture = "bahrain_independence"
+  picture = "nwo2_1970_polish_riots"
   fire_only_once = yes
 
   trigger = {
@@ -134,7 +134,7 @@ country_event = {
   id = 9999986
   title = EVT_9999986_NAME
   desc = EVT_9999986_DESC
-  picture = "bahrain_independence"
+  picture = "nwo2_1970_polish_riots"
   fire_only_once = yes
 
   trigger = {
@@ -160,7 +160,7 @@ country_event = {
   id = 9999985
   title = EVT_9999985_NAME
   desc = EVT_9999985_DESC
-  picture = "bahrain_independence"
+  picture = "nwo2_1970_polish_riots"
   fire_only_once = yes
 
   trigger = {
@@ -185,7 +185,7 @@ country_event = {
   id = 9999984 #Polish Civil War
   title = EVT_9999984_NAME
   desc = EVT_9999984_DESC
-  picture = "bahrain_independence"
+  picture = "socialist_poland_flag"
   fire_only_once = yes
 
   trigger = {
@@ -285,7 +285,7 @@ country_event = {
   id = 9999983 #SPL Victory
   title = EVT_9999983_NAME
   desc = EVT_9999983_DESC
-  picture = "bahrain_independence"
+  picture = "socialist_poland_flag"
   fire_only_once = yes
 
   trigger = {
@@ -332,7 +332,7 @@ country_event = {
   id = 9999982 #Shape of the Federation
   title = EVT_9999982_NAME
   desc = EVT_9999982_DESC
-  picture = "bahrain_independence"
+  picture = "socialist_poland_flag"
   fire_only_once = yes
 
   trigger = {
@@ -420,7 +420,7 @@ country_event = {
   id = 9999981 #German Intervention in Polish Civil War
   title = EVT_9999981_NAME
   desc = EVT_9999981_DESC
-  picture = "bahrain_independence"
+  picture = "german_ethnic_map"
   fire_only_once = yes
 
   trigger = {
@@ -484,7 +484,7 @@ country_event = {
   id = 9999980 #POL - German Demand
   title = EVT_9999980_NAME
   desc = EVT_9999980_DESC
-  picture = "bahrain_independence"
+  picture = "german_ethnic_map"
   is_triggered_only = yes
  
   
@@ -506,7 +506,7 @@ country_event = {
   id = 9999979 #GER - Poland Refuse
   title = EVT_9999979_NAME
   desc = EVT_9999979_DESC
-  picture = "bahrain_independence"
+  picture = "german_ethnic_map"
   is_triggered_only = yes
   
   
@@ -537,7 +537,7 @@ country_event = {
   id = 9999978 #POL-GER war German Victory
   title = EVT_9999978_NAME
   desc = EVT_9999978_DESC
-  picture = "bahrain_independence"
+  picture = "german_ethnic_map"
   fire_only_once = yes
 
   trigger = {
@@ -563,7 +563,7 @@ country_event = {
   id = 9999977 #POL-GER war Polish Victory
   title = EVT_9999978_NAME
   desc = EVT_9999978_DESC
-  picture = "bahrain_independence"
+  picture = "polish_ethnic_map"
   fire_only_once = yes
 
   trigger = {
@@ -589,7 +589,7 @@ country_event = {
   id = 9999976 #German Intervention in Polish Civil War - Lithuania
   title = EVT_9999976_NAME
   desc = EVT_9999976_DESC
-  picture = "bahrain_independence"
+  picture = "german_ethnic_map"
   fire_only_once = yes
 
   trigger = {
@@ -620,7 +620,7 @@ country_event = {
   id = 9999975 #LIT - German Demand
   title = EVT_9999975_NAME
   desc = EVT_9999975_DESC
-  picture = "bahrain_independence"
+  picture = "german_ethnic_map"
   is_triggered_only = yes
    
   
@@ -642,7 +642,7 @@ country_event = {
   id = 9999974 #GER - Lithuania Refuse
   title = EVT_9999974_NAME
   desc = EVT_9999974_DESC
-  picture = "bahrain_independence"
+  picture = "german_ethnic_map"
   is_triggered_only = yes
    
   
@@ -673,7 +673,7 @@ country_event = {
   id = 9999973 #LIT-GER war German Victory
   title = EVT_9999973_NAME
   desc = EVT_9999973_DESC
-  picture = "bahrain_independence"
+  picture = "german_ethnic_map"
   fire_only_once = yes
 
   trigger = {
@@ -699,7 +699,7 @@ country_event = {
   id = 9999961 #LIT-GER war Lithuanian Victory
   title = EVT_9999961_NAME
   desc = EVT_9999961_DESC
-  picture = "bahrain_independence"
+  picture = "german_ethnic_map"
   fire_only_once = yes
 
   trigger = {
@@ -725,7 +725,7 @@ country_event = {
   id = 9999972 #Ukrainian Intervention in Polish Civil War
   title = EVT_9999972_NAME
   desc = EVT_9999972_DESC
-  picture = "bahrain_independence"
+  picture = "ukrainian_ethnic_map"
   fire_only_once = yes
 
   trigger = {
@@ -754,7 +754,7 @@ country_event = {
   id = 9999971 #SPL - Ukrainian Demand
   title = EVT_9999971_NAME
   desc = EVT_9999971_DESC
-  picture = "bahrain_independence"
+  picture = "ukrainian_ethnic_map"
   is_triggered_only = yes
    
   
@@ -776,7 +776,7 @@ country_event = {
   id = 9999970 #UKR - Social Poland Refuse
   title = EVT_9999970_NAME
   desc = EVT_9999970_DESC
-  picture = "bahrain_independence"
+  picture = "ukrainian_ethnic_map"
   is_triggered_only = yes
    
   
@@ -807,7 +807,7 @@ country_event = {
   id = 9999962 #SPL-UKR war Ukrainian Victory
   title = EVT_9999970_NAME
   desc = EVT_9999970_DESC
-  picture = "bahrain_independence"
+  picture = "ukrainian_ethnic_map"
   fire_only_once = yes
 
   trigger = {
@@ -861,7 +861,7 @@ country_event = {
   id = 9999968 #Ukraine is at war - Russia demands its territory
   title = EVT_9999968_NAME
   desc = EVT_9999968_DESC
-  picture = "bahrain_independence"
+  picture = "soviet_ethnic_map"
   fire_only_once = yes
 
   trigger = {
@@ -911,7 +911,7 @@ country_event = {
   id = 9999967 #UKR - Russian Demand
   title = EVT_9999967_NAME
   desc = EVT_9999967_DESC
-  picture = "bahrain_independence"
+  picture = "soviet_ethnic_map"
   is_triggered_only = yes
    
   
@@ -933,7 +933,7 @@ country_event = {
   id = 9999966 #RUS - Ukraine Refuse
   title = EVT_9999966_NAME
   desc = EVT_9999966_DESC
-  picture = "bahrain_independence"
+  picture = "soviet_ethnic_map"
   is_triggered_only = yes
    
   
@@ -964,7 +964,7 @@ country_event = {
   id = 9999965 #RUS-UKR war Russian Victory
   title = EVT_9999965_NAME
   desc = EVT_9999965_DESC
-  picture = "bahrain_independence"
+  picture = "soviet_ethnic_map"
   fire_only_once = yes
 
   trigger = {
@@ -990,7 +990,7 @@ country_event = {
   id = 9999964 #RUS-UKR war Ukrainian Victory
   title = EVT_9999964_NAME
   desc = EVT_9999964_DESC
-  picture = "bahrain_independence"
+  picture = "ukrainian_ethnic_map"
   fire_only_once = yes
 
   trigger = {
@@ -1016,7 +1016,7 @@ country_event = {
   id = 9999963 #Rommania wants to stop Ukraine
   title = EVT_9999963_NAME
   desc = EVT_9999963_DESC
-  picture = "bahrain_independence"
+  picture = "ukrainian_ethnic_map"
   fire_only_once = yes
 
   trigger = {
