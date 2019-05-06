@@ -6,7 +6,7 @@ country_event = {
   fire_only_once = yes
 
   trigger = {
-             tag = POL
+             tag = FRA
              year = 1954
 			 month = 2
   }
@@ -23,7 +23,7 @@ country_event = {
 			
 			FRA = { all_core = { add_core = UFR } }
 		    war = {
-			 target = FRA
+			 target = UFR
 			 attacker_goal = {
 				casus_belli = civil_war
 			 }
@@ -72,9 +72,9 @@ country_event = {
 
   trigger = {
              tag = GER
-			 has_global_flag = POL_civil_war
-			 POL = { war = yes }
-			 exists = POL
+			 has_global_flag = FRA_civil_war
+			 FRA = { war = yes }
+			 exists = FRA
   }
 
   mean_time_to_happen = { days = 3 }
