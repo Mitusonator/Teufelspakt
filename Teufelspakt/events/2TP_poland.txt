@@ -697,8 +697,8 @@ country_event = {
 
 country_event = {
   id = 9999961 #LIT-GER war Lithuanian Victory
-  title = EVT_9999973_NAME
-  desc = EVT_9999973_DESC
+  title = EVT_9999961_NAME
+  desc = EVT_9999961_DESC
   picture = "bahrain_independence"
   fire_only_once = yes
 
@@ -713,7 +713,7 @@ country_event = {
   mean_time_to_happen = { days = 1 }
   
   option = {
-            name = EVT_9999973_A #Surrender
+            name = EVT_9999961_A #Surrender
 			ai_chance = { factor = 0.4 }
             any_owned = { limit = { is_core = LIT }  secede_province = LIT }
 			clr_global_flag = lit_ger_border_war
@@ -760,13 +760,13 @@ country_event = {
   
   option = {
             name = EVT_9999971_A #Agree to ukrainian terms
-			ai_chance = { factor = 0.10 }
+			ai_chance = { factor = 0.1 }
             any_owned = { limit = { is_core = UKR }  secede_province = UKR }
   }
   
   option = {
             name = EVT_9999971_B #Refuse Ultimatum 
-			ai_chance = { factor = 0.90 }
+			ai_chance = { factor = 0.9 }
 			UKR = { country_event = 9999970 }
   }
 
@@ -804,7 +804,7 @@ country_event = {
 }
 
 country_event = {
-  id = 9999962 #SPL-UKR war Ukrainan Victory
+  id = 9999962 #SPL-UKR war Ukrainian Victory
   title = EVT_9999970_NAME
   desc = EVT_9999970_DESC
   picture = "bahrain_independence"
@@ -917,13 +917,13 @@ country_event = {
   
   option = {
             name = EVT_9999967_A #Agree to russian terms
-			ai_chance = { factor = 0.05 }
+			ai_chance = { factor = 0.1 }
             any_owned = { limit = { is_core = RUS }  secede_province = RUS }
   }
   
   option = {
             name = EVT_9999967_B #Refuse Ultimatum 
-			ai_chance = { factor = 0.95 }
+			ai_chance = { factor = 0.9 }
 			RUS = { country_event = 9999966 }
   }
 
@@ -987,7 +987,7 @@ country_event = {
 }
 
 country_event = {
-  id = 9999964 #RUS-UKR war Russian Victory
+  id = 9999964 #RUS-UKR war Ukrainian Victory
   title = EVT_9999964_NAME
   desc = EVT_9999964_DESC
   picture = "bahrain_independence"
@@ -1013,7 +1013,7 @@ country_event = {
 }
 
 country_event = {
-  id = 9999963 #Rommania want to stop Ukraine
+  id = 9999963 #Rommania wants to stop Ukraine
   title = EVT_9999963_NAME
   desc = EVT_9999963_DESC
   picture = "bahrain_independence"
