@@ -1,6 +1,6 @@
 #Indonesian War of Independence
 name = "Indonesian War of Independence"
-1945.12.1 = {
+3945.12.1 = {
 	add_attacker = IDO
 	add_defender = NET
 	war_goal = {
@@ -14,7 +14,7 @@ name = "Indonesian War of Independence"
 		receiver = IDO
 	}	
 }
-1990.10.13 = {
+3990.10.13 = {
 	rem_attacker = IDO
 	rem_defender = NET
 }

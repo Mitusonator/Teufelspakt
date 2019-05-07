@@ -1,6 +1,6 @@
 #First_Indochina_War.txt
 name = "First Indochina War"
-1948.12.1 = {
+3948.12.1 = {
 	add_attacker = FRA
 	add_attacker = CAM
 	add_attacker = LUA
@@ -16,7 +16,7 @@ name = "First Indochina War"
 		receiver = FRA
 	}	
 }
-1954.1.1 = {
+3954.1.1 = {
 	rem_attacker = FRA
 	rem_attacker = CAM
 	rem_attacker = LUA

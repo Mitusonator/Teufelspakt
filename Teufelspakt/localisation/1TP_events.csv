@@ -5,13 +5,13 @@
 # Events;;;;;;;;;;;X
 ##;;;;;;;;;;;X
 unite_italy_ITA_title;Italian Unification;;;;;;;;x
-unite_italy_ITA_desc;Finaly! With our governments being compatible Italy can reunite once again.;;;;;;;;x
+unite_italy_ITA_desc;Finally! With our governments being compatible Italy can reunite once again.;;;;;;;;x
 unite_italy_IRS_title;Italian Unification;;;;;;;;x
-unite_italy_IRS_desc;Finaly! With our governments being compatible Italy can reunite once again.;;;;;;;;x
+unite_italy_IRS_desc;Finally! With our governments being compatible Italy can reunite once again.;;;;;;;;x
 EVT_9999990_NAME;Socialist and Nationalist Partisans;;;;;;;;;;;;;x;;;;
 EVT_9999990_DESC;Despite the end of the WW2 many nationalists, that reject collaboration with Germany, and socialists, that couldn't accept defeat of Soviet Union, roam through the countryside causing great turmoil. We can only hope that situation doesn't get out of control.;;;;;;;;;;;;;x;;;;
 EVT_9999990_A;And we hope so!;;;;;;;;;;;;;x;;;;
-EVT_9999989_NAME;Unreast of Minorities;;;;;;;;;;;;;x;;;;
+EVT_9999989_NAME;Unrest of Minorities;;;;;;;;;;;;;x;;;;
 EVT_9999989_DESC;Even before the war strife between the minorities was a problem in 2nd Polish Republic - now with the acquisition of new territories it's starting to reach even greater levels.;;;;;;;;;;;;;x;;;;
 EVT_9999989_A;What do you mean? They don't want to speak Polish?!;;;;;;;;;;;;;x;;;;
 EVT_9999988_NAME;Prison break;;;;;;;;;;;;;x;;;;
@@ -22,13 +22,13 @@ EVT_9999987_DESC;Lwow, Krakow, Lodz, Warsaw, Poznan those cities were caught und
 EVT_9999987_A;Someone said "military law?";;;;;;;;;;;;;x;;;;
 EVT_9999987_B;Give in to their demands;;;;;;;;;;;;;x;;;;
 EVT_9999986_NAME;Farmers Protests;;;;;;;;;;;;;x;;;;
-EVT_9999986_DESC;Food situation in cities is stil dire and we have has to relly on mandatory grain supply enforced on the peasants, however the prolonging situation starts to spark discontent, among rural population, that sparked in the form of country wide protest.;;;;;;;;;;;;;x;;;;
+EVT_9999986_DESC;Food situation in cities is still dire and we have has to rely on mandatory grain supply enforced on the peasants, however the prolonging situation starts to spark discontent, among rural population, that sparked in the form of country wide protest.;;;;;;;;;;;;;x;;;;
 EVT_9999986_A;Is everyone already rioting?;;;;;;;;;;;;;x;;;;
 EVT_9999985_NAME;Chaos in the south! Chaos in the east!;;;;;;;;;;;;;x;;;;
 EVT_9999985_DESC;We are not quite sure yet what is happening but military forces were unable to stop the rioters and were forced to flee to central Poland to regroup, however they are assuring us that this situation is only temporary.;;;;;;;;;;;;;x;;;;
 EVT_9999985_A;Everything is fine... right?;;;;;;;;;;;;;x;;;;
 EVT_9999984_NAME;Polish Civil War!;;;;;;;;;;;;;x;;;;
-EVT_9999984_DESC;When the Germans came we were unable to stop them, yet we fought bravely even under the occupation, but the government... the government in London betrayed us! And now we socialists see, we patriots see no more German fabrications will cover the eyes of truth seekers the true enemy is fascism and our crypto-fascist overlords! No matter if your cause is simple welfare of the people that went into peril with Soviet tragedy or patriotic duty that pushes you forward; We will be victorious and the traitors of the nation, traitors of the people, shall hang!;;;;;;;;;;;;;x;;;;
+EVT_9999984_DESC;When the Germans came we were unable to stop them, yet we fought bravely even under the occupation, but the government... the government in London betrayed us! And now we socialists see, we patriots see no more German fabrications will cover the eyes of truth seekers the true enemy is fascism and our crypto-fascist overlords! No matter if your cause is simple welfare of the people that went into peril with Soviet tragedy or patriotic duty that pushes you forward. We shall be victorious and the traitors of the nation, traitors of the people, shall hang!;;;;;;;;;;;;;x;;;;
 EVT_9999984_A;Death to all who oppose the will of the people and nations!;;;;;;;;;;;;;x;;;;
 EVT_9999984_B;It's time to stop this madness!;;;;;;;;;;;;;x;;;;
 EVT_9999983_NAME;Victory in Polish Civil War!;;;;;;;;;;;;;x;;;;
@@ -41,19 +41,19 @@ EVT_9999982_A;Status quo!;;;;;;;;;;;;;x;;;;
 EVT_9999982_B;Socialist Democracy!;;;;;;;;;;;;;x;;;;
 EVT_9999982_C;Revive the Soviet experiment!;;;;;;;;;;;;;x;;;;
 EVT_9999982_D;Pan-Slavic Federation!;;;;;;;;;;;;;x;;;;
-EVT_9999960_NAME;Frist aniversary of The Great War on Communism;;;;;;;;;;;;;x;;;;
-EVT_9999960_DESC;The 5th of March 1953 marks the first aniversary of "The Great War on Communism" where nations of Europe and beyond united against the Bolshevik plague. On this day many parades were held around the World, but the bigest and the most splendorous one in Berlin where columns of soldiers and tanks rolled through the Brandenburg Gate accompanied by the highest officials of the Reich. Many prominent figures from other countries were also invated to the parade, including US Vice President Richard Nixon (who attended the event even despite US-German relations getting colder and colder) and Japanese Prince Mikasa. However the culminative moment of the whole event, our Fuhrers speech, were yet to come.;;;;;;;;;;;;;x;;;;
+EVT_9999960_NAME;First anniversary of The Great War on Communism;;;;;;;;;;;;;x;;;;
+EVT_9999960_DESC;The 5th of March 1953 marks the first anniversary of "The Great War on Communism" where nations of Europe and beyond united against the Bolshevik plague. On this day many parades were held around the World, but the biggest and the most splendorous one in Berlin where columns of soldiers and tanks rolled through the Brandenburg Gate accompanied by the highest officials of the Reich. Many prominent figures from other countries were also invated to the parade, including US Vice President Richard Nixon (who attended the event even despite US-German relations getting colder and colder) and Japanese Prince Mikasa. However the culminative moment of the whole event, our Fuhrer's speech, were yet to come.;;;;;;;;;;;;;x;;;;
 EVT_9999960_A;What a show!;;;;;;;;;;;;;x;;;;
-EVT_9999959_NAME;Hitlers Final Speech;;;;;;;;;;;;;x;;;;
-EVT_9999959_DESC;Hitler weren't as energetic as his younger self but for this great event he gathered all of the strength that was left in him to deliver the speech. In this speach he emphasised how great achivement the defeat of Soviet Union was and acknowledged the titanic sacrifice made by all nations and people that took part in this crusade. Howether to the shock of many he also announced his retirement, the post of Fuhrer and Chancellor were to be separated and held by Joseph Goebbels and Herman Goering respectively.;;;;;;;;;;;;;x;;;;
+EVT_9999959_NAME;Hitler's Final Speech;;;;;;;;;;;;;x;;;;
+EVT_9999959_DESC;Hitler weren't as energetic as his younger self but for this great event he gathered all of the strength that was left in him to deliver the speech. In this speech he emphasised how great achievement the defeat of Soviet Union was and acknowledged the titanic sacrifice made by all nations and people that took part in this crusade. However to the shock of many he also announced his retirement, the post of Fuhrer and Chancellor were to be separated and held by Joseph Goebbels and Herman Goering respectively.;;;;;;;;;;;;;x;;;;
 EVT_9999959_A;Now it's time for his prodigies to step into spotlight;;;;;;;;;;;;;x;;;;
 EVT_9999958_NAME;The Death of Hitler;;;;;;;;;;;;;x;;;;
-EVT_9999958_DESC;Hitler's health was deterioration for a long time, which was kept secret from the public, howevere, now that he is dead it is of no use to hide his status - Yes Adolf Hitler is dead, to the shock and terror of many, or to joy of them...;;;;;;;;;;;;;x;;;;
+EVT_9999958_DESC;Hitler's health was deterioration for a long time, which was kept secret from the public, however, now that he is dead it is of no use to hide his status - Yes Adolf Hitler is dead, to the shock and terror of many, or to joy of them...;;;;;;;;;;;;;x;;;;
 EVT_9999958_A;Some will mourn him, some will curse his name.;;;;;;;;;;;;;x;;;;
 EVT_9999958_NAME;Goering Incapable!;;;;;;;;;;;;;x;;;;
-EVT_9999958_DESC;Goering's addictment to heroine has been a nuisance since he took the chancellor's office, for some time now Martin Borman has been serving as de facto head of government, but it can continue no more! It's time to choose replacement for Goering.;;;;;;;;;;;;;x;;;;
+EVT_9999958_DESC;Goering's addiction to heroine has been a nuisance since he took the chancellor's office, for some time now Martin Bormann has been serving as de facto head of government, but it can continue no more! It's time to choose replacement for Goering.;;;;;;;;;;;;;x;;;;
 EVT_9999958_A;Borman is already familiar with the government, choose him!;;;;;;;;;;;;;x;;;;
-EVT_9999958_A;We should choose Speer, Hitlers trusted architect!;;;;;;;;;;;;;x;;;;
+EVT_9999958_A;We should choose Speer, Hitler's trusted architect!;;;;;;;;;;;;;x;;;;
 EVT_9999958_A;Himmler and SS uses this occasion to size power!;;;;;;;;;;;;;x;;;;
 EVT_9999958_A;Invite Strasser and reconcile with the former left wing of the party!;;;;;;;;;;;;;x;;;;
 EVT_9999958_A;Invite Wehrmacht to the government to avert potential crisis!;;;;;;;;;;;;;x;;;;
@@ -65,7 +65,7 @@ EVT_9999981_C;Size Danzig and demand territory annexed into the Reich durin WW2!
 EVT_9999981_D;We won't risk another war;;;;;;;;;;;;;x;;;;
 EVT_9999980_NAME;German Demands;;;;;;;;;;;;;x;;;;
 EVT_9999980_DESC;Germany is demanding territorial concessions, should we agree to their terms and not risk two front war or resist them?;;;;;;;;;;;;;x;;;;
-EVT_9999980_A;Agree to german terms;;;;;;;;;;;;;x;;;;
+EVT_9999980_A;Agree to German terms;;;;;;;;;;;;;x;;;;
 EVT_9999980_B;They are surely bluffing;;;;;;;;;;;;;x;;;;
 EVT_9999979_NAME;Poland Refuse!;;;;;;;;;;;;;x;;;;
 EVT_9999979_DESC;Poland refused our conditions.;;;;;;;;;;;;;x;;;;
@@ -82,9 +82,9 @@ EVT_9999976_DESC;Civil war is ravaging through Polish land, it could be an oppor
 EVT_9999976_A;Demand annexation!;;;;;;;;;;;;;x;;;;
 EVT_9999976_B;We won't intervene in this case;;;;;;;;;;;;;x;;;;
 EVT_9999975_NAME;Germany demands annexation;;;;;;;;;;;;;x;;;;
-EVT_9999975_DESC;Germany demands that we surrender to them and transefer our territory to their Baltic puppet.;;;;;;;;;;;;;x;;;;
+EVT_9999975_DESC;Germany demands that we surrender to them and transfer our territory to their Baltic puppet.;;;;;;;;;;;;;x;;;;
 EVT_9999975_A;We have no chance...;;;;;;;;;;;;;x;;;;
-EVT_9999975_B;Never, we are fighting for freedom from opression!;;;;;;;;;;;;;x;;;;
+EVT_9999975_B;Never, we are fighting for freedom from oppression!;;;;;;;;;;;;;x;;;;
 EVT_9999974_NAME;Lithuania Refuses;;;;;;;;;;;;;x;;;;
 EVT_9999974_DESC;Lithuania refused our conditions.;;;;;;;;;;;;;x;;;;
 EVT_9999974_A;Who would even want their pathetic land!;;;;;;;;;;;;;x;;;;
@@ -144,9 +144,9 @@ EVT_9999955_NAME;Petain's Forces Civil War;;;;;;;;;;;;;x;;;;
 EVT_9999955_DESC;After bloody civil war we were finally able to win! De Gaulle is now imprisoned and awaiting his trial.;;;;;;;;;;;;;x;;;;
 EVT_9999955_A;Travail, famille, patrie!..;;;;;;;;;;;;;x;;;;
 EVT_9999954_NAME;German Intervention in French Civil War;;;;;;;;;;;;;x;;;;
-EVT_9999954_DESC;Turmoil in France raises opportunity to size Luxemburg and Alsatian Condominium.;;;;;;;;;;;;;x;;;;
-EVT_9999954_A;Size Luxemburg!;;;;;;;;;;;;;x;;;;
-EVT_9999954_B;Size Luxemburg and Alsace!;;;;;;;;;;;;;x;;;;
+EVT_9999954_DESC;Turmoil in France raises opportunity to size Luxembourg and Alsatian Condominium.;;;;;;;;;;;;;x;;;;
+EVT_9999954_A;Size Luxembourg!;;;;;;;;;;;;;x;;;;
+EVT_9999954_B;Size Luxembourg and Alsace!;;;;;;;;;;;;;x;;;;
 EVT_9999954_C;Don't anger the French..;;;;;;;;;;;;;x;;;;
 EVT_9999953_NAME;Germany Sizes Alsace;;;;;;;;;;;;;x;;;;
 EVT_9999953_DESC;Germany used our civil war as an opportunity to size Alsace, what should we do?;;;;;;;;;;;;;x;;;;

@@ -1,6 +1,6 @@
 #Chinese_Civil_War.txt
 name = "Chinese Civil War"
-1945.12.1 = {
+2945.12.1 = {
 	add_attacker = CHI
 	add_defender = KMT
 	war_goal = {
@@ -14,7 +14,7 @@ name = "Chinese Civil War"
 		receiver = CHI
 	}
 }
-1950.5.1 = {
+3950.5.1 = {
 	rem_attacker = CHI
 	rem_defender = KMT
 }

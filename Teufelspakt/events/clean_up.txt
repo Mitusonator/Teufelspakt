@@ -8,6 +8,7 @@ country_event = {
 		NOT = {
 			government = proletarian_dictatorship
 			government = proletarian_dictatorship1
+			AND = { populist_dictatorship  ruling_party_ideology = communist_social }
 			government = sar_government
 		}
 		civilized = yes
@@ -274,33 +275,33 @@ ruling_party_ideology = nationalist }
 	}
 }
 
-country_event = {
-	id = 60100
-	title = "EVTNAME60000"
-	desc = "EVTDESC60000"
-	picture = "communist_cleanup"
-	
-	trigger = {
-		vote_franschise = none_voting
-		NOT = { government = proletarian_dictatorship }
-		NOT = { government = proletarian_dictatorship1 }
-		NOT = { government = sar_government }
-		OR = {
-			ruling_party_ideology = communist_social
-			ruling_party_ideology = communist
-		}
-		civilized = yes
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
-	option = {
-		name = "EVTOPTA60000"
-		government = proletarian_dictatorship
-	}
-}
+#country_event = {
+#	id = 60100
+#	title = "EVTNAME60000"
+#	desc = "EVTDESC60000"
+#	picture = "communist_cleanup"
+#	
+#	trigger = {
+#		vote_franschise = none_voting
+#		NOT = { government = proletarian_dictatorship }
+#		NOT = { government = proletarian_dictatorship1 }
+#		NOT = { government = sar_government }
+#		OR = {
+#			ruling_party_ideology = communist_social
+#			ruling_party_ideology = communist
+#		}
+#		civilized = yes
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA60000"
+#		government = proletarian_dictatorship
+#	}
+#}
 
 #country_event = {
 #	id = 60110

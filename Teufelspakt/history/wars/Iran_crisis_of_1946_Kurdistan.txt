@@ -1,6 +1,6 @@
 #Iran_crisis_of_1946_Kurdistan.txt
 name = "Mahabad Uprising"
-1945.12.1 = {
+3945.12.1 = {
 	add_attacker = PER
 	add_defender = KUR
 	war_goal = {
@@ -14,7 +14,7 @@ name = "Mahabad Uprising"
 		receiver = PER
 	}	
 }
-1990.10.13 = {
+3990.10.13 = {
 	rem_attacker = PER
 	rem_defender = KUR
 }

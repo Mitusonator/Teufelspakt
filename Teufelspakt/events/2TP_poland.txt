@@ -374,6 +374,7 @@ country_event = {
 			LAT = { all_core = { add_core = XEA } }
 			EST = { all_core = { add_core = XEA } }
 			MOL = { all_core = { add_core = XEA } }
+			CAU = { all_core = { add_core = XEA } }
 			add_accepted_culture = russian
 			add_accepted_culture = latvian
 			add_accepted_culture = estonian
@@ -396,6 +397,7 @@ country_event = {
 			LAT = { all_core = { add_core = XEA } }
 			EST = { all_core = { add_core = XEA } }
 			MOL = { all_core = { add_core = XEA } }
+			CAU = { all_core = { add_core = XEA } }
 			TRS = { all_core = { limit = { NOT = { is_core = ETS } } add_core = XEA } }
 			
 			683 = { add_core = XEA }

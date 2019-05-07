@@ -1,6 +1,6 @@
 #Iran_crisis_of_1946.txt
 name = "Iran Crisis of 1946"
-1945.12.1 = {
+3945.12.1 = {
 	add_attacker = PER
 	add_defender = AZB
 	war_goal = {
@@ -14,7 +14,7 @@ name = "Iran Crisis of 1946"
 		receiver = PER
 	}	
 }
-1990.10.13 = {
+3990.10.13 = {
 	rem_attacker = PER
 	rem_defender = AZB
 }

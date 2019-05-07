@@ -1,6 +1,6 @@
 #Ili_Rebellion.txt
 name = "Ili Rebellion"
-1945.12.1 = {
+3945.12.1 = {
 	add_attacker = KMT
 	add_defender = ETS
 	war_goal = {
@@ -14,7 +14,7 @@ name = "Ili Rebellion"
 		receiver = KMT
 	}	
 }
-1990.10.13 = {
+3990.10.13 = {
 	rem_attacker = KMT
 	rem_defender = ETS
 }
