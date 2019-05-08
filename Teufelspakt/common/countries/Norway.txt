@@ -68,7 +68,7 @@ party = {
 		end_date = 2092.1.1
 }
 party = {
-		name = "party_populist_0_NOR"
+		name = "Nasjonal Samling"
 		citizenship_policy = residency
 		economic_policy = state_capitalism
 		ideology = populist

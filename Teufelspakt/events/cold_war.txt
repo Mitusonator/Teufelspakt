@@ -1,160 +1,160 @@
-# Soviet support communist regimes not in our sphere, may by decision improve relation with us thus targeting membership in comecon
-country_event = { # Soviet-$COUNTRY$ Friendship
-	id = 19800
-	title = "EVTNAME19800"
-	desc = "EVTDESC19800"
-	picture = "soviet_economy"
-
-	trigger = {
-NOT = { tag = RUS } #Not USSR
-NOT = { has_global_flag = tito_stalin_split tag = YUG } #Not Yugoslavia after the split
-		OR = {
-			government = proletarian_dictatorship
-			government = proletarian_dictatorship1
-		}
-		NOT = { has_country_flag = soviet_friendship }
-		has_global_flag = blocsenabled
-		NOT = { in_sphere = RUS }
-		war = no
-		is_vassal = no
-		NOT = { has_global_flag = sino_soviet_split }
-		NOT = { wars_of_national_liberation = 1 }
-	}
-
-	mean_time_to_happen = {
-		months = 12
-	}
-
-	option = {
-		name = "EVTOPTA19800"
-		ai_chance = { factor = 100 }
-		RUS = { country_event = 19801 }
-		set_country_flag = soviet_friendship
-		any_country = {
-limit = { NOT = { government = proletarian_dictatorship government = proletarian_dictatorship1 } }
-		relation = { who = THIS value = -100 } 
-		diplomatic_influence = { who = THIS value = -100 } 
-		}
-	}
-	
-	option = {
-		name = "Reject the proposal"
-		ai_chance = { factor = 0 }
-prestige = 50
-set_country_flag = soviet_friendship
-relation = { who = RUS value = -100 }
-RUS = { diplomatic_influence = { who = THIS value = -100 } }
-		any_pop = {
-			limit = { strata = rich }
-			ideology = {
-				factor = 0.1
-				value = communist_social
-			}
-		}
-	}
-}
-
-country_event = {
-	id = 19801
-	title = "$FROMCOUNTRY_ADJ$-Soviet Treaty of Friendship"
-	desc = "EVTDESC19801"
-	picture = "soviet_economy"
-
-	is_triggered_only = yes
-
-	option = {
-		name = "Accept the $FROMCOUNTRY_ADJ$ offer"
-		prestige = 25
-		relation = { who = FROM value = 200 }
-		create_alliance = FROM
-		diplomatic_influence = { who = FROM value = 200 }
-		ai_chance = { factor = 100 }
-	}
-	
-	option = {
-		name = "We don't need their support"
-		ai_chance = { factor = 0 }
-		relation = { who = FROM value = -50 }
-		diplomatic_influence = { who = FROM value = -50 }
-	}
-
-}
-
-country_event = {
-	id = 19802
-	title = "EVTNAME19802" # Demand recognition of the new regime
-	desc = "EVTDESC19802"
-	picture = "recognized_government"
-
-	trigger = {
-		year = 1947
-has_global_flag = this_is_not_enabled
-		NOT = { has_country_flag = recognized_government }
-		NOT = { has_country_modifier = unrecognized_government }
-		OR = { 
-			government = proletarian_dictatorship
-			government = populist_dictatorship
-			government = nationalist_dictatorship 
-			government = theocracy 
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 24
-	}
-
-	option = {
-		name = "EVTOPTA19802"
-		ai_chance = { factor = 100 }
-		any_greater_power = { 
-			limit = { rank = 1 }
-			country_event =  19803
-		}
-		add_country_modifier = { name = unrecognized_government duration = 3600 }
-	}
-	
-}
-
-# US install_democracy war on any nation not having the flag recognized_government (set by startup event 19355)
-country_event = {
-	id = 19803
-	title = "EVTNAME19803"
-	desc = "EVTDESC19803"
-	picture = "castro_triumph"
-
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA19803"
-		ai_chance = { factor = 100 }
-		relation = { who = THIS value = -100 }
-		casus_belli = {
-	        target = THIS
-			type = install_democracy
-			months = 24
-		}
-		any_pop = {
-			dominant_issue = {
-				factor = 0.02
-				value = jingoism
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTOPTB19803"
-		ai_chance = { factor = 0 }
-		relation = { who = FROM value = -50 }
-		any_pop = {
-			dominant_issue	= {
-				factor = 0.01
-				value = jingoism
-			}
-		}
-		FROM = { set_country_flag = recognized_government }
-	}
-
-}
+## Soviet support communist regimes not in our sphere, may by decision improve relation with us thus targeting membership in comecon
+#country_event = { # Soviet-$COUNTRY$ Friendship
+#	id = 19800
+#	title = "EVTNAME19800"
+#	desc = "EVTDESC19800"
+#	picture = "soviet_economy"
+#
+#	trigger = {
+#NOT = { tag = RUS } #Not USSR
+#NOT = { has_global_flag = tito_stalin_split tag = YUG } #Not Yugoslavia after the split
+#		OR = {
+#			government = proletarian_dictatorship
+#			government = proletarian_dictatorship1
+#		}
+#		NOT = { has_country_flag = soviet_friendship }
+#		has_global_flag = blocsenabled
+#		NOT = { in_sphere = RUS }
+#		war = no
+#		is_vassal = no
+#		NOT = { has_global_flag = sino_soviet_split }
+#		NOT = { wars_of_national_liberation = 1 }
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 12
+#	}
+#
+#	option = {
+#		name = "EVTOPTA19800"
+#		ai_chance = { factor = 100 }
+#		RUS = { country_event = 19801 }
+#		set_country_flag = soviet_friendship
+#		any_country = {
+#limit = { NOT = { government = proletarian_dictatorship government = proletarian_dictatorship1 } }
+#		relation = { who = THIS value = -100 } 
+#		diplomatic_influence = { who = THIS value = -100 } 
+#		}
+#	}
+#	
+#	option = {
+#		name = "Reject the proposal"
+#		ai_chance = { factor = 0 }
+#prestige = 50
+#set_country_flag = soviet_friendship
+#relation = { who = RUS value = -100 }
+#RUS = { diplomatic_influence = { who = THIS value = -100 } }
+#		any_pop = {
+#			limit = { strata = rich }
+#			ideology = {
+#				factor = 0.1
+#				value = communist_social
+#			}
+#		}
+#	}
+#}
+#
+#country_event = {
+#	id = 19801
+#	title = "$FROMCOUNTRY_ADJ$-Soviet Treaty of Friendship"
+#	desc = "EVTDESC19801"
+#	picture = "soviet_economy"
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "Accept the $FROMCOUNTRY_ADJ$ offer"
+#		prestige = 25
+#		relation = { who = FROM value = 200 }
+#		create_alliance = FROM
+#		diplomatic_influence = { who = FROM value = 200 }
+#		ai_chance = { factor = 100 }
+#	}
+#	
+#	option = {
+#		name = "We don't need their support"
+#		ai_chance = { factor = 0 }
+#		relation = { who = FROM value = -50 }
+#		diplomatic_influence = { who = FROM value = -50 }
+#	}
+#
+#}
+#
+#country_event = {
+#	id = 19802
+#	title = "EVTNAME19802" # Demand recognition of the new regime
+#	desc = "EVTDESC19802"
+#	picture = "recognized_government"
+#
+#	trigger = {
+#		year = 1947
+#has_global_flag = this_is_not_enabled
+#		NOT = { has_country_flag = recognized_government }
+#		NOT = { has_country_modifier = unrecognized_government }
+#		OR = { 
+#			government = proletarian_dictatorship
+#			government = populist_dictatorship
+#			government = nationalist_dictatorship 
+#			government = theocracy 
+#		}
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 24
+#	}
+#
+#	option = {
+#		name = "EVTOPTA19802"
+#		ai_chance = { factor = 100 }
+#		any_greater_power = { 
+#			limit = { rank = 1 }
+#			country_event =  19803
+#		}
+#		add_country_modifier = { name = unrecognized_government duration = 3600 }
+#	}
+#	
+#}
+#
+## US install_democracy war on any nation not having the flag recognized_government (set by startup event 19355)
+#country_event = {
+#	id = 19803
+#	title = "EVTNAME19803"
+#	desc = "EVTDESC19803"
+#	picture = "castro_triumph"
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "EVTOPTA19803"
+#		ai_chance = { factor = 100 }
+#		relation = { who = THIS value = -100 }
+#		casus_belli = {
+#	        target = THIS
+#			type = install_democracy
+#			months = 24
+#		}
+#		any_pop = {
+#			dominant_issue = {
+#				factor = 0.02
+#				value = jingoism
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = "EVTOPTB19803"
+#		ai_chance = { factor = 0 }
+#		relation = { who = FROM value = -50 }
+#		any_pop = {
+#			dominant_issue	= {
+#				factor = 0.01
+#				value = jingoism
+#			}
+#		}
+#		FROM = { set_country_flag = recognized_government }
+#	}
+#
+#}
 
 ##################Enable Blocs under events###################
 
@@ -162,24 +162,24 @@ country_event = {
 	id = 19804
 	title = "EVT_19804_NAME"
 	desc = "EVT_19804_DESC"
-	picture = "cold_war"
+	picture = "TP_logo"
 	fire_only_once = yes
 
 	trigger = {
 		ai = no # in an multi player env this may fire multiple times but no worry as it only sets flags
 		NOT = { has_global_flag = blocsenabled }
 		NOT = { year = 1991 }
-		RUS = { government = proletarian_dictatorship }
+		GER = { government = populist_dictatorship }
 		USA = { government = democracy }
 	}
 
 	option = {
 		name = "EVT_19804_A"
 		set_global_flag = blocsenabled
-		RUS = { set_country_flag = economic_malaise }
-CHI = { add_country_modifier = { name = chinese_nation duration = 3285 } set_country_flag = prc set_country_flag = not_participating_UNSC }
+		#RUS = { set_country_flag = economic_malaise }
+#CHI = { add_country_modifier = { name = chinese_nation duration = 3285 } set_country_flag = prc set_country_flag = not_participating_UNSC }
 
-JAP = { add_country_modifier = { name = zaibatsu duration = -1 } }
+#JAP = { add_country_modifier = { name = zaibatsu duration = -1 } }
 
 USA = { set_country_flag = us_politics_special }
 
@@ -194,7 +194,7 @@ USA = { set_country_flag = us_politics_special }
 		BEL = { relation = { who = USA value = 200 } }
 		LUX = { relation = { who = USA value = 200 } }
 		ITA = { relation = { who = USA value = 200 } }
-		RUS = { add_country_modifier = { name = communist_bloc_leader duration = -1 } add_country_modifier = { name = soviet_stability duration = 13000 }  set_country_flag = joincomm }
+		RUS = { add_country_modifier = { name = communist_bloc_leader duration = -1 }  set_country_flag = joincomm }
 		USA = { add_country_modifier = { name = atomic_nation duration = -1 } add_country_modifier = { name = democratic_bloc_leader duration = -1 } set_country_flag = joindemo }
 	}
 
@@ -245,7 +245,7 @@ country_event = {
 		OR = { 
 		has_global_flag = cold_warusa #USA victory
 
-		has_global_flag = cold_warussr #USSR victory
+		has_global_flag = cold_warussr #German victory
 		}
 		NOT = { has_country_flag = endofthecoldwar }
 	}
@@ -261,8 +261,8 @@ country_event = {
 					}
 					AND = {
 						tag = THIS
-						owns = 1008 # Moscow
-						government = proletarian_dictatorship
+						owns = 549 # Berlin
+						government = populist_dictatorship_dictatorship
 					}
 				}
 			}
@@ -417,9 +417,9 @@ country_event = {
 	picture = "endofcoldwarussr"
 
 	trigger = {
-
-#USSR or USS
-RUS = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 government = socialist_democracy rank = 3 } }
+tag = GER
+#Germany
+GER = { OR = { government = populist_dictatorship government = nationalist_dictatorship government = absolute_monarchy rank = 3 } }
 
 USA = { 
 OR = { 
@@ -427,8 +427,8 @@ OR = {
 #Not a strong power
 NOT = { rank = 3 } 
 
-#Left-wing authoritarian dictatorship
-AND = { OR = { ruling_party_ideology = socialist ruling_party_ideology = communist ruling_party_ideology = communist_social } NOT = { government = democracy government = democracy1 government = hms_government government = hms_government1 } }
+#Right-wing authoritarian dictatorship
+AND = { OR = { ruling_party_ideology = populist  ruling_party_ideology = traditionalist } NOT = { government = democracy government = democracy1 government = hms_government government = hms_government1 } }
 
 	} 
 }
@@ -459,12 +459,12 @@ country_event = {
 	picture = "endofcoldwarusa"
 
 	trigger = {
-
+tag = USA
 #Democratic USA
 USA = { OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 } }
 
-#Non-communist or weak Russia
-RUS = { OR = { NOT = { rank = 3 } NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 government = socialist_democracy } } } }
+#Non-fascist or weak Germany
+RUS = { OR = { NOT = { rank = 3 } NOT = { OR = { government = populist_dictatorship government = nationalist_dictatorship1 government = absolute_monarchy } } } }
 		
 		NOT = { has_country_flag = cold_warusa1 }
 		has_global_flag = blocsenabled
@@ -475,6 +475,7 @@ RUS = { OR = { NOT = { rank = 3 } NOT = { OR = { government = proletarian_dictat
 		name = EVT_19808_A
 		set_global_flag = cold_warusa
 		set_country_flag = cold_warusa1
+		set_global_flag = dissolve_warsaw_pact
 		clr_global_flag =  blocsenabled
 		prestige = 1000
 		badboy = -20

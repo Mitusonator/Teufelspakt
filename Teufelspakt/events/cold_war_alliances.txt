@@ -478,67 +478,67 @@ country_event = {
 }
 country_event = {
   id = 8215030
-  title = "Founding of the Warsaw Pact"
+  title = "Revival of the Axis"
   desc = EVTDESC8215030
   picture = "warsaw_pact_founding"
   fire_only_once = yes
 
   trigger = {
-    	tag = RUS
+    	tag = GER
 	has_global_flag = blocsenabled
-    	year = 1955 NOT = { year = 1990 }
+    	year = 1960 #NOT = { year = 1990 }
 	has_global_flag = form_nato
   }
 
   mean_time_to_happen = { months = 5 }
 
   option = {
-    name = "Bind the communist nations together!"
+    name = "Bind the nations together!"
 	prestige = 250
 	set_global_flag = warsaw_pact_active
-add_country_modifier = { name = warsaw_pact duration = 3650 }
+    add_country_modifier = { name = warsaw_pact duration = -1 }
 	ai_chance = { factor = 100 }
   }
 
-  option = {
-    name = EVT_8215030_B
-	prestige = -1000
-	relation = { who = USA value = 100 }
-	set_global_flag = isolationist_ussr 
-	ai_chance = { factor = 0 }
-  }
+  #option = {
+  #  name = EVT_8215030_B
+  #  prestige = -1000
+  #  relation = { who = USA value = 100 }
+  #  set_global_flag = isolationist_ussr 
+  #  ai_chance = { factor = 0 }
+  #}
 }
-country_event = {
-  id = 8215031
-  title = EVT_8215031_NAME
-  desc = EVT_8215031_DESC
-  picture = "nwo2_warsaw_pact"
-  fire_only_once = yes
-
-  trigger = {
-	has_country_flag = is_disabled_for_now
- 	capital_scope = { continent = europe }
-	government = proletarian_dictatorship
-    year = 1955 NOT = { year = 1960 }
-    NOT = { has_global_flag = isolationist_ussr }
-    NOT = { has_global_flag = tito_soviet_split }
-    NOT = { THIS = { alliance_with = RUS } }
-	NOT = { has_country_flag = invitation_to_warsaw_pact }
-	NOT =  { capital_scope = { has_province_modifier = neutrality } }
-  }
-
-  mean_time_to_happen = { months = 1  }
-
-  option = {
-    name = EVT_8215031_A
-	set_country_flag = invitation_to_warsaw_pact
-	ai_chance = { factor = 100 }
-  }
-
-  option = {
-    name = EVT_8215031_B
-	capital_scope = { add_province_modifier = { name = neutrality duration = 3500 } }
-	ai_chance = { factor = 0 }
-  }
-
-}
+#country_event = {
+#  id = 8215031
+#  title = EVT_8215031_NAME
+#  desc = EVT_8215031_DESC
+#  picture = "nwo2_warsaw_pact"
+#  fire_only_once = yes
+#
+#  trigger = {
+#	has_country_flag = is_disabled_for_now
+# 	capital_scope = { continent = europe }
+#	government = proletarian_dictatorship
+#    year = 1955 NOT = { year = 1960 }
+#    NOT = { has_global_flag = isolationist_ussr }
+#    NOT = { has_global_flag = tito_soviet_split }
+#    NOT = { THIS = { alliance_with = RUS } }
+#	NOT = { has_country_flag = invitation_to_warsaw_pact }
+#	NOT =  { capital_scope = { has_province_modifier = neutrality } }
+#  }
+#
+#  mean_time_to_happen = { months = 1  }
+#
+#  option = {
+#    name = EVT_8215031_A
+#	set_country_flag = invitation_to_warsaw_pact
+#	ai_chance = { factor = 100 }
+#  }
+#
+#  option = {
+#    name = EVT_8215031_B
+#	capital_scope = { add_province_modifier = { name = neutrality duration = 3500 } }
+#	ai_chance = { factor = 0 }
+#  }
+#
+#}

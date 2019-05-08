@@ -89,8 +89,8 @@ SWE = {
 	military_access = yes
 }
 SER = {
-	level = 5
-	value = 200
+	level = 4
+	value = 10
 	influence_value = 25
 	military_access = yes
 }

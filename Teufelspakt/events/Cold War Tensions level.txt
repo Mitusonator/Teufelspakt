@@ -6,7 +6,7 @@ country_event = {
 	picture = "hot_tensions"
 	
 	trigger = {
-		USA = { war_with = RUS }
+		USA = { war_with = GER }
 		NOT = { has_country_modifier = cold_war_hot }
 		has_global_flag =  blocsenabled
 	}
@@ -39,8 +39,8 @@ country_event = {
 	picture = "high_tensions"
 
 	trigger = {
-		NOT = { USA = { war_with = RUS } }
-		RUS = { has_country_modifier = commhigh_gp }
+		NOT = { USA = { war_with = GER } }
+		GER = { has_country_modifier = commhigh_gp }
 		USA = { has_country_modifier = demohigh_gp }
 		NOT = { has_country_modifier = cold_war_high }
 		has_global_flag =  blocsenabled
@@ -72,22 +72,22 @@ country_event = {
 	picture = "medium_tensions"
 
 	trigger = {
-		NOT = { USA = { war_with = RUS } }
+		NOT = { USA = { war_with = GER } }
 		OR = { 
-			AND = { RUS = { has_country_modifier = commhigh_gp }
+			AND = { GER = { has_country_modifier = commhigh_gp }
 				USA = { has_country_modifier = demomedium_gp } } 
-			AND = { RUS = { has_country_modifier = commmedium_gp }
+			AND = { GER = { has_country_modifier = commmedium_gp }
 				USA = { has_country_modifier = demomedium_gp } }
-			AND = { RUS = { has_country_modifier = commmedium_gp }
+			AND = { GER = { has_country_modifier = commmedium_gp }
 				USA = { has_country_modifier = demohigh_gp } }
 
-			AND = { RUS = { has_country_modifier = commhigh_gp }
+			AND = { GER = { has_country_modifier = commhigh_gp }
 				USA = { has_country_modifier = demolow_gp } }
-			AND = { RUS = { has_country_modifier = commlow_gp }
+			AND = { GER = { has_country_modifier = commlow_gp }
 				USA = { has_country_modifier = demohigh_gp } }
-			AND = { RUS = { has_country_modifier = commmedium_gp }
+			AND = { GER = { has_country_modifier = commmedium_gp }
 				USA = { has_country_modifier = demolow_gp } }
-			AND = { RUS = { has_country_modifier = commlow_gp }
+			AND = { GER = { has_country_modifier = commlow_gp }
 				USA = { has_country_modifier = demomedium_gp } }
 
 		}
@@ -123,8 +123,8 @@ country_event = {
 	picture = "low_tensions"
 
 	trigger = {
-		NOT = { USA = { war_with = RUS } }
-		RUS = { has_country_modifier = commlow_gp }
+		NOT = { USA = { war_with = GER } }
+		GER = { has_country_modifier = commlow_gp }
 		USA = { has_country_modifier = demolow_gp }
 		NOT = { has_country_modifier = cold_war_low }
 		has_global_flag =  blocsenabled
