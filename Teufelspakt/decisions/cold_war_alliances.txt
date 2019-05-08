@@ -32,7 +32,7 @@ relation = { who = GER value = 150 }
 		effect = {
 			set_country_flag = joincomm
 			prestige = 10
-			relation = { who = RUS value = 50 }
+			relation = { who = GER value = 50 }
 			relation = { who = USA value = -100 }
 
 			clr_country_flag = joinnam
@@ -80,9 +80,9 @@ add_country_modifier = { name = communist_bloc duration = -1 }
 join_democratic_bloc = {
 		picture = "joindemocraticbloc"
 		potential = {
-			NOT = { OR = { tag = RUS tag = USA } }
+			NOT = { OR = { tag = GER tag = USA } }
 			exists = USA
-			exists = RUS
+			exists = GER
 			NOT = { has_country_flag = joindemo }
 			NOT = { has_country_flag = joincomm }
 			
@@ -280,7 +280,7 @@ any_country = { limit = { has_country_flag = joincomm } country_event = 19810 }
 			}
 
 			remove_country_modifier = communist_bloc
-			RUS  = { country_event = 8225001 }
+			GER  = { country_event = 8225001 }
 		}
 		
 		ai_will_do = {
@@ -293,9 +293,9 @@ any_country = { limit = { has_country_flag = joincomm } country_event = 19810 }
 leave_democratic_bloc = {
 		picture = "leavebloc"
 		potential = {
-			NOT = { OR = { tag = RUS tag = USA } }
+			NOT = { OR = { tag = GER tag = USA } }
 			exists = USA
-			exists = RUS
+			exists = GER
 			has_country_flag = joindemo
 			has_global_flag = blocsenabled
 			NOT = { has_country_modifier = independent_bloc }
