@@ -236,6 +236,8 @@ country_event = {
 			 }
 		    }
 			change_tag_no_core_switch = SPL
+			GER = { relation = { who = SPL value = -400 } }
+		    GER = { diplomatic_influence = { who = SPL value = -400 } }
   }
   
   option = {
@@ -277,6 +279,8 @@ country_event = {
 				casus_belli = civil_war
 			 }
 		    }
+			GER = { relation = { who = SPL value = -400 } }
+		    GER = { diplomatic_influence = { who = SPL value = -400 } }
   }    
 
 }

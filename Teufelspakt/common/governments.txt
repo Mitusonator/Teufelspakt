@@ -173,7 +173,7 @@ populist_dictatorship =
 }
 absolute_monarchy = {
 	conservative = no
-	populist = no
+	populist = yes
 	big_tent = no
 	communist_social = no
 	traditionalist = yes

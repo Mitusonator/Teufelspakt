@@ -23,8 +23,8 @@ EVT_4431_A;We have regained part of our national fabric;;;;;;;;x;;;;;;;;;;;;;
 EVT_4432_NAME;Separation of Church and State;;;;;;;;x;;;;;;;;;;;;;
 EVT_4432_DESC;From the first day of rule, it was obvious that the new $COUNTRY_ADJ$ government had a different attitude towards religion than the old government apparatus. It began with the attitudes of judges appointed to the courts and cuts in spending to religion institutions. With the latest instructions, the prevention of outward preference toward any religion in state institutions, it is clear that religion is no longer part of government.;;;;;;;;x;;;;;;;;;;;;;
 EVT_4432_A;Real, visible progress;;;;;;;;x;;;;;;;;;;;;;
-absolute_monarchy;Absolute Monarchy;Monarchie absolue;Absolute Monarchie;;Monarquía absoluta;;;;;;;;;x;;;;;;;;;;;;;;;;
-absolute_monarchy_ruler;King;Roi;König;;Rey;;;;;;;;;x;;;;;;;;;;;;;;;;
+absolute_monarchy;Autocratic Monarchy;Monarchie absolue;Absolute Monarchie;;Monarquía absoluta;;;;;;;;;x;;;;;;;;;;;;;;;;
+absolute_monarchy_ruler;Monarch;Roi;König;;Rey;;;;;;;;;x;;;;;;;;;;;;;;;;
 communist;Authoritarian Socialist;Communiste;Kommunistisch;;Comunista;;;;;;;;;x;;;;;;;;;;;;;;;;
 communist_faction;Communist Faction;;;;;;;;;;;;;x,
 communist_focus;Party loyalty towards §YCommunists§! ;Loyauté envers le parti §Ycommuniste§! ;Parteiloyalität gegenüber §Ycommunist§! ;;;;;;;;;;;x;;;;;;;;;;;;;;;;

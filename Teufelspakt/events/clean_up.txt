@@ -38,7 +38,7 @@ country_event = {
 			government = presidential_dictatorship
 			government = populist_dictatorship
 			government = nationalist_dictatorship
-			AND = { ruling_party_ideology = traditionalist  government = absolute_monarchy }
+			government = absolute_monarchy
 			government = sar_government
 		}
 		civilized = yes

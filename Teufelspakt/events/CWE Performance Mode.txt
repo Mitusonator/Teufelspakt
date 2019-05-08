@@ -29,6 +29,13 @@ set_global_flag = performance_mode_set
 any_pop = { reduce_pop = 0.5 }
 any_country = { limit = { exists = yes } any_pop = { reduce_pop = 0.5 } }
 		}
+		
+option = {
+name = "Scale global population to 1/10"
+set_global_flag = performance_mode_set
+any_pop = { reduce_pop = 0.4 }
+any_country = { limit = { exists = yes } any_pop = { reduce_pop = 0.4 } }
+		}
 
 option = {
 name = "Scale global population to 1/16"

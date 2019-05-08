@@ -205,7 +205,7 @@ USA = { set_country_flag = us_politics_special }
 		ALB = { relation = { who = USA value = 200 } }
 		CZH = { relation = { who = USA value = 200 } }
 		POL = { relation = { who = USA value = 200 } }
-		USA = { relation = { who = GER value = 100 } }
+		USA = { relation = { who = GER value = 200 } }
 		GER = { add_country_modifier = { name = communist_bloc_leader duration = -1 }  set_country_flag = joincomm }
 		USA = { add_country_modifier = { name = atomic_nation duration = -1 } add_country_modifier = { name = democratic_bloc_leader duration = -1 } set_country_flag = joindemo }
 	}
@@ -441,7 +441,7 @@ OR = {
 NOT = { rank = 3 } 
 
 #Right-wing authoritarian dictatorship
-AND = { OR = { ruling_party_ideology = populist  ruling_party_ideology = traditionalist } NOT = { government = democracy government = democracy1 government = hms_government government = hms_government1 } }
+AND = { OR = { ruling_party_ideology = populist  ruling_party_ideology = traditionalist  government = populist_dictatorship } NOT = { government = democracy government = democracy1 government = hms_government government = hms_government1 } }
 
 	} 
 }
