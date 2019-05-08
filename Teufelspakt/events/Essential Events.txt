@@ -304,7 +304,7 @@ country_event = {
 	
 	trigger = {
 		year = 1955
-		tag = GER
+        OR = { tag = GER tag = BEL tag = NET tag = DEN tag = NOR tag = SWE }
 		war = no
 		NOT = { year = 1960 }
 		NOT = { has_country_flag = gerpopboom }

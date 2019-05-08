@@ -4202,18 +4202,24 @@ loss_of_control = {
 ### German Economy ###
 
 germaneconomy = { 
-rgo_output = 0.1
-factory_throughput = 0.35
-factory_output = 0.25
-import_cost = -0.2
-loan_interest = -0.8
+rgo_output = 0.10
+factory_throughput = 0.25
+factory_output = 0.10
+#import_cost = -0.2
+loan_interest = -0.5
 tax_efficiency = 0.05
-research_points_modifier = 1
-industry_tech_research_bonus = 0.5
-commerce_tech_research_bonus = 0.5
-factory_owner_cost = -0.8
-education_efficiency_modifier = 0.5
+research_points_modifier = 0.25
+industry_tech_research_bonus = 0.10
+commerce_tech_research_bonus = 0.10
+#factory_owner_cost = -0.8
+education_efficiency_modifier = 0.20
 icon = 9
+}
+
+lebensborn = {
+global_population_growth = 0.1
+goods_demand = 0.05
+icon = 18
 }
 
 
