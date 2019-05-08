@@ -172,7 +172,7 @@ populist_dictatorship =
 	flagType = populist
 }
 absolute_monarchy = {
-	conservative = yes
+	conservative = no
 	populist = no
 	big_tent = no
 	communist_social = no

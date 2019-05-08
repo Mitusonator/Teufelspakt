@@ -1,5 +1,35 @@
 # GENERATED
 vassal = {
+	first = GER
+	second = NET
+	start_date = 1945.1.1
+	end_date = 1986.1.1
+}
+vassal = {
+	first = GER
+	second = DEN
+	start_date = 1945.1.1
+	end_date = 1986.1.1
+}
+vassal = {
+	first = GER
+	second = NOR
+	start_date = 1945.1.1
+	end_date = 1986.1.1
+}
+vassal = {
+	first = GER
+	second = BEL
+	start_date = 1945.1.1
+	end_date = 1986.1.1
+}
+vassal = {
+	first = GER
+	second = CRO
+	start_date = 1945.1.1
+	end_date = 1986.1.1
+}
+vassal = {
 	first = FRA
 	second = SVI
 	start_date = 1945.1.1

@@ -36,7 +36,7 @@ political_decisions = {
 		    has_global_flag = comecon_active
 			#has_global_flag = form_nato
 			#OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 }
-			GER = { AND = { is_greater_power = yes has_country_modifier = communist_bloc_leader } }
+			#GER = { AND = { is_greater_power = yes has_country_modifier = communist_bloc_leader } }
 			has_country_modifier = communist_bloc
 			NOT = { has_country_modifier = comecon }
 			NOT = { has_country_modifier = comecon_excluded }

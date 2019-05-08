@@ -187,7 +187,7 @@ NOT = { has_country_modifier = bretton_system }
 #NOT = { ruling_party_ideology = communist }
 #NOT = { ruling_party_ideology = communist_social }
 NOT = { government = theocracy }
-USA = { government = democracy rank = 2 }			
+USA = { OR = { government = democracy has_country_modifier = democractic_bloc_leader } rank = 2 }			
 OR = { USA = { has_country_modifier = bretton_system } tag = USA } # USA should get Bretton Woods first!
 
 		}

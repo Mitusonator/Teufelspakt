@@ -1,212 +1,212 @@
 ### High Tensions Events ###
 
-#Stand off at the Berlin Wall - USA start
-country_event = {
-	id = 1800000
-	title = "Stand off along the German border!"
-	desc = EVTDESC1800000
-	picture = "berlin_wall_stand_off"
-	major = yes
-trigger = {
-	NOT = { has_global_flag = cwcrisis_initiated }
-	exists = DDR
-	exists = GER
-	RUS = { government = proletarian_dictatorship }
-	USA = { government = democracy }
-	DDR = { government = proletarian_dictatorship }
-	GER = { NOT = { government = proletarian_dictatorship } }
-	tag = USA
-	war = no
-	RUS = { has_country_modifier = cold_war_high }
-	USA = { has_country_modifier = cold_war_high }
-	}
-immediate = { set_global_flag = cwcrisis_initiated }
-	mean_time_to_happen = {
-		months = 120 }
-option = {
-	name = "Concede in the Soviets favour!"
-	prestige_factor = -0.1
-clr_global_flag = cwcrisis_initiated
-ai_chance = { factor = 0.01 }
-		}
-option = {
-	name = "Continue the stand off!"
-RUS = { country_event = 1800001 }
-ai_chance = { factor = 0.99 }
-		}
-			}
-
-#High Tensions - stand off at the Berlin Wall - USSR response
-country_event = {
-	id = 1800001
-	title = "Stand off along the German border, USA refuses to back down!"
-	desc = EVTDESC1800000
-	picture = "berlin_wall_stand_off"
-	major = yes
-is_triggered_only = yes
-option = {
-	name = "Concede in the Americans favour!"
-	prestige_factor = -0.1
-clr_global_flag = cwcrisis_initiated
-ai_chance = { factor = 0.01 }
-		}
-option = {
-	name = "Continue the stand off!"
-USA = { country_event = 1800002 days = 10 }
-ai_chance = { factor = 0.99 }
-		}
-			}
-
-#High Tensions - stand off at the Berlin Wall - Back to USA again
-country_event = {
-	id = 1800002
-	title = "Stand off along the German border, USSR also refuses to back down!"
-	desc = EVTDESC1800000
-	picture = "berlin_wall_stand_off"
-	major = yes
-is_triggered_only = yes
-option = {
-	name = "IT'S WAR!"
-	prestige_factor = -0.1
-country_event = 19821928
-clr_global_flag = cwcrisis_initiated
-ai_chance = { factor = 0.01 }
-		}
-option = {
-	name = "Propose compromise solution!"
-RUS = { country_event = 1800003 days = 10 }
-ai_chance = { factor = 0.99 }
-		}
-			}
-
-#High Tensions - stand off at the Berlin Wall - Back to USSR again
-country_event = {
-	id = 1800003
-	title = "Stand off along the German border, compromise solution sought!"
-	desc = EVTDESC1800000
-	picture = "berlin_wall_stand_off"
-	major = yes
-is_triggered_only = yes
-option = {
-	name = "REFUSE, IT'S WAR!"
-	prestige_factor = -0.1
-country_event = 19831938
-clr_global_flag = cwcrisis_initiated
-ai_chance = { factor = 0.01 }
-		}
-option = {
-	name = "Accept compromise solution!"
-clr_global_flag = cwcrisis_initiated
-badboy = -10
-USA = { badboy = -10 }
-ai_chance = { factor = 0.99 }
-		}
-			}
-################### 
-
-#Stand off at the Berlin Wall - RUS start
-country_event = {
-	id = 1800004
-	title = "Stand off along the German border!"
-	desc = EVTDESC1800000
-	picture = "berlin_wall_stand_off"
-	major = yes
-	trigger = {
-	NOT = { has_global_flag = cwcrisis_initiated }
-	war = no
-	exists = DDR
-	exists = GER
-	RUS = { government = proletarian_dictatorship }
-	USA = { government = democracy }
-	DDR = { government = proletarian_dictatorship }
-	GER = { NOT = { government = proletarian_dictatorship } }
-	tag = RUS
-	RUS = { has_country_modifier = cold_war_high }
-	USA = { has_country_modifier = cold_war_high }
-	}
-immediate = { set_global_flag = cwcrisis_initiated }
-	mean_time_to_happen = {
-		months = 120 }
-option = {
-	name = "Concede in the Americans favour!"
-	prestige_factor = -0.1
-clr_global_flag = cwcrisis_initiated
-ai_chance = { factor = 0.01 }
-		}
-option = {
-	name = "Continue the stand off!"
-USA = { country_event = 1800005 }
-ai_chance = { factor = 0.99 }
-		}
-			}
-
-#High Tensions - stand off at the Berlin Wall - USA response
-country_event = {
-	id = 1800005
-	title = "Stand off along the German border, USA refuses to back down!"
-	desc = EVTDESC1800000
-	picture = "berlin_wall_stand_off"
-	major = yes
-is_triggered_only = yes
-option = {
-	name = "Concede in the Soviets favour!"
-	prestige_factor = -0.1
-clr_global_flag = cwcrisis_initiated
-ai_chance = { factor = 0.01 }
-		}
-option = {
-	name = "Continue the stand off!"
-RUS = { country_event = 1800006 days = 10 }
-ai_chance = { factor = 0.99 }
-		}
-			}
-
-#High Tensions - stand off at the Berlin Wall - Back to USSR again
-country_event = {
-	id = 1800006
-	title = "Stand off along the German border, USSR also refuses to back down!"
-	desc = EVTDESC1800000
-	picture = "berlin_wall_stand_off"
-	major = yes
-is_triggered_only = yes
-option = {
-	name = "IT'S WAR!"
-	prestige_factor = -0.1
-country_event = 19831938
-clr_global_flag = cwcrisis_initiated
-ai_chance = { factor = 0.01 }
-		}
-option = {
-	name = "Propose compromise solution!"
-USA = { country_event = 1800007 days = 10 }
-ai_chance = { factor = 0.99 }
-		}
-			}
-
-#High Tensions - stand off at the Berlin Wall - Back to USA again
-country_event = {
-	id = 1800007
-	title = "Stand off along the German border, compromise solution sought!"
-	desc = EVTDESC1800000
-	picture = "berlin_wall_stand_off"
-	major = yes
-is_triggered_only = yes
-option = {
-	name = "REFUSE, IT'S WAR!"
-	prestige_factor = -0.1
-country_event = 19821928
-clr_global_flag = cwcrisis_initiated
-ai_chance = { factor = 0.01 }
-		}
-option = {
-	name = "Accept compromise solution!"
-clr_global_flag = cwcrisis_initiated
-badboy = -10
-RUS = { badboy = -10 }
-ai_chance = { factor = 0.99 }
-		}
-			}
-########
+##Stand off at the Berlin Wall - USA start
+#country_event = {
+#	id = 1800000
+#	title = "Stand off along the German border!"
+#	desc = EVTDESC1800000
+#	picture = "berlin_wall_stand_off"
+#	major = yes
+#trigger = {
+#	NOT = { has_global_flag = cwcrisis_initiated }
+#	exists = DDR
+#	exists = GER
+#	RUS = { government = proletarian_dictatorship }
+#	USA = { government = democracy }
+#	DDR = { government = proletarian_dictatorship }
+#	GER = { NOT = { government = proletarian_dictatorship } }
+#	tag = USA
+#	war = no
+#	RUS = { has_country_modifier = cold_war_high }
+#	USA = { has_country_modifier = cold_war_high }
+#	}
+#immediate = { set_global_flag = cwcrisis_initiated }
+#	mean_time_to_happen = {
+#		months = 120 }
+#option = {
+#	name = "Concede in the Soviets favour!"
+#	prestige_factor = -0.1
+#clr_global_flag = cwcrisis_initiated
+#ai_chance = { factor = 0.01 }
+#		}
+#option = {
+#	name = "Continue the stand off!"
+#RUS = { country_event = 1800001 }
+#ai_chance = { factor = 0.99 }
+#		}
+#			}
+#
+##High Tensions - stand off at the Berlin Wall - USSR response
+#country_event = {
+#	id = 1800001
+#	title = "Stand off along the German border, USA refuses to back down!"
+#	desc = EVTDESC1800000
+#	picture = "berlin_wall_stand_off"
+#	major = yes
+#is_triggered_only = yes
+#option = {
+#	name = "Concede in the Americans favour!"
+#	prestige_factor = -0.1
+#clr_global_flag = cwcrisis_initiated
+#ai_chance = { factor = 0.01 }
+#		}
+#option = {
+#	name = "Continue the stand off!"
+#USA = { country_event = 1800002 days = 10 }
+#ai_chance = { factor = 0.99 }
+#		}
+#			}
+#
+##High Tensions - stand off at the Berlin Wall - Back to USA again
+#country_event = {
+#	id = 1800002
+#	title = "Stand off along the German border, USSR also refuses to back down!"
+#	desc = EVTDESC1800000
+#	picture = "berlin_wall_stand_off"
+#	major = yes
+#is_triggered_only = yes
+#option = {
+#	name = "IT'S WAR!"
+#	prestige_factor = -0.1
+#country_event = 19821928
+#clr_global_flag = cwcrisis_initiated
+#ai_chance = { factor = 0.01 }
+#		}
+#option = {
+#	name = "Propose compromise solution!"
+#RUS = { country_event = 1800003 days = 10 }
+#ai_chance = { factor = 0.99 }
+#		}
+#			}
+#
+##High Tensions - stand off at the Berlin Wall - Back to USSR again
+#country_event = {
+#	id = 1800003
+#	title = "Stand off along the German border, compromise solution sought!"
+#	desc = EVTDESC1800000
+#	picture = "berlin_wall_stand_off"
+#	major = yes
+#is_triggered_only = yes
+#option = {
+#	name = "REFUSE, IT'S WAR!"
+#	prestige_factor = -0.1
+#country_event = 19831938
+#clr_global_flag = cwcrisis_initiated
+#ai_chance = { factor = 0.01 }
+#		}
+#option = {
+#	name = "Accept compromise solution!"
+#clr_global_flag = cwcrisis_initiated
+#badboy = -10
+#USA = { badboy = -10 }
+#ai_chance = { factor = 0.99 }
+#		}
+#			}
+#################### 
+#
+##Stand off at the Berlin Wall - RUS start
+#country_event = {
+#	id = 1800004
+#	title = "Stand off along the German border!"
+#	desc = EVTDESC1800000
+#	picture = "berlin_wall_stand_off"
+#	major = yes
+#	trigger = {
+#	NOT = { has_global_flag = cwcrisis_initiated }
+#	war = no
+#	exists = DDR
+#	exists = GER
+#	RUS = { government = proletarian_dictatorship }
+#	USA = { government = democracy }
+#	DDR = { government = proletarian_dictatorship }
+#	GER = { NOT = { government = proletarian_dictatorship } }
+#	tag = RUS
+#	RUS = { has_country_modifier = cold_war_high }
+#	USA = { has_country_modifier = cold_war_high }
+#	}
+#immediate = { set_global_flag = cwcrisis_initiated }
+#	mean_time_to_happen = {
+#		months = 120 }
+#option = {
+#	name = "Concede in the Americans favour!"
+#	prestige_factor = -0.1
+#clr_global_flag = cwcrisis_initiated
+#ai_chance = { factor = 0.01 }
+#		}
+#option = {
+#	name = "Continue the stand off!"
+#USA = { country_event = 1800005 }
+#ai_chance = { factor = 0.99 }
+#		}
+#			}
+#
+##High Tensions - stand off at the Berlin Wall - USA response
+#country_event = {
+#	id = 1800005
+#	title = "Stand off along the German border, USA refuses to back down!"
+#	desc = EVTDESC1800000
+#	picture = "berlin_wall_stand_off"
+#	major = yes
+#is_triggered_only = yes
+#option = {
+#	name = "Concede in the Soviets favour!"
+#	prestige_factor = -0.1
+#clr_global_flag = cwcrisis_initiated
+#ai_chance = { factor = 0.01 }
+#		}
+#option = {
+#	name = "Continue the stand off!"
+#RUS = { country_event = 1800006 days = 10 }
+#ai_chance = { factor = 0.99 }
+#		}
+#			}
+#
+##High Tensions - stand off at the Berlin Wall - Back to USSR again
+#country_event = {
+#	id = 1800006
+#	title = "Stand off along the German border, USSR also refuses to back down!"
+#	desc = EVTDESC1800000
+#	picture = "berlin_wall_stand_off"
+#	major = yes
+#is_triggered_only = yes
+#option = {
+#	name = "IT'S WAR!"
+#	prestige_factor = -0.1
+#country_event = 19831938
+#clr_global_flag = cwcrisis_initiated
+#ai_chance = { factor = 0.01 }
+#		}
+#option = {
+#	name = "Propose compromise solution!"
+#USA = { country_event = 1800007 days = 10 }
+#ai_chance = { factor = 0.99 }
+#		}
+#			}
+#
+##High Tensions - stand off at the Berlin Wall - Back to USA again
+#country_event = {
+#	id = 1800007
+#	title = "Stand off along the German border, compromise solution sought!"
+#	desc = EVTDESC1800000
+#	picture = "berlin_wall_stand_off"
+#	major = yes
+#is_triggered_only = yes
+#option = {
+#	name = "REFUSE, IT'S WAR!"
+#	prestige_factor = -0.1
+#country_event = 19821928
+#clr_global_flag = cwcrisis_initiated
+#ai_chance = { factor = 0.01 }
+#		}
+#option = {
+#	name = "Accept compromise solution!"
+#clr_global_flag = cwcrisis_initiated
+#badboy = -10
+#RUS = { badboy = -10 }
+#ai_chance = { factor = 0.99 }
+#		}
+#			}
+#########
 
 #Stand off in a country - RUS start
 country_event = {
@@ -217,17 +217,17 @@ country_event = {
 	major = yes
 	trigger = {
 	NOT = { has_global_flag = cwcrisis_initiated }
-	RUS = { government = proletarian_dictatorship }
-	USA = { government = democracy }
-	NOT = { tag = RUS }
+	GER = { has_country_modifier = communist_bloc_leader }
+	USA = { has_country_modifier = democractic_bloc_leader }
+	NOT = { tag = GER }
 	NOT = { tag = USA }
-	NOT = { relation = { who = RUS value = -100 } }
+	NOT = { relation = { who = GER value = -100 } }
 	relation = { who = USA value = 150 }
 	in_sphere = no
 	is_vassal = no
 	is_greater_power = no
 	is_secondary_power = no
-	RUS = { has_country_modifier = cold_war_high }
+	GER = { has_country_modifier = cold_war_high }
 	USA = { has_country_modifier = cold_war_high }
 	}
 immediate = { set_global_flag = cwcrisis_initiated }
@@ -235,7 +235,7 @@ immediate = { set_global_flag = cwcrisis_initiated }
 		months = 120 }
 option = {
 	name = "The crisis will take its course"
-	RUS = { country_event = 18000081 }
+	GER = { country_event = 18000081 }
 		}
 			}
 #Stand off in a country - RUS start
@@ -277,7 +277,7 @@ ai_chance = { factor = 0.01 }
 		}
 option = {
 	name = "Continue the stand off!"
-RUS = { country_event = 18000010 days = 10 }
+GER = { country_event = 18000010 days = 10 }
 ai_chance = { factor = 0.99 }
 		}
 			}
@@ -323,7 +323,7 @@ option = {
 	name = "Accept compromise solution!"
 clr_global_flag = cwcrisis_initiated
 badboy = -10
-RUS = { badboy = -10 }
+GER = { badboy = -10 }
 ai_chance = { factor = 0.99 }
 		}
 			}
@@ -338,17 +338,17 @@ country_event = {
 	major = yes
 	trigger = {
 	NOT = { has_global_flag = cwcrisis_initiated }
-	RUS = { government = proletarian_dictatorship }
-	USA = { government = democracy }
-	NOT = { tag = RUS }
+	GER = { has_country_modifier = communist_bloc_leader }
+	USA = { has_country_modifier = democractic_bloc_leader }
+	NOT = { tag = GER }
 	NOT = { tag = USA }
 	NOT = { relation = { who = USA value = -100 } }
-	relation = { who = RUS value = 150 }
+	relation = { who = GER value = 150 }
 	in_sphere = no
 	is_vassal = no
 	is_greater_power = no
 	is_secondary_power = no
-	RUS = { has_country_modifier = cold_war_high }
+	GER = { has_country_modifier = cold_war_high }
 	USA = { has_country_modifier = cold_war_high }
 	}
 immediate = { set_global_flag = cwcrisis_initiated }
@@ -378,7 +378,7 @@ ai_chance = { factor = 0.01 }
 		}
 option = {
 	name = "Continue the stand off!"
-RUS = { country_event = 18000013 }
+GER = { country_event = 18000013 }
 ai_chance = { factor = 0.99 }
 		}
 			}
@@ -407,7 +407,7 @@ ai_chance = { factor = 0.99 }
 #High Tensions - stand off a country - Back to USA again
 country_event = {
 	id = 18000014
-	title = "Superpower stand off, USSR also refuses to back down!"
+	title = "Superpower stand off, Germany also refuses to back down!"
 	desc = EVTDESC1800001
 	picture = "berlin_wall_stand_off"
 	major = yes
@@ -421,7 +421,7 @@ ai_chance = { factor = 0.01 }
 		}
 option = {
 	name = "Propose compromise solution!"
-RUS = { country_event = 18000015 days = 10 }
+GER = { country_event = 18000015 days = 10 }
 ai_chance = { factor = 0.99 }
 		}
 			}
@@ -460,8 +460,8 @@ country_event = {
 	picture = "us_peace_outreach"
 
 trigger = {
-	RUS = { government = proletarian_dictatorship }
-	USA = { government = democracy }
+	GER = { has_country_modifier = communist_bloc_leader }
+	USA = { has_country_modifier = democractic_bloc_leader }
 	tag = USA
 }
 mean_time_to_happen = {
@@ -469,7 +469,7 @@ mean_time_to_happen = {
 option = {
 	name = "Launch the US peace outreach mission!"
 	
-	RUS = { country_event = 2000001 }
+	GER = { country_event = 2000001 }
 	ai_chance = { factor = 0.80 }
 		}
 option = {
@@ -505,19 +505,19 @@ ai_chance = { factor = 0.40 }
 #Medium Tensions - Cooling off of tensions - USSR start
 country_event = {
 	id = 2000002
-	title = "USSR diplomatic mission to ease the USA-USSR tensions?"
+	title = "Germany diplomatic mission to ease the USA-German tensions?"
 	desc = EVTDESC2000000
 	picture = "ussr_peace_outreach"
 
 trigger = {
-	RUS = { government = proletarian_dictatorship }
-	USA = { government = democracy }
-	tag = RUS
+	GER = { has_country_modifier = communist_bloc_leader }
+	USA = { has_country_modifier = democractic_bloc_leader }
+	tag = GER
 }
 mean_time_to_happen = {
 		months = 60 }
 option = {
-	name = "Launch the USSR peace outreach mission!"
+	name = "Launch the German peace outreach mission!"
 	
 	USA = { country_event = 2000003 }
 	ai_chance = { factor = 0.80 }
@@ -540,13 +540,13 @@ major = yes
 option = {
 	name = "Accept the USSR peace outreach mission!"
 	prestige = 50
-	RUS = { prestige = 50 }
-	relation = { who = RUS value = 100 }
+	GER = { prestige = 50 }
+	relation = { who = GER value = 100 }
 	ai_chance = { factor = 0.60 }
 		}
 option = {
 	name = "Refuse!"
-relation = { who = RUS value = -50 }
+relation = { who = GER value = -50 }
 ai_chance = { factor = 0.40 }
 		}
 			}
@@ -560,10 +560,10 @@ country_event = {
 	picture = "soviet_visit"
 
 trigger = {
-	RUS = { government = proletarian_dictatorship }
-	USA = { government = democracy }
+	GER = { has_country_modifier = communist_bloc_leader }
+	USA = { has_country_modifier = democractic_bloc_leader }
 	tag = USA
-	RUS = { has_country_modifier = cold_war_low }
+	GER = { has_country_modifier = cold_war_low }
 	USA = { has_country_modifier = cold_war_low }
 	}
 mean_time_to_happen = {
@@ -571,13 +571,13 @@ mean_time_to_happen = {
 option = {
 	name = "Accept the visit!"
 	prestige = 100
-	relation = { who = RUS value = 100 }
+	relation = { who = GER value = 100 }
 ai_chance = { factor = 0.99 }
 		}
 option = {
 	name = "Reject the visit!"
 
-relation = { who = RUS value = -50 }
+relation = { who = GER value = -50 }
 
 ai_chance = { factor = 0.01 }
 		}
@@ -591,10 +591,10 @@ country_event = {
 	picture = "american_visit"
 
 trigger = {
-	RUS = { government = proletarian_dictatorship }
-	USA = { government = democracy }
-	tag = RUS
-	RUS = { has_country_modifier = cold_war_low }
+	GER = { has_country_modifier = communist_bloc_leader }
+	USA = { has_country_modifier = democractic_bloc_leader }
+	tag = GER
+	GER = { has_country_modifier = cold_war_low }
 	USA = { has_country_modifier = cold_war_low }
 	}
 mean_time_to_happen = {

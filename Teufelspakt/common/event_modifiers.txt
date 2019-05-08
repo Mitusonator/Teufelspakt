@@ -5257,7 +5257,7 @@ prestige = 1
 leadership_modifier = 0.50
 diplomatic_points_modifier = 0.50
 loan_interest = -0.5
-max_loan_modifier = 0.5
+max_loan_modifier = 1.0
 }
 
 ### Ideological Blocs ###

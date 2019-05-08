@@ -4494,10 +4494,10 @@ country_event = {
 trigger = { 
 tag = USA
 OR = { has_country_modifier = atomic_nation has_country_modifier = hydrogen_nation }
-USA = { government = democracy }
-RUS = { OR = { has_country_modifier = atomic_nation has_country_modifier = hydrogen_nation } }
+GER = { OR = { has_country_modifier = atomic_nation has_country_modifier = hydrogen_nation } }
+GER = { has_country_modifier = communist_bloc_leader }
+USA = { has_country_modifier = democractic_bloc_leader }
 assymetric_warfare = 1
-RUS = { government = proletarian_dictatorship }
 }
 
 mean_time_to_happen = { 
@@ -4507,12 +4507,12 @@ months = 60
 option = {
 name = "Unleash Nuclear Armaggeddon!"
 	war = { 
-target = RUS
+target = GER
 attacker_goal = { casus_belli = dismantle_cb } 
 defender_goal = { casus_belli = dismantle_cb }
 call_ally = yes }
 
-RUS = { 
+GER = { 
 
 add_country_modifier = { name = nukes_used_recently duration = 30 }
 
@@ -4541,14 +4541,13 @@ country_event = {
 	picture = "1410154"
 	
 trigger = { 
-tag = RUS
+tag = GER
 OR = { has_country_modifier = atomic_nation has_country_modifier = hydrogen_nation }
 
 USA = { OR = { has_country_modifier = atomic_nation has_country_modifier = hydrogen_nation } }
-
-USA = { government = democracy }
+GER = { has_country_modifier = communist_bloc_leader }
+USA = { has_country_modifier = democractic_bloc_leader }
 assymetric_warfare = 1
-RUS = { government = proletarian_dictatorship }
 }
 
 mean_time_to_happen = { 
@@ -4567,11 +4566,11 @@ USA = { add_country_modifier = { name = nukes_used_recently duration = 30 } }
 
 USA = { 
 
-random_country = { limit = { tag = RUS has_country_modifier = nuclear_cap_high } 
+random_country = { limit = { tag = GER has_country_modifier = nuclear_cap_high } 
 country_event = 1331431 }
-random_country = { limit = { tag = RUS has_country_modifier = nuclear_cap_medium } 
+random_country = { limit = { tag = GER has_country_modifier = nuclear_cap_medium } 
 country_event = 1331430 }
-random_country = { limit = { tag = RUS has_country_modifier = nuclear_cap_low } 
+random_country = { limit = { tag = GER has_country_modifier = nuclear_cap_low } 
 country_event = 1331429 } }
 
 ai_chance = { factor = 0 }
@@ -4673,32 +4672,32 @@ random_owned = { limit = { is_capital = yes } add_province_modifier = { name = n
 		}
 }
 
-#Taiwanese Independence
-country_event = {
-	id = 1410159
-	title = "Stirrings of Taiwanese Independence"
-	desc = EVTDESC1410159
-	picture = "taiwan_independence_core"
-	fire_only_once = yes
-
-trigger = { 
-tag = KMT
-government = democracy
-ruling_party_ideology = nationalist
-NOT = { war_with = CHI }
-OR = { CHI = { exists = yes } CHI = { government = proletarian_dictatorship } }
-}
-
-mean_time_to_happen = { 
-months = 8
-}
-
-option = {
-name = "Interesting"
-any_owned = { limit = { OR = { province_id = 1485 province_id = 2562 } } add_core = TAI }
-		}
-
-}
+##Taiwanese Independence
+#country_event = {
+#	id = 1410159
+#	title = "Stirrings of Taiwanese Independence"
+#	desc = EVTDESC1410159
+#	picture = "taiwan_independence_core"
+#	fire_only_once = yes
+#
+#trigger = { 
+#tag = KMT
+#government = democracy
+#ruling_party_ideology = nationalist
+#NOT = { war_with = CHI }
+#OR = { CHI = { exists = yes } CHI = { government = proletarian_dictatorship } }
+#}
+#
+#mean_time_to_happen = { 
+#months = 8
+#}
+#
+#option = {
+#name = "Interesting"
+#any_owned = { limit = { OR = { province_id = 1485 province_id = 2562 } } add_core = TAI }
+#		}
+#
+#}
 
 #One China Policy - start
 country_event = {

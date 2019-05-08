@@ -8857,6 +8857,29 @@ remove_province_modifier = bretton_woods_effect }
 
 }
 
+#Kicked out of the VSZ
+country_event = {
+	id = 1111111
+title = "Kicked out of the VSZ aid"
+	desc = "We have been denied VSZ aid because our government type or ideology does not fit with the goals of the institution."
+	picture = "bretton_woods_system_gold"
+
+trigger = {
+
+NOT = { has_country_modifier = communist_bloc }
+
+has_country_modifier = comecon
+
+}
+
+option = {
+name = "We don't need it anyway!"
+prestige = -25
+remove_country_modifier = comecon
+		}
+
+}
+
 #China Land Reform, 1950
 country_event = {
 	id = 1512216
@@ -12458,7 +12481,7 @@ NOT = { OR = { has_country_modifier = communist_bloc_leader has_country_modifier
 
 		set_country_flag = joincomm
 		prestige = 10
-		relation = { who = RUS value = 50 }
+		relation = { who = GER value = 50 }
 		relation = { who = USA value = -100 }
 
 		clr_country_flag = joinnam
@@ -12479,7 +12502,7 @@ add_country_modifier = { name = communist_bloc duration = -1 }
 	limit = { has_country_modifier = democratic_bloc_leader }
 			relation = { who = THIS value = -100 }
 			}
-			random_country = { limit = { has_country_modifier = communist_bloc_leader } country_event = 8225000 }
+			#random_country = { limit = { has_country_modifier = communist_bloc_leader } country_event = 8225000 }
 any_country = { limit = { has_country_flag = joincomm } country_event = 19809 }
 
   }
@@ -12538,80 +12561,80 @@ add_country_modifier = { name = democratic_bloc duration = -1 }
 
 }
 
-##Vassals join the Overlord's Bloc - Non-Aligned Movement
-#country_event = {
-#  id = 1512306
-#  title = "$COUNTRY$ Joins the Non-Aligned Movement"
-#  desc = EVTDESC1512306
-#  picture = "nam_bloc_vassal"
-#
-#  trigger = {
-#	has_global_flag = blocsenabled
-#	is_vassal = yes
-#overlord = { has_country_flag = joinnam }
-#NOT = { has_country_flag = joinnam }
-#  }
-#
-#  option = {
-#    name = "We don't want to destroy each other!"
-#
-#
-#			set_country_flag = joinnam
-#			remove_country_modifier = independent_bloc
-#			any_country = {
-#		limit = { exists = yes has_country_flag = joinnam }
-#			relation = { who = THIS value = 50 }
-#			diplomatic_influence = { who = THIS value = 25 }
-#			}
-#
-#
-#clr_country_flag = joincomm
-#			prestige = -10
-#
-#remove_country_modifier = commhigh
-#remove_country_modifier = commmedium
-#remove_country_modifier = commlow 
-#
-#remove_country_modifier = communist_bloc 			random_country = {
-#	limit = { has_country_modifier = communist_bloc_leader }
-#				relation = { who = THIS value = -200 }
-#		diplomatic_influence =  { who = THIS value = -200 }
-#				country_event = 8225001
-#			}
-#			random_country = {
-#				limit = { has_country_modifier = democratic_bloc_leader }
-#				relation = { who = THIS value = 100 }
-#				diplomatic_influence = { who = THIS value = 10 }
-#			}
-#any_country = { limit = { has_country_flag = joincomm } country_event = 19810 }
-#
-#
-#			remove_country_modifier = communist_bloc
-#			RUS  = { country_event = 8225001 }
-#
-#clr_country_flag = joindemo
-#	remove_country_modifier = democratic_bloc
-#	remove_country_modifier = demohigh
-#	remove_country_modifier = demomedium
-#	remove_country_modifier = demolow 
-#			prestige = -10
-#			random_country = {
-#	limit = { has_country_modifier = communist_bloc_leader }
-#				relation = { who = THIS value = 100 }
-#		diplomatic_influence =  { who = THIS value = 10 }
-#			}
-#			random_country = {
-#	limit = { has_country_modifier = democratic_bloc_leader }
-#				relation = { who = THIS value = -200 }
-#		diplomatic_influence = { who = THIS value = -200 }
-#			}
-#			any_country = { limit = { has_country_flag = joindemo } country_event = 19810 }
-#			
-#			remove_country_modifier = democratic_bloc
-#
-#  }
-#
-#}
+#Vassals join the Overlord's Bloc - Non-Aligned Movement
+country_event = {
+  id = 1512306
+  title = "$COUNTRY$ Joins the Non-Aligned Movement"
+  desc = EVTDESC1512306
+  picture = "nam_bloc_vassal"
+
+  trigger = {
+	has_global_flag = blocsenabled
+	is_vassal = yes
+overlord = { has_country_flag = joinnam }
+NOT = { has_country_flag = joinnam }
+  }
+
+  option = {
+    name = "We don't want to destroy each other!"
+
+
+			set_country_flag = joinnam
+			remove_country_modifier = independent_bloc
+			any_country = {
+		limit = { exists = yes has_country_flag = joinnam }
+			relation = { who = THIS value = 50 }
+			diplomatic_influence = { who = THIS value = 25 }
+			}
+
+
+clr_country_flag = joincomm
+			prestige = -10
+
+remove_country_modifier = commhigh
+remove_country_modifier = commmedium
+remove_country_modifier = commlow 
+
+remove_country_modifier = communist_bloc 			random_country = {
+	limit = { has_country_modifier = communist_bloc_leader }
+				relation = { who = THIS value = -200 }
+		diplomatic_influence =  { who = THIS value = -200 }
+				country_event = 8225001
+			}
+			random_country = {
+				limit = { has_country_modifier = democratic_bloc_leader }
+				relation = { who = THIS value = 100 }
+				diplomatic_influence = { who = THIS value = 10 }
+			}
+any_country = { limit = { has_country_flag = joincomm } country_event = 19810 }
+
+
+			remove_country_modifier = communist_bloc
+			GER  = { country_event = 8225001 }
+
+clr_country_flag = joindemo
+	remove_country_modifier = democratic_bloc
+	remove_country_modifier = demohigh
+	remove_country_modifier = demomedium
+	remove_country_modifier = demolow 
+			prestige = -10
+			random_country = {
+	limit = { has_country_modifier = communist_bloc_leader }
+				relation = { who = THIS value = 100 }
+		diplomatic_influence =  { who = THIS value = 10 }
+			}
+			random_country = {
+	limit = { has_country_modifier = democratic_bloc_leader }
+				relation = { who = THIS value = -200 }
+		diplomatic_influence = { who = THIS value = -200 }
+			}
+			any_country = { limit = { has_country_flag = joindemo } country_event = 19810 }
+			
+			remove_country_modifier = democratic_bloc
+
+  }
+
+}
 
 #North Macedonia Name
 country_event = {
