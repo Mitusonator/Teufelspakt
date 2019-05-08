@@ -475,7 +475,7 @@ tag = USA
 USA = { OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 } }
 
 #Non-fascist or weak Germany
-RUS = { OR = { NOT = { rank = 3 } NOT = { OR = { government = populist_dictatorship government = nationalist_dictatorship1 government = absolute_monarchy } } } }
+GER = { OR = { NOT = { rank = 3 } NOT = { OR = { government = populist_dictatorship government = nationalist_dictatorship government = absolute_monarchy } } } }
 		
 		NOT = { has_country_flag = cold_warusa1 }
 		has_global_flag = blocsenabled
