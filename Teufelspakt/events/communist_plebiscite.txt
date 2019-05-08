@@ -772,41 +772,41 @@ country_event = {
 	}
 }
 
-# Sphereling event
-country_event = {
-	id = 8023341
-	title = EVT_8023341_NAME # $FROMCOUNTRY_ADJ$ Relations
-	desc = EVT_8023341_DESC # $FROMCOUNTRY$, with whose communism we were, until recently, aligned, has begrudingly accepted our choice for a different direction in building socialism in our country. One question remains: what kind of diplomatic relations should we keep with the eastern bloc?
-	picture = "nwo2_tito_stalin"
-	is_triggered_only = yes
-
-	option = {
-		name = EVT_8023341_A # None at all
-		FROM = {
-			relation = { who = THIS value = -100 }
-			diplomatic_influence = { who = THIS value = -250 }
-		}
-		any_pop = { militancy = 0.3 consciousness = 0.6 }
-		add_country_modifier = { name = comecon_excluded duration = -1 }
-		ai_chance = {
-			factor = 0.5
-			modifier = {
-				factor = 0
-				alliance_with = FROM
-			}
-		}
-	}
-
-	option = {
-		name = EVT_8023341_B # They made us who we are
-		FROM = { diplomatic_influence = { who = THIS value = -150 } }
-		any_pop = { militancy = 1.5 consciousness = 1 }
-		ai_chance = {
-			factor = 0.5
-			modifier = {
-				factor = 0
-				ruling_party_ideology = socialist
-			}
-		}
-	}
-}
+## Sphereling event
+#country_event = {
+#	id = 8023341
+#	title = EVT_8023341_NAME # $FROMCOUNTRY_ADJ$ Relations
+#	desc = EVT_8023341_DESC # $FROMCOUNTRY$, with whose communism we were, until recently, aligned, has begrudingly accepted our choice for a different direction in building socialism in our country. One question remains: what kind of diplomatic relations should we keep with the eastern bloc?
+#	picture = "nwo2_tito_stalin"
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = EVT_8023341_A # None at all
+#		FROM = {
+#			relation = { who = THIS value = -100 }
+#			diplomatic_influence = { who = THIS value = -250 }
+#		}
+#		any_pop = { militancy = 0.3 consciousness = 0.6 }
+#		add_country_modifier = { name = comecon_excluded duration = -1 }
+#		ai_chance = {
+#			factor = 0.5
+#			modifier = {
+#				factor = 0
+#				alliance_with = FROM
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = EVT_8023341_B # They made us who we are
+#		FROM = { diplomatic_influence = { who = THIS value = -150 } }
+#		any_pop = { militancy = 1.5 consciousness = 1 }
+#		ai_chance = {
+#			factor = 0.5
+#			modifier = {
+#				factor = 0
+#				ruling_party_ideology = socialist
+#			}
+#		}
+#	}
+#}

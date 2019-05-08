@@ -8843,7 +8843,7 @@ trigger = {
 
 has_country_modifier = bretton_system
 
-OR = { ruling_party_ideology = communist ruling_party_ideology = communist_social government = theocracy }
+has_country_modifier = comecon
 
 }
 
@@ -11313,7 +11313,7 @@ tag = USA
 government = democracy
 rank = 2
 NOT = { has_global_flag = form_nato }
-year = 1949
+has_global_flag = warsaw_pact_active
 }
 
 mean_time_to_happen = { 
@@ -11326,7 +11326,7 @@ name = "This is great!"
 
 prestige = 100
 
-relation = { who = RUS value = -100 }
+relation = { who = GER value = -50 }
 
 add_country_modifier = { name = nato_leader duration = -1 }
 set_country_flag = nato_leader

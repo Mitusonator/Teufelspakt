@@ -187,50 +187,61 @@ USA = { set_country_flag = us_politics_special }
 		ENG = { relation = { who = USA value = 200 } }
 		FRA = { relation = { who = USA value = 200 } }
 		CAN = { relation = { who = USA value = 200 } }
-		NET = { relation = { who = USA value = 200 } }
+		NET = { relation = { who = GER value = 200 } }
 		AST = { relation = { who = USA value = 200 } }
 		NZL = { relation = { who = USA value = 200 } }
-		JAP = { relation = { who = USA value = 200 } }
-		BEL = { relation = { who = USA value = 200 } }
-		LUX = { relation = { who = USA value = 200 } }
+		JAP = { relation = { who = GER value = 100 } }
+		BEL = { relation = { who = GER value = 200 } }
+		LUX = { relation = { who = GER value = 200 } }
 		ITA = { relation = { who = USA value = 200 } }
-		RUS = { add_country_modifier = { name = communist_bloc_leader duration = -1 }  set_country_flag = joincomm }
+		UFR = { relation = { who = GER value = 200 } }
+		NOR = { relation = { who = GER value = 200 } }
+		DEN = { relation = { who = GER value = 200 } }
+		CRO = { relation = { who = GER value = 200 } }
+		HUN = { relation = { who = GER value = 200 } }
+		ROM = { relation = { who = GER value = 200 } }
+		UKR = { relation = { who = GER value = 200 } }
+		BUL = { relation = { who = GER value = 200 } }
+		ALB = { relation = { who = USA value = 200 } }
+		CZH = { relation = { who = USA value = 200 } }
+		POL = { relation = { who = USA value = 200 } }
+		GER = { add_country_modifier = { name = communist_bloc_leader duration = -1 }  set_country_flag = joincomm }
 		USA = { add_country_modifier = { name = atomic_nation duration = -1 } add_country_modifier = { name = democratic_bloc_leader duration = -1 } set_country_flag = joindemo }
 	}
 
 }
 
-###### Set up NAM ######
-
-country_event = {
-	id = 19805
-	title = "EVT_19805_NAME" # EVT_19805_NAME;Non Aligned Movement
-	desc = "EVT_19805_DESC" # EVT_19805_ESC;The Non-Aligned Movement is a Movement of 115 members representing the interests and priorities of developing countries. (To remove the independent bloc modifier, join a bloc)
-	picture = "nam"
-
-	trigger = {
-		year = 1961
-		has_global_flag = blocsenabled
-		OR = { exists = HND exists = IDO exists = YUG }
-		NOT = { has_country_flag = joinnam } 
-		NOT = { has_country_flag = joindemo }
-		NOT = { has_country_flag = namformformed }
-		NOT = { has_country_flag = joincomm }
-	}
-
-	immediate = {
-		set_global_flag = namformed
-	}
-	
-	option = {
-		name = "EVT_19805_A" # EVT_19805_A;Interesting
-		set_country_flag = namformformed
-		set_country_flag = joinnam
-USA =  { relation = { who = THIS value = 50 } }
-USA =  { diplomatic_influence = { who = THIS value = 10 } }
-	}
-
-}
+####### Set up NAM ######
+#
+#country_event = {
+#	id = 19805
+#	title = "EVT_19805_NAME" # EVT_19805_NAME;Non Aligned Movement
+#	desc = "EVT_19805_DESC" # EVT_19805_ESC;The Non-Aligned Movement is a Movement of 115 members representing the interests and priorities of developing countries. (To remove the independent bloc modifier, join a bloc)
+#	picture = "nam"
+#
+#	trigger = {
+#		year = 1961
+#		has_global_flag = blocsenabled
+#		OR = { exists = HND exists = IDO exists = YUG }
+#		NOT = { has_country_flag = joinnam } 
+#		NOT = { has_country_flag = joindemo }
+#		NOT = { has_country_flag = namformformed }
+#		NOT = { has_country_flag = joincomm }
+#	}
+#
+#	immediate = {
+#		set_global_flag = namformed
+#	}
+#	
+#	option = {
+#		name = "EVT_19805_A" # EVT_19805_A;Interesting
+#		set_country_flag = namformformed
+#		set_country_flag = joinnam
+#USA =  { relation = { who = THIS value = 50 } }
+#USA =  { diplomatic_influence = { who = THIS value = 10 } }
+#	}
+#
+#}
 
 ############### Disable Blocs under events ###################
 
@@ -476,6 +487,7 @@ RUS = { OR = { NOT = { rank = 3 } NOT = { OR = { government = populist_dictators
 		set_global_flag = cold_warusa
 		set_country_flag = cold_warusa1
 		set_global_flag = dissolve_warsaw_pact
+		clr_global_flag = comecon_active
 		clr_global_flag =  blocsenabled
 		prestige = 1000
 		badboy = -20

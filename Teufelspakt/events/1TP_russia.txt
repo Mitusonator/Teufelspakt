@@ -384,7 +384,7 @@ country_event = {
 			997 = { secede_province = RUS }
 			1006 = { secede_province = RUS }
 			UBD = { government = sar_government }
-			badboy = 10
+			badboy = 5
   }
    option = {
             name = "Incorporate Occupation zone into the Reich and return ethnic Russian territory"
@@ -398,7 +398,7 @@ country_event = {
 			997 = { secede_province = RUS }
 			1006 = { secede_province = RUS }
 			UBD = { government = sar_government }
-			badboy = 5
+			badboy = 2.5
   } 
   option = {
             name = "Incorporate Occupation zone into the Reich"
@@ -408,7 +408,7 @@ country_event = {
 			996 = { add_core = UBD }
 			997 = { add_core = UBD }
 			1006 = { add_core = UBD }
-			badboy = 15
+			badboy = 7.5
   }
   option = {
             name = "Establish Baltic Republic and return ethnic Russian territory but keep Petersburg as military base"
@@ -421,7 +421,7 @@ country_event = {
 			997 = { secede_province = RUS }
 			1006 = { secede_province = RUS }
 			release_vassal = UBD
-			badboy = 5
+			badboy = 2.5
   }
   option = {
             name = "Establish Baltic Republic and return ethnic Russian territory"

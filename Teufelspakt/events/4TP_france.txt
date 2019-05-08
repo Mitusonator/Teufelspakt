@@ -128,6 +128,7 @@ country_event = {
 				casus_belli = humiliate
 			 }
 		    }
+            GER = { badboy = -3 }
   }
 
 }

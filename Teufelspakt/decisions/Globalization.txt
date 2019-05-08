@@ -184,8 +184,8 @@ NOT = { has_global_flag = end_of_bretton_system }
 NOT = { has_country_modifier = comecon }
 NOT = { has_country_modifier = bretton_system_excluded }
 NOT = { has_country_modifier = bretton_system }
-NOT = { ruling_party_ideology = communist }
-NOT = { ruling_party_ideology = communist_social }
+#NOT = { ruling_party_ideology = communist }
+#NOT = { ruling_party_ideology = communist_social }
 NOT = { government = theocracy }
 USA = { government = democracy rank = 2 }			
 OR = { USA = { has_country_modifier = bretton_system } tag = USA } # USA should get Bretton Woods first!

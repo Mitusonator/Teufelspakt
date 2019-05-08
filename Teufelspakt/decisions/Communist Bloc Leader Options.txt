@@ -4,7 +4,7 @@ changecommbloc = {
 	picture = "joincommunistbloc"
 alert = no
 		potential = {
-			tag = RUS
+			tag = GER
 		has_country_modifier = communist_bloc_leader
 		OR = { has_country_modifier = commhigh_gp
 			has_country_modifier = commmedium_gp

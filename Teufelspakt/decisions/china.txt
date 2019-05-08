@@ -64,34 +64,34 @@ OR = { ai = no has_recently_lost_war = yes }
 	}
 
 
-	sino_soviet_friendship_chi = {
-		picture = "sino_soviet_friendship"
-		potential = {
-			RUS = { war = no government = proletarian_dictatorship }
-			RUS = { has_country_flag = sino_soviet_friendship }
-			war = no
-			NOT = { has_country_flag = sino_soviet_friendship }
-			tag = CHI
-		}
-
-		allow = {
-			war = no
-			government = proletarian_dictatorship
-			containment = 1
-		}
-
-		effect = {
-			set_country_flag = sino_soviet_friendship
-			relation = { who = RUS value = 100 } 
-			add_country_modifier = { name = comecon duration = 1750 }
-			create_alliance = RUS
-			RUS = { diplomatic_influence = { who = CHI value = 100 }  }
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
+#	sino_soviet_friendship_chi = {
+#		picture = "sino_soviet_friendship"
+#		potential = {
+#			RUS = { war = no government = proletarian_dictatorship }
+#			RUS = { has_country_flag = sino_soviet_friendship }
+#			war = no
+#			NOT = { has_country_flag = sino_soviet_friendship }
+#			tag = CHI
+#		}
+#
+#		allow = {
+#			war = no
+#			government = proletarian_dictatorship
+#			containment = 1
+#		}
+#
+#		effect = {
+#			set_country_flag = sino_soviet_friendship
+#			relation = { who = RUS value = 100 } 
+#			add_country_modifier = { name = comecon duration = 1750 }
+#			create_alliance = RUS
+#			RUS = { diplomatic_influence = { who = CHI value = 100 }  }
+#		}
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
 
 	the_return_of_hong_kong = {
 		picture = "the_return_of_hong_kong"

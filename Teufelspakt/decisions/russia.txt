@@ -1,4 +1,4 @@
-#political_decisions = {
+political_decisions = {
 #
 #	gulag = {
 #		picture = "gulag"
@@ -30,78 +30,73 @@
 #		ai_will_do = { factor = 1 modifier = { factor = 0 check_variable = { which = soviet_control_cee value = 5 } } }
 #	}
 #
-#	comecon = {
-#		picture = "comecon"
-#		potential = {
-#			has_global_flag = form_nato
-#			OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 }
-#			RUS = { is_greater_power = yes government = proletarian_dictatorship }
-#			NOT = { has_country_modifier = comecon }
-#			NOT = { has_country_modifier = comecon_excluded }
-#			NOT = { has_country_modifier = bretton_system }
-#		}
-#		allow = {
-#			containment = 1
-#			OR = { 
-#				war = no
-#				tag = RUS
-#				relation = { who = RUS value = 150 }
-#				overlord = { tag = RUS } 
-#				sphere_owner = { tag = RUS } 
-#			}
-#		}
-#		effect = {
-#	prestige = 25
-#	add_country_modifier = { name = comecon duration = 3650 }
-#	relation = { who = RUS value = 25 }
-#	relation = { who = USA value = -50 }
-#		}
-#		ai_will_do = { factor = 1 }
-#	}
-#	
-#	comecon_aid = {
-#		picture = "comecon_aid"
-#		potential = {
-#has_global_flag = blocsenabled
+	comecon = {
+		picture = "comecon"
+		potential = {
+		    has_global_flag = comecon_active
+			#has_global_flag = form_nato
+			#OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 }
+			GER = { AND = { is_greater_power = yes has_country_modifier = communist_bloc_leader } }
+			has_country_modifier = communist_bloc
+			NOT = { has_country_modifier = comecon }
+			NOT = { has_country_modifier = comecon_excluded }
+			#NOT = { has_country_modifier = bretton_system }
+		}
+		allow = {
+			containment = 1
+			OR = { 
+				#war = no
+				tag = GER
+				relation = { who = GER value = 150 }
+				overlord = { tag = GER } 
+				sphere_owner = { tag = GER } 
+			}
+		}
+		effect = {
+	prestige = 25
+	add_country_modifier = { name = comecon duration = -1 }
+	relation = { who = GER value = 25 }
+	relation = { who = USA value = -50 }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	comecon_aid = {
+		picture = "comecon_aid"
+		potential = {
+has_global_flag = blocsenabled
 #OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 }
-#
-#has_country_modifier = comecon
-#
-#NOT = { has_country_flag = comecon_decision_fired }
-#
-#NOT = { has_country_modifier = comecon_excluded }
-#RUS = { is_greater_power = yes OR = { government = proletarian_dictatorship government = socialist_democracy } }
-#
-#			NOT = { tag = RUS }
-#			NOT = { has_country_modifier = comecon_aid }
-#		NOT = { has_country_modifier = comecon_aid_rejected }
-#		}
-#		allow = {
-#			OR = { 
-#				government = proletarian_dictatorship
-#				government = proletarian_dictatorship1
-#				government = socialist_democracy 
-#				ruling_party_ideology = socialist 
-#				ruling_party_ideology = communist
-#				ruling_party_ideology = communist_social
-#			}
-#			NOT = { money = 10000 }
-#			NOT = { war_with = RUS }
-#		}
-#		effect = {
-#			set_country_flag = comecon_decision_fired
-#			random_country = { 
-#				limit = { 
-#					is_greater_power = yes
-#					tag = RUS
-#					money = 220000
-#				}
-#				country_event = 15610 
-#			}
-#			prestige = -25
-#		}
-#		ai_will_do = { factor = 1 }
-#	}
+
+has_country_modifier = comecon
+
+NOT = { has_country_flag = comecon_decision_fired }
+
+NOT = { has_country_modifier = comecon_excluded }
+GER = { is_greater_power = yes has_country_modifier = communist_bloc_leader }
+
+			NOT = { tag = GER }
+			NOT = { has_country_modifier = comecon_aid }
+		NOT = { has_country_modifier = comecon_aid_rejected }
+		}
+		allow = {
+            has_country_modifier = comecon
+			NOT = { money = 10000 }
+			NOT = { war_with = GER }
+		}
+		effect = {
+			set_country_flag = comecon_decision_fired
+			random_country = { 
+				limit = { 
+					is_greater_power = yes
+					tag = GER
+					money = 220000
+				}
+				country_event = 15610 
+			}
+			prestige = -25
+		}
+		ai_will_do = { factor = 1 }
+	}
 #
 #
 #	sino_soviet_friendship = {
@@ -209,4 +204,4 @@
 #		
 #	}	
 #	
-#}
+}

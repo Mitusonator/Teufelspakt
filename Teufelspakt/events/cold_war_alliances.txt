@@ -334,67 +334,67 @@ country_event = {
 	ai_chance = { factor = 0 }
   }
 }
-country_event = {
-  id = 8215020
-  title = EVT_8215020_NAME
-  desc = EVT_8215020_DESC
-  picture = "nwo2_nato"
-  fire_only_once = yes
-
-  trigger = {
-    tag = USA
-    year = 1948 NOT = { year = 1960 }
-	war = no
-	has_country_flag = is_disabled_for_now
-  }
-
-  mean_time_to_happen = { months = 3  }
-
-  option = {
-    name = EVT_8215020_A
-	ai_chance = { factor = 100 }
-	set_global_flag = treaty_of_brussels
-	money = -3000 
-  }
-
-  option = {
-    name = EVT_8215020_B
-	ai_chance = { factor = 0 }
-  }
-
-  option = {
-    name = EVT_8215020_C
-	ai_chance = { factor = 0 }
-	set_global_flag = isolationist_usa 
-  }
-}
-country_event = {
-  id = 8215021
-  title = EVT_8215021_NAME
-  desc = EVT_8215021_DESC
-  picture = "nwo2_nato"
-
-  trigger = {
-	has_country_flag = is_disabled_for_now
-    OR = { tag = BEL tag = LUX tag = FRA tag = NET tag = ENG }
-    year = 1948 NOT = { year = 1960 }
-	has_global_flag = treaty_of_brussels
-  }
-
-  mean_time_to_happen = { months = 1  }
-
-  option = {
-    name = EVT_8215021_A
-	set_country_flag = invitation_to_nato
-	ai_chance = { factor = 100 }
-  }
-
-  option = {
-    name = EVT_8215021_B
-	capital_scope = { add_province_modifier = { name = neutrality duration = 3500 } }
-	ai_chance = { factor = 0 }
-  }
-}
+#country_event = {
+#  id = 8215020
+#  title = EVT_8215020_NAME
+#  desc = EVT_8215020_DESC
+#  picture = "nwo2_nato"
+#  fire_only_once = yes
+#
+#  trigger = {
+#    tag = USA
+#    year = 1948 NOT = { year = 1960 }
+#	war = no
+#	has_country_flag = is_disabled_for_now
+#  }
+#
+#  mean_time_to_happen = { months = 3  }
+#
+#  option = {
+#    name = EVT_8215020_A
+#	ai_chance = { factor = 100 }
+#	set_global_flag = treaty_of_brussels
+#	money = -3000 
+#  }
+#
+#  option = {
+#    name = EVT_8215020_B
+#	ai_chance = { factor = 0 }
+#  }
+#
+#  option = {
+#    name = EVT_8215020_C
+#	ai_chance = { factor = 0 }
+#	set_global_flag = isolationist_usa 
+#  }
+#}
+#country_event = {
+#  id = 8215021
+#  title = EVT_8215021_NAME
+#  desc = EVT_8215021_DESC
+#  picture = "nwo2_nato"
+#
+#  trigger = {
+#	has_country_flag = is_disabled_for_now
+#    OR = { tag = BEL tag = LUX tag = FRA tag = NET tag = ENG }
+#    year = 1948 NOT = { year = 1960 }
+#	has_global_flag = treaty_of_brussels
+#  }
+#
+#  mean_time_to_happen = { months = 1  }
+#
+#  option = {
+#    name = EVT_8215021_A
+#	set_country_flag = invitation_to_nato
+#	ai_chance = { factor = 100 }
+#  }
+#
+#  option = {
+#    name = EVT_8215021_B
+#	capital_scope = { add_province_modifier = { name = neutrality duration = 3500 } }
+#	ai_chance = { factor = 0 }
+#  }
+#}
 country_event = {
   id = 8215022
   title = EVT_8215022_NAME
@@ -480,23 +480,27 @@ country_event = {
   id = 8215030
   title = "Revival of the Axis"
   desc = EVTDESC8215030
-  picture = "warsaw_pact_founding"
+  picture = "pact_of_nations_founding"
   fire_only_once = yes
 
   trigger = {
     	tag = GER
-	has_global_flag = blocsenabled
-    	year = 1960 #NOT = { year = 1990 }
-	has_global_flag = form_nato
+	    has_global_flag = blocsenabled
+		has_global_flag = us_german_sanctions
+    	year = 1960  
+	    #NOT = { year = 1990 }
+	    #has_global_flag = form_nato
   }
 
-  mean_time_to_happen = { months = 5 }
+  mean_time_to_happen = { months = 1 }
 
   option = {
-    name = "Bind the nations together!"
+    name = "Atmosphere is really heating up..."
 	prestige = 250
+	USA = { relation = { who = GER value = -50 } }
 	set_global_flag = warsaw_pact_active
     add_country_modifier = { name = warsaw_pact duration = -1 }
+	country_event = 9999951
 	ai_chance = { factor = 100 }
   }
 

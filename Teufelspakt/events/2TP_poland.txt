@@ -531,6 +531,8 @@ country_event = {
 				casus_belli = humiliate
 			 }
 		    }
+			GER = { badboy = -3 }
+			POL = { badboy = -3 }
   }
 
 }
@@ -667,6 +669,8 @@ country_event = {
 				casus_belli = humiliate
 			 }
 		    }
+			GER = { badboy = -3 }
+			LIT = { badboy = -3 }
   }
 
 }
@@ -793,7 +797,7 @@ country_event = {
 			ai_chance = { factor = 0.7 }
 			set_global_flag = spl_ukr_border_war
 			war = {
-			 target = POL
+			 target = SPL
 			 attacker_goal = {
 				casus_belli = humiliate
 			 }
@@ -801,6 +805,8 @@ country_event = {
 				casus_belli = humiliate
 			 }
 		    }
+            UKR = { badboy = -3 }
+			SPL = { badboy = -3 }
   }
 
 }
@@ -958,6 +964,8 @@ country_event = {
 				casus_belli = humiliate
 			 }
 		    }
+			RUS = { badboy = -3 }
+			UKR = { badboy = -3 }
   }
 
 }
@@ -1041,6 +1049,7 @@ country_event = {
 				casus_belli = humiliate
 			 }
 		    }
+			UKR = { badboy = -3 }
   }
   option = {
             name = EVT_9999963_B #Do nothing 

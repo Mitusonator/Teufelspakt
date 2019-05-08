@@ -424,7 +424,7 @@ sphere_owner = { has_country_modifier = communist_bloc_leader }
 has_global_flag = form_nato
 NOT = { has_global_flag = nato_abolish }
 is_vassal = no
-AND = { tag = GER GER = { has_country_modifier = communist_bloc_leader } }	
+NOT = { AND = { tag = GER  has_country_modifier = communist_bloc_leader } }	
 NOT = { has_country_modifier = alliance_sato }			
 NOT = { has_country_modifier = csto_alliance }
 NOT = { has_country_modifier = rio_pact }		
@@ -669,7 +669,7 @@ OR = { is_vassal = yes has_country_modifier = neutrality has_country_flag = neut
 			picture = "warsaw_pact"
 			potential = {
 
-has_global_flag = form_nato
+#has_global_flag = form_nato
 
 has_global_flag = warsaw_pact_active
 
@@ -725,7 +725,7 @@ relation = { who = GER value = 50 }
 			potential = {
 				has_global_flag = blocsenabled
 				has_country_modifier = warsaw_pact
-				NOT = { tag = RUS }
+				NOT = { AND = { tag = GER  has_country_modifier = communist_bloc_leader } }
 			}
 
 			allow = {
@@ -744,7 +744,7 @@ relation = { who = GER value = 50 }
 has_country_modifier = neutrality 
 has_country_flag = neutrality
 
-NOT = { OR = { government = populist_dictatorship government = nationali_dictatorship government = absolute_monarchy } }
+NOT = { OR = { government = populist_dictatorship government = nationalist_dictatorship government = absolute_monarchy } }
 
 AND = { is_vassal = no NOT = { relation = { who = GER value = 0 } } }
 				}
