@@ -45,13 +45,13 @@ country_event = {
 	
 	option = {
 		name = "May we find peace before obliteration!"
-		ai_chance = { factor = 0.4 }
+		ai_chance = { factor = 0.3 }
 		country_event = 1700010
 		any_country = { country_event = 1700010 }
 	}
 	option = {
 		name = "Find diplomatic solution before we are all dead!"
-		ai_chance = { factor = 0.6 }
+		ai_chance = { factor = 0.7 }
 		USA = { end_war = GER }
 		USA = { prestige = -500 }
 		GER = { prestige = -500 }
@@ -74,7 +74,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = "May we find peace before obliteration!"
+		name = "Evil schemer, I knew it!"
 		any_country = { 
 		               limit = { 
 					            OR = { 

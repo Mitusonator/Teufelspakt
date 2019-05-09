@@ -1,5 +1,6 @@
 owner = JRU
 controller = JRU
+add_core = UAR
 add_core = PAL
 add_core = JRU
 trade_goods = fruit

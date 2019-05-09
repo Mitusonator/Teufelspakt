@@ -1,6 +1,7 @@
-capital = 919
+capital = 2115
 primary_culture = jewish
 culture = haredim_jewish
+culture = french
 religion = secularism
 government = democracy
 plurality = 14.000000000000002

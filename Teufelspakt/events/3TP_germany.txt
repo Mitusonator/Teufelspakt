@@ -159,6 +159,7 @@ country_event = {
   trigger = {
              tag = USA
              has_global_flag = ger_the_truth
+			 NOT = { has_global_flag = us_german_sanctions }
 			 year = 1959
 			 month = 9
   }
@@ -385,16 +386,18 @@ country_event = {
 
   trigger = {
              tag = GER
+			 year = 1960
 			 ai = yes
-             badboy = 0.90
+             badboy = 1
   }
 
   mean_time_to_happen = { days = 1 }
   
   option = {
             name = "EVT_9999942_A"
-			badboy = -100
-            prestige = -100			
+			badboy = -500
+            prestige = -100
+            set_global_flag = can_attack_infamous_ai_ger			
   }
 
 }
@@ -408,6 +411,7 @@ country_event = {
 
   trigger = {
              tag = GER
+			 war = no
 			 CZH = { NOT = { has_country_modifier = communist_bloc } }
 			 exists = CZH
 			 year = 1969
@@ -463,6 +467,7 @@ country_event = {
 
     trigger = {
              tag = GER
+			 war = no
 			 CZH = { has_country_modifier = communist_bloc }
 			 exists = CZH
 			 year = 1969
@@ -641,6 +646,64 @@ country_event = {
             name = "EVT_9999934_A"	#won
 			ai_chance = { factor = 0.4 } 
             prestige = 100			
+  }
+
+}
+
+country_event = {
+  id = 9999930 #German-United Arab-Irani Trade Agreement - GER
+  title = EVT_9999930_NAME
+  desc = EVT_9999930_DESC
+  picture = "czh_occupation"
+  fire_only_once = yes
+
+    trigger = {
+             tag = GER
+			 year = 1972
+			 moth = 3
+			 exists = UAR
+			 exists = PER
+			 has_global_flag = blocsenabled
+    }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999930_A"
+			ai_chance = { factor = 1 }
+			GER = { prestige = 100 }
+            GER = { relation = { who = UAR value = 75 } }
+			GER = { relation = { who = PER value = 75 } }
+			GER = { diplomatic_influence = { who = UAR value = 100 } }
+			USA = { diplomatic_influence = { who = UAR value = -50 } }
+			EMG = { diplomatic_influence = { who = UAR value = -50 } }
+			GER = { diplomatic_influence = { who = PER value = 100 } }
+			USA = { diplomatic_influence = { who = PER value = -50 } }
+			ENG = { diplomatic_influence = { who = PER value = -50 } }
+			add_country_modifier = { name = bilateral_trade_pact_sp duration = 1825 }
+            UAR = { country_event = 9999929 }	
+            PER = { country_event = 9999929 }			
+  }
+
+}
+
+country_event = {
+  id = 9999929 #German-United Arab-Irani Trade Agreement - GER
+  title = EVT_9999929_NAME
+  desc = EVT_9999929_DESC
+  picture = "czh_occupation"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999929_A"
+			ai_chance = { factor = 1 }
+			prestige = 50
+            relation = { who = GER value = 75 }
+			relation = { who = USA value = -100 }
+			relation = { who = ENG value = -100 }
+			add_country_modifier = { name = bilateral_trade_pact_sp duration = 1825 }			
   }
 
 }

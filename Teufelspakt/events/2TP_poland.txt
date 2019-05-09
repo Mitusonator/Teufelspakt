@@ -931,6 +931,7 @@ country_event = {
             name = EVT_9999967_A #Agree to russian terms
 			ai_chance = { factor = 0.1 }
             any_owned = { limit = { is_core = RUS }  secede_province = RUS }
+			set_global_flag = ukr_bend_to_rus
   }
   
   option = {
@@ -996,6 +997,7 @@ country_event = {
 			ai_chance = { factor = 1 }
 			any_owned = { limit = { is_core = RUS }  secede_province = RUS }
 			clr_global_flag = rus_ukr_border_war
+			set_global_flag = ukr_bend_to_rus
   }
 
 }

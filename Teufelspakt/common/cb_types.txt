@@ -2299,6 +2299,7 @@ THIS = { NOT = { has_country_flag = un_armistice } }
 		NOT = { is_our_vassal = THIS }
 		THIS = { NOT = { war_policy = pacifism } }
 		badboy = 1
+		NOT = { AND = { tag = GER ai = yes NOT = { has_global_flag = can_attack_infamous_ai_ger } } }
 	}
 	
 	po_remove_prestige = yes

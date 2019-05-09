@@ -1,5 +1,6 @@
-owner = ALW
-controller = ALW
+owner = UAR
+controller = UAR
+add_core = UAR
 add_core = SYR
 add_core = ALW
 trade_goods = cotton

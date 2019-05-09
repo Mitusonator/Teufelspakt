@@ -1,5 +1,6 @@
-owner = SYR
-controller = SYR
+owner = UAR
+controller = UAR
+add_core = UAR
 add_core = SYR
 add_core = ROJ
 add_core = KUR

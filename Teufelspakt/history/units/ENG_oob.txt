@@ -5,6 +5,12 @@ NZL = 10000
 AST = 10000
 RAJ = 5000
 }
+UAR = {
+	level = 5
+	value = 180
+	influence_value = 25
+	military_access = yes
+}
 SER = {
 	level = 5
 	value = 200

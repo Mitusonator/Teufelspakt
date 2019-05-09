@@ -6904,6 +6904,196 @@
 }
 #Tananarive - Tananarive (1411000/352750 POPS)
 2115 = {
+	artisans = {
+		culture = jewish
+		religion = secularism
+		size = 44
+	 } 
+	farmers = {
+		culture = jewish
+		religion =  jewish 
+		size = 28311
+	 } 
+	farmers = {
+		culture = jewish
+		religion = secularism
+		size = 358
+	 } 
+	capitalists = {
+		culture = jewish
+		religion =  jewish 
+		size = 664
+	 } 
+	capitalists = {
+		culture = jewish
+		religion = secularism
+		size = 8
+	 } 
+	officers = {
+		culture = jewish
+		religion =  jewish 
+		size = 398
+	 } 
+	officers = {
+		culture = jewish
+		religion = secularism
+		size = 5
+	 } 
+	soldiers = {
+		culture = jewish
+		religion =  jewish 
+		size = 40000
+	 } 
+	soldiers = {
+		culture = jewish
+		religion = secularism
+		size = 20
+	 } 
+	aristocrats = {
+		culture = jewish
+		religion =  jewish 
+		size = 5322
+	 } 
+	aristocrats = {
+		culture = jewish
+		religion = secularism
+		size = 67
+	 } 
+	bureaucrats = {
+		culture = jewish
+		religion =  jewish 
+		size = 132
+	 } 
+	bureaucrats = {
+		culture = jewish
+		religion = secularism
+		size = 1
+	 } 
+	clergymen = {
+		culture = jewish
+		religion =  jewish 
+		size = 1330
+	 }  
+	clergymen = {
+		culture = jewish
+		religion = secularism
+		size = 16
+	 } 
+	capitalists = {
+		culture = jewish
+		religion =  jewish 
+		size = 10
+	 } 
+	officers = {
+		culture = jewish
+		religion =  jewish 
+		size = 5
+	 } 
+	soldiers = {
+		culture = jewish
+		religion =  jewish 
+		size = 26
+	 } 
+	aristocrats = {
+		culture = jewish
+		religion =  jewish 
+		size = 88
+	 } 
+	aristocrats = {
+		culture = jewish
+		religion = secularism
+		size = 1
+	 } 
+	bureaucrats = {
+		culture = jewish
+		religion =  jewish 
+		size = 1
+	 } 
+	clergymen = {
+		culture = jewish
+		religion =  jewish 
+		size = 20
+	 } 
+	capitalists = {
+		culture = jewish
+		religion =  jewish 
+		size = 855
+	 } 
+	capitalists = {
+		culture = jewish
+		religion = secularism
+		size = 10
+	 } 
+	officers = {
+		culture = jewish
+		religion =  jewish 
+		size = 512
+	 } 
+	officers = {
+		culture = jewish
+		religion = secularism
+		size = 6
+	 } 
+	soldiers = {
+		culture = jewish
+		religion =  jewish 
+		size = 2053
+	 } 
+	soldiers = {
+		culture = jewish
+		religion = secularism
+		size = 25
+	 } 
+	aristocrats = {
+		culture = jewish
+		religion =  jewish 
+		size = 6843
+	 } 
+	aristocrats = {
+		culture = jewish
+		religion = secularism
+		size = 86
+	 } 
+	bureaucrats = {
+		culture = jewish
+		religion =  jewish 
+		size = 170
+	 } 
+	bureaucrats = {
+		culture = jewish
+		religion = secularism
+		size = 2
+	 } 
+	clergymen = {
+		culture = jewish
+		religion =  jewish 
+		size = 1710
+	 } 
+	clergymen = {
+		culture = jewish
+		religion = secularism
+		size = 21
+	 } 
+	artisans = {
+		culture = jewish
+		religion =  jewish 
+		size = 4491
+	 } 
+	artisans = {
+		culture = jewish
+		religion = secularism
+		size = 56
+	 } 
+	farmers = {
+		culture = jewish
+		religion =  jewish 
+		size = 75749
+	 } 
+	farmers = {
+		culture = jewish
+		religion = secularism
+		size = 958
+	 }
 	officers = {
 		culture = french
 		religion =  catholic 

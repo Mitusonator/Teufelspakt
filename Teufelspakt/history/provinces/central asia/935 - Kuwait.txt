@@ -1,5 +1,6 @@
 owner = KUW
 controller = KUW
+add_core = UAR
 add_core = KUW
 add_core = IRQ
 trade_goods = petroleum

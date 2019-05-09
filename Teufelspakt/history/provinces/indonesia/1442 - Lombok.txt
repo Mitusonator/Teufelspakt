@@ -1,5 +1,5 @@
-owner = AST
-controller = AST
+owner = ENG
+controller = ENG
 add_core = IDO
 add_core = EID
 trade_goods = copper

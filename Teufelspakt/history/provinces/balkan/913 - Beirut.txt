@@ -1,5 +1,6 @@
-owner = LEB
-controller = LEB
+owner = UAR
+controller = UAR
+add_core = UAR
 add_core = LEB
 trade_goods = tobacco
 life_rating = 35

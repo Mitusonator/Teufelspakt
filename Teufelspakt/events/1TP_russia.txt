@@ -449,3 +449,84 @@ country_event = {
 			badboy = 1
   }
 }
+
+country_event = {
+  id = 9999933 #Ukraine weak annex
+  title = EVT_9999933_NAME
+  desc = EVT_9999933_DESC
+  picture = "czh_occupation"
+  fire_only_once = yes
+
+    trigger = {
+             tag = RUS
+			 UKR = { NOT = { owns = 958 } }
+			 has_global_flag = ukr_bend_to_rus
+    }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999933_A" #Annex them
+			ai_chance = { factor = 1 }
+			UKR = { any_owned = { limit = { is_core = UKR } add_core = RUS } }
+			958 = { add_core = SPL }
+			960 = { add_core = SPL }
+			961 = { add_core = SPL }
+			958 = { add_core = POL }
+			960 = { add_core = POL }
+			961 = { add_core = POL }
+			inherit = UKR
+            #badboy = 5			
+  }
+  option = {
+            name = "EVT_9999939_B" #leav them be	
+			ai_chance = { factor = 0 }
+  }
+
+}
+
+country_event = {
+  id = 9999932 #US-RUS treaty of friendship - RUS
+  title = EVT_9999932_NAME
+  desc = EVT_9999932_DESC
+  picture = "czh_occupation"
+  fire_only_once = yes
+
+    trigger = {
+             tag = RUS
+			 year = 1965
+			 has_global_flag = blocsenabled
+    }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999932_A"
+			ai_chance = { factor = 1 }
+			RUS = { prestige = 250 }
+            RUS = { relation = { who = USA value = 100 } }
+			RUS = { relation = { who = GER value = -100 } }
+            USA = { country_event = 9999931 }			
+  }
+
+}
+
+country_event = {
+  id = 9999931 #US-RUS treaty of friendship - inform US
+  title = EVT_9999931_NAME
+  desc = EVT_9999931_DESC
+  picture = "czh_occupation"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999931_A"
+			ai_chance = { factor = 1 }
+			USA = { prestige = 50 }
+            RUS = { relation = { who = USA value = 100 } }
+            USA = { diplomatic_influence = { who = RUS value = 100 } }
+			GER = { diplomatic_influence = { who = RUS value = -50 } }
+  }
+
+}

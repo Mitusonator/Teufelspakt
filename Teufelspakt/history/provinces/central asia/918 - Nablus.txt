@@ -1,5 +1,6 @@
-owner = PAL
-controller = PAL
+owner = UAR
+controller = UAR
+add_core = UAR
 add_core = PAL
 trade_goods = other_minerals
 life_rating = 35
