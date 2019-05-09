@@ -1596,7 +1596,7 @@ RGO_template_credit = {
 		
 	employees = {
 		{ 
-			poptype = clerks 
+			poptype = farmers 
 			effect = throughput
 			amount = 10
 		}

@@ -5,19 +5,19 @@
 
 #######
 
-china_tax_boost = {
-trigger = {
-	#has_country_flag = prc
-	OR = {
-	tag = USA
-	tag = GER
-    }	
-	has_global_flag = blocsenabled
-	#government = proletarian_dictatorship
-		}
-tax_efficiency = 0.25
-#prestige = 0.001
-}
+#china_tax_boost = {
+#trigger = {
+#	#has_country_flag = prc
+#	OR = {
+#	tag = USA
+#	tag = GER
+#    }	
+#	has_global_flag = blocsenabled
+#	#government = proletarian_dictatorship
+#		}
+#tax_efficiency = 0.10
+##prestige = 0.001
+#}
 
 demoprehigh_target = {
 trigger = {
@@ -935,7 +935,7 @@ united_korea = {
 		tag = KOR
 OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 }
 						}
-	tax_efficiency = 0.20
+	tax_efficiency = 0.10
 }
 
 investor_uncertainty_trig_mod = {
@@ -962,23 +962,23 @@ wartime_election_trig_mod = {
         issue_change_speed = 0.3
 }
 
-yugoslavia_under_tito = {
-	trigger = {
-		tag = YUG
-government = proletarian_dictatorship
-						}
-	tax_efficiency = 0.50
-	middle_income_modifier = 0.25 
-	poor_income_modifier = 0.30
-	import_cost = -4.25
-	factory_throughput = 0.125 #0.025
-	rgo_output = 0.25
-	loan_interest = -0.50
-	factory_owner_cost = -4.25
-	factory_output = 0.125 
-	factory_input = -0.20
-	research_points_modifier = 0.025
-}
+#yugoslavia_under_tito = {
+#	trigger = {
+#		tag = YUG
+#government = proletarian_dictatorship
+#						}
+#	tax_efficiency = 0.50
+#	middle_income_modifier = 0.25 
+#	poor_income_modifier = 0.30
+#	import_cost = -4.25
+#	factory_throughput = 0.125 #0.025
+#	rgo_output = 0.25
+#	loan_interest = -0.50
+#	factory_owner_cost = -4.25
+#	factory_output = 0.125 
+#	factory_input = -0.20
+#	research_points_modifier = 0.025
+#}
 
 ##### Overpopulated Nation #####
 
@@ -1334,7 +1334,7 @@ french_empire = {
 	NOT = { exists = ALG }
 	ai = yes
 			}
-	tax_efficiency = 0.20
+	tax_efficiency = 0.10
 	factory_output = 0.25
 }
 
@@ -1344,7 +1344,7 @@ indonesian_economic = {
 		NOT = { year = 1980 }
 		ai = yes
 			}
-	tax_efficiency = 0.20
+	tax_efficiency = 0.10
 }
 
 british_empire = {
@@ -1353,7 +1353,7 @@ british_empire = {
 		NOT = { year = 1965 }
 	ai = yes
 			}
-	tax_efficiency = 0.20
+	tax_efficiency = 0.10
 }
 
 portugese_empire = {
@@ -1362,7 +1362,7 @@ portugese_empire = {
 		NOT = { year = 1965 }
 	ai = yes
 			}
-	tax_efficiency = 0.25
+	tax_efficiency = 0.10
 }
 
 brazil_economy = {
@@ -1371,7 +1371,7 @@ brazil_economy = {
 		NOT = { year = 1980 }
 	ai = yes
 			}
-	tax_efficiency = 0.40
+	tax_efficiency = 0.10
 }
 
 vietnam_stability = {
