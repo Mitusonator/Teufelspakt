@@ -61,7 +61,7 @@ sar_government = {
 	election = yes
 	duration = 48
 	appoint_ruling_party = yes
-
+    flagType = special
 }
 # left_group dictatorship
 socialist_democracy =

@@ -5,11 +5,7 @@ country_event = {
 	desc = "With the conflict now escalated to an armed Superpower vs Superpower confrontation, the Cold War has gone hot. The International Order has collasped, the UN can no longer intervene in wars."
 	picture = "hot_tensions"
 	
-	trigger = {
-		USA = { war_with = GER }
-		NOT = { has_country_modifier = cold_war_hot }
-		has_global_flag =  blocsenabled
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "May we find peace before obliteration!"
@@ -31,6 +27,72 @@ country_event = {
 		remove_country_modifier = joint_aid
 	}
 }
+
+#Cold War Turns Hot
+country_event = {
+	id = 1700009
+	title = "Cold War Turns Hot!"
+	desc = "With the conflict now escalated to an armed Superpower vs Superpower confrontation, the Cold War has gone hot."
+	picture = "hot_tensions"
+	
+	trigger = {
+		USA = { war_with = GER }
+		OR = { tag = USA AND = { tag = GER  ai = no } }
+		NOT = { AND = { tag = USA  GER = { ai = no } } }
+		NOT = { has_country_modifier = cold_war_hot }
+		has_global_flag =  blocsenabled
+	}
+	
+	option = {
+		name = "May we find peace before obliteration!"
+		ai_chance = { factor = 0.4 }
+		country_event = 1700010
+		any_country = { country_event = 1700010 }
+	}
+	option = {
+		name = "Find diplomatic solution before we are all dead!"
+		ai_chance = { factor = 0.6 }
+		USA = { end_war = GER }
+		USA = { prestige = -500 }
+		GER = { prestige = -500 }
+		random_country = { 
+		               limit = { 
+                        ai = yes
+						exists = yes
+					   }
+		country_event = 1700008
+	   }
+    }
+}
+
+country_event = {
+	id = 1700008
+	title = "There is mastermind behind this!"
+	desc = "The mastermind behind this should lose prestige for causing war."
+	picture = "hot_tensions"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "May we find peace before obliteration!"
+		any_country = { 
+		               limit = { 
+					            OR = { 
+								      AND = {
+                                       tag = GER 
+                                       ai = no									   
+									  }
+								      AND = {
+                                       tag = USA 
+                                       ai = no									   
+									  }									  
+								} 
+					   }
+		prestige = -500
+	   }
+	}
+}
+
 #High Tensions
 country_event = {
 	id = 1700000

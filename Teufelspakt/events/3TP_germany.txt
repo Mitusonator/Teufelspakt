@@ -492,7 +492,6 @@ country_event = {
 			625 = { secede_province = BOH }
 			626 = { secede_province = BOH }
 			631 = { secede_province = BOH }
-			BOH = { government = sar_government }
 			BOH = { ruling_party_ideology = populist }
 		    BOH = { political_reform = none_voting }
 		    BOH = { political_reform = ruling_party_opinion }
@@ -505,6 +504,7 @@ country_event = {
 		    BOH = { political_reform = quality_of_service }
 			BOH = { add_accepted_culture = german }
 			GER = { create_vassal = BOH }
+			BOH = { government = sar_government }
 			GER = { badboy = 5 }
 			GER = { country_event = 9999938	}
   }
@@ -613,13 +613,13 @@ country_event = {
   
   option = {
             name = "EVT_9999937_A"	#attack
-			ai_chance = { factor = 0.4 } 
+			ai_chance = { factor = 0.3 } 
             country_event = 19821928
             badboy = 20			
   }
   option = {
             name = "EVT_9999937_B"	#back down
-			ai_chance = { factor = 0.6 }
+			ai_chance = { factor = 0.7 }
 			GER = { country_event = 9999934 }
 			CZH = { remove_country_modifier = atomic_nation }
             USA = { prestige = -200 }

@@ -8865,9 +8865,10 @@ title = "Kicked out of the VSZ aid"
 	picture = "bretton_woods_system_gold"
 
 trigger = {
-
+OR = {
 NOT = { OR = { has_country_modifier = communist_bloc  has_country_modifier = communist_bloc_leader } }
-
+NOT = { has_global_flag = comecon_active }
+}
 has_country_modifier = comecon
 
 }
