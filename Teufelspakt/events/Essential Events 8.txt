@@ -8866,7 +8866,7 @@ title = "Kicked out of the VSZ aid"
 
 trigger = {
 
-NOT = { has_country_modifier = communist_bloc }
+NOT = { OR = { has_country_modifier = communist_bloc  has_country_modifier = communist_bloc_leader } }
 
 has_country_modifier = comecon
 

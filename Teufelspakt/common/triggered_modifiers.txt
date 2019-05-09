@@ -7,12 +7,16 @@
 
 china_tax_boost = {
 trigger = {
-	has_country_flag = prc
-	ai = yes
-	government = proletarian_dictatorship
+	#has_country_flag = prc
+	OR = {
+	tag = USA
+	tag = GER
+    }	
+	has_global_flag = blocsenabled
+	#government = proletarian_dictatorship
 		}
 tax_efficiency = 0.25
-prestige = 0.001
+#prestige = 0.001
 }
 
 demoprehigh_target = {
@@ -307,19 +311,19 @@ gender_rights = gender_equal } }
 
 #Reduce militancy in communist gov
 
-oppression_mod = {
-
-	trigger = {
-has_global_flag = blocsenabled
-NOT = { tag = RUS }
-RUS = { NOT = { has_country_flag = begin_reforms_of_ussr } }
-OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 }
-					}
-
-global_pop_consciousness_modifier = -0.10
-global_pop_militancy_modifier = -0.10
-
-	}
+#oppression_mod = {
+#
+#	trigger = {
+#has_global_flag = blocsenabled
+#NOT = { tag = RUS }
+#RUS = { NOT = { has_country_flag = begin_reforms_of_ussr } }
+#OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 }
+#					}
+#
+#global_pop_consciousness_modifier = -0.10
+#global_pop_militancy_modifier = -0.10
+#
+#	}
 
 #War on Terror
 
@@ -781,23 +785,23 @@ OR = { government = democracy government = democracy1 government = hms_governmen
 	factory_owner_cost = -0.25
 }
 
-liberal_discourse = {
-	trigger = {
-	OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive pop_majority_ideology = liberal pop_majority_ideology = progressive }
-					}
-	issue_change_speed = 0.20
-	non_accepted_pop_militancy_modifier = 0.02
-	global_assimilation_rate = -0.25
-	global_pop_militancy_modifier = 0.01
-}
-
-socialist_discourse = {
-	trigger = {
-	OR = { ruling_party_ideology = socialist AND = { pop_majority_ideology = socialist NOT = { government = proletarian_dictatorship } NOT = { government = proletarian_dictatorship1 } } }
-					}
-	factory_throughput = -0.25
-	tax_efficiency = -0.05
-}
+#liberal_discourse = {
+#	trigger = {
+#	OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive pop_majority_ideology = liberal pop_majority_ideology = progressive }
+#					}
+#	issue_change_speed = 0.20
+#	non_accepted_pop_militancy_modifier = 0.02
+#	global_assimilation_rate = -0.25
+#	global_pop_militancy_modifier = 0.01
+#}
+#
+#socialist_discourse = {
+#	trigger = {
+#	OR = { ruling_party_ideology = socialist AND = { pop_majority_ideology = socialist NOT = { government = proletarian_dictatorship } NOT = { government = proletarian_dictatorship1 } } }
+#					}
+#	factory_throughput = -0.25
+#	tax_efficiency = -0.05
+#}
 
 gender_inequality_2 = {
 	trigger = {

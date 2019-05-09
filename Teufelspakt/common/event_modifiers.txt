@@ -4217,7 +4217,7 @@ icon = 9
 }
 
 lebensborn = {
-global_population_growth = 0.1
+global_population_growth = 0.01
 goods_demand = 0.05
 icon = 18
 }
