@@ -16,6 +16,7 @@ country_event = {
   
   option = {
             name = "Long live the Free Russia!"
+			prestige = 100
 			set_country_flag = end_of_rus_occupation
 	        government = democracy
 			ruling_party_ideology = conservative
@@ -113,6 +114,7 @@ country_event = {
   
   option = {
             name = "Return of the Tsardom!"
+			prestige = 50
 			country_event = 9999996
 			ai_chance = { factor = 0.5 }
   }

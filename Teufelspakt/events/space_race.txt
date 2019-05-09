@@ -23,7 +23,7 @@ country_event = {
   fire_only_once = yes
 
   trigger = {
-    tag = USA
+    tag = GER
 	year = 1946 NOT = { year = 1959 }
     
   }
@@ -32,7 +32,7 @@ country_event = {
 
   option = {
     name = EVT_8211003_A
-	set_global_flag = USA_rocket_engineers 
+	#set_global_flag = USA_rocket_engineers 
 	years_of_research = 0.5
   }
 }

@@ -96,8 +96,8 @@ SER = {
 }
 CZH = {
 	level = 1
-	value = -50
-	influence_value = 25
+	value = -200
+	influence_value = 10
 	military_access = yes
 }
 HUN = {
@@ -120,8 +120,8 @@ BUL = {
 }
 POL = {
 	level = 1
-	value = -50
-	influence_value = 25
+	value = -200
+	influence_value = 10
 	military_access = yes
 }
 UKR = {

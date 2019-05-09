@@ -211,6 +211,7 @@ country_event = {
              tag = GER
              year = 1963
 			 has_global_flag = comecon_active
+			 has_global_flag = blocsenabled
 			 war = no
 			 #month = 8
   }
@@ -220,7 +221,7 @@ country_event = {
   option = {
             name = "EVT_9999948_A"
 			ai_chance = { factor = 0.9 }
-            set_global_flag = ger_epanded	
+            set_global_flag = ger_expanded	
 		    any_country = {
 		    	limit = {
 		    		AND = {
@@ -267,7 +268,7 @@ country_event = {
   option = {
             name = "EVT_9999947_A"
 			ai_chance = { factor = 1 }
-            set_global_flag = ger_epanded	
+            set_global_flag = ger_expanded	
             THIS = { all_core = { add_core = GER } }
 			GER = { inherit = THIS  }
 			GER = { prestige = 10 }
@@ -371,6 +372,275 @@ country_event = {
   option = {
             name = "EVT_9999943_A"
 			prestige = 10		
+  }
+
+}
+
+country_event = {
+  id = 9999942 #Cheat for AI Germany
+  title = EVT_9999942_NAME
+  desc = EVT_9999942_DESC
+  picture = "ss"
+  fire_only_once = yes
+
+  trigger = {
+             tag = GER
+			 ai = yes
+             badboy = 0.90
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999942_A"
+			badboy = -100
+            prestige = -100			
+  }
+
+}
+
+country_event = {
+  id = 9999941 #Czechoslovakian crisis - start - GER
+  title = EVT_9999941_NAME
+  desc = EVT_9999941_DESC
+  picture = "czh_occupation"
+  fire_only_once = yes
+
+  trigger = {
+             tag = GER
+			 CZH = { NOT = { has_country_modifier = communist_bloc } }
+			 exists = CZH
+			 year = 1969
+			 month = 9
+			 NOT = { badboy = 0.6 }
+             has_global_flag = blocsenabled
+			 NOT = { has_global_flag = ger_dealt_with_czh }
+			 has_global_flag = ger_expanded
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999941_A" #coup attempt
+			ai_chance = { factor = 0.7 }
+			CZH = { country_event = 9999940	}			
+  }
+  option = {
+            name = "EVT_9999941_B" #do nothing	
+			ai_chance = { factor = 0.3 }
+  }
+
+}
+
+country_event = {
+  id = 9999940 #Czechoslovakian crisis - CZH
+  title = EVT_9999940_NAME
+  desc = EVT_9999940_DESC
+  picture = "czh_coup"
+  is_triggered_only = yes
+  
+  option = {
+            name = "EVT_9999940_A" #coup success
+			ai_chance = { factor = 0.5 }
+			GER = { country_event = 9999939	}
+            GER = { prestige = 50 }			
+  }
+  option = {
+            name = "EVT_9999940_B"	#coup failure
+			ai_chance = { factor = 0.5 }
+			USA = { country_event = 9999936	}
+			GER = { prestige = -50 }	
+  }
+
+}
+
+country_event = {
+  id = 9999939 #Fate of Bohemia and Moravia
+  title = EVT_9999939_NAME
+  desc = EVT_9999939_DESC
+  picture = "czh_occupation"
+  fire_only_once = yes
+
+    trigger = {
+             tag = GER
+			 CZH = { has_country_modifier = communist_bloc }
+			 exists = CZH
+			 year = 1969
+			 month = 9
+			 NOT = { badboy = 0.6 }
+             has_global_flag = blocsenabled
+			 NOT = { has_global_flag = ger_dealt_with_czh }
+			 has_global_flag = ger_expanded
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999939_A" #Integrated bohemia and moravia
+			ai_chance = { factor = 0.6 }
+			inherit = CZH
+			BOH = { all_core = { add_core = GER }  }
+			badboy = 10
+			set_global_flag = ger_dealt_with_czh
+			GER = { country_event = 9999938	}		
+  }
+  option = {
+            name = "EVT_9999939_B" #Protectorate	
+			ai_chance = { factor = 0.4 }
+			set_global_flag = ger_dealt_with_czh
+			inherit = CZH
+			625 = { secede_province = BOH }
+			626 = { secede_province = BOH }
+			631 = { secede_province = BOH }
+			BOH = { government = sar_government }
+			BOH = { ruling_party_ideology = populist }
+		    BOH = { political_reform = none_voting }
+		    BOH = { political_reform = ruling_party_opinion }
+		    BOH = { political_reform = censored_publishing }
+		    BOH = { political_reform = gender_role_based }
+		    BOH = { political_reform = parties_not_allowed }
+		    BOH = { political_reform = nobody_gets_out } 
+		    BOH = { political_reform = minorities_oppression }
+		    BOH = { political_reform = no_meetings }
+		    BOH = { political_reform = quality_of_service }
+			BOH = { add_accepted_culture = german }
+			GER = { create_vassal = BOH }
+			GER = { badboy = 5 }
+			GER = { country_event = 9999938	}
+  }
+
+}
+
+country_event = {
+  id = 9999938 #fate of Slovakia
+  title = EVT_9999938_NAME
+  desc = EVT_9999938_DESC
+  picture = "czh_occupation"
+  is_triggered_only = yes
+  
+  option = {
+            name = "EVT_9999938_A" #Slovakia to Hungary
+			ai_chance = { factor = 0.4 }
+            SLV = { all_core = { add_core = HUN } }
+			any_owned = { limit = { is_core = SLV }  secede_province = HUN }
+			badboy = 2.5
+			HUN = { badboy = 2.5 }		
+  }
+  option = {
+            name = "EVT_9999938_B" #puppet Slovakia	
+			ai_chance = { factor = 0.6 }
+            any_owned = { limit = { is_core = SLV }  secede_province = SLV }
+			SLV = {
+					government = populist_dictatorship
+			        ruling_party_ideology = populist
+		            political_reform = none_voting
+		            political_reform = ruling_party_opinion
+		            political_reform = censored_publishing
+		            political_reform = gender_role_based
+		            political_reform = parties_not_allowed
+		            political_reform = nobody_gets_out
+		            political_reform = minorities_oppression
+		            political_reform = no_meetings
+		            political_reform = quality_of_service
+			}
+			GER = { create_vassal = SLV }
+			GER = { badboy = 5 }
+  }
+
+}
+
+country_event = {
+  id = 9999937 #Real threat
+  title = EVT_9999937_NAME
+  desc = EVT_9999937_DESC
+  picture = "icbm"
+  is_triggered_only = yes
+  
+  option = {
+            name = "EVT_9999937_A"	#escalate
+			ai_chance = { factor = 0.4 } 
+            USA = { country_event = 9999935 }
+            badboy = 10			
+  }
+  option = {
+            name = "EVT_9999937_B"	#back down
+			ai_chance = { factor = 0.6 }
+			USA = { country_event = 9999934 }
+            GER = { prestige = -200 }
+			USA = { prestige = 100 }
+  }
+
+}
+
+country_event = {
+  id = 9999936 #USA establishes nuklear arsenal in Czechoslovakia
+  title = EVT_9999936_NAME
+  desc = EVT_9999936_DESC
+  picture = "icbm"
+  is_triggered_only = yes
+  
+  option = {
+            name = "EVT_9999936_A"	#escalate
+			ai_chance = { factor = 0.7 }
+            prestige = 50
+			USA = { relation = { who = CZH value = 200 } }
+			USA = { relation = { who = GER value = -100 } }
+		    USA = { diplomatic_influence = { who = CZH value = 200 } }
+			USA = { create_alliance = CZH }
+			CZH = { add_country_modifier = { name = atomic_nation duration = -1 } }
+			badboy = 10	
+            GER = { country_event = 9999937	}		
+  }
+  option = {
+            name = "EVT_9999936_B"	#refuse
+			ai_chance = { factor = 0.3 }
+			USA = { relation = { who = CZH value = -100 } }
+		    USA = { diplomatic_influence = { who = CZH value = -100 } }
+			GER = { country_event = 9999934 }
+            prestige = -50
+  }
+
+}
+
+country_event = {
+  id = 9999935 #Us responce to militarisation of Greenland and Dt. Martin
+  title = EVT_9999937_NAME
+  desc = EVT_9999937_DESC
+  picture = "icbm"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999937_A"	#attack
+			ai_chance = { factor = 0.4 } 
+            country_event = 19821928
+            badboy = 20			
+  }
+  option = {
+            name = "EVT_9999937_B"	#back down
+			ai_chance = { factor = 0.6 }
+			GER = { country_event = 9999934 }
+			CZH = { remove_country_modifier = atomic_nation }
+            USA = { prestige = -200 }
+			GER = { prestige = 100 }
+  }
+
+}
+
+country_event = {
+  id = 9999934 #Generic - opposite side backed down
+  title = EVT_9999934_NAME
+  desc = EVT_9999934_DESC
+  picture = "icbm"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999934_A"	#won
+			ai_chance = { factor = 0.4 } 
+            prestige = 100			
   }
 
 }

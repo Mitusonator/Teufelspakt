@@ -8,6 +8,8 @@ unite_italy_ITA_title;Italian Unification;;;;;;;;x
 unite_italy_ITA_desc;Finally! With our governments being compatible Italy can reunite once again.;;;;;;;;x
 unite_italy_IRS_title;Italian Unification;;;;;;;;x
 unite_italy_IRS_desc;Finally! With our governments being compatible Italy can reunite once again.;;;;;;;;x
+integrate_sweden_ger_title;Integration of Sweden;;;;;;;;x
+integrate_sweden_ger_desc;During WW2 Sweden remained neutral but this can't and will not last any longer, with Sweden in our sphere of influence and government sympathetic to the Reich we will be able to incorporate their state into our Germanic Union.;;;;;;;;x
 EVT_9999990_NAME;Socialist and Nationalist Partisans;;;;;;;;;;;;;x;;;;
 EVT_9999990_DESC;Despite the end of the WW2 many nationalists, that reject collaboration with Germany, and socialists, that couldn't accept defeat of Soviet Union, roam through the countryside causing great turmoil. We can only hope that situation doesn't get out of control.;;;;;;;;;;;;;x;;;;
 EVT_9999990_A;And we hope so!;;;;;;;;;;;;;x;;;;
@@ -184,3 +186,34 @@ EVT_9999944_A;German Population is booming!;;;;;;;;;;;;;x;;;;
 EVT_9999943_NAME;Integration of Wehrmacht into SS;;;;;;;;;;;;;x;;;;
 EVT_9999943_DESC;Ever Since the acquisition of power SS took steps in limiting Wehrmacht power, now Wehrmacht will officialy be integrated into Waffen-SS that will become German main military force.;;;;;;;;;;;;;x;;;;
 EVT_9999943_A;Heil Himmler!;;;;;;;;;;;;;x;;;;
+EVT_9999941_NAME;Thorn in the side;;;;;;;;;;;;;x;;;;
+EVT_9999941_DESC;Ever since the end of WW2 territory of Czechoslovakia was potential threat to our national security due to possibility of US and it's allies using it as operational base, and even worse, there are rumours that America may station their nuclear arsenal there, maybe we should pre-emptively strike before it is too late.;;;;;;;;;;;;;x;;;;
+EVT_9999941_A;Contact the Volksdeutsche cells and prepare the coup!;;;;;;;;;;;;;x;;;;
+EVT_9999941_B;No! We could as well make things worse...;;;;;;;;;;;;;x;;;;
+EVT_9999940_NAME;Coup Attempt;;;;;;;;;;;;;x;;;;
+EVT_9999940_DESC;Germany prepared the coup country is in chaos!.;;;;;;;;;;;;;x;;;;
+EVT_9999940_A;Coup succeeds!;;;;;;;;;;;;;x;;;;
+EVT_9999940_B;Coup fails, contact the US.;;;;;;;;;;;;;x;;;;
+EVT_9999936_NAME;Czechoslovakia Asks for Assistance;;;;;;;;;;;;;x;;;;
+EVT_9999936_DESC;After failed coup Czechoslovakia asks us for military assistance and protection!.;;;;;;;;;;;;;x;;;;
+EVT_9999936_A;Establish our nuclear arsenal in Czechoslovakia!;;;;;;;;;;;;;x;;;;
+EVT_9999936_B;Don't anger the Germans.;;;;;;;;;;;;;x;;;;
+EVT_9999937_NAME;America Establishes Nuclear Arsenal in Czechoslovakia;;;;;;;;;;;;;x;;;;
+EVT_9999937_DESC;America established nuclear arsenal in Czechoslovakia, this time for real!.;;;;;;;;;;;;;x;;;;
+EVT_9999937_A;Send our Nuclear Arsenal Greenland and St. Martin in Response!;;;;;;;;;;;;;x;;;;
+EVT_9999937_B;Get out of this before it is too late!;;;;;;;;;;;;;x;;;;
+EVT_9999935_NAME;Germany Militarises Greenland and St. Martin;;;;;;;;;;;;;x;;;;
+EVT_9999935_DESC;In response to our actions Germany decided to send their Nuclear Bombs to Greenland and St. Martin.;;;;;;;;;;;;;x;;;;
+EVT_9999935_A;Strike first!;;;;;;;;;;;;;x;;;;
+EVT_9999935_B;It has gone too far, back down!;;;;;;;;;;;;;x;;;;
+EVT_9999934_NAME;The Other Side Backs Down;;;;;;;;;;;;;x;;;;
+EVT_9999934_DESC;Our adversary decided to remove their nuclear arsenal from key points thus resolving the crisis.;;;;;;;;;;;;;x;;;;
+EVT_9999934_A;We won!;;;;;;;;;;;;;x;;;;
+EVT_9999939_NAME;Fete of Bohemia and Moravia;;;;;;;;;;;;;x;;;;
+EVT_9999939_DESC;Czechoslovak government were successfully overthrown by National Socialist sympathisers now we can decide what to do with former Czechoslovakia.;;;;;;;;;;;;;x;;;;
+EVT_9999939_A;Integrate Bohemia and Moravia into Reich!;;;;;;;;;;;;;x;;;;
+EVT_9999939_B;Create autonomous Protectorate!;;;;;;;;;;;;;x;;;
+EVT_9999938_NAME;Fete of Slovakia;;;;;;;;;;;;;x;;;;
+EVT_9999938_DESC;Czechian issue has been resolve now what to do with Slovakia....;;;;;;;;;;;;;x;;;;
+EVT_9999938_A;Allow Hungary to annex Slovak lands;;;;;;;;;;;;;x;;;;
+EVT_9999938_B;Create puppet state just as before;;;;;;;;;;;;;x;;;

@@ -1,0 +1,38 @@
+political_decisions = {
+
+integrate_sweden_ger = {
+	picture = "form_scandinavia"
+	potential = {
+                 tag = GER
+				 has_global_flag = ger_expanded
+				 has_global_flag = blocsenabled
+				 exists = SWE
+				 NOT = { has_country_flag = integreted_swe_ger }
+	}
+
+	allow = {	
+              OR = { 
+			        SWE = { vassal_of = GER }
+                    AND = {					
+					       SWE = { sphere_owner = { tag = GER } }
+						   OR = { SWE = { ruling_party_ideology = populist } SWE = { government = populist_dictatorship } }
+					}
+			  }			  
+            
+	}
+
+    alert = yes
+
+		effect = {
+            SWE = { all_core = { add_core = GER } }
+			GER = { inherit = SWE  }
+			GER = { prestige = 10 }
+			GER = { set_country_flag = integreted_swe_ger }
+		}
+
+		ai_will_do = { 
+			factor = 1
+		}
+}
+
+}
