@@ -6650,3 +6650,8 @@ stack_overflow = {
 	goods_demand = 0.25
 	tax_efficiency = -0.25
 }
+
+swi_ger_war_buff = {
+	mobilisation_size = 0.50
+	tax_efficiency = 0.25
+}
