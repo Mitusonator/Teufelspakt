@@ -972,7 +972,7 @@ country_event = {
   
   option = {
             name = "EVT_9999921_B" #Do nothing
-			ai_chance = { factor = 1 }
+			ai_chance = { factor = 0.4 }
 		    any_pop = { consciousness = 0.4 }		
   } 
 
