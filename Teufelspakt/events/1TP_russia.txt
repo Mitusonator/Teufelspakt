@@ -451,10 +451,10 @@ country_event = {
 }
 
 country_event = {
-  id = 9999933 #Ukraine weak annex
+  id = 9999933 #Ukraine weak - annex
   title = EVT_9999933_NAME
   desc = EVT_9999933_DESC
-  picture = "czh_occupation"
+  picture = "ukrainian_ethnic_map"
   fire_only_once = yes
 
     trigger = {
@@ -489,7 +489,7 @@ country_event = {
   id = 9999932 #US-RUS treaty of friendship - RUS
   title = EVT_9999932_NAME
   desc = EVT_9999932_DESC
-  picture = "czh_occupation"
+  picture = "usa_rus_treaty"
   fire_only_once = yes
 
     trigger = {
@@ -515,7 +515,7 @@ country_event = {
   id = 9999931 #US-RUS treaty of friendship - inform US
   title = EVT_9999931_NAME
   desc = EVT_9999931_DESC
-  picture = "czh_occupation"
+  picture = "usa_rus_treaty"
   is_triggered_only = yes
 
   mean_time_to_happen = { days = 1 }

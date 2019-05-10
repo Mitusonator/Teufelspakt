@@ -654,7 +654,7 @@ country_event = {
   id = 9999930 #German-United Arab-Irani Trade Agreement - GER
   title = EVT_9999930_NAME
   desc = EVT_9999930_DESC
-  picture = "czh_occupation"
+  picture = "ger_uar_per_deal"
   fire_only_once = yes
 
     trigger = {
@@ -688,10 +688,10 @@ country_event = {
 }
 
 country_event = {
-  id = 9999929 #German-United Arab-Irani Trade Agreement - GER
+  id = 9999929 #German-United Arab-Irani Trade Agreement - PER and UAR
   title = EVT_9999929_NAME
   desc = EVT_9999929_DESC
-  picture = "czh_occupation"
+  picture = "ger_uar_per_deal"
   is_triggered_only = yes
 
   mean_time_to_happen = { days = 1 }
@@ -712,7 +712,7 @@ country_event = {
   id = 9999928 #German sponsors "left-wing" terrorist attack in Switzerland - GER
   title = EVT_9999928_NAME
   desc = EVT_9999928_DESC
-  picture = "czh_occupation"
+  picture = "switzerland"
   fire_only_once = yes
 
     trigger = {
@@ -743,7 +743,7 @@ country_event = {
   id = 9999927 #German sponsors "left-wing" terrorist attack in Switzerland - SWI (extraordinary elections)
   title = EVT_9999927_NAME
   desc = EVT_9999927_DESC
-  picture = "czh_occupation"
+  picture = "switzerland"
   is_triggered_only = yes
   
   option = {
@@ -794,7 +794,7 @@ country_event = {
   id = 9999926 #Truth about Swiss terrorist attack of 1977, Swiss Nazis couped by military
   title = EVT_9999926_NAME
   desc = EVT_9999926_DESC
-  picture = "czh_occupation"
+  picture = "switzerland"
   fire_only_once = yes
 
     trigger = {
@@ -825,7 +825,7 @@ country_event = {
   id = 9999925 #Swiss Nazis take refuge in Germany and petition annexation
   title = EVT_9999925_NAME
   desc = EVT_9999925_DESC
-  picture = "czh_occupation"
+  picture = "switzerland"
   is_triggered_only = yes
   
   option = {
@@ -867,7 +867,7 @@ country_event = {
   id = 9999924 #Swiss-German War - GER victory
   title = EVT_9999924_NAME
   desc = EVT_9999924_DESC
-  picture = "czh_occupation"
+  picture = "switzerland"
   fire_only_once = yes
 
     trigger = {
@@ -909,7 +909,7 @@ country_event = {
   id = 9999923 #Swiss-German War - SWI victory
   title = EVT_9999923_NAME
   desc = EVT_9999923_DESC
-  picture = "czh_occupation"
+  picture = "switzerland"
   fire_only_once = yes
 
     trigger = {
@@ -933,7 +933,7 @@ country_event = {
   id = 9999922 #Mussolini (93!) passes - IRS
   title = EVT_9999922_NAME
   desc = EVT_9999922_DESC
-  picture = "czh_occupation"
+  picture = "mussolini_dead"
   fire_only_once = yes
 
     trigger = {
@@ -959,7 +959,7 @@ country_event = {
   id = 9999921 #Mussolini (93!) passes - GER - possible unification of Italy
   title = EVT_9999921_NAME
   desc = EVT_9999921_DESC
-  picture = "czh_occupation"
+  picture = "mussolini_dead"
   is_triggered_only = yes
   
   option = {
@@ -982,7 +982,7 @@ country_event = {
   id = 9999920 #USA - Germany proposes unification of Italy
   title = EVT_9999920_NAME
   desc = EVT_9999920_DESC
-  picture = "czh_occupation"
+  picture = "ita_flag"
   is_triggered_only = yes
   
   option = {
@@ -1006,7 +1006,7 @@ country_event = {
   id = 9999919 #USA agrees to unite Italy
   title = EVT_9999919_NAME
   desc = EVT_9999919_DESC
-  picture = "czh_occupation"
+  picture = "ita_flag"
   is_triggered_only = yes
   
   option = {
@@ -1014,7 +1014,7 @@ country_event = {
 			ai_chance = { factor = 1 }
 			prestige = 150
             release_vassal = IRS
-            IRS = { country_event = 9999917 }			
+            ITA = { country_event = 9999916 }			
   } 
 
 }
@@ -1023,7 +1023,7 @@ country_event = {
   id = 9999918 #USA declines to unite Italy
   title = EVT_9999918_NAME
   desc = EVT_9999918_DESC
-  picture = "czh_occupation"
+  picture = "ita_flag"
   is_triggered_only = yes
   
   option = {
@@ -1035,20 +1035,49 @@ country_event = {
 }
 
 country_event = {
-  id = 9999917 #Italy Unites
+  id = 9999917 #Italy Unites? - IRS
   title = EVT_9999917_NAME
   desc = EVT_9999917_DESC
-  picture = "czh_occupation"
+  picture = "ita_flag"
   is_triggered_only = yes
   
   option = {
             name = "EVT_9999917_A" 
-			ai_chance = { factor = 1 }
+			ai_chance = { factor = 0.9 }
 			prestige = 300
             government = absolute_monarchy
             ruling_party_ideology = nationalist
 			USA = { relation = { who = IRS value = 100 } }
 			USA = { diplomatic_influence = { who = IRS value = 50 } }			
+  } 
+  
+  option = {
+            name = "EVT_9999917_B" 
+			ai_chance = { factor = 0.1 }
+			prestige = -25	
+	        any_pop = { militancy = 1 consciousness = 2 }			
+  }
+
+}
+
+country_event = {
+  id = 9999916 #Italy Unites? - ITA
+  title = EVT_9999916_NAME
+  desc = EVT_9999916_DESC
+  picture = "ita_flag"
+  is_triggered_only = yes
+  
+  option = {
+            name = "EVT_9999917_A" 
+			ai_chance = { factor = 0.8 }
+			IRS = { country_event = 9999917 }			
+  } 
+  
+  option = {
+            name = "EVT_9999917_A" 
+			ai_chance = { factor = 0.2 }
+			prestige = -25	
+	        any_pop = { militancy = 1 consciousness = 2 }			
   } 
 
 }
