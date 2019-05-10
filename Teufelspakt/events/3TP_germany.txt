@@ -1013,7 +1013,6 @@ country_event = {
             name = "EVT_9999919_A" 
 			ai_chance = { factor = 1 }
 			prestige = 150
-            release_vassal = IRS
             ITA = { country_event = 9999916 }			
   } 
 
@@ -1044,9 +1043,11 @@ country_event = {
   option = {
             name = "EVT_9999917_A" 
 			ai_chance = { factor = 0.9 }
+			GER = { release_vassal = IRS }
 			prestige = 300
             government = absolute_monarchy
             ruling_party_ideology = nationalist
+			IRS = { inherit = ITA }
 			USA = { relation = { who = IRS value = 100 } }
 			USA = { diplomatic_influence = { who = IRS value = 50 } }			
   } 
