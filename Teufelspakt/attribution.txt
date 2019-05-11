@@ -265,6 +265,7 @@ anonymous (https://commons.wikimedia.org/wiki/File:Rzeczpospolita_1920_claims_no
 Zscout370 (https://commons.wikimedia.org/wiki/File:Star_of_David.svg), „Star of David“, marked as public domain, more details on Wikimedia Commons: https://commons.wikimedia.org/wiki/Template:PD-shape 
 John Alan Elson (https://commons.wikimedia.org/wiki/File:1rp1943front.jpg), „1rp1943front“, cut and painted around the cut parts by Mitusonator, https://creativecommons.org/licenses/by/3.0/legalcode 
 UnknownRuffneck88 (https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_119-5592-14A,_Gruppe_von_HJ-Jungen_Recolored.jpg), cut it by Mitusonator, https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Thomas Neumann creator QS:P170,Q45745174 (https://commons.wikimedia.org/wiki/File:Berlin_1937_-_7300159684.jpg), added mod logo and interface over the picture by Mitusonator, https://creativecommons.org/licenses/by/4.0/legalcode 
 
 Thanks to the NWO and CWE mod makers for sharing their work with me!
 
