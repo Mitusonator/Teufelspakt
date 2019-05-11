@@ -1,6 +1,7 @@
 owner = GER
 controller = GER
 add_core = GER
+add_core = AUS
 add_core = YUG
 add_core = SLO
 trade_goods = cattle

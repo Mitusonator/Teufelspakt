@@ -1,8 +1,9 @@
 owner = GER
 controller = GER
 add_core = GER
+add_core = AUS
 add_core = ITA
-add_core =  SUT
+add_core = SUT
 trade_goods = grain
 life_rating = 35
 terrain = deciduous_forest_mountains
