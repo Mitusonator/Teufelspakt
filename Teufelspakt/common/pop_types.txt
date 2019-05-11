@@ -288,6 +288,11 @@ demotion_chance = { # 1
 			factor = 0.5
 			unemployment = 0.5
 			location = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.5
+			unemployment = 0.5
+			location = { controlled_by = owner }
 		}		
 		
 	}
