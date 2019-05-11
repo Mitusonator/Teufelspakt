@@ -57,7 +57,8 @@ country_event = {
 			
         change_tag = FRA
 		government = populist_dictatorship
-		ruling_party_ideology = traditionalist
+		#ruling_party_ideology = traditionalist
+		add_country_modifier = { name = atomic_nation duration = -1 }
 		prestige = 2000
   }
 

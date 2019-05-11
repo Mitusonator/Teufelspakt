@@ -518,13 +518,13 @@ country_event = {
   
   option = {
             name = EVT_9999979_A #It was just a bluff...
-			ai_chance = { factor = 0.4 }
+			ai_chance = { factor = 0 }
             badboy = -1
   }
   
   option = {
             name = EVT_9999979_B #So it is war 
-			ai_chance = { factor = 0.6 }
+			ai_chance = { factor = 1 }
 			set_global_flag = pol_ger_border_war
 			war = {
 			 target = POL
@@ -656,13 +656,13 @@ country_event = {
   
   option = {
             name = EVT_9999974_A #It was just a bluff...
-			ai_chance = { factor = 0.1 }
+			ai_chance = { factor = 0 }
             badboy = -1
   }
   
   option = {
             name = EVT_9999974_B #So it is war 
-			ai_chance = { factor = 0.9 }
+			ai_chance = { factor = 1 }
 			set_global_flag = lit_ger_border_war
 			war = {
 			 target = LIT

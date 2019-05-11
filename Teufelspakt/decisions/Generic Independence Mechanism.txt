@@ -45,7 +45,7 @@ NOT = { AND = { tag = CUB NOT = { year = 1966 } } }
 
 #Prevent Warsaw pact from escaping
 
-NOT = { AND = { ai = yes overlord = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } } } }
+NOT = { AND = { ai = yes overlord = { OR = { government = populist_dictatorship government = nationalist_dictatorship government = absolute_monarchy } } } }
 
 #Generic Conditions
 
@@ -57,7 +57,7 @@ has_country_modifier = united_nations_observer_member
 
 			#NOT = { government = colonial_government }
 
-			#NOT = { government = mandate_government }
+			NOT = { government = mandate_government }
 
 			NOT = { government = sar_government }
 

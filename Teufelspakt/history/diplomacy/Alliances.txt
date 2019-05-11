@@ -69,13 +69,6 @@ alliance = {
 	start_date = 1991.1.1
 	end_date = 1993.1.1
 }
-
-alliance = {
-	first = USA
-	second = JAP
-	start_date = 1945.1.1
-	end_date = 1986.1.1
-}
 alliance = {
 	first = USA
 	second = AST
@@ -120,18 +113,6 @@ alliance = {
 }
 alliance = {
 	first = USA
-	second = BEL
-	start_date = 1945.1.1
-	end_date = 1986.1.1
-}
-alliance = {
-	first = USA
-	second = DEN
-	start_date = 1945.1.1
-	end_date = 1986.1.1
-}
-alliance = {
-	first = USA
 	second = ICL
 	start_date = 1945.1.1
 	end_date = 1986.1.1
@@ -145,12 +126,6 @@ alliance = {
 alliance = {
 	first = USA
 	second = LUX
-	start_date = 1945.1.1
-	end_date = 1986.1.1
-}
-alliance = {
-	first = USA
-	second = NOR
 	start_date = 1945.1.1
 	end_date = 1986.1.1
 }
@@ -228,18 +203,6 @@ alliance = {
 }
 alliance = {
 	first = USA
-	second = BEL
-	start_date = 1991.1.1
-	end_date = 2032.1.1
-}
-alliance = {
-	first = USA
-	second = DEN
-	start_date = 1991.1.1
-	end_date = 2032.1.1
-}
-alliance = {
-	first = USA
 	second = ICL
 	start_date = 1991.1.1
 	end_date = 2032.1.1
@@ -247,24 +210,6 @@ alliance = {
 alliance = {
 	first = USA
 	second = ITA
-	start_date = 1991.1.1
-	end_date = 2032.1.1
-}
-alliance = {
-	first = USA
-	second = LUX
-	start_date = 1991.1.1
-	end_date = 2032.1.1
-}
-alliance = {
-	first = USA
-	second = NET
-	start_date = 1991.1.1
-	end_date = 2032.1.1
-}
-alliance = {
-	first = USA
-	second = NOR
 	start_date = 1991.1.1
 	end_date = 2032.1.1
 }

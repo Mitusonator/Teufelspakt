@@ -13,6 +13,7 @@ allow = {
 OR = { has_country_modifier = defcon1 AND = { NOT = { war_policy = pacifism } ai = no } }
 OR = { ai = no is_greater_power = yes }
 NOT = { has_country_modifier = nukes_used_recently }
+NOT = { AND = { tag = FRA FRA = { war_with = UFR } } }
 	}
 
 effect = {
