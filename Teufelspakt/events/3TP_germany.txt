@@ -1065,7 +1065,7 @@ country_event = {
   id = 9999916 #Italy Unites? - ITA
   title = EVT_9999916_NAME
   desc = EVT_9999916_DESC
-  picture = "ita_flag"
+  picture = "hitlerjugend"
   is_triggered_only = yes
   
   option = {
@@ -1080,5 +1080,26 @@ country_event = {
 			prestige = -25	
 	        any_pop = { militancy = 1 consciousness = 2 }			
   } 
+
+}
+
+country_event = {
+  id = 9999915 #New Generation of National Socialism
+  title = EVT_9999915_NAME
+  desc = EVT_9999915_DESC
+  picture = "parade_in_berlin"
+  fire_only_once = yes
+
+  trigger = {
+             tag = GER
+             year = 1980
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999915_A"	
+	        any_pop = { consciousness = 3 }
+  }
 
 }

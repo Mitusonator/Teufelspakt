@@ -280,3 +280,6 @@ EVT_9999916_NAME;Italian Reunification?;;;;;;;;;;;;;x;;;;
 EVT_9999916_DESC;After the US-German talks both super powers agreed the held Pan-Italian Referendum now south Italians has to answer the question "Do you want Italy to be one again".;;;;;;;;;;;;;x;;;;
 EVT_9999916_A;"Yes"!;;;;;;;;;;;;;x;;;;
 EVT_9999916_A;Rig the referendum outcome for "No";;;;;;;;;;;;;x;;;;
+EVT_9999915_NAME;New Generation of National Socialism;;;;;;;;;;;;;x;;;;
+EVT_9999915_DESC;With years passing many members of National Socialist old guard are dying and their place is taken by new younger members of the party. Young people of the Reich are conflicted however, on one hand they grew in the time of unprecedented economic growth and German success and exhibit great patriotism, on the other hand they are fascinated by the outside world, their are no people inside the Reich to hate so they don't understand the hatred of older generations. Although their fascination with outside world is quite naive and paternalistic in nature, resembling 19th century orientalism, they still would like to experience freely the world's cultural richness, remembering of course about the merit of great Germanic culture.;;;;;;;;;;;;;x;;;;
+EVT_9999915_A;Whoever controls the youth controls the future;;;;;;;;;;;;;x;;;;
