@@ -52,7 +52,7 @@ bank_template = {
 			poptype = clerks 
 			effect = throughput
 			#effect_multiplier = 2.50
-			#effect_multiplier = 1.25
+			effect_multiplier = 1.25
 			amount = 1
 		}
 	}
