@@ -1270,6 +1270,7 @@ country_event = {
 	release = NET
 	release = DEN
 	release = NOR
+    any_owned = { limit = { is_core = CZH exists = CZH } secede_province = CZH }
 	release = BOH
 	release = AUS
 	release = UBD
