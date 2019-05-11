@@ -1243,3 +1243,63 @@ country_event = {
   }
 
 }
+
+country_event = { 
+  id = 9999914 #Fall of Germany
+  title = EVT_9999914_NAME
+  desc = EVT_9999914_DESC
+  picture = "nwo2_fall_of_berlin_wall"
+  trigger = {
+             tag = GER
+             exists = GER
+			 NOT = { has_country_modifier = communist_bloc_leader }
+			 NOT = { government = populist_dictatorship }
+			 NOT = { government = nationalist_dictatorship }
+			 NOT = { government = absolute_monarchy }
+			 year = 1956
+  }
+  
+ mean_time_to_happen = { months = 3 }
+
+  option = {
+    name = EVT_9999914_A
+	
+	any_pop = { militancy = -2.5 consciousness = -2 }
+	
+	release = BEL
+	release = NET
+	release = DEN
+	release = NOR
+	release = BOH
+	release = AUS
+	release = UBD
+	release = LUX
+	release = SWE
+	release = SWI
+	
+	release_vassal = BEL
+	release_vassal = NET
+	release_vassal = DEN
+	release_vassal = NOR
+	release_vassal = BOH
+	release_vassal = AUS
+	release_vassal = UBD
+	release_vassal = IRS
+	release_vassal = CRO
+	release_vassal = LUX
+	release_vassal = SWE
+	release_vassal = SWI
+	
+	any_owned = { limit = { is_core = FRA exists = FRA } secede_province = FRA }
+	any_owned = { limit = { is_core = POL exists = POL } secede_province = POL }
+	any_owned = { limit = { is_core = SPL exists = SPL } secede_province = SPL }
+	any_owned = { limit = { is_core = SPL exists = SPL } secede_province = SPL }
+	any_owned = { limit = { is_core = XEA exists = XEA } secede_province = XEA }
+	
+	prestige_factor = -0.50
+	set_global_flag = german_has_fallen
+
+    badboy = -1000
+
+  }
+}
