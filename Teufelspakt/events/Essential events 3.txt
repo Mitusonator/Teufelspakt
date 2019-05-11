@@ -465,19 +465,28 @@ country_event = {
 
 	trigger = {
 		war = no
-		crisis_exists = no
-		NOT = { has_country_modifier = cold_war_medium }
-		NOT = { has_country_modifier = cold_war_high }
-		NOT = { has_country_modifier = cold_war_hot }
-		
-		NOT = { has_country_modifier = world_high }
-		NOT = { has_country_modifier = world_medium }
+		crisis_exist = no
+OR = { 
+has_country_modifier = cold_war_low 
+has_country_modifier = world_low 
+}
+
 		OR = { 
 		NOT = { has_country_modifier = defcon5 }
 		has_country_modifier = defcon1
 		has_country_modifier = defcon2
 		has_country_modifier = defcon3
 		has_country_modifier = defcon4 
+		}
+	}
+	
+	option = {
+		name = "Peace has returned"
+add_country_modifier = { name = defcon5 duration = -1 }
+remove_country_modifier = defcon1
+remove_country_modifier = defcon2
+remove_country_modifier = defcon3
+remove_country_modifier = defcon4
 		}
 	}
 	
