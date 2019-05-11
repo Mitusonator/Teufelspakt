@@ -291,9 +291,34 @@ demotion_chance = { # 1
 		}
 		modifier = {
 			factor = 0.5
-			unemployment = 0.5
+			unemployment = 0.6
+			NOT = { OR = { has_pop_type = craftsmen has_pop_type = clerks } }
 			location = { controlled_by = owner }
-		}		
+		}
+		modifier = {
+			factor = 0.5
+			unemployment = 0.7
+			NOT = { OR = { has_pop_type = craftsmen has_pop_type = clerks } }
+			location = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.5
+			unemployment = 0.8
+			NOT = { OR = { has_pop_type = craftsmen has_pop_type = clerks } }
+			location = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.5
+			unemployment = 0.9
+			NOT = { OR = { has_pop_type = craftsmen has_pop_type = clerks } }
+			location = { controlled_by = owner }
+		}
+		modifier = {
+			factor = 0.5
+			unemployment = 1.0
+			NOT = { OR = { has_pop_type = craftsmen has_pop_type = clerks } }
+			location = { controlled_by = owner }
+		}
 		
 	}
 	modifier = {
