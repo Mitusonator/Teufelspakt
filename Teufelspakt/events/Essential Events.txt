@@ -303,7 +303,7 @@ country_event = {
 	
 	
 	trigger = {
-		year = 1955
+		year = 1953
         OR = { tag = GER tag = BEL tag = NET tag = DEN tag = NOR tag = SWE }
 		war = no
 		NOT = { year = 1960 }

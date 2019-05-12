@@ -467,7 +467,7 @@ country_event = {
             name = "EVT_9999945_A"
 			prestige = 5
             add_country_modifier = { name = lebensborn duration = -1 }
-		    #any_owned = { add_province_modifier = { name = family_values1 duration = 18250 } }			
+		    any_owned = { add_province_modifier = { name = family_values1 duration = 7300 } }			
   }
 
 }
