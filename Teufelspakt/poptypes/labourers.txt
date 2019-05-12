@@ -4,6 +4,12 @@ strata = poor
 unemployment = yes
 equivalent = farmers
 
+rebel =
+{
+	infantry = 0.5
+	irregular = 0.5
+}
+
 everyday_needs = { 
 	footwear = 0.5
 	furniture = 0.25

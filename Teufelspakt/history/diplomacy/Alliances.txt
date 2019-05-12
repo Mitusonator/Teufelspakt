@@ -8,6 +8,20 @@ alliance = {
 }
 
 alliance = {
+	first = USA
+	second = ITA
+	start_date = 1945.1.1
+	end_date = 1960.1.1
+}
+
+alliance = {
+	first = USA
+	second = ALB
+	start_date = 1945.1.1
+	end_date = 1960.1.1
+}
+
+alliance = {
 	first = ENG
 	second = AST
 	start_date = 1945.1.1
