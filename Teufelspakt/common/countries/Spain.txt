@@ -3,6 +3,17 @@ color = { 255 196 0 }
 party = {
 name = "Franco Nationalists"
 citizenship_policy = residency
+ideology = populist
+economic_policy = state_capitalism
+religious_policy = moralism 
+trade_policy = protectionism
+war_policy = jingoism
+start_date = 1836.1.1
+end_date = 2100.1.1
+}
+party = {
+name = "Military"
+citizenship_policy = residency
 ideology = nationalist
 economic_policy = state_capitalism
 religious_policy = moralism 
