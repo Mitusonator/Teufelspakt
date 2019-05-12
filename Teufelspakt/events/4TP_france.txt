@@ -60,6 +60,7 @@ country_event = {
 		#ruling_party_ideology = traditionalist
 		add_country_modifier = { name = atomic_nation duration = -1 }
 		prestige = 2000
+		create_vassal = ALS
   }
 
 }
