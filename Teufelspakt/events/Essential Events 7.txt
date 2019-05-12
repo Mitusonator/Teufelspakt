@@ -2002,7 +2002,7 @@ any_owned_province = { NOT = { has_province_modifier = dev_5 } }
 	}
 
 mean_time_to_happen = { 
-months = 60
+months = 12
 
 modifier = { factor = 1.5 has_country_modifier = nprmedium }
 modifier = { factor = 2.0 has_country_modifier = nprlow }
@@ -2014,7 +2014,7 @@ modifier = { factor = 0.75 is_secondary_power = yes }
 option = {
 name = "Press ahead with our nation's development"
 
-prestige = 20
+#prestige = 20
 
 add_country_modifier = { name = dev_timer duration = 730 }
 
