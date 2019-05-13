@@ -4,7 +4,7 @@ centre_left_group = {
 big_tent = { # Social liberal
         color = { 255 170 0 }
        
-        can_reduce_militancy = yes
+        can_reduce_militancy = no
        
         add_political_reform = {
             base = 1
@@ -90,7 +90,7 @@ big_tent = { # Social liberal
         color = { 194 30 86 }
         date = 1900.1.1
        
-        can_reduce_militancy = yes
+        can_reduce_militancy = no
        
         add_political_reform = {
             base = 1
@@ -178,7 +178,7 @@ centre_right_group = {
     conservative = { # social conservative
         color = { 0 0 255 }
        
-        can_reduce_militancy = yes
+        can_reduce_militancy = no
        
         add_political_reform = {
             base = 0.1
@@ -263,7 +263,7 @@ centre_right_group = {
     liberal = { # market liberal
         color = { 255 216 0 }
 
-        can_reduce_militancy = yes
+        can_reduce_militancy = no
        
         add_political_reform = {
             base = 1
@@ -352,7 +352,7 @@ left_group = {
         color = { 233 58 58 }
         date = 1860.1.1
        
-        can_reduce_militancy = yes
+        can_reduce_militancy = no
        
         add_political_reform = {
             base = 0.4
@@ -443,7 +443,7 @@ left_group = {
         color = { 200 0 0 }
         date = 1865.1.1
        
-        can_reduce_militancy = yes
+        can_reduce_militancy = no
        
         add_political_reform = {
             base = 0
@@ -535,7 +535,7 @@ left_group = {
         color = { 127 0 0 }
         date = 1865.1.1
        
-        can_reduce_militancy = yes
+        can_reduce_militancy = no
        
         add_political_reform = {
             base = 0
@@ -621,7 +621,7 @@ populist = { # fascism
         color = { 142 57 0 }
         date = 1905.1.1
        
-        can_reduce_militancy = yes
+        can_reduce_militancy = no
        
         add_political_reform = {
             base = 0
@@ -706,7 +706,7 @@ populist = { # fascism
     nationalist = { # authoritarian
         color = { 110 110 110 }
        
-        can_reduce_militancy = yes
+        can_reduce_militancy = no
        
         add_political_reform = {
             base = 0.4
@@ -790,7 +790,7 @@ populist = { # fascism
         color = { 45 45 45 }
         date = 1905.1.1
        
-        can_reduce_militancy = yes
+        can_reduce_militancy = no
        
         add_political_reform = {
             base = 0
