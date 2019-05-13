@@ -24,7 +24,7 @@ country_event = {
 
   trigger = {
     tag = GER
-	year = 1946 #NOT = { year = 1959 }
+	year = 1955 #NOT = { year = 1959 }
     
   }
 
@@ -56,169 +56,156 @@ country_event = {
 #	years_of_research = 0.5
 #  }
 #}
-#country_event = {
-#  id = 8211008
-#  title = EVT_8211008_NAME
-#  desc = EVT_8211008_DESC
-#  picture = "nwo2_sputnik"
-#  fire_only_once = yes
-#
-#  major = yes 
-#
-#  trigger = {
-#    tag = RUS
-#	year = 1957 NOT = { year = 1990 } 
-#	has_global_flag = SOV_rocket_engineers
-#  }
-#
-#  mean_time_to_happen = { months = 4  }
-#
-#  option = {
-#    name = EVT_8211008_A
-#	prestige = 50
-#	any_pop = { militancy = -1.0  consciousness = -1.0 }
-#  }
-#}
-#country_event = {
-#  id = 8211009
-#  title = EVT_8211009_NAME
-#  desc = EVT_8211009_DESC
-#  picture = "nwo2_sputnik"
-#  fire_only_once = yes
-#
-#  trigger = {
-#    tag = USA
-#	year = 1957 NOT = { year = 1990 } 
-#	has_global_flag = USA_rocket_engineers
-#  }
-#
-#  mean_time_to_happen = { months = 4  }
-#
-#  option = {
-#    name = EVT_8211009_A
-#	prestige = -10
-#	any_pop = { militancy = 0.1  consciousness = 0.5 }
-#  }
-#}
-#country_event = {
-#  id = 8211010
-#  title = EVT_8211010_NAME
-#  desc = EVT_8211010_DESC
-#  picture = "nwo2_explorer_1"
-#  fire_only_once = yes
-#
-#  trigger = {
-#    tag = USA
-#	year = 1958 NOT = { year = 1990 } 
-#  }
-#
-#  mean_time_to_happen = { months = 4  }
-#
-#  option = {
-#    name = EVT_8211010_A
-#	prestige = 20
-#	any_pop = { militancy = -1.0  consciousness = 0.5 }
-#  }
-#}
-#country_event = {
-#  id = 8211011
-#  title = EVT_8211011_NAME
-#  desc = EVT_8211011_DESC
-#  picture = "nwo2_explorer_1"
-#  fire_only_once = yes
-#
-#  trigger = {
-#    tag = RUS
-#	year = 1958 NOT = { year = 1990 } 
-#  }
-#
-#  mean_time_to_happen = { months = 4  }
-#
-#  option = {
-#    name = EVT_8211011_A
-#	prestige = -20
-#	any_pop = { militancy = 0.1  consciousness = 0.4 }
-#  }
-#}
-#country_event = {
-#  id = 8211015
-#  title = EVT_8211015_NAME
-#  desc = EVT_8211015_DESC
-#  picture = "nwo2_gagarin"
-#  fire_only_once = yes
-#  
-#  major = yes 
-#  
-#  trigger = {
-#    tag = RUS
-#	year = 1961 NOT = { year = 1990 } 
-#  }
-#
-#  mean_time_to_happen = { months = 4  }
-#
-#  option = {
-#    name = EVT_8211015_A
-#	prestige = 50
-#	any_pop = { militancy = -1.0  consciousness = -0.5 }
-#  }
-#}
-#country_event = {
-#  id = 8211016
-#  title = EVT_8211016_NAME
-#  desc = EVT_8211016_DESC
-#  picture = "nwo2_gagarin"
-#  fire_only_once = yes
-#  
-#  trigger = {
-#    tag = USA
-#	year = 1961 NOT = { year = 1990 } 
-#  }
-#
-#   mean_time_to_happen = { months = 4 }
-#
-#  option = {
-#    name = EVT_8211016_A
-#    any_pop = { militancy = 1.0  consciousness = 1.0 }
-#  }
-#}
-#country_event = {
-#  id = 8211017
-#  title = EVT_8211017_NAME
-#  desc = EVT_8211017_DESC
-#  picture = "nwo2_alan_shepard"
-#  fire_only_once = yes
-#  
-#  trigger = {
-#    tag = USA
-#	year = 1961 NOT = { year = 1990 } 
-#  }
-#
-#  mean_time_to_happen = { months = 4  }
-#
-#  option = {
-#    name = EVT_8211017_A
-#	prestige = 5
-#    any_pop = { militancy = -1.0  consciousness = -0.5 }
-#  }
-#}
-#country_event = {
-#  id = 8211018
-#  title = EVT_8211018_NAME
-#  desc = EVT_8211018_DESC
-#  picture = "nwo2_alan_shepard"
-#  fire_only_once = yes
-#
-#  trigger = {
-#    tag = RUS
-#	year = 1961 NOT = { year = 1990 } 
-#  }
-#
-#  mean_time_to_happen = { months = 4  }
-#
-#  option = {
-#    name = EVT_8211018_A
-#  }
-#}
+country_event = {
+  id = 8211008
+  title = EVT_8211008_NAME
+  desc = EVT_8211008_DESC
+  picture = "nwo2_sputnik"
+  fire_only_once = yes
+
+  major = yes 
+
+  trigger = {
+    tag = GER
+	year = 1955 
+	month = 6
+	#has_global_flag = SOV_rocket_engineers
+  }
+
+  mean_time_to_happen = { days = 1  }
+
+  option = {
+    name = EVT_8211008_A
+	prestige = 50
+	any_pop = { militancy = -1.0  consciousness = -1.0 }
+	USA = { country_event = 8211009 }
+  }
+}
+country_event = {
+  id = 8211009
+  title = EVT_8211009_NAME
+  desc = EVT_8211009_DESC
+  picture = "nwo2_sputnik"
+  is_triggered_only = yes
+
+  option = {
+    name = EVT_8211009_A
+	prestige = -10
+	any_pop = { militancy = 0.1  consciousness = 0.5 }
+  }
+}
+country_event = {
+  id = 8211010
+  title = EVT_8211010_NAME
+  desc = EVT_8211010_DESC
+  picture = "nwo2_explorer_1"
+  fire_only_once = yes
+
+  trigger = {
+    tag = USA
+	year = 1960
+	month = 1
+  }
+
+  mean_time_to_happen = { days = 1  }
+
+  option = {
+    name = EVT_8211010_A
+	prestige = 20
+	any_pop = { militancy = -1.0  consciousness = 0.5 }
+	GER = { country_event = 8211011 }
+  }
+}
+country_event = {
+  id = 8211011
+  title = EVT_8211011_NAME
+  desc = EVT_8211011_DESC
+  picture = "nwo2_explorer_1"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { months = 4  }
+
+  option = {
+    name = EVT_8211011_A
+	prestige = -20
+	any_pop = { militancy = 0.1  consciousness = 0.4 }
+  }
+}
+country_event = {
+  id = 8211015
+  title = EVT_8211015_NAME
+  desc = EVT_8211015_DESC
+  picture = "nwo2_gagarin"
+  fire_only_once = yes
+  
+  major = yes 
+  
+  trigger = {
+    tag = GER
+	year = 1958
+  }
+
+  mean_time_to_happen = { days = 1  }
+
+  option = {
+    name = EVT_8211015_A
+	prestige = 50
+	any_pop = { militancy = -1.0  consciousness = -0.5 }
+	USA = { country_event = 8211016 }
+  }
+}
+country_event = {
+  id = 8211016
+  title = EVT_8211016_NAME
+  desc = EVT_8211016_DESC
+  picture = "nwo2_gagarin"
+  fire_only_once = yes
+  is_triggered_only = yes
+
+   mean_time_to_happen = { months = 4 }
+
+  option = {
+    prestige = -30
+    name = EVT_8211016_A
+    any_pop = { militancy = 1.0  consciousness = 1.0 }
+  }
+}
+country_event = {
+  id = 8211017
+  title = EVT_8211017_NAME
+  desc = EVT_8211017_DESC
+  picture = "nwo2_alan_shepard"
+  fire_only_once = yes
+  
+  trigger = {
+    tag = USA
+	year = 1963
+    month = 4	
+  }
+
+  mean_time_to_happen = { days = 1  }
+
+  option = {
+    name = EVT_8211017_A
+	prestige = 5
+    any_pop = { militancy = -1.0  consciousness = -0.5 }
+	GER = { country_event = 8211018 }
+  }
+}
+country_event = {
+  id = 8211018
+  title = EVT_8211018_NAME
+  desc = EVT_8211018_DESC
+  picture = "nwo2_alan_shepard"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { months = 4  }
+
+  option = {
+    name = EVT_8211018_A
+	prestige = -1
+  }
+}
 #country_event = {
 #  id = 8211022
 #  title = EVT_8211022_NAME
@@ -252,38 +239,72 @@ country_event = {
 #	any_pop = { militancy = 0.1  consciousness = 0.5 }
 #  }
 #}
-#country_event = {
-#  id = 8211024
-#  title = EVT_8211024_NAME
-#  desc = EVT_8211024_DESC
-#  picture = "nwo2_apollo_11"
-#  fire_only_once = yes
-#  
-#  major = yes
-#
-#  trigger = {
-#    tag = USA
-#	rank = 1
-#	year = 1969 NOT = { year = 1972 }
-#  }
-#
-#  option = {
-#    name = EVT_8211024_A
-#	prestige = 50
-#    any_pop = { militancy = -1.0  consciousness = 1.0 }
-#	RUS = { country_event = 8211025}
-#  }
-#}
-#country_event = {
-#  id = 8211025
-#  title = EVT_8211025_NAME
-#  desc = EVT_8211025_DESC
-#  picture = "nwo2_apollo_11"
-#  is_triggered_only = yes
-#
-#  option = {
-#    name = EVT_8211025_A
-#	prestige = -20
-#    any_pop = { militancy = 0.1  consciousness = 0.5 }
-#  }
-#}
+country_event = {
+  id = 8211024
+  title = EVT_8211024_NAME
+  desc = EVT_8211024_DESC
+  picture = "nwo2_apollo_11"
+  fire_only_once = yes
+  
+  major = yes
+
+  trigger = {
+    tag = GER
+	year = 1964
+  }
+  
+  mean_time_to_happen = { days = 1  }
+
+  option = {
+    name = EVT_8211024_A
+	prestige = 50
+    any_pop = { militancy = -1.0  consciousness = 1.0 }
+	USA = { country_event = 8211025}
+  }
+}
+country_event = {
+  id = 8211025
+  title = EVT_8211025_NAME
+  desc = EVT_8211025_DESC
+  picture = "nwo2_apollo_11"
+  is_triggered_only = yes
+
+  option = {
+    name = EVT_8211025_A
+	prestige = -20
+    any_pop = { militancy = 0.1  consciousness = 0.5 }
+  }
+}
+
+country_event = {
+  id = 8211026
+  title = EVT_8211026_NAME
+  desc = EVT_8211026_DESC
+  picture = "space_militarisation"
+  trigger = {
+    tag = GER
+	year = 1967
+	NOT = { badboy = 0.9 }
+  }
+
+  option = {
+    name = EVT_8211026_A
+	prestige = 100
+    badboy = 1
+	USA = { country_event = 8211027 }
+  }
+}
+
+country_event = {
+  id = 8211027
+  title = EVT_8211026_NAME
+  desc = EVT_8211026_DESC
+  picture = "space_militarisation"
+  is_triggered_only = yes
+
+  option = {
+    name = EVT_8211026_B
+	prestige = -50
+    any_pop = { militancy = 1  consciousness = 2 }
+  }
+}
