@@ -5,19 +5,20 @@
 
 #######
 
-#china_tax_boost = {
-#trigger = {
-#	#has_country_flag = prc
-#	OR = {
-#	tag = USA
-#	tag = GER
-#    }	
-#	has_global_flag = blocsenabled
-#	#government = proletarian_dictatorship
-#		}
-#tax_efficiency = 0.10
-##prestige = 0.001
-#}
+china_tax_boost = {
+trigger = {
+	#has_country_flag = prc
+	OR = {
+	 tag = USA
+	 tag = GER
+    }	
+	has_global_flag = blocsenabled
+	#government = proletarian_dictatorship
+		}
+tax_efficiency = 0.10
+badboy = -0.10
+#prestige = 0.001
+}
 
 demoprehigh_target = {
 trigger = {
