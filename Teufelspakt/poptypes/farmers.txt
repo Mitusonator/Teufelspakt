@@ -21,12 +21,13 @@ everyday_needs = {
 	heating_electricity = 0.5
 	cement = 0.25
 
-	fish	= 0.25
-	cattle = 0.25
-	fruit = 0.25
-	grain = 0.25
-	rice = 0.25
+	#fish	= 0.25
+	#cattle = 0.25
+	#fruit = 0.25
+	#grain = 0.25
+	#rice = 0.25
 	fuel = 0.1
+	steel = 0.1
 }
 
 life_needs = { 

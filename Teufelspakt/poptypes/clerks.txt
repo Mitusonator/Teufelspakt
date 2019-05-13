@@ -31,12 +31,13 @@ everyday_needs = {
 	heating_electricity = 2
 	cement = 1
 
-	fish	= 1
-	cattle = 1
-	fruit = 1
-	grain = 1
-	rice = 1
+	#fish	= 1
+	#cattle = 1
+	#fruit = 1
+	#grain = 1
+	#rice = 1
 	fuel = 0.8
+	steel = 0.8
 }
 
 life_needs = { 

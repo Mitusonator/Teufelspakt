@@ -48,12 +48,13 @@ everyday_needs = {
 	weaponry = 0.5
 	small_arms = 0.5
 
-	fish	= 1
-	cattle = 1
-	fruit = 1
-	grain = 1
-	rice = 1
+	#fish	= 1
+	#cattle = 1
+	#fruit = 1
+	#grain = 1
+	#rice = 1
 	fuel = 1
+	steel = 1
 }
 
 life_needs = { 
