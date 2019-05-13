@@ -7,7 +7,7 @@ political_decisions = {
 			NOT = { has_country_flag = neutrality }
 			is_vassal = no
 			is_greater_power = no
-			is_secondary_power = no			
+			#is_secondary_power = no			
 		}
 		alert = no
 		allow = {		
