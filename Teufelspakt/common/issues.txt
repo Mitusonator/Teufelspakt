@@ -502,7 +502,7 @@ political_reforms = {
 		administrative = yes
 		lgbt_promoted = { # mandatory_service
 			global_assimilation_rate = 0.1
-			mobilisation_size = 0.4
+			mobilisation_size = 0.5
 			mobilisation_economy_impact = 0.40
 			land_unit_start_experience = 10
 			global_immigrant_attract = -0.2
@@ -515,7 +515,7 @@ political_reforms = {
 		}
 		lgbt_allowed = { # three_year_draft
 			global_assimilation_rate = 0.05
-			mobilisation_size = 0.3
+			mobilisation_size = 0.4
 			mobilisation_economy_impact = 0.30
 			land_unit_start_experience = 7.5
 			global_immigrant_attract = -0.20
@@ -527,7 +527,7 @@ political_reforms = {
 			allow = { not = { war_policy = pacifism } }
 		}
 		lgbt_equal_rights = { # two_year_draft
-			mobilisation_size = 0.2
+			mobilisation_size = 0.3
 			mobilisation_economy_impact = 0.20
 			land_unit_start_experience = 5
 			global_immigrant_attract = -0.1
@@ -538,7 +538,7 @@ political_reforms = {
 			administrative_multiplier = 2
 		}
 		gender_neutrallity = { # one_year_draft
-			mobilisation_size = 0.1
+			mobilisation_size = 0.2
 			mobilisation_economy_impact = 0.10
 			land_unit_start_experience = 2.5
 			global_immigrant_attract = -0.05
@@ -549,6 +549,7 @@ political_reforms = {
 			administrative_multiplier = 1
 		}
 		lgbt_outlawed = { # no_draft
+			mobilisation_size = 0.1
 			global_pop_militancy_modifier = -0.01
 		}
 	}
