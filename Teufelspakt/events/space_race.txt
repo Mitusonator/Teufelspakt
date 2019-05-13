@@ -123,8 +123,6 @@ country_event = {
   picture = "nwo2_explorer_1"
   is_triggered_only = yes
 
-  mean_time_to_happen = { months = 4  }
-
   option = {
     name = EVT_8211011_A
 	prestige = -20
