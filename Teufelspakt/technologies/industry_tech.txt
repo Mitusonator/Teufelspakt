@@ -1430,6 +1430,7 @@ mobile_network = {
 	year = 2000
 	cost = 14400
 
+	max_railroad = 1
 	mobilisation_size = 0.005	
 	ai_chance = {
 		factor = 2
@@ -1477,6 +1478,7 @@ universal_wireless_access = {
 	year = 2030
 	cost = 18000
 
+	max_railroad = 1
 	mobilisation_size = 0.005
 	ai_chance = {
 		factor = 2
@@ -1500,6 +1502,7 @@ future_data_centers = {
 	year = 2050
 	cost = 21600
 
+	max_railroad = 1
 	mobilisation_size = 0.005
 	ai_chance = {
 		factor = 2

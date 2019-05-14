@@ -1,5 +1,4 @@
 strata = middle
-is_artisan = yes
 research_points = 2.5
 research_optimum = 0.04
 #state_capital_only = yes
@@ -16,7 +15,7 @@ workplace_input = -0.1
 workplace_output = 0
 sprite = 5
 starter_share = 1.0
-#unemployment = yes
+unemployment = yes
 can_work_factory = yes
 color = { 240 240 240 }
 
@@ -55,8 +54,8 @@ luxury_needs = {
 	education_rnd = 3
 	culture = 2
 	recreation = 2
-	financial_services = 3
 	computers = 2
+	financial_services = 20
 }
 
 country_migration_target = {

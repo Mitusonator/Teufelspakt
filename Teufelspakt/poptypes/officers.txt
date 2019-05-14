@@ -72,7 +72,7 @@ luxury_needs = {
 	education_rnd = 1
 	culture = 2
 	recreation = 3
-	financial_services = 0.5
+	financial_services = 20
 	computers = 1
 }
 

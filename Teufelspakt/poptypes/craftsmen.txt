@@ -52,8 +52,8 @@ luxury_needs = {
 	education_rnd = 1
 	culture = 1
 	recreation = 1
-	financial_services = 1
 	computers = 1
+	financial_services = 10
 }
 
 country_migration_target = {
@@ -538,12 +538,12 @@ promote_to =
 	artisans =
 	{
 		factor = 0.01
-		modifier = { factor = 1.0 NOT = { literacy = 0.1 } }
-		modifier = { factor = 1.0 NOT = { literacy = 0.2 } }
-		modifier = { factor = 1.0 NOT = { literacy = 0.3 } }
-		modifier = { factor = 1.0 NOT = { literacy = 0.4 } }
-		modifier = { factor = 1.0 NOT = { literacy = 0.5 } }
-		modifier = { factor = 1.0 NOT = { literacy = 0.5 } }
+		modifier = { factor = 1.0 literacy = 0.1 }
+		modifier = { factor = 1.0 literacy = 0.2 }
+		modifier = { factor = 1.0 literacy = 0.3 }
+		modifier = { factor = 1.0 literacy = 0.4 }
+		modifier = { factor = 1.0 literacy = 0.5 }
+		modifier = { factor = 1.0 literacy = 0.5 }
 
 modifier = { factor = 20
 location = { 

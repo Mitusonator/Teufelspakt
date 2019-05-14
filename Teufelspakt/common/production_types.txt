@@ -1847,283 +1847,1013 @@ credit_mine = {
 	farm = yes
 }
 
-### Artisans #####################################################################################
+#### Artisans #####################################################################################
+#
+#artisan_fishmonger = {       
+#	input_goods = { 
+#		fish = 15
+#	}
+#	output_goods = canned_food 
+#	value = 54
+#	
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_canned_food = {       
+#	input_goods = { 
+#		cattle = 15
+#	}
+#	output_goods = canned_food 
+#	value = 54
+#	
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_costermonger = {       
+#	input_goods = { 
+#		fruit = 15
+#	}
+#	output_goods = canned_food 
+#	value = 54
+#	
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#
+#	
+#	workforce = 5000
+#}
+#
+#artisan_baker = {       
+#	input_goods = { 
+#		grain = 40
+#	}
+#	output_goods = canned_food 
+#	value = 124
+#	
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_rice_trader = {       
+#	input_goods = { 
+#		rice = 40
+#	}
+#	output_goods = canned_food 
+#	value = 124
+#	
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#
+#artisan_seeds_trader = {       
+#	input_goods = { 
+#		oil_seeds = 15
+#	}
+#	output_goods = canned_food 
+#	value = 54
+#	
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_gas_fuel = {    # liquefied natural gas  
+#	input_goods = {    
+#		gas = 6
+#	} 
+#	output_goods = fuel 
+#	value = 40
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_pharmaceuticals = {
+#	input_goods = {    
+#		plastics = 15	
+#		fuel = 15
+#	}
+#	output_goods = pharmaceuticals 
+#	value = 34
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_integrated_circuits = {
+#
+#	input_goods = {    
+#		inorganic_chemicals = 30	
+#		fuel = 10
+#	}
+#	output_goods = integrated_circuits 
+#	value = 15
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_software_developer = {
+#
+#	input_goods = {    
+#		optics = 6	
+#		integrated_circuits = 6	
+#	}
+#	output_goods = computers 
+#	value = 30
+#
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_accountant = {
+#
+#	input_goods = {    
+#		computers = 25.00	
+#	}
+#	output_goods = financial_services 
+#	value = 29
+#
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_telephonist = {
+#
+#	input_goods = {    
+#		telecommunications = 15.00	
+#		computers = 15.00	
+#	}
+#	output_goods = communication 
+#	value = 29
+#
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_teacher = {       
+#	input_goods = {    
+#		telecommunications = 15	
+#		computers = 15
+#	}
+#	output_goods = education_rnd 
+#	value = 29
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_health = {       
+#	input_goods = {    
+#		pharmaceuticals = 4.5
+#		optics = 8.0
+#	}
+#	output_goods = health 
+#	value = 40
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_culture = {       
+#	input_goods = {    
+#		health = 15.00	
+#		beverage_tobacco = 15.00	
+#	}
+#	output_goods = culture 
+#	value = 28
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
+#
+#artisan_recreation = {       
+#	input_goods = {    
+#		health = 3	
+#		aeroplanes = 3	
+#	}
+#	output_goods = recreation 
+#	value = 14
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 5000
+#}
 
-artisan_fishmonger = {       
-	input_goods = { 
-		fish = 15
-	}
-	output_goods = canned_food 
-	value = 54
-	
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	
-	type = artisan
-	
-	workforce = 5000
-}
 
-artisan_canned_food = {       
-	input_goods = { 
-		cattle = 15
-	}
-	output_goods = canned_food 
-	value = 54
-	
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	
-	type = artisan
-	
-	workforce = 5000
-}
+#artisan_gold = {       
+#	input_goods = {    
+#	               financial_services = 1
+#				   recreation = 3
+#				   culture = 4
+#				   education_rnd = 4.5
+#				   communication = 4.5
+#				   transport = 5.8
+#				   heating_electricity = 25.7
+#				   cement = 30
+#				   canned_food = 36
+#				   clothes_footwear = 2.3
+#				   furniture_houseware = 4
+#				   health = 6.2
+#				   beverage_tobacco = 3.1
+#				   jewellery = 5.5
+#				   automobiles = 3.5
+#				   telecommunications = 6
+#				   computers = 4.1
+#				   pharmaceuticals = 18
+#				   electric_gear = 3.5
+#				   beverages = 3.3
+#				   furniture = 5.6
+#				   footwear = 3.8
+#				   cigarettes = 7.5
+#				   optics = 1.3
+#				   clothes = 4.6
+#				   integrated_circuits = 1.6
+#				   aluminium = 1.5
+#				   machine_parts = 11.3
+#				   glass = 15
+#				   paper = 5.3
+#				   plastics = 11.3
+#				   fabric = 12
+#				   inorganic_chemicals = 3.5
+#				   lumber = 18
+#				   steel = 4.7
+#				   fuel = 18
+#				   copper_wire = 5.5
+#				   #Raw material?
+#				   aeroplanes = 1.2
+#				   ships = 1.2
+#				   weaponry = 4.2
+#				   small_arms = 7.5
+#	}
+#	output_goods = financial_services 
+#	value = 100
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 1000
+#}
 
-artisan_costermonger = {       
-	input_goods = { 
-		fruit = 15
-	}
-	output_goods = canned_food 
-	value = 54
-	
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	
-	type = artisan
+#artisan_gold1 = {       
+#	input_goods = {    
+#	               financial_services = 1
+#	}
+#	output_goods = financial_services 
+#	value = 6
+#	owner = {
+#		poptype = artisans 
+#		effect = output
+#	}
+#	
+#	type = artisan
+#	
+#	workforce = 1000
+#}
 
-	
-	workforce = 5000
-}
-
-artisan_baker = {       
-	input_goods = { 
-		grain = 40
-	}
-	output_goods = canned_food 
-	value = 124
-	
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	
-	type = artisan
-	
-	workforce = 5000
-}
-
-artisan_rice_trader = {       
-	input_goods = { 
-		rice = 40
-	}
-	output_goods = canned_food 
-	value = 124
-	
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	
-	type = artisan
-	
-	workforce = 5000
-}
-
-
-artisan_seeds_trader = {       
-	input_goods = { 
-		oil_seeds = 15
-	}
-	output_goods = canned_food 
-	value = 54
-	
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	
-	type = artisan
-	
-	workforce = 5000
-}
-
-artisan_gas_fuel = {    # liquefied natural gas  
+artisan_services2 = {       
 	input_goods = {    
-		gas = 6
-	} 
-	output_goods = fuel 
-	value = 40
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	
-	type = artisan
-	
-	workforce = 5000
-}
-
-artisan_pharmaceuticals = {
-	input_goods = {    
-		plastics = 15	
-		fuel = 15
-	}
-	output_goods = pharmaceuticals 
-	value = 34
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	
-	type = artisan
-	
-	workforce = 5000
-}
-
-artisan_integrated_circuits = {
-
-	input_goods = {    
-		inorganic_chemicals = 30	
-		fuel = 10
-	}
-	output_goods = integrated_circuits 
-	value = 15
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	
-	type = artisan
-	
-	workforce = 5000
-}
-
-artisan_software_developer = {
-
-	input_goods = {    
-		optics = 6	
-		integrated_circuits = 6	
-	}
-	output_goods = computers 
-	value = 30
-
-	owner = {
-		poptype = artisan 
-		effect = output
-	}
-	
-	type = artisan
-	
-	workforce = 5000
-}
-
-artisan_accountant = {
-
-	input_goods = {    
-		computers = 25.00	
+				   recreation = 3
 	}
 	output_goods = financial_services 
-	value = 29
-
+	value = 5
 	owner = {
-		poptype = artisan 
+		poptype = artisans 
 		effect = output
 	}
 	
 	type = artisan
 	
-	workforce = 5000
+	workforce = 1000
 }
 
-artisan_telephonist = {
-
-	input_goods = {    
-		telecommunications = 15.00	
-		computers = 15.00	
+artisan_services3 = {       
+	input_goods = {
+				   culture = 4
 	}
-	output_goods = communication 
-	value = 29
-
+	output_goods = financial_services 
+	value = 5
 	owner = {
-		poptype = artisan 
+		poptype = artisans 
 		effect = output
 	}
 	
 	type = artisan
 	
-	workforce = 5000
+	workforce = 1000
 }
 
-artisan_teacher = {       
+artisan_services4 = {       
 	input_goods = {    
-		telecommunications = 15	
-		computers = 15
+				   education_rnd = 4.5
 	}
-	output_goods = education_rnd 
-	value = 29
+	output_goods = financial_services 
+	value = 5
 	owner = {
-		poptype = artisan 
+		poptype = artisans 
 		effect = output
 	}
 	
 	type = artisan
 	
-	workforce = 5000
+	workforce = 1000
 }
 
-artisan_health = {       
+artisan_services5 = {       
 	input_goods = {    
-		pharmaceuticals = 4.5
-		optics = 8.0
+				   communication = 4.5
 	}
-	output_goods = health 
-	value = 40
+	output_goods = financial_services 
+	value = 5
 	owner = {
-		poptype = artisan 
+		poptype = artisans 
 		effect = output
 	}
 	
 	type = artisan
 	
-	workforce = 5000
+	workforce = 1000
 }
 
-artisan_culture = {       
-	input_goods = {    
-		health = 15.00	
-		beverage_tobacco = 15.00	
+artisan_services6 = {       
+	input_goods = {
+				   transport = 5.8
 	}
-	output_goods = culture 
-	value = 28
+	output_goods = financial_services 
+	value = 5
 	owner = {
-		poptype = artisan 
+		poptype = artisans 
 		effect = output
 	}
 	
 	type = artisan
 	
-	workforce = 5000
+	workforce = 1000
 }
 
-artisan_recreation = {       
+artisan_services7 = {       
 	input_goods = {    
-		health = 3	
-		aeroplanes = 3	
+				   heating_electricity = 25.7
 	}
-	output_goods = recreation 
-	value = 14
+	output_goods = financial_services 
+	value = 5
 	owner = {
-		poptype = artisan 
+		poptype = artisans 
 		effect = output
 	}
 	
 	type = artisan
 	
-	workforce = 5000
+	workforce = 1000
+}
+
+artisan_services8 = {       
+	input_goods = {    
+				   cement = 305
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services9 = {       
+	input_goods = {
+				   canned_food = 36
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services10 = {       
+	input_goods = {
+				   clothes_footwear = 2.3
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services11 = {       
+	input_goods = {    
+				   furniture_houseware = 4
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services12 = {       
+	input_goods = {
+				   health = 6.2
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services13 = {       
+	input_goods = {    
+				   beverage_tobacco = 3.1
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services14 = {       
+	input_goods = {
+				   jewellery = 5.5
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services15 = {       
+	input_goods = {
+				   automobiles = 3.5
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services16 = {       
+	input_goods = {    
+				   telecommunications = 6
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services17 = {       
+	input_goods = {    
+				   computers = 4.1
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services18 = {       
+	input_goods = {
+				   pharmaceuticals = 18
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services19 = {       
+	input_goods = {
+				   electric_gear = 3.5
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services20 = {       
+	input_goods = {    
+				   beverages = 3.3
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services21 = {       
+	input_goods = {    
+				   furniture = 5.6
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services22 = {       
+	input_goods = {
+				   footwear = 3.8
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services23 = {       
+	input_goods = {
+				   cigarettes = 7.5
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services24 = {       
+	input_goods = {
+				   optics = 1.3
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services25 = {       
+	input_goods = {    
+				   clothes = 4.6
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services26 = {       
+	input_goods = {    
+				   clothes = 4.6
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services27 = {       
+	input_goods = {    
+				   integrated_circuits = 1.6
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services28 = {       
+	input_goods = {    
+				   aluminium = 1.5
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services29 = {       
+	input_goods = {    
+				   machine_parts = 11.3
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services30 = {       
+	input_goods = {    
+				   glass = 15
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services31 = {       
+	input_goods = {    
+				   paper = 5.3
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services32 = {       
+	input_goods = {    
+				   plastics = 11.3
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services33 = {       
+	input_goods = {    
+				   fabric = 12
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services34 = {       
+	input_goods = {    
+				   inorganic_chemicals = 3.5
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services35 = {       
+	input_goods = {    
+				   lumber = 18
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services36 = {       
+	input_goods = {    
+				   steel = 4.7
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services37 = {       
+	input_goods = {    
+				   fuel = 18
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services38 = {       
+	input_goods = {    
+				   copper_wire = 5.5
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services39 = {       
+	input_goods = {    
+				   aeroplanes = 1.2
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services40 = {       
+	input_goods = {    
+				   ships = 1.2
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services41 = {       
+	input_goods = {    
+				   weaponry = 4.2
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
+}
+
+artisan_services42 = {       
+	input_goods = {    
+				   small_arms = 7.5
+	}
+	output_goods = financial_services 
+	value = 5
+	owner = {
+		poptype = artisans 
+		effect = output
+	}
+	
+	type = artisan
+	
+	workforce = 1000
 }
