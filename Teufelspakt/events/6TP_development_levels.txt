@@ -19,6 +19,7 @@ country_event = {
         limit = {
 		      state_scope = {
 	          literacy = 0.20
+			  }
 		}
 		add_province_modifier = {
 		name = dev_5
@@ -72,7 +73,6 @@ country_event = {
 		duration = -1
 		}
 	    }
-		}
 		}
         any_owned = {
         limit = {
