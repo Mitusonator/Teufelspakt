@@ -1,0 +1,324 @@
+country_event = {
+	title = "Developmental Levels"
+	desc = EVTDESC1412201
+	picture = "developmental_levels"
+
+	id = 9999913
+
+	trigger = {
+		NOT = { has_global_flag = education_setup }
+		ai = no
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "OK"
+        any_country = {
+        any_owned = {
+        limit = {
+		      state_scope = {
+	          literacy = 0.20
+		}
+		add_province_modifier = {
+		name = dev_5
+		duration = -1
+		}
+		}
+        any_owned = {
+        limit = {
+		      state_scope = {
+	          literacy = 0.15
+              NOT = { literacy = 0.20 }
+	          }
+		}
+		add_province_modifier = {
+		name = dev_4
+		duration = -1
+		}
+		}
+		any_owned = {
+        limit = {
+		      state_scope = {
+	          literacy = 0.10
+              NOT = { literacy = 0.15 }
+	          }
+		}
+		add_province_modifier = {
+		name = dev_3
+		duration = -1
+		}
+		}
+		any_owned = {
+        limit = {
+		      state_scope = {
+	          literacy = 0.05
+              NOT = { literacy = 0.10 }
+	          }
+		}
+		add_province_modifier = {
+		name = dev_2
+		duration = -1
+		}
+		}
+		any_owned = {
+        limit = {
+		      state_scope = {
+              NOT = { literacy = 0.05 }
+	          }
+		}
+		add_province_modifier = {
+		name = dev_1
+		duration = -1
+		}
+	    }
+		}
+         any_owned = {
+        limit = {
+		      state_scope = {
+	          literacy = 0.20
+		}
+		add_province_modifier = {
+		name = dev_5
+		duration = -1
+		}
+		}
+        any_owned = {
+        limit = {
+		      state_scope = {
+	          literacy = 0.15
+              NOT = { literacy = 0.20 }
+	          }
+		}
+		add_province_modifier = {
+		name = dev_4
+		duration = -1
+		}
+		}
+		any_owned = {
+        limit = {
+		      state_scope = {
+	          literacy = 0.10
+              NOT = { literacy = 0.15 }
+	          }
+		}
+		add_province_modifier = {
+		name = dev_3
+		duration = -1
+		}
+		}
+		any_owned = {
+        limit = {
+		      state_scope = {
+	          literacy = 0.05
+              NOT = { literacy = 0.10 }
+	          }
+		}
+		add_province_modifier = {
+		name = dev_2
+		duration = -1
+		}
+		}
+		any_owned = {
+        limit = {
+		      state_scope = {
+              NOT = { literacy = 0.05 }
+	          }
+		}
+		add_province_modifier = {
+		name = dev_1
+		duration = -1
+		}
+	    }
+set_global_flag = education_setup
+}
+}
+
+
+province_event = {
+	id = 999912
+	title = "Developmental Level in $STATENAME$"
+	desc = EVTDESC1412201
+
+	trigger = {
+	has_global_flag = education_setup
+      state_scope = {
+	  literacy = 0.2
+	  }
+	  NOT = { has_province_modifier = dev_5 }
+	}
+
+	allow_multiple_instances = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Advance $COUNTRY$ !"
+		state_scope = {
+			any_owned = {
+            remove_province_modifier = dev_5
+            remove_province_modifier = dev_4
+            remove_province_modifier = dev_3
+            remove_province_modifier = dev_2
+            remove_province_modifier = dev_1
+				add_province_modifier = {
+					name = dev_5
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 999911
+	title = "Developmental Level in $STATENAME$"
+	desc = EVTDESC1412201
+
+	trigger = {
+	has_global_flag = education_setup
+      state_scope = {
+	  literacy = 0.15
+	  NOT = { literacy = 0.20 }
+	  }
+	  NOT = { has_province_modifier = dev_4 }
+	}
+
+	allow_multiple_instances = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Advance $COUNTRY$ !"
+		state_scope = {
+			any_owned = {
+            remove_province_modifier = dev_5
+            remove_province_modifier = dev_4
+            remove_province_modifier = dev_3
+            remove_province_modifier = dev_2
+            remove_province_modifier = dev_1
+				add_province_modifier = {
+					name = dev_4
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 999910
+	title = "Developmental Level in $STATENAME$"
+	desc = EVTDESC1412201
+
+	trigger = {
+	has_global_flag = education_setup
+      state_scope = {
+	  literacy = 0.10
+	  NOT = { literacy = 0.15 }
+	  }
+	  NOT = { has_province_modifier = dev_4 }
+	}
+
+	allow_multiple_instances = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Advance $COUNTRY$ !"
+		state_scope = {
+			any_owned = {
+            remove_province_modifier = dev_5
+            remove_province_modifier = dev_4
+            remove_province_modifier = dev_3
+            remove_province_modifier = dev_2
+            remove_province_modifier = dev_1
+				add_province_modifier = {
+					name = dev_3
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 999909
+	title = "Developmental Level in $STATENAME$"
+	desc = EVTDESC1412201
+
+	trigger = {
+	has_global_flag = education_setup
+      state_scope = {
+	  literacy = 0.05
+	  NOT = { literacy = 0.10 }
+	  }
+	  NOT = { has_province_modifier = dev_2 }
+	}
+
+	allow_multiple_instances = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Advance $COUNTRY$ !"
+		state_scope = {
+			any_owned = {
+            remove_province_modifier = dev_5
+            remove_province_modifier = dev_4
+            remove_province_modifier = dev_3
+            remove_province_modifier = dev_2
+            remove_province_modifier = dev_1
+				add_province_modifier = {
+					name = dev_2
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 999908
+	title = "Developmental Level in $STATENAME$"
+	desc = EVTDESC1412201
+
+	trigger = {
+	has_global_flag = education_setup
+      state_scope = {
+	  NOT = { literacy = 0.05 }
+	  }
+	  NOT = { has_province_modifier = dev_1 }
+	}
+
+	allow_multiple_instances = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "Advance $COUNTRY$ !"
+		state_scope = {
+			any_owned = {
+            remove_province_modifier = dev_5
+            remove_province_modifier = dev_4
+            remove_province_modifier = dev_3
+            remove_province_modifier = dev_2
+            remove_province_modifier = dev_1
+				add_province_modifier = {
+					name = dev_1
+					duration = -1
+				}
+			}
+		}
+	}
+}

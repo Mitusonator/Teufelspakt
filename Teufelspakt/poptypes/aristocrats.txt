@@ -52,7 +52,7 @@ luxury_needs = {
 	computers = 4
 	ships = 1
 	aeroplanes = 1
-	financial_services = 30
+	financial_services = 100
 }
 
 country_migration_target = {
@@ -896,7 +896,7 @@ country = { OR = { ruling_party_ideology = socialist ruling_party_ideology = com
 		}
 		modifier = {
 			factor = 1.1
-			luxury_needs = 0.1
+			luxury_needs = 0.05
 		}
 		modifier = {
 			factor = 1.5
@@ -1090,7 +1090,7 @@ modifier = { factor = 1.5 country = { has_country_flag = conservative_surge } }
 		}
 		modifier = {
 			factor = 1.1
-			luxury_needs = 0.2
+			luxury_needs = 0.1
 		}
 		modifier = {
 			factor = 1.5
@@ -1404,7 +1404,7 @@ country = { NOT = { OR = { ruling_party_ideology = communist ruling_party_ideolo
 			factor = 1.1
 			consciousness = 5
 			NOT = { everyday_needs = 0.25 }
-			state_scope = { rich_strata_luxury_needs = 0.25 }
+			state_scope = { rich_strata_luxury_needs = 0.15 }
 		}
 		modifier = {
 			factor = 1.1
@@ -1509,7 +1509,7 @@ country = { OR = { government = proletarian_dictatorship government = proletaria
 			militancy = 3
 			consciousness = 5
 			NOT = { everyday_needs = 0.25 }
-			state_scope = { rich_strata_luxury_needs = 0.25 }
+			state_scope = { rich_strata_luxury_needs = 0.15 }
 		}
 		modifier = {
 			factor = 1.25
@@ -1636,7 +1636,7 @@ country = { OR = { government = proletarian_dictatorship government = proletaria
 			militancy = 3
 			consciousness = 5
 			NOT = { everyday_needs = 0.25 }
-			state_scope = { rich_strata_luxury_needs = 0.25 }
+			state_scope = { rich_strata_luxury_needs = 0.15 }
 		}
 		modifier = {
 			factor = 1.25
@@ -2136,7 +2136,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	gender_equal = {
 		factor = 0.6
 		modifier = { factor = 0 country = { NOT = { seventies_subcultures = 1 } } }
-		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = gender_equal } luxury_needs = 0.2 } }
+		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = gender_equal } luxury_needs = 0.1 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.30 } }
@@ -2154,7 +2154,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	gender_promotive = {
 		factor = 0.4
 		modifier = { factor = 0 country = { NOT = { seventies_subcultures = 1 } } }
-		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = gender_promotive } luxury_needs = 0.2 } }
+		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = gender_promotive } luxury_needs = 0.1 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.30 } }
@@ -2171,7 +2171,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	feminist = {
 		factor = 0.2
 		modifier = { factor = 0 country = { NOT = { cultural_imperialism = 1 } } }
-		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = feminist } luxury_needs = 0.2 } }
+		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = feminist } luxury_needs = 0.1 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.30 } }
@@ -2189,7 +2189,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	# parties_not_allowed
 	parties_only_nominated = {
 		factor = 1.6
-		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = parties_only_nominated } luxury_needs = 0.2 } }
+		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = parties_only_nominated } luxury_needs = 0.1 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.30 } }
@@ -2206,7 +2206,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	}
 	parties_allowed = {
 		factor = 1.2
-		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = parties_allowed } luxury_needs = 0.2 } }
+		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = parties_allowed } luxury_needs = 0.1 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.30 } }
@@ -2223,7 +2223,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	parties_promote_democratic = {
 		factor = 0.8
 		modifier = { factor = 0 country = { NOT = { cultural_imperialism = 1 } } }
-		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = parties_promote_democratic } luxury_needs = 0.2 } }
+		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = parties_promote_democratic } luxury_needs = 0.1 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.30 } }
@@ -2239,7 +2239,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	parties_restrict_non_democratic = {
 		factor = 0.4
 		modifier = { factor = 0 country = { NOT = { colour_revolution = 1 } } }
-		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = parties_restrict_non_democratic } luxury_needs = 0.2 } }
+		modifier = { factor = 0 OR = { vote_franschise = none_voting NOT = { is_next_reform = parties_restrict_non_democratic } luxury_needs = 0.1 } }
 		modifier = { factor = 1.25 agree_with_ruling_party = 0.10 }
 		modifier = { factor = 1.25 agree_with_ruling_party = 0.20 }
 		modifier = { factor = 1.25 agree_with_ruling_party = 0.30 }
@@ -2256,7 +2256,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	quota_immigration = {
 		factor = 1
 		modifier = { factor = 0 country = { NOT = { decolonization = 1 } } }
-		modifier = { factor = 0 OR = { NOT = { is_next_reform = quota_immigration } luxury_needs = 0.2 } }
+		modifier = { factor = 0 OR = { NOT = { is_next_reform = quota_immigration } luxury_needs = 0.1 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.30 } }
@@ -2274,7 +2274,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	open_immigration = {
 		factor = 1
 		modifier = { factor = 0 country = { NOT = { wars_of_national_liberation = 1 } } }
-		modifier = { factor = 0 OR = { NOT = { is_next_reform = open_immigration } luxury_needs = 0.2 } }
+		modifier = { factor = 0 OR = { NOT = { is_next_reform = open_immigration } luxury_needs = 0.1 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.30 } }
@@ -2291,7 +2291,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	naturalization = {
 		factor = 1
 		modifier = { factor = 0 country = { NOT = { seventies_subcultures = 1 } } }
-		modifier = { factor = 0 OR = { NOT = { is_next_reform = naturalization } luxury_needs = 0.2 } }
+		modifier = { factor = 0 OR = { NOT = { is_next_reform = naturalization } luxury_needs = 0.1 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.30 } }
@@ -2307,7 +2307,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	promoted_immigration = {
 		factor = 1
 		modifier = { factor = 0 country = { NOT = { cultural_imperialism = 1 } } }
-		modifier = { factor = 0 OR = { NOT = { is_next_reform = promoted_immigration } luxury_needs = 0.2 } }
+		modifier = { factor = 0 OR = { NOT = { is_next_reform = promoted_immigration } luxury_needs = 0.1 } }
 		modifier = { factor = 1.25 agree_with_ruling_party = 0.10 }
 		modifier = { factor = 1.25 agree_with_ruling_party = 0.20 }
 		modifier = { factor = 1.25 agree_with_ruling_party = 0.30 }
@@ -2323,7 +2323,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	# lgbt_outlawed
 	lgbt_allowed = {
 		factor = 0.4
-		modifier = { factor = 0 OR = { NOT = { is_next_reform = lgbt_equal_rights } luxury_needs = 0.2 } consciousness = 3 }
+		modifier = { factor = 0 OR = { NOT = { is_next_reform = lgbt_equal_rights } luxury_needs = 0.1 } consciousness = 3 }
 		modifier = { factor = 0.5 country = { has_country_flag = sectarianism } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
@@ -2344,7 +2344,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	lgbt_equal_rights = {
 		factor = 0.3
 		modifier = { factor = 0 country = { NOT = { seventies_subcultures = 1 } } }
-		modifier = { factor = 0 OR = { NOT = { is_next_reform = lgbt_equal_rights } luxury_needs = 0.2 } consciousness = 6 }
+		modifier = { factor = 0 OR = { NOT = { is_next_reform = lgbt_equal_rights } luxury_needs = 0.1 } consciousness = 6 }
 		modifier = { factor = 0.5 country = { has_country_flag = sectarianism }  }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
@@ -2362,7 +2362,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	gender_neutrallity = {
 		factor = 0.2
 		modifier = { factor = 0 country = { NOT = { seventies_subcultures = 1 } } }
-		modifier = { factor = 0 OR = { NOT = { is_next_reform = gender_neutrallity } luxury_needs = 0.2 } consciousness = 7 }
+		modifier = { factor = 0 OR = { NOT = { is_next_reform = gender_neutrallity } luxury_needs = 0.1 } consciousness = 7 }
 		modifier = { factor = 0.5 country = { has_country_flag = sectarianism }  }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
@@ -2379,7 +2379,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	lgbt_promoted = {
 		factor = 0.1
 		modifier = { factor = 0 country = { NOT = { seventies_subcultures = 1 } } }
-		modifier = { factor = 0 OR = { NOT = { is_next_reform = lgbt_promoted } luxury_needs = 0.2 } consciousness = 8 }
+		modifier = { factor = 0 OR = { NOT = { is_next_reform = lgbt_promoted } luxury_needs = 0.1 } consciousness = 8 }
 		modifier = { factor = 0.5 country = { has_country_flag = sectarianism }  }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.20 } }
@@ -2397,7 +2397,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	# minorities_oppression
 	minorities_equal_rights = {
 		factor = 0.8
-		modifier = { factor = 0 OR = { NOT = { is_next_reform = minorities_equal_rights } luxury_needs = 0.2 } }
+		modifier = { factor = 0 OR = { NOT = { is_next_reform = minorities_equal_rights } luxury_needs = 0.1 } }
 		modifier = { factor = 0.1 OR = { is_primary_culture = yes is_accepted_culture = yes } country = { has_country_flag = sectarianism }  }
 		modifier = { factor = 0.6 OR = { is_primary_culture = yes is_accepted_culture = yes } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }
@@ -2422,7 +2422,7 @@ modifier = { factor = 1.1 consciousness = 8 }
 	minorities_affirmative_action = {
 		factor = 0.4
 		modifier = { factor = 0 country = { NOT = { seventies_subcultures = 1 } } }
-		modifier = { factor = 0 OR = { NOT = { is_next_reform = minorities_affirmative_action } luxury_needs = 0.2 } consciousness = 7 }
+		modifier = { factor = 0 OR = { NOT = { is_next_reform = minorities_affirmative_action } luxury_needs = 0.1 } consciousness = 7 }
 		modifier = { factor = 0.1 country = { has_country_flag = sectarianism }  }
 		modifier = { factor = 0.6 OR = { is_primary_culture = yes is_accepted_culture = yes } }
 		modifier = { factor = 1.25 NOT = { agree_with_ruling_party = 0.10 } }

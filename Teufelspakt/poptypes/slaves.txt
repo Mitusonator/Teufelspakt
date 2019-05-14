@@ -1,5 +1,5 @@
 sprite = 10
-strata = poor
+strata = middle
 allowed_to_vote = no
 is_slave = yes
 color = { 17 17 17 }

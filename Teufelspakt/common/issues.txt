@@ -224,23 +224,23 @@ political_reforms = {
 		}
 		registered_voting = { # landed_voting  
 			rich_vote = 4
-			middle_vote = 3
-			poor_vote = 1
+			poor_vote = 3
+			middle_vote = 1
 			global_immigrant_attract = 0.1
 			administrative_multiplier = 1
 		}
 		universal_weighted_voting = { # wealth_weighted_voting 
 			rich_vote = 3
-			middle_vote = 2
-			poor_vote = 1
+			poor_vote = 2
+			middle_vote = 1
 			global_immigrant_attract = 0.2
 			administrative_multiplier = 2
 			global_pop_consciousness_modifier = 0.01
 		}
 		promoted_voting = { # universal_voting
 			rich_vote = 2
-			middle_vote = 1
 			poor_vote = 1
+			middle_vote = 1
 			global_immigrant_attract = 0.4
 			administrative_multiplier = 3
 			global_pop_consciousness_modifier = 0.02
@@ -248,8 +248,8 @@ political_reforms = {
 
 		universal_voting = { # wealth_voting
 			rich_vote = 1
-			middle_vote = 1
 			poor_vote = 1
+			middle_vote = 1
 			global_immigrant_attract = 0.3
 			administrative_multiplier = 4
 			global_pop_consciousness_modifier = 0.03
@@ -710,22 +710,22 @@ social_reforms = {
 			unemployment_benefit = 1
 		}
 		minimal_subsidies = { # trinket_subsidies
-			unemployment_benefit = 2
+			unemployment_benefit = 3
 			global_immigrant_attract = 0.1
 			global_pop_consciousness_modifier = -0.01
 		}
 		ghent_system = { # low_subsidies
-			unemployment_benefit = 4
+			unemployment_benefit = 6
 			global_immigrant_attract = 0.2
 			global_pop_consciousness_modifier = -0.02
 		}
 		generous_subsidies = { # acceptable_subsidies
-			unemployment_benefit = 6
+			unemployment_benefit = 9
 			global_immigrant_attract = 0.3
 			global_pop_consciousness_modifier = -0.03
 		}
 		citizen_salary = { # good_subsidies
-			unemployment_benefit = 8
+			unemployment_benefit = 12
 			global_immigrant_attract = 0.4
 			global_pop_consciousness_modifier = -0.04
 		}
@@ -740,50 +740,53 @@ social_reforms = {
 			global_population_growth = 0.002
 			factory_throughput = -0.05
 			global_immigrant_attract = 0.1
-			tax_efficiency = -0.02
+			tax_efficiency = -0.01
+			pension_level = 0.5
 		}
 		supported_child_care = { # child_labor_illegal
 			global_population_growth = 0.004
 			factory_throughput = -0.10
 			global_immigrant_attract = 0.2
-			tax_efficiency = -0.04
+			tax_efficiency = -0.02
+			pension_level = 1.0
 		}
 		parental_leave_child_care = { # 
 			global_population_growth = 0.007
 			factory_throughput = -0.20
 			global_immigrant_attract = 0.3
-			tax_efficiency = -0.10
+			tax_efficiency = -0.05
+			pension_level = 1.5
 		}
 		state_provided_child_care = { # 
 			global_population_growth = 0.010
 			factory_throughput = -0.40
 			global_immigrant_attract = 0.4
-			tax_efficiency = -0.20
+			tax_efficiency = -0.10
+			pension_level = 2
 		}
 	}
 	pensions = {
 		next_step_only = yes
 		no_pensions = {
-			pension_level	= 1
 		}
 		trinket_pensions = {
-			pension_level = 2
+			pension_level = 2.5
 			global_immigrant_attract = 0.1
 			global_population_growth = 0.001
 		}
 		low_pensions = {
-			pension_level	= 4
+			pension_level	= 5
 			global_immigrant_attract = 0.2
 			global_population_growth = 0.001
 		}
 		acceptable_pensions = {
-			pension_level	= 6
+			pension_level	= 7.5
 			global_pop_consciousness_modifier = -0.01
 			global_immigrant_attract = 0.3
 			global_population_growth = 0.002
 		}
 		good_pensions = {
-			pension_level	= 8
+			pension_level	= 10
 			global_pop_consciousness_modifier = -0.02
 			global_immigrant_attract = 0.4
 			global_population_growth = 0.002
@@ -798,24 +801,28 @@ social_reforms = {
 			global_population_growth = 0.001
 			global_immigrant_attract = 0.1
 			administrative_multiplier = 1
+			pension_level = 0.5
 		}
 		low_health_care = {
 			global_population_growth = 0.0015
 			global_immigrant_attract = 0.2
 			administrative_multiplier = 2
 			global_pop_consciousness_modifier = -0.01
+			pension_level = 1
 		}
 		acceptable_health_care = {
 			global_population_growth = 0.002
 			global_immigrant_attract = 0.3
 			administrative_multiplier = 3
 			global_pop_consciousness_modifier = -0.02
+			pension_level = 1.5
 		}
 		good_health_care = {
 			global_population_growth = 0.003
 			global_immigrant_attract = 0.4
 			administrative_multiplier = 4
 			global_pop_consciousness_modifier = -0.03
+			pension_level = 2
 		}
 	}
 	pollution = {
@@ -858,53 +865,62 @@ social_reforms = {
 		self_financed_education = {
 		}
 		public_education = {
-			education_efficiency_modifier = 0.10
+			education_efficiency_modifier = 0.25
 			global_immigrant_attract = 0.1
 			administrative_multiplier = 1
+			pension_level = 0.5
 		}
 		subsidised_higher_education = {
-			education_efficiency_modifier = 0.20
+			education_efficiency_modifier = 0.50
 			global_immigrant_attract = 0.2
 			global_pop_consciousness_modifier = 0.01
 			administrative_multiplier = 2
+			pension_level = 1.0
 		}
 		public_higher_education = {
-			education_efficiency_modifier = 0.30
+			education_efficiency_modifier = 0.75
 			global_immigrant_attract = 0.3
 			global_pop_consciousness_modifier = 0.02
 			administrative_multiplier = 3
+			pension_level = 1.5
 		}
 		unlimited_education = {
-			education_efficiency_modifier = 0.40
+			education_efficiency_modifier = 1.00
 			global_immigrant_attract = 0.4
 			global_pop_consciousness_modifier = 0.03
 			administrative_multiplier = 4
+			pension_level = 2.0
 		}
 	}
 	social_service_reform = { # arts_endowment
 		administrative = yes
 		next_step_only = yes
 		no_social_service = { # no_endowment
+			pension_level = 1.0
 		}
 		social_services = { # small_endowment
 			administrative_multiplier = 1
 			global_pop_consciousness_modifier = -0.02
 			global_pop_militancy_modifier = -0.02
+			pension_level = 2.0
 		}
 		social_abuse_protection = { # medium_endowment
 			administrative_multiplier = 2
 			global_pop_consciousness_modifier = -0.03
 			global_pop_militancy_modifier = -0.04
+			pension_level = 3.0
 		}
 		anti_terror_surveillance  = { # large_endowment
 			administrative_multiplier = 4
 			global_pop_consciousness_modifier = -0.04
 			global_pop_militancy_modifier = -0.06
+			pension_level = 4.0
 		}
 		the_safety_grid = { # massive_endowment
 			administrative_multiplier = 8
 			global_pop_consciousness_modifier = -0.05
 			global_pop_militancy_modifier = -0.08
+			pension_level = 5
 		}
 	}
 

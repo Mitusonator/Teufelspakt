@@ -2186,30 +2186,14 @@ credit_mine = {
 #	workforce = 1000
 #}
 
-#artisan_gold1 = {       
-#	input_goods = {    
-#	               financial_services = 1
-#	}
-#	output_goods = financial_services 
-#	value = 6
-#	owner = {
-#		poptype = artisans 
-#		effect = output
-#	}
-#	
-#	type = artisan
-#	
-#	workforce = 1000
-#}
-
 artisan_services2 = {       
 	input_goods = {    
 				   recreation = 3
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2223,9 +2207,9 @@ artisan_services3 = {
 				   culture = 4
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2239,9 +2223,9 @@ artisan_services4 = {
 				   education_rnd = 4.5
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2255,9 +2239,9 @@ artisan_services5 = {
 				   communication = 4.5
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2271,9 +2255,9 @@ artisan_services6 = {
 				   transport = 5.8
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2287,9 +2271,9 @@ artisan_services7 = {
 				   heating_electricity = 25.7
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2303,9 +2287,9 @@ artisan_services8 = {
 				   cement = 305
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2319,9 +2303,9 @@ artisan_services9 = {
 				   canned_food = 36
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2335,9 +2319,9 @@ artisan_services10 = {
 				   clothes_footwear = 2.3
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2351,9 +2335,9 @@ artisan_services11 = {
 				   furniture_houseware = 4
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2367,9 +2351,9 @@ artisan_services12 = {
 				   health = 6.2
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2383,9 +2367,9 @@ artisan_services13 = {
 				   beverage_tobacco = 3.1
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2399,9 +2383,9 @@ artisan_services14 = {
 				   jewellery = 5.5
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2415,9 +2399,9 @@ artisan_services15 = {
 				   automobiles = 3.5
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2431,9 +2415,9 @@ artisan_services16 = {
 				   telecommunications = 6
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2447,9 +2431,9 @@ artisan_services17 = {
 				   computers = 4.1
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2463,9 +2447,9 @@ artisan_services18 = {
 				   pharmaceuticals = 18
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2479,9 +2463,9 @@ artisan_services19 = {
 				   electric_gear = 3.5
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2495,9 +2479,9 @@ artisan_services20 = {
 				   beverages = 3.3
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2511,9 +2495,9 @@ artisan_services21 = {
 				   furniture = 5.6
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2527,9 +2511,9 @@ artisan_services22 = {
 				   footwear = 3.8
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2543,9 +2527,9 @@ artisan_services23 = {
 				   cigarettes = 7.5
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2559,9 +2543,9 @@ artisan_services24 = {
 				   optics = 1.3
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2575,9 +2559,9 @@ artisan_services25 = {
 				   clothes = 4.6
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2591,9 +2575,9 @@ artisan_services26 = {
 				   clothes = 4.6
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2607,9 +2591,9 @@ artisan_services27 = {
 				   integrated_circuits = 1.6
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2623,9 +2607,9 @@ artisan_services28 = {
 				   aluminium = 1.5
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2639,9 +2623,9 @@ artisan_services29 = {
 				   machine_parts = 11.3
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2655,9 +2639,9 @@ artisan_services30 = {
 				   glass = 15
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2671,9 +2655,9 @@ artisan_services31 = {
 				   paper = 5.3
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2687,9 +2671,9 @@ artisan_services32 = {
 				   plastics = 11.3
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2703,9 +2687,9 @@ artisan_services33 = {
 				   fabric = 12
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2719,9 +2703,9 @@ artisan_services34 = {
 				   inorganic_chemicals = 3.5
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2735,9 +2719,9 @@ artisan_services35 = {
 				   lumber = 18
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2751,9 +2735,9 @@ artisan_services36 = {
 				   steel = 4.7
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2767,9 +2751,9 @@ artisan_services37 = {
 				   fuel = 18
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2783,9 +2767,9 @@ artisan_services38 = {
 				   copper_wire = 5.5
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2799,9 +2783,9 @@ artisan_services39 = {
 				   aeroplanes = 1.2
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2815,9 +2799,9 @@ artisan_services40 = {
 				   ships = 1.2
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2831,9 +2815,9 @@ artisan_services41 = {
 				   weaponry = 4.2
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
@@ -2847,9 +2831,9 @@ artisan_services42 = {
 				   small_arms = 7.5
 	}
 	output_goods = financial_services 
-	value = 5
+	value = 4
 	owner = {
-		poptype = artisans 
+		poptype = capitalists 
 		effect = output
 	}
 	
