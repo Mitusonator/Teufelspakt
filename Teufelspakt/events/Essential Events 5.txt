@@ -97,10 +97,10 @@ modifier = { militancy = 10 factor = 0.1 }
 		name = "Send the police to suppress them!"
 add_country_modifier = { name = violent_crackdown duration = 150 }
 prestige = -10
-poor_strata = {
+middle_strata = {
 	consciousness = 3
 }
-middle_strata = {
+poor_strata = {
 	consciousness = 6
 }
 rich_strata = {
@@ -141,11 +141,11 @@ modifier = { militancy = 10 factor = 0.1 }
 		name = "Send the army to kill the troublemakers!"
 add_country_modifier = { name = military_crackdown duration = 150 }
 prestige = -10
-poor_strata = {
+middle_strata = {
 	consciousness = 3
 	
 }
-middle_strata = {
+poor_strata = {
 	consciousness = 6
 	
 }
@@ -187,11 +187,11 @@ modifier = { militancy = 10 factor = 0.1 }
 		name = "Punish the defectors!"
 add_country_modifier = { name = army_defects duration = 150 }
 prestige = -10
-poor_strata = {
+middle_strata = {
 	consciousness = 3
 	militancy = 1
 }
-middle_strata = {
+poor_strata = {
 	consciousness = 6
 	militancy = 1
 }
@@ -236,11 +236,11 @@ modifier = { militancy = 10 factor = 0.1 }
 add_country_modifier = { name = civil_war duration = 150 }
 
 prestige = -10
-poor_strata = {
+middle_strata = {
 	consciousness = 2
 	militancy = 3
 }
-middle_strata = {
+poor_strata = {
 	consciousness = 3
 	militancy = 2
 }

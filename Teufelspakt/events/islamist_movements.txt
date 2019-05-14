@@ -701,13 +701,13 @@ province_event = {
 		modifier = {
 			factor = 0.9
 			NOT = {
-				poor_strata_life_needs = 0.9
+				middle_strata_life_needs = 0.9
 			}
 		}
 		modifier = {
 			factor = 0.9
 			NOT = {
-				poor_strata_everyday_needs = 0.9
+				middle_strata_everyday_needs = 0.9
 			}
 		}
 		modifier = {
@@ -724,7 +724,7 @@ province_event = {
 	option = {
 		name = "EVT_11150_A"
 		# EVT_11150_A;This is a coverup for an Islamist ageda. Stop it!
-		poor_strata = {
+		middle_strata = {
 			militancy = 6
 		}
 	}
@@ -1251,7 +1251,7 @@ country_event = {
 	option = {
 		name = "EVT_11320_A"
 		# EVT_11320_A;Impose Islamice finance regulation
-		middle_strata = {
+		poor_strata = {
 			ideology = {
 				value = traditionalist
 				factor = 0.1

@@ -1488,11 +1488,11 @@ is_triggered_only = yes
 		name = "This is horrendous"
 prestige = -25
 
-poor_strata = {
+middle_strata = {
 	consciousness = 1
 	militancy = 1
 }
-middle_strata = {
+poor_strata = {
 	consciousness = 3
 	militancy = 2
 }
@@ -1524,11 +1524,11 @@ is_triggered_only = yes
 		name = "This is intolerable!"
 prestige = -25
 
-poor_strata = {
+middle_strata = {
 	consciousness = 1
 	militancy = 1
 }
-middle_strata = {
+poor_strata = {
 	consciousness = 3
 	militancy = 2
 }
@@ -1621,11 +1621,11 @@ is_triggered_only = yes
 
 	option = {
 		name = "This can spread!"
-poor_strata = {
+middle_strata = {
 	consciousness = 1
 	militancy = 1
 }
-middle_strata = {
+poor_strata = {
 	consciousness = 3
 	militancy = 2
 }
@@ -2142,11 +2142,11 @@ rich_strata = {
 	consciousness = -2
 	militancy = -8
 }
-middle_strata = {
+poor_strata = {
 	consciousness = 4
 	militancy = 6
 }
-poor_strata = {
+middle_strata = {
 	consciousness = 2
 	militancy = 2
 }
@@ -2354,7 +2354,7 @@ country_event = {
 			has_country_flag = ido_thaw_trigger
 			AND = {
 				year = 1997
-				NOT = { poor_strata_life_needs = 0.95 }
+				NOT = { middle_strata_life_needs = 0.95 }
 			}
 		}
 	}
@@ -2363,11 +2363,11 @@ country_event = {
 		months = 18
 		modifier = {
 			factor = 0.9
-			NOT = { poor_strata_life_needs = 0.8 }
+			NOT = { middle_strata_life_needs = 0.8 }
 		}
 		modifier = {
 			factor = 0.7
-			NOT = { poor_strata_life_needs = 0.5 }
+			NOT = { middle_strata_life_needs = 0.5 }
 		}
 		modifier = {
 			factor = 0.7

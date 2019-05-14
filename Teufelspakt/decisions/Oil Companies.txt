@@ -17,11 +17,11 @@ OR = { ruling_party_ideology = populist ruling_party_ideology = big_tent ruling_
 		effect = {
 prestige = 20
 add_country_modifier = { name = oil_cartel duration = -1 }
-any_pop = { limit = { strata = poor }
+any_pop = { limit = { strata = middle }
 	consciousness = 2
 	militancy = 5
 }
-any_pop = { limit = { strata = middle }
+any_pop = { limit = { strata = poor }
 	consciousness = 4
 	militancy = 2
 }

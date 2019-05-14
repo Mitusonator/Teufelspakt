@@ -7,7 +7,7 @@ country_event = {
 	
 	trigger = {
 		NOT = {
-			poor_strata_everyday_needs = 0.8
+			middle_strata_everyday_needs = 0.8
 		}
 	}
 	
@@ -17,13 +17,13 @@ country_event = {
 		modifier = {
 			factor = 0.9
 			NOT = {
-				poor_strata_life_needs = 0.9
+				middle_strata_life_needs = 0.9
 			}
 		}
 		modifier = {
 			factor = 0.9
 			NOT = {
-				poor_strata_everyday_needs = 0.7
+				middle_strata_life_needs = 0.7
 			}
 		}
 		modifier = {
@@ -53,7 +53,7 @@ country_event = {
 	
 	trigger = {
 		NOT = {
-			poor_strata_life_needs = 0.8
+			middle_strata_life_needs = 0.8
 			}
 		NOT = {
 			government = hms_government
@@ -80,7 +80,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA21010"
 		random_state = {
-			poor_strata = {
+			middle_strata = {
 				reduce_pop = 0.96
 			}
 		}
@@ -92,7 +92,7 @@ country_event = {
 	option = {
 		name = "EVTOPTB21010"
 		random_state = {
-			poor_strata = {
+			middle_strata = {
 				reduce_pop = 0.9
 				militancy = 1
 			}
@@ -110,7 +110,7 @@ country_event = {
 	
 	trigger = {
 		NOT = {
-			poor_strata_everyday_needs = 0.90
+			middle_strata_everyday_needs = 0.90
 		}
 	}
 	
@@ -119,13 +119,13 @@ country_event = {
 		modifier = {
 			factor = 0.9
 			NOT = {
-				poor_strata_everyday_needs = 0.8
+				middle_strata_everyday_needs = 0.8
 			}
 		}
 		modifier = {
 			factor = 0.9
 			NOT = {
-				poor_strata_life_needs = 0.9
+				middle_strata_life_needs = 0.9
 			}
 		}
 		modifier = {
@@ -186,7 +186,7 @@ country_event = {
 	
 	trigger = {
 		NOT = {
-			poor_strata_life_needs = 0.9
+			middle_strata_life_needs = 0.9
 		}
 		
 		NOT = {
@@ -198,11 +198,11 @@ country_event = {
 		months = 3000
 		modifier = {
 			factor = 0.9
-			NOT = { poor_strata_everyday_needs = 0.9 }
+			NOT = { middle_strata_everyday_needs = 0.9 }
 		}
 		modifier = {
 			factor = 0.9
-			NOT = { poor_strata_life_needs = 0.8 }
+			NOT = { middle_strata_life_needs = 0.8 }
 		}
 		modifier = {
 			factor = 0.9
