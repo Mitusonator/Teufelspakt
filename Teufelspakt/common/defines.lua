@@ -516,7 +516,7 @@ diplomacy = {
 	MAX_INFLUENCE = 100,
 	WARSUBSIDIES_PERCENT = 1.00, -- TODO How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
 	NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.30, -- Bonus to neighbouring countries when influencing
-	SPHERE_NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.3, -- Bonus to countries in your sphere neighbouring when influencing
+	SPHERE_NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.30, -- Bonus to countries in your sphere neighbouring when influencing
 	OTHER_CONTINENT_BONUS_INFLUENCE_PERCENT = -0.10, -- TODO Bonus to neighbouring countries when influencing
 	PUPPET_BONUS_INFLUENCE_PERCENT = 5.0, -- bonus if they are our puppet
 	
@@ -627,7 +627,7 @@ pops = {
 	BASE_GOODS_DEMAND = 2,
 	BASE_POPGROWTH = 0.0002, 
 	MIN_LIFE_RATING_FOR_GROWTH = 30,
-	LIFE_RATING_GROWTH_BONUS = 0.00001,
+	LIFE_RATING_GROWTH_BONUS = 0.00000,
 	LIFE_NEED_STARVATION_LIMIT = 0.1,
 
 	MIL_LACK_EVERYDAY_NEED = 0.05,

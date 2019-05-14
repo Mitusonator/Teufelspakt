@@ -3951,7 +3951,7 @@ EVT_8209003_DESC;After Japan's surrender to the Allied Powers, division at the 3
 EVT_8209003_A;Set up a the new state;;;;;;;;;;X
 EVT_8209003_B;We will remain there as occupiers;;;;;;;;;;X
 EVT_8211003_NAME;Research of Wernher von Braun;;;;;;;;;;X
-EVT_8211003_DESC;During the War German made great discoveries on the field of rocket engineering, many of tham thanks to Wernher von Braun;;;;;;;;;;X
+EVT_8211003_DESC;During the War Germany made great discoveries on the field of rocket engineering, many of tham thanks to Wernher von Braun;;;;;;;;;;X
 EVT_8211003_A;Ok;;;;;;;;;;X
 EVT_8211004_NAME;Research of Sergei Korolyov;;;;;;;;;;X
 EVT_8211004_DESC;After almost a year in the area around Peenemünde, Soviet officials moved most of the captured German rocket specialists to Gorodomlya Island on Lake Seliger, about 240 kilometres northwest of Moscow. They were not allowed to participate in Soviet missile design, but were used as problem-solving consultants to the Soviet engineers.;;;;;;;;;;X
