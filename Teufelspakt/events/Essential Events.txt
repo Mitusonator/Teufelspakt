@@ -1100,28 +1100,3 @@ war = {
 		}
 
 }
-#Post War protectionism
-country_event = {
-	id = 1123
-	title = "Post-War protectionism"
-	desc = "In the wake of the economically devastating Second World War, many countries used protectionist measures to protect their economy from the rough global markets."
-	picture = "Merchants"
-	
-	mean_time_to_happen = { days = 1 }
-	
-	trigger = {
-		NOT = { year = 1990 }
-		NOT = { tag = ENG }
-		NOT = { tag = USA }
-		NOT = { tag = SNG }
-		NOT = { government = proletarian_dictatorship }
-		NOT = { has_country_flag = postwarprotectionism }
-	}
-	
-	option = {
-		name = "Raise the tariffs!"
-add_country_modifier = { name = protectionism duration = -1 }
-		set_country_flag = postwarprotectionism
-		}
-}
-

@@ -27,7 +27,7 @@ everyday_needs = {
 	#grain = 0.25
 	#rice = 0.25
 	fuel = 0.1
-	steel = 0.1
+	automobiles = 0.1
 }
 
 life_needs = { 

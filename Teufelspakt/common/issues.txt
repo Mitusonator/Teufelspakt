@@ -615,26 +615,38 @@ social_reforms = {
 		administrative = yes
 		next_step_only = yes
 		unregulated_hours = { # no_minimum_wage
-			minimum_wage = 4
+			minimum_wage = 10
 		}
 		eight_work_hours = { # trinket_wage
-			minimum_wage = 6
+			minimum_wage = 20
+			rich_income_modifier = -0.1
+			poor_income_modifier = 0.1
+			middle_income_modifier = 0.1
 			global_immigrant_attract = 0.1
 			administrative_multiplier = 1
 		}
 		paid_vacation_hours = { # low_minimum_wage
-			minimum_wage = 10
+			minimum_wage = 30
+			rich_income_modifier = -0.2
+			poor_income_modifier = 0.2
+			middle_income_modifier = 0.2
 			global_immigrant_attract = 0.2
 			administrative_multiplier = 2
 		}
 		paid_sick_leave_hours = { # acceptable_minimum_wage
-			minimum_wage = 14
+			minimum_wage = 40
+			rich_income_modifier = -0.3
+			poor_income_modifier = 0.3
+			middle_income_modifier = 0.3
 			global_immigrant_attract = 0.3
 			global_pop_consciousness_modifier = -0.01
 			administrative_multiplier = 3
 		}
 		six_hours = { # good_minimum_wage
-			minimum_wage = 18
+			minimum_wage = 50
+			rich_income_modifier = -0.4
+			poor_income_modifier = 0.4
+			middle_income_modifier = 0.4
 			global_immigrant_attract = 0.4
 			global_pop_consciousness_modifier = -0.02
 			administrative_multiplier = 4

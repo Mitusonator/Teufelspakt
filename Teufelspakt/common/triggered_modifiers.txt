@@ -1537,9 +1537,9 @@ dutch_east_india = {
 
 populationsize_30k  = {
 	trigger = {
-		total_pops = 7500
+		#total_pops = 3000
 		NOT = {
-			total_pops = 25000
+			total_pops = 10000
 		}
 	}
 	research_points = -1
@@ -1549,20 +1549,20 @@ populationsize_30k  = {
 
 populationsize_100k = {
 	trigger = {
-		total_pops = 25000
+		total_pops = 10000
 		NOT = {
-			total_pops = 75000
+			total_pops = 30000
 		}
 	}
 	icon = 5
 	research_points = -0.75
-	}
+}
 
 populationsize_300k = {
 	trigger = {
-		total_pops = 75000
+		total_pops = 30000
 		NOT = {
-			total_pops = 250000
+			total_pops = 100000
 		}
 	}
 	icon = 5
@@ -1572,31 +1572,31 @@ populationsize_300k = {
 
 populationsize_1M = {
 	trigger = {
-		total_pops = 250000
+		total_pops = 100000
 		NOT = {
-			total_pops = 750000
+			total_pops = 300000
 
 		}
 	}
 	icon = 5
 	research_points = -0.25
-	}
+}
 
 populationsize_3M = {
 	trigger = {
-		total_pops = 750000
+		total_pops = 300000
 		NOT = {
-			total_pops = 2500000
+			total_pops = 1000000
 		}
 	}
 	icon = 5
-	}
+}
 
 populationsize_10M = {
 	trigger = {
-		total_pops = 2500000
+		total_pops = 1000000
 		NOT = {
-			total_pops = 7500000
+			total_pops = 3000000
 		}
 	}
 	icon = 5
@@ -1605,33 +1605,33 @@ populationsize_10M = {
 
 populationsize_30M = {
 	trigger = {
-		total_pops = 7500000
+		total_pops = 3000000
 		NOT = {
-			total_pops = 25000000
+			total_pops = 10000000
 		}
 	}
 	icon = 5
 	research_points = 0.5
-	}
+}
 
 populationsize_100M = {
 	trigger = {
-		total_pops = 25000000
+		total_pops = 10000000
 		NOT = {
-			total_pops = 75000000
+			total_pops = 30000000
 		}
 	}
 	icon = 5
 	research_points = 0.75
-	}
+}
 
 populationsize_300M = {
 	trigger = {
-		total_pops = 75000000
+		total_pops = 30000000
 	}
 	icon = 5
 	research_points = 1
-	}
+}
 
 grand_navy = {
 	trigger = {
