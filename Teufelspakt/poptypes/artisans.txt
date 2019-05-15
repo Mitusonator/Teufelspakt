@@ -49,11 +49,7 @@ luxury_needs = {
 	culture = 2
 	recreation = 2
 	computers = 2
-<<<<<<< HEAD
 	financial_services = 100
-=======
-	financial_services = 15
->>>>>>> parent of 976bb70... I meant experimental economy!
 }
 
 country_migration_target = {

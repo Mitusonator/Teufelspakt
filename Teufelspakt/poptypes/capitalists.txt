@@ -57,11 +57,7 @@ luxury_needs = {
 	computers = 8
 	ships = 2
 	aeroplanes = 3
-<<<<<<< HEAD
 	financial_services = 100
-=======
-	financial_services = 30
->>>>>>> parent of 976bb70... I meant experimental economy!
 }
 
 country_migration_target = {

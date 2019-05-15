@@ -52,7 +52,7 @@ luxury_needs = {
 	computers = 4
 	ships = 1
 	aeroplanes = 1
-	financial_services = 30
+	financial_services = 100
 }
 
 country_migration_target = {

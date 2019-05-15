@@ -55,7 +55,7 @@ luxury_needs = {
 	culture = 2
 	recreation = 2
 	computers = 2
-	financial_services = 20
+	financial_services = 100
 }
 
 country_migration_target = {
