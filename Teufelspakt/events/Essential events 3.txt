@@ -3488,7 +3488,9 @@ tag = FRA
 ai = yes
 exists = ENG
 ENG = { government = hms_government }
+ENG = { war = no }
 FRA = { government = democracy }
+FRA = { war = no }
 year = 1956
 NOT = { year = 1957 }
 NOT = { has_global_flag = fbu_fired }
