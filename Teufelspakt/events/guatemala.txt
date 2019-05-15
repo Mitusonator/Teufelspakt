@@ -37,7 +37,7 @@ country_event = {
     name = EVT_8006304_A
 	government = presidential_dictatorship 
 	country_event = 800050
-	any_pop = { limit = { strata = middle } militancy = 2.0 consciousness = 1 }
+	any_pop = { limit = { strata = poor } militancy = 2.0 consciousness = 1 }
 	relation = { who = USA value = 100 } 
 	ai_chance = { factor = 0.9 }
   }

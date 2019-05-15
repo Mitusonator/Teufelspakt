@@ -191,7 +191,7 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			poor_strata_life_needs = 0.9
+			middle_strata_life_needs = 0.9
 		}
 		modifier = {
 			factor = 1.5
@@ -202,7 +202,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA3002"
 		random_state = {
-			poor_strata = {
+			middle_strata = {
 				militancy = -2
 				consciousness = -1
 			}

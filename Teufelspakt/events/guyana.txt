@@ -107,7 +107,7 @@ country_event = { # Suriname Independence
   option = {
     name = EVT_8006550_A
 	release = SUR
-	SUR = { any_pop = { limit = { NOT = { strata = middle } } move_pop = 375 } } # Amsterdam
+	SUR = { any_pop = { limit = { NOT = { strata = poor } } move_pop = 375 } } # Amsterdam
 	ai_chance = { factor = 0.9 }
   }
   option = {

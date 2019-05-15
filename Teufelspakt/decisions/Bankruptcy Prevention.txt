@@ -28,11 +28,11 @@ has_country_modifier = bankruptcy_flag
 			badboy = 5
 			prestige_factor = -0.25
 			add_tax_relative_income = 500
-middle_strata = {
+poor_strata = {
 	consciousness = -2
 	militancy = -1
 }
-poor_strata = {
+middle_strata = {
 	consciousness = 2
 	militancy = 2
 }

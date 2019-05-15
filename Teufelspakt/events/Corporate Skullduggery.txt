@@ -210,11 +210,11 @@ political_reform = none_voting
 
 add_country_modifier = { name = revolution_chaos duration = 365 }
 
-middle_strata = {
+poor_strata = {
 	consciousness = 2
 	militancy = 4
 }
-poor_strata = {
+middle_strata = {
 	consciousness = 3
 	militancy = 5
 }

@@ -18,11 +18,11 @@ OR = { average_militancy = 7 ruling_party_ideology = liberal ruling_party_ideolo
 		effect = {
 government = democracy
 country_event = 800054
-middle_strata = {
+poor_strata = {
 	consciousness = 3
 	militancy = -4
 }
-poor_strata = {
+middle_strata = {
 	consciousness = 6
 	militancy = -6
 }
