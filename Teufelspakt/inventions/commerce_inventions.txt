@@ -12,7 +12,7 @@ the_imf = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5
 	}
 }
 world_bank = {
@@ -30,7 +30,7 @@ world_bank = {
 	}
 	effect = {
 		loan_interest = -0.01
-		tax_eff = 1 
+		tax_eff = 0.5
 	}
 }
 reserve_transparency = {
@@ -48,7 +48,7 @@ reserve_transparency = {
 	}
 	effect = {
 		loan_interest = -0.01
-		tax_eff = 1 
+		tax_eff = 0.5 
 	}
 }
 multitude_of_financial_instruments = {
@@ -66,7 +66,7 @@ multitude_of_financial_instruments = {
 	}
 	effect = {
 		activate_building = financial_services_factory 
-		tax_eff = 1 
+		tax_eff = 0.5 
 	}
 }
 insurance_companies = {
@@ -79,7 +79,7 @@ insurance_companies = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5 
 	}
 }
 #credit_rating_institutions
@@ -149,7 +149,7 @@ regulated_buying_and_selling_of_stocks = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5 
 	}
 }
 #online_banking
@@ -225,7 +225,7 @@ zero_interest_rate_policy = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5
 	}
 }
 open_market_operation = {
@@ -268,7 +268,7 @@ private_bank_monitoring = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5
 	}
 }
 market_behaviour_monitoring = {
@@ -285,7 +285,7 @@ market_behaviour_monitoring = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5 
 	}
 }
 #neofinancial_system
@@ -321,7 +321,7 @@ end_of_pound_sterling = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5
 	}
 }
 #bretton_system
@@ -339,7 +339,7 @@ anchored_dollar_standard = {
 		}
 	}
 	effect = {
-		tax_eff = 3 
+		tax_eff = 1.5
 	}
 }
 decimal_monetary_system = {
@@ -356,7 +356,7 @@ decimal_monetary_system = {
 		}
 	}
 	effect = {
-		tax_eff = 3 
+		tax_eff = 1.5
 	}
 }
 #dollar_standard
@@ -410,7 +410,7 @@ double_standard = {
 		}
 	}
 	effect = {
-		tax_eff = 2 
+		tax_eff = 1 
 	}
 }
 #managed_exchange_rates
@@ -428,7 +428,7 @@ fixed_intramonetary_exchange_rates = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5 
 	}
 }
 #new_bretton
@@ -450,7 +450,7 @@ international_monetary_exchange_rates = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5 
 	}
 }
 #delhi_declaration
@@ -472,7 +472,7 @@ delhi_declaration = {
 		}
 	}
 	effect = {
-		tax_eff = 3 
+		tax_eff = 1.5 
 	}
 }
 #beijing_consensus
@@ -490,7 +490,7 @@ state_bond_monetary_mechanism = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5
 	}
 }
 interest_inflation_weapon = {
@@ -511,7 +511,7 @@ interest_inflation_weapon = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5 
 	}
 }
 #new_global
@@ -1053,7 +1053,7 @@ import_substitution_industrialization = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5 
 	}
 }
 #capitalism
@@ -1132,7 +1132,7 @@ limited_partnership_company = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5 
 	}
 }
 joint_stock_company = {
@@ -1149,7 +1149,7 @@ joint_stock_company = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5 
 	}
 }
 patent = {
@@ -1209,7 +1209,7 @@ financial_regulations = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5
 	}
 }
 banking_regulations = {
@@ -1226,7 +1226,7 @@ banking_regulations = {
 		}
 	}
 	effect = {
-		tax_eff = 1 
+		tax_eff = 0.5
 	}
 }
 #neoeconomic_responsibility
