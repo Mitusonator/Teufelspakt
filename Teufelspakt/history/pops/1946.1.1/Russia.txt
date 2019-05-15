@@ -732,32 +732,32 @@
 	artisans = {
 		culture = russian
 		religion =  orthodox 
-		size = 53207
+		size = 503207
 	 } 
 	artisans = {
 		culture = russian
 		religion = secularism
-		size = 9205
+		size = 79205
 	 } 
 	craftsmen = {
 		culture = russian
 		religion =  orthodox 
-		size = 168023
+		size = 418023
 	 } 
 	craftsmen = {
 		culture = russian
 		religion = secularism
-		size = 29071
+		size = 279071
 	 } 
 	farmers = {
 		culture = russian
 		religion =  orthodox 
-		size = 842109
+		size = 342109
 	 } 
 	farmers = {
 		culture = russian
 		religion = secularism
-		size = 842109
+		size = 242109
 	 } 
 	farmers = {
 		culture = ukrainian
