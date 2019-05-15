@@ -718,6 +718,7 @@ factory_owner_cost = 0.2
 number_of_voters = -0.80
 random_party_votes = 0.4
 local_RGO_output = -0.20
+local_artisan_output = -0.4
 icon = 14
 }
 
@@ -728,6 +729,7 @@ number_of_voters = -0.40
 factory_owner_cost = 0.15
 random_party_votes = 0.2
 local_RGO_output = -0.15
+local_artisan_output = -0.2
 icon = 14
 }
 
@@ -738,6 +740,7 @@ number_of_voters = -0.20
 factory_owner_cost = 0.1
 random_party_votes = 0.1
 local_RGO_output = -0.10
+local_artisan_output = -0.1
 icon = 14
 }
 
@@ -747,6 +750,7 @@ local_factory_output = -0.05
 number_of_voters = -0.05
 random_party_votes = 0.05
 local_RGO_output = -0.05
+local_artisan_output = -0.05
 icon = 14
 }
 
