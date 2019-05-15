@@ -1,5 +1,6 @@
 sprite = 4
 color = { 18 129 10 }
+is_artisan = yes
 strata = rich
 #state_capital_only = yes
 
