@@ -1,10 +1,6 @@
 sprite = 2
 color = { 119 98 34 }
-<<<<<<< HEAD
-strata = rich
-=======
 strata = middle
->>>>>>> parent of 976bb70... I meant experimental economy!
 #state_capital_only = yes
 leadership = 3.2
 research_optimum = 0.002	#used for leadership as well.
