@@ -83,14 +83,14 @@ country_event = {
   
   option = {
             name = EVT_9999954_A #Size Luxemburg
-			ai_chance = { factor = 0.3 }
+			ai_chance = { factor = 0.2 }
             GER = { inherit = LUX }
 			badboy = 2.5
   }
   
   option = {
             name = EVT_9999954_B #Size Luxemburg and Alsace 
-			ai_chance = { factor = 0.6 }
+			ai_chance = { factor = 0.7 }
 			GER = { inherit = LUX }
 			GER = { inherit = ALS }
 			badboy = 5

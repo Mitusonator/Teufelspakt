@@ -751,13 +751,13 @@ country_event = {
   
   option = {
             name = EVT_9999972_A #Demand Ethnic Ukrainian land
-			ai_chance = { factor = 0.7 }
+			ai_chance = { factor = 0.8 }
             SPL = { country_event = 9999971 }
 			badboy = 10
   }
   option = {
             name = EVT_9999972_B #Do nothing 
-			ai_chance = { factor = 0.3 }
+			ai_chance = { factor = 0.2 }
   }
 
 }
