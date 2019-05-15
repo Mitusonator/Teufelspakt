@@ -242,7 +242,7 @@ OR = { government = democracy government = democracy1 government = hms_governmen
 	import_cost = -0.5
 	diplomatic_points_modifier = 0.50
 	rich_income_modifier = 0.2
-	poor_income_modifier = 0.1
+	middle_income_modifier = 0.1
 }
 
 major_reserve_currency = {
@@ -255,7 +255,7 @@ major_reserve_currency = {
 	import_cost = -0.20
 	diplomatic_points_modifier = 0.25
 	rich_income_modifier = 0.1
-	poor_income_modifier = 0.05
+	middle_income_modifier = 0.05
 }
 
 #UN Committe on Decolonisation
@@ -273,27 +273,27 @@ un_decolonisation = {
 
 famine_mod_1 = {
 	trigger = {
-		NOT = { middle_strata_life_needs = 0.3 }
-		NOT = { middle_strata_everyday_needs = 0.3 }
-		NOT = { middle_strata_luxury_needs = 0.2 }
+		NOT = { poor_strata_life_needs = 0.3 }
+		NOT = { poor_strata_everyday_needs = 0.3 }
+		NOT = { poor_strata_luxury_needs = 0.2 }
 					}
 	global_population_growth = -0.001
 }
 
 famine_mod_2 = {
 	trigger = {
-		NOT = { middle_strata_life_needs = 0.2 }
-		NOT = { middle_strata_everyday_needs = 0.2 }
-		NOT = { middle_strata_luxury_needs = 0.1 }
+		NOT = { poor_strata_life_needs = 0.2 }
+		NOT = { poor_strata_everyday_needs = 0.2 }
+		NOT = { poor_strata_luxury_needs = 0.1 }
 					}
 	global_population_growth = -0.001
 }
 
 famine_mod_3 = {
 	trigger = {
-		NOT = { middle_strata_life_needs = 0.1 }
-		NOT = { middle_strata_everyday_needs = 0.1 }
-		NOT = { middle_strata_luxury_needs = 0.05 }
+		NOT = { poor_strata_life_needs = 0.1 }
+		NOT = { poor_strata_everyday_needs = 0.1 }
+		NOT = { poor_strata_luxury_needs = 0.05 }
 					}
 	global_population_growth = -0.001
 }
@@ -683,8 +683,8 @@ affluent_society_4 = {
 OR = { is_greater_power = yes is_secondary_power = yes }
 		literacy = 0.55
 				}
-	middle_everyday_needs = 1.5
 	poor_everyday_needs = 1.5
+	middle_everyday_needs = 1.5
 	rich_everyday_needs = 1.5
 	global_population_growth = -0.001
 }
@@ -694,8 +694,8 @@ affluent_society_3 = {
 OR = { is_greater_power = yes is_secondary_power = yes }
 		literacy = 0.45
 				}
-	middle_everyday_needs = 1.5
 	poor_everyday_needs = 1.5
+	middle_everyday_needs = 1.5
 	rich_everyday_needs = 1.5
 	global_population_growth = -0.001
 }
@@ -705,8 +705,8 @@ affluent_society_2 = {
 OR = { is_greater_power = yes is_secondary_power = yes }
 		literacy = 0.35
 				}
-	middle_everyday_needs = 0.5
 	poor_everyday_needs = 0.5
+	middle_everyday_needs = 0.5
 	rich_everyday_needs = 0.5
 	global_population_growth = -0.001
 }
@@ -716,8 +716,8 @@ affluent_society_1 = {
 OR = { is_greater_power = yes is_secondary_power = yes }
 		literacy = 0.25
 				}
-	middle_everyday_needs = 0.5
 	poor_everyday_needs = 0.5
+	middle_everyday_needs = 0.5
 	rich_everyday_needs = 0.5
 	global_population_growth = -0.001
 }
@@ -766,8 +766,8 @@ NOT = { administration_spending = 0.40 }
 						}
 	rich_income_modifier = 0.10
 	tax_efficiency = -0.05
-	poor_income_modifier = -0.20
-	middle_income_modifier = -0.10	
+	middle_income_modifier = -0.20
+	poor_income_modifier = -0.10	
 	factory_owner_cost = 0.20
 }
 
@@ -779,8 +779,8 @@ OR = { government = democracy government = democracy1 government = hms_governmen
 		OR = { NOT = { rich_tax = 0.20 } AND = { ai = yes OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive } } }
 						}
 	rich_income_modifier = 0.30
-	poor_income_modifier = 0.10
-	middle_income_modifier = -0.20
+	middle_income_modifier = 0.10
+	poor_income_modifier = -0.20
 	global_immigrant_attract = 0.25	
 	goods_demand = 0.10
 	factory_owner_cost = -0.25
@@ -969,8 +969,8 @@ wartime_election_trig_mod = {
 #government = proletarian_dictatorship
 #						}
 #	tax_efficiency = 0.50
-#	poor_income_modifier = 0.25 
-#	middle_income_modifier = 0.30
+#	middle_income_modifier = 0.25 
+#	poor_income_modifier = 0.30
 #	import_cost = -4.25
 #	factory_throughput = 0.125 #0.025
 #	rgo_output = 0.25
@@ -1694,7 +1694,7 @@ drilled = {
 	naval_organisation = 0.1
 }
 
-middlely_drilled = {
+poorly_drilled = {
 	trigger = {
 		NOT = { officers = 0.001 }
 		officers = 0.0005
