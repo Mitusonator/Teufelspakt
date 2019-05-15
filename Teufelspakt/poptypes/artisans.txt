@@ -49,7 +49,7 @@ luxury_needs = {
 	culture = 2
 	recreation = 2
 	computers = 2
-	financial_services = 10000
+	financial_services = 500
 }
 
 country_migration_target = {
@@ -538,16 +538,16 @@ promote_to =
 			modifier = { factor = -1 state_scope = { capitalists = 0.04 } }
 			modifier = { factor = -1 state_scope = { capitalists = 0.06 } }
 			modifier = { factor = -1 state_scope = { capitalists = 0.08 } }
-			modifier = { factor =  0.25 literacy = 0.01 }
-			modifier = { factor =  0.25 literacy = 0.10 }
-			modifier = { factor =  0.25 literacy = 0.20 }
-			modifier = { factor =  0.25 literacy = 0.30 }
-			modifier = { factor =  0.25 literacy = 0.40 }
-			modifier = { factor =  0.25 literacy = 0.50 }
-			modifier = { factor =  0.5 literacy = 0.60 }
-			modifier = { factor =  0.5 literacy = 0.70 }
-			modifier = { factor =  0.5 literacy = 0.80 }
-			modifier = { factor =  1 literacy = 0.90 }
+			modifier = { factor =  1 literacy = 0.01 }
+			modifier = { factor =  1 literacy = 0.10 }
+			modifier = { factor =  1 literacy = 0.20 }
+			modifier = { factor =  1 literacy = 0.30 }
+			modifier = { factor =  1 literacy = 0.40 }
+			modifier = { factor =  1 literacy = 0.50 }
+			modifier = { factor =  2 literacy = 0.60 }
+			modifier = { factor =  2 literacy = 0.70 }
+			modifier = { factor =  2 literacy = 0.80 }
+			modifier = { factor =  4 literacy = 0.90 }
 		}
 		modifier = { factor = -10 NOT = { has_country_flag = market_communism } owner = { government = proletarian_dictatorship } }  
 	}

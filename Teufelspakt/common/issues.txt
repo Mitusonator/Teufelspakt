@@ -740,26 +740,26 @@ social_reforms = {
 			global_population_growth = 0.002
 			factory_throughput = -0.05
 			global_immigrant_attract = 0.1
-			tax_efficiency = -0.01
+			tax_efficiency = -0.025
 			pension_level = 0.5
 		}
 		supported_child_care = { # child_labor_illegal
 			global_population_growth = 0.004
 			factory_throughput = -0.10
 			global_immigrant_attract = 0.2
-			tax_efficiency = -0.02
+			tax_efficiency = -0.05
 			pension_level = 1.0
 		}
 		parental_leave_child_care = { # 
 			global_population_growth = 0.007
-			factory_throughput = -0.20
+			factory_throughput = -0.15
 			global_immigrant_attract = 0.3
-			tax_efficiency = -0.05
+			tax_efficiency = -0.075
 			pension_level = 1.5
 		}
 		state_provided_child_care = { # 
 			global_population_growth = 0.010
-			factory_throughput = -0.40
+			factory_throughput = -0.20
 			global_immigrant_attract = 0.4
 			tax_efficiency = -0.10
 			pension_level = 2
@@ -865,27 +865,27 @@ social_reforms = {
 		self_financed_education = {
 		}
 		public_education = {
-			education_efficiency_modifier = 0.25
+			education_efficiency_modifier = 0.20
 			global_immigrant_attract = 0.1
 			administrative_multiplier = 1
 			pension_level = 0.5
 		}
 		subsidised_higher_education = {
-			education_efficiency_modifier = 0.50
+			education_efficiency_modifier = 0.40
 			global_immigrant_attract = 0.2
 			global_pop_consciousness_modifier = 0.01
 			administrative_multiplier = 2
 			pension_level = 1.0
 		}
 		public_higher_education = {
-			education_efficiency_modifier = 0.75
+			education_efficiency_modifier = 0.6
 			global_immigrant_attract = 0.3
 			global_pop_consciousness_modifier = 0.02
 			administrative_multiplier = 3
 			pension_level = 1.5
 		}
 		unlimited_education = {
-			education_efficiency_modifier = 1.00
+			education_efficiency_modifier = 0.80
 			global_immigrant_attract = 0.4
 			global_pop_consciousness_modifier = 0.03
 			administrative_multiplier = 4

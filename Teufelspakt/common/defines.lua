@@ -104,8 +104,8 @@ economy = {
 	GUNBOAT_HIGH_TAX_CAP = 1.0,
 	GUNBOAT_FLEET_SIZE_FACTOR = 100,
 	PROVINCE_SIZE_DIVIDER = 50,
-	CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT = 0.75, -- Capis don't build factories if less than this percent is employed in existing factories
-	GOODS_FOCUS_SWAP_CHANCE = 0.05, -- Percebt increased chance that artisan wants to change goods independantly of how well he is doing presently
+	CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT = 0.01, -- Capis don't build factories if less than this percent is employed in existing factories
+	GOODS_FOCUS_SWAP_CHANCE = 0.10, -- Percebt increased chance that artisan wants to change goods independantly of how well he is doing presently
 	NUM_CLOSED_FACTORIES_PER_STATE_LASSIEZ_FAIRE = 5, -- Number of closed factories allowed per state under Lassiez Faire
 	MIN_NUM_FACTORIES_PER_STATE_BEFORE_DELETING_LASSIEZ_FAIRE = 8, -- Min number of factories per state before starting to delete under Lassiez Faire
 	BANKRUPCY_DURATION = 10, -- Years til a bancrupcy clears all loans
@@ -121,10 +121,10 @@ economy = {
 	RGO_SUPPLY_DEMAND_FACTOR_FIRE = 0.05,		-- how fast pops are Fired when there is a low demand
 	EMPLOYMENT_HIRE_LOWEST = 0.1,				-- we Hire pops no slower then x% of total required per day
 	EMPLOYMENT_FIRE_LOWEST = 0.1,				-- we Fire pops no slower then x% of total required per day
-	TRADE_CAP_LOW_LIMIT_LAND = 0.1, 				-- the lowest % the slider can go for land units
-	TRADE_CAP_LOW_LIMIT_NAVAL = 0.1, 			-- the lowest % the slider can go for naval units
-	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0.1, 		-- the lowest % the slider can go for constructions
-	FACTORY_PURCHASE_MIN_FACTOR = 0.25,			-- the lowest % of its daily needs a factory will purchase
+	TRADE_CAP_LOW_LIMIT_LAND = 0.5, 				-- the lowest % the slider can go for land units
+	TRADE_CAP_LOW_LIMIT_NAVAL = 0.5, 			-- the lowest % the slider can go for naval units
+	TRADE_CAP_LOW_LIMIT_CONSTRUCTIONS = 0.5, 		-- the lowest % the slider can go for constructions
+	FACTORY_PURCHASE_MIN_FACTOR = 0.10,			-- the lowest % of its daily needs a factory will purchase
 	FACTORY_PURCHASE_DRAWDOWN_FACTOR = 0.05,		-- the % a factory will reduce its input purchases each day if it did not sell all its goods (also used for scaling up production if all goods are sold)
 },
 
