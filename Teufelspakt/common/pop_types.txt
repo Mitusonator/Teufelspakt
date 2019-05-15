@@ -11,7 +11,7 @@ promotion_chance = { # 0.4
 		}
 		modifier = {
 			factor = 0.03
-			literacy = 0.1
+			literacy = 0.08
 		}
 		modifier = {
 			factor = 0.03
@@ -294,36 +294,35 @@ demotion_chance = { # 1
 			unemployment = 0.6
 			NOT = { OR = { has_pop_type = craftsmen has_pop_type = clerks } }
 			location = { controlled_by = owner }
+			literacy = 0.05
 		}
 		modifier = {
 			factor = 0.5
 			unemployment = 0.7
 			NOT = { OR = { has_pop_type = craftsmen has_pop_type = clerks } }
 			location = { controlled_by = owner }
+			literacy = 0.075
 		}
 		modifier = {
 			factor = 0.5
 			unemployment = 0.8
 			NOT = { OR = { has_pop_type = craftsmen has_pop_type = clerks } }
 			location = { controlled_by = owner }
-			NOT = { location = { has_province_modifier = dev_1 } }
+			literacy = 0.10
 		}
 		modifier = {
 			factor = 0.5
 			unemployment = 0.9
 			NOT = { OR = { has_pop_type = craftsmen has_pop_type = clerks } }
 			location = { controlled_by = owner }
-			NOT = { location = { has_province_modifier = dev_1 } }
-			NOT = { location = { has_province_modifier = dev_2 } }
+			literacy = 0.125
 		}
 		modifier = {
 			factor = 0.5
 			unemployment = 1.0
 			NOT = { OR = { has_pop_type = craftsmen has_pop_type = clerks } }
 			location = { controlled_by = owner }
-			NOT = { location = { has_province_modifier = dev_1 } }
-			NOT = { location = { has_province_modifier = dev_2 } }
-			NOT = { location = { has_province_modifier = dev_3 } }
+			literacy = 0.15
 		}
 		
 	}
