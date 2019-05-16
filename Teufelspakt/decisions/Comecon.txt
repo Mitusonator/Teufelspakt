@@ -3,7 +3,10 @@ political_decisions = {
 	all_comecon = {
 		picture = "all_comecon"
 		potential = {
-OR = { has_country_modifier = communist_bloc has_country_modifier = comecon }
+OR = { 
+#has_country_modifier = communist_bloc 
+has_country_modifier = comecon 
+}
 NOT = { has_country_modifier = foreign_loan_requested }
 					}
 		
