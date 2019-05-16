@@ -24,9 +24,9 @@ artillery = {
 	
 	supply_consumption = 1.0
 	supply_cost = { # 0.4 mil $
-		weaponry = 5
-		small_arms = 3
-		fuel = 1
+		weaponry = 1
+		small_arms = 0.6
+		fuel = 0.2
 	}
 	
 

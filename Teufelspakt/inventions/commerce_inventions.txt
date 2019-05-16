@@ -12,7 +12,7 @@ the_imf = {
 		}
 	}
 	effect = {
-		tax_eff = 0.5
+		tax_eff = 1
 	}
 }
 world_bank = {
@@ -30,7 +30,7 @@ world_bank = {
 	}
 	effect = {
 		loan_interest = -0.01
-		tax_eff = 0.5
+		tax_eff = 1
 	}
 }
 reserve_transparency = {
@@ -48,7 +48,7 @@ reserve_transparency = {
 	}
 	effect = {
 		loan_interest = -0.01
-		tax_eff = 0.5 
+		tax_eff = 1 
 	}
 }
 multitude_of_financial_instruments = {
@@ -66,7 +66,7 @@ multitude_of_financial_instruments = {
 	}
 	effect = {
 		activate_building = financial_services_factory 
-		tax_eff = 0.5 
+		tax_eff = 1 
 	}
 }
 insurance_companies = {
@@ -79,7 +79,7 @@ insurance_companies = {
 		}
 	}
 	effect = {
-		tax_eff = 0.5 
+		tax_eff = 1 
 	}
 }
 #credit_rating_institutions

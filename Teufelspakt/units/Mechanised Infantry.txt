@@ -27,9 +27,9 @@ tactical_drone = {
 	
 	supply_consumption = 4.0
 	supply_cost = {
-		small_arms = 0.75
-		weaponry = 2.5
-		fuel = 3.5
+		small_arms = 0.15
+		weaponry = 0.5
+		fuel = 0.7
 	}
 	
 

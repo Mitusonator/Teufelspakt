@@ -26,9 +26,9 @@ mechanized_infantry = {
 	
 	supply_consumption = 0.5
 	supply_cost = {
-		fuel = 3.5
-		weaponry = 1
-		small_arms = 5
+		fuel = 0.7
+		weaponry = 0.2
+		small_arms = 1
 	}
 	
 

@@ -28,9 +28,9 @@ modern_infantry = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		small_arms = 0.75
-		weaponry = 3.75
-		fuel = 4
+		small_arms = 0.15
+		weaponry = 0.75
+		fuel = 0.8
 	}
 
 	#Land Abilties

@@ -37,9 +37,9 @@ destroyer = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		ships = 1.6
-		weaponry = 0.8
-		fuel = 3.2
+		ships = 0.32
+		weaponry = 0.16
+		fuel = 0.64
 	}
 	
 	#Naval Abilties

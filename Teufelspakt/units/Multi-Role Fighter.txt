@@ -26,10 +26,10 @@ modern_fighter = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		aeroplanes = 5
-		weaponry = 5
-		small_arms = 5
-		fuel = 10
+		aeroplanes = 1
+		weaponry = 1
+		small_arms = 1
+		fuel = 2
 	}
 
 	#Land Abilties

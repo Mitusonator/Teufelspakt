@@ -27,9 +27,9 @@ tank = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		fuel = 7.5
-		weaponry = 5
-		small_arms = 5
+		fuel = 1.5
+		weaponry = 1
+		small_arms = 1
 	}
 	
 

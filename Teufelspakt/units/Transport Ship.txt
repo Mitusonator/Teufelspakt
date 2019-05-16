@@ -28,8 +28,8 @@ transportship = {
 	build_time = 90
 	#cost 0.06B -> 100
 	build_cost = {
-		ships = 5
-		fuel = 2
+		ships = 1
+		fuel = 0.4
 	}
 	min_port_level = 1
 	limit_per_port = -1

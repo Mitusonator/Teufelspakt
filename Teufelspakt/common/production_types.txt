@@ -1640,7 +1640,7 @@ RGO_template_farmers = {
 	}
 	
 	type = rgo
-	workforce = 40000
+	workforce = 20000
 }
 
 RGO_template_credit = {
@@ -1659,7 +1659,7 @@ RGO_template_credit = {
 	}
 	
 	type = rgo
-	workforce = 4000
+	workforce = 20000
 }
 
 RGO_template_labourers = {
@@ -1683,7 +1683,7 @@ RGO_template_labourers = {
 	}
 	
 	type = rgo
-	workforce = 40000
+	workforce = 20000
 }
 
 fishing_wharf = {
@@ -1843,7 +1843,7 @@ cotton_plantation = {
 credit_mine = {
 	template = RGO_template_credit
 	output_goods = credit
-	value = 6
+	value = 4
 	farm = yes
 }
 

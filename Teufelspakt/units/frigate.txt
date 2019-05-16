@@ -35,9 +35,9 @@ frigate = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		ships = 3.2
-		weaponry = 3.2
-		fuel = 3.2
+		ships = 0.64
+		weaponry = 0.64
+		fuel = 0.64
 	}
 	
 	#Naval Abilties
