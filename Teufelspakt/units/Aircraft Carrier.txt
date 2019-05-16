@@ -39,10 +39,10 @@ carrier = {
 	
 	supply_consumption = 1.0
 	supply_cost = { 
-		ships = 8
-		weaponry = 8
-		fuel = 8
-		aeroplanes = 8
+		ships = 32
+		weaponry = 32
+		fuel = 32
+		aeroplanes = 32
 	}
 	
 	#Naval Abilties

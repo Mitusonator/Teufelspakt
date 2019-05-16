@@ -139,6 +139,7 @@ infrastructure = {
 
 base_values = {
 	supply_limit = 5
+	min_social_spending = 0.3
 }
 
 war = {

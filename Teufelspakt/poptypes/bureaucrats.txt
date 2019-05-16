@@ -1,6 +1,8 @@
 sprite = 12
 color = { 136 136 136 }
 strata = middle
+research_points = 1.0
+research_optimum = 0.04
 #state_capital_only = yes
 
 demote_migrant = yes

@@ -37,9 +37,9 @@ cruiser = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		ships = 1
-		weaponry = 1
-		fuel = 1
+		ships = 4
+		weaponry = 4
+		fuel = 4
 	}
 	
 	#Naval Abilties

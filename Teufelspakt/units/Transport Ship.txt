@@ -37,8 +37,8 @@ transportship = {
 
 	supply_consumption = 1.0
 	supply_cost = {
-		ships = 0.3
-		fuel = 0.1
+		ships = 1.2
+		fuel = 0.4
 	}
 	
 	#Naval Abilties

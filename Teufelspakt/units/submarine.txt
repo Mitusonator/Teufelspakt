@@ -37,9 +37,9 @@ submarine = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-		ships = 4
-		weaponry = 2
-		fuel = 2
+		ships = 16
+		weaponry = 8
+		fuel = 8
 	}
 	
 	#Naval Abilties
