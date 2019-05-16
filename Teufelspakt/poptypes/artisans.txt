@@ -14,7 +14,7 @@ rebel =
 
 
 everyday_needs = { 
-	footwear = 2
+	footwear = 20
 	furniture = 10
 	beverages = 20
 	pharmaceuticals = 20
@@ -22,7 +22,7 @@ everyday_needs = {
 	furniture_houseware = 10
 	clothes_footwear = 10
 	heating_electricity = 25
-	cement = 1
+	cement = 10
 
 	#fish	= 1
 	#cattle = 1
