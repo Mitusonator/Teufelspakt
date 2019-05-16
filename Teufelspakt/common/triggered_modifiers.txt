@@ -9,7 +9,7 @@ china_tax_boost = {
 trigger = {
 	#has_country_flag = prc
 	OR = {
-	 tag = USA
+	 #tag = USA
 	 tag = GER
     }	
 	has_global_flag = blocsenabled
