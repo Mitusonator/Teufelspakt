@@ -35,15 +35,9 @@ patrolboat = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-<<<<<<< HEAD
-		ships = 0.04
-		weaponry = 0.04
-		fuel = 0.04
-=======
 		ships = 0.05
 		weaponry = 0.05
 		fuel = 0.05
->>>>>>> parent of c25ced6... testing
 	}
 	
 	#Naval Abilties

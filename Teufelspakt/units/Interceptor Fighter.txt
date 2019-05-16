@@ -27,17 +27,10 @@ cavalry = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-<<<<<<< HEAD
-		aeroplanes = 1
-		weaponry = 0.5
-		small_arms = 0.25
-		fuel = 0.5
-=======
 		aeroplanes = 0.1
 		weaponry = 0.05
 		small_arms = 0.025
 		fuel = 0.05
->>>>>>> parent of c25ced6... testing
 	}
 
 	#Land Abilties

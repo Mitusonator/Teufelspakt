@@ -27,15 +27,9 @@ tank = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-<<<<<<< HEAD
-		fuel = 1.5
-		weaponry = 1
-		small_arms = 1
-=======
 		fuel = 0.15
 		weaponry = 0.1
 		small_arms = 0.1
->>>>>>> parent of c25ced6... testing
 	}
 	
 

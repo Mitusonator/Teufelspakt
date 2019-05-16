@@ -26,15 +26,9 @@ modern_mechanized_infantry = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-<<<<<<< HEAD
-		fuel = 1.2
-		weaponry = 1
-		small_arms = 0.24
-=======
 		fuel = 0.06
 		weaponry = 0.05
 		small_arms = 0.012
->>>>>>> parent of c25ced6... testing
 	}
 	
 

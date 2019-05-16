@@ -23,11 +23,7 @@ irregular = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
-<<<<<<< HEAD
-		small_arms = 1
-=======
 		small_arms = 0.1
->>>>>>> parent of c25ced6... testing
 	}
 
 	#Land Abilties
