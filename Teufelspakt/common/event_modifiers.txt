@@ -5274,9 +5274,9 @@ max_loan_modifier = 1.0
 ### Ideological Blocs ###
 
 communist_bloc_leader = {
-      pop_consciousness_modifier = -0.06
-      pop_militancy_modifier = -0.1
-	population_growth = 0.003
+    global_pop_consciousness_modifier = -0.06
+    global_pop_militancy_modifier  = -0.1
+	#population_growth = 0.003
 	factory_throughput = 0.2
 	rgo_output = 0.2
 	loan_interest = -0.20
@@ -5300,10 +5300,10 @@ communist_bloc_leader = {
 }
 
 democratic_bloc_leader = {
-     pop_consciousness_modifier = -0.06
+    global_pop_consciousness_modifier = -0.03
 	supply_consumption = 0.50
-     pop_militancy_modifier = -0.06
-	population_growth = 0.003
+    global_pop_militancy_modifier = -0.06
+	#population_growth = 0.003
 	factory_throughput = 0.3
 	rgo_output = 0.3
 	prestige = 0.05
@@ -5326,9 +5326,9 @@ democratic_bloc_leader = {
 }
 
 communist_bloc = {
-      pop_consciousness_modifier = -0.05
-      pop_militancy_modifier = -0.05
-	population_growth = 0.002
+    global_pop_consciousness_modifier = -0.05
+    global_pop_militancy_modifier = -0.05
+	#population_growth = 0.002
 	factory_throughput = 0.2
 	rgo_output = 0.2
 	prestige = 0.02
@@ -5348,7 +5348,7 @@ communist_bloc = {
 }
 
 democratic_bloc = {
-     population_growth = 0.002
+    #population_growth = 0.002
 	factory_throughput = 0.2
 	rgo_output = 0.2
 	prestige = 0.02
@@ -5371,9 +5371,9 @@ democratic_bloc = {
 }
 
 independent_bloc = {
-	pop_consciousness_modifier = -0.04
-     pop_militancy_modifier = -0.04
-	population_growth = 0.004
+	global_pop_consciousness_modifier = -0.04
+    global_pop_militancy_modifier = -0.04
+	#population_growth = 0.004
 	factory_throughput = -0.1
 	rgo_output = -0.1
 	loan_interest = 0.10

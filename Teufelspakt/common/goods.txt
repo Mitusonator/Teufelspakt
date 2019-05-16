@@ -337,7 +337,7 @@ consumer_goods = {
 	financial_services = {
 		cost = 18.0
 		color = { 61 67 64 }
-		available_from_start = yes
+		available_from_start = no
 	}
 
 	credit = {

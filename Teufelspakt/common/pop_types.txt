@@ -197,6 +197,10 @@ demotion_chance = { # 1
 			factor = 0.1
 			not = { life_needs = 0.7 }
 		}
+		modifier = {
+			factor = 1
+			not = { life_needs = 0.01 }
+		}
 	}
 		modifier = {
 			factor = -0.1

@@ -4,7 +4,6 @@ international_financial_institutions = {
 	cost = 3600
 
 	tax_eff = 1.5
-	artisan_throughput = 0.1
 	
 	ai_chance = {
 		factor = 1.1
@@ -37,7 +36,6 @@ multilateral_development_bank = {
 	cost = 5400
 
 	tax_eff = 2.5
-	artisan_throughput = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -68,7 +66,6 @@ bank_for_international_settlements = {
 	cost = 5400
 
 	tax_eff = 2
-	artisan_throughput = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -100,7 +97,6 @@ central_clearing = {
 
 	tax_eff = 0.5
 	activate_building = financial_services_factory
-	artisan_throughput = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -131,7 +127,6 @@ credit_rating_institutions = {
 	cost = 7200
 
 	tax_eff = 2.5
-	artisan_throughput = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -162,7 +157,6 @@ modern_stock_exchange = {
 	cost = 14400
 
 	tax_eff = 0.5
-	artisan_throughput = 0.1
 	
 	ai_chance = {
 		factor = 1.1
@@ -194,7 +188,6 @@ online_banking = {
 	cost = 14400
 
 	tax_eff = 1.5
-	artisan_throughput = 0.1
 	
 	ai_chance = {
 		factor = 1.1
@@ -226,7 +219,6 @@ quantitative_easing = {
 	cost = 14400
 
 	tax_eff = 1.5
-	artisan_throughput = 0.1
 
 	ai_chance = {
 		factor = 1.1
@@ -258,7 +250,6 @@ financial_stability_board = {
 	cost = 18000
 
 	tax_eff = 2.5
-	artisan_throughput = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -289,7 +280,6 @@ neofinancial_system = {
 	cost = 21600
 
 	tax_eff = 2.5
-	artisan_throughput = 0.1
 	ai_chance = {
 		factor = 1.1
 		modifier = {

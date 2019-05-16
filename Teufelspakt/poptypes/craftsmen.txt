@@ -538,12 +538,12 @@ promote_to =
 	artisans =
 	{
 		factor = 0.01
-		modifier = { factor = 2.0 literacy = 0.1 }
-		modifier = { factor = 2.0 literacy = 0.2 }
-		modifier = { factor = 2.0 literacy = 0.3 }
-		modifier = { factor = 2.0 literacy = 0.4 }
-		modifier = { factor = 2.0 literacy = 0.5 }
-		modifier = { factor = 2.0 literacy = 0.5 }
+		modifier = { factor = 1.0 NOT = { literacy = 0.1 } }
+		modifier = { factor = 1.0 NOT = { literacy = 0.2 } }
+		modifier = { factor = 1.0 NOT = { literacy = 0.3 } }
+		modifier = { factor = 1.0 NOT = { literacy = 0.4 } }
+		modifier = { factor = 1.0 NOT = { literacy = 0.5 } }
+		modifier = { factor = 1.0 NOT = { literacy = 0.5 } }
 
 modifier = { factor = 20
 location = { 
