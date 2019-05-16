@@ -40,12 +40,12 @@
 		religion = secularism
 		size = 15
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = swazi
 		religion =  protestant 
 		size = 514
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = swazi
 		religion = secularism
 		size = 11

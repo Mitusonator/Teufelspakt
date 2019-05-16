@@ -70,12 +70,12 @@
 		religion = secularism
 		size = 315
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion =  orthodox 
 		size = 1769
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion = secularism
 		size = 300
@@ -173,12 +173,12 @@
 		religion = secularism
 		size = 1628
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion =  orthodox 
 		size = 9119
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion = secularism
 		size = 1546
@@ -291,12 +291,12 @@
 		religion = secularism
 		size = 514
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion =  orthodox 
 		size = 2883
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion = secularism
 		size = 489
@@ -404,12 +404,12 @@
 		religion = secularism
 		size = 246
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion =  orthodox 
 		size = 1380
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion = secularism
 		size = 234
@@ -507,12 +507,12 @@
 		religion = secularism
 		size = 578
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion =  orthodox 
 		size = 3240
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion = secularism
 		size = 549
@@ -610,12 +610,12 @@
 		religion = secularism
 		size = 588
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion =  orthodox 
 		size = 3296
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion = secularism
 		size = 558
@@ -718,12 +718,12 @@
 		religion = secularism
 		size = 428
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion =  orthodox 
 		size = 2399
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion = secularism
 		size = 406
@@ -821,12 +821,12 @@
 		religion = secularism
 		size = 1231
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion =  orthodox 
 		size = 6898
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion = secularism
 		size = 1169
@@ -929,12 +929,12 @@
 		religion = secularism
 		size = 802
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion =  orthodox 
 		size = 4493
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion = secularism
 		size = 761
@@ -1047,12 +1047,12 @@
 		religion = secularism
 		size = 536
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion =  orthodox 
 		size = 3006
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion = secularism
 		size = 509
@@ -1155,12 +1155,12 @@
 		religion = secularism
 		size = 330
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion =  orthodox 
 		size = 1853
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion = secularism
 		size = 314

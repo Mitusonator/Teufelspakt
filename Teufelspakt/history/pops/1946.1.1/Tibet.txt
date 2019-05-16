@@ -60,12 +60,12 @@
 		religion = secularism
 		size = 120
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tibetan
 		religion =  buddhist 
 		size = 897
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tibetan
 		religion = secularism
 		size = 231
@@ -153,12 +153,12 @@
 		religion = secularism
 		size = 142
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tibetan
 		religion =  buddhist 
 		size = 1057
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tibetan
 		religion = secularism
 		size = 272
@@ -246,12 +246,12 @@
 		religion = secularism
 		size = 152
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tibetan
 		religion =  buddhist 
 		size = 1129
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tibetan
 		religion = secularism
 		size = 291
@@ -329,12 +329,12 @@
 		religion = secularism
 		size = 113
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tibetan
 		religion =  buddhist 
 		size = 840
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tibetan
 		religion = secularism
 		size = 216
@@ -412,12 +412,12 @@
 		religion = secularism
 		size = 99
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tibetan
 		religion =  buddhist 
 		size = 741
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tibetan
 		religion = secularism
 		size = 191
@@ -495,12 +495,12 @@
 		religion = secularism
 		size = 20
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tibetan
 		religion =  buddhist 
 		size = 151
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tibetan
 		religion = secularism
 		size = 39

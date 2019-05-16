@@ -60,12 +60,12 @@
 		religion = secularism
 		size = 137
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion =  buddhist 
 		size = 2291
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion = secularism
 		size = 327
@@ -143,12 +143,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion =  buddhist 
 		size = 182
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion = secularism
 		size = 26
@@ -226,12 +226,12 @@
 		religion = secularism
 		size = 16
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion =  buddhist 
 		size = 280
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion = secularism
 		size = 40
@@ -309,12 +309,12 @@
 		religion = secularism
 		size = 21
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion =  buddhist 
 		size = 353
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion = secularism
 		size = 50
@@ -392,12 +392,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion =  buddhist 
 		size = 166
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion = secularism
 		size = 23
@@ -475,12 +475,12 @@
 		religion = secularism
 		size = 12
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion =  buddhist 
 		size = 208
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion = secularism
 		size = 29
@@ -563,12 +563,12 @@
 		religion = secularism
 		size = 18
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion =  buddhist 
 		size = 301
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion = secularism
 		size = 43
@@ -656,12 +656,12 @@
 		religion = secularism
 		size = 15
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion =  buddhist 
 		size = 249
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongol
 		religion = secularism
 		size = 35

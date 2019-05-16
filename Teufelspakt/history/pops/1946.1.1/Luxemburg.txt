@@ -70,12 +70,12 @@
 		religion = secularism
 		size = 371
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 1850
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 352
@@ -95,47 +95,47 @@
 		religion =  catholic 
 		size = 24259
 	 } 
-	farmers = {
+	artisans = {
 		culture = german
 		religion = secularism
 		size = 4620
 	 } 
-	farmers = {
+	artisans = {
 		culture = european
 		religion =  protestant 
 		size = 7770
 	 } 
-	farmers = {
+	artisans = {
 		culture = european
 		religion = secularism
 		size = 1480
 	 } 
-	farmers = {
+	artisans = {
 		culture = portuguese
 		religion =  catholic 
 		size = 8267
 	 } 
-	farmers = {
+	artisans = {
 		culture = portuguese
 		religion = secularism
 		size = 1574
 	 } 
-	farmers = {
+	artisans = {
 		culture = french
 		religion =  catholic 
 		size = 2797
 	 } 
-	farmers = {
+	artisans = {
 		culture = french
 		religion = secularism
 		size = 532
 	 } 
-	farmers = {
+	artisans = {
 		culture = italian
 		religion =  catholic 
 		size = 2672
 	 } 
-	farmers = {
+	artisans = {
 		culture = italian
 		religion = secularism
 		size = 508

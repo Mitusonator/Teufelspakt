@@ -72,13 +72,13 @@
         size = 264
     }
 
-    artisans = {
+    craftsmen = {
         culture = malayalam
         religion = hindu
         size = 12766
     }
 
-    artisans = {
+    craftsmen = {
         culture = malayalam
         religion = secularism
         size = 293
@@ -188,13 +188,13 @@
         size = 100
     }
 
-    artisans = {
+    craftsmen = {
         culture = malayalam
         religion = hindu
         size = 4853
     }
 
-    artisans = {
+    craftsmen = {
         culture = malayalam
         religion = secularism
         size = 111

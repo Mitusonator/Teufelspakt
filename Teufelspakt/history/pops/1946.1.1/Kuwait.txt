@@ -5,7 +5,7 @@
 		religion =  sunni 
 		size = 1450
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 1278

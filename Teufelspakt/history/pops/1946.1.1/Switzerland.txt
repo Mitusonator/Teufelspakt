@@ -80,12 +80,12 @@
 		religion = secularism
 		size = 92
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = italian
 		religion =  catholic 
 		size = 1099
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = italian
 		religion = secularism
 		size = 182
@@ -183,12 +183,12 @@
 		religion = secularism
 		size = 1311
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 7497
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 1246
@@ -208,7 +208,7 @@
 		religion =  catholic 
 		size = 227804
 	 } 
-	farmers = {
+	artisans = {
 		culture = german
 		religion = secularism
 		size = 37856
@@ -286,12 +286,12 @@
 		religion = secularism
 		size = 762
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 4359
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 724
@@ -389,12 +389,12 @@
 		religion = secularism
 		size = 555
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 3177
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 527
@@ -502,12 +502,12 @@
 		religion = secularism
 		size = 428
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2451
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 407
@@ -605,12 +605,12 @@
 		religion = secularism
 		size = 847
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 4843
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 804
@@ -718,12 +718,12 @@
 		religion = secularism
 		size = 97
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = french
 		religion =  catholic 
 		size = 554
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = french
 		religion = secularism
 		size = 92
@@ -821,12 +821,12 @@
 		religion = secularism
 		size = 206
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 1181
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 196
@@ -934,12 +934,12 @@
 		religion = secularism
 		size = 107
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 615
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 102

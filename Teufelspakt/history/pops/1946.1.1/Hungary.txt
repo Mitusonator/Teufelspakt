@@ -50,12 +50,12 @@
 		religion = secularism
 		size = 240
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 1224
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 228
@@ -133,12 +133,12 @@
 		religion = secularism
 		size = 240
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 1224
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 228
@@ -216,12 +216,12 @@
 		religion = secularism
 		size = 476
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 2423
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 452
@@ -309,12 +309,12 @@
 		religion = secularism
 		size = 2723
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 13841
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 2587
@@ -402,12 +402,12 @@
 		religion = secularism
 		size = 240
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 1224
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 228
@@ -485,12 +485,12 @@
 		religion = secularism
 		size = 1073
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 5454
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 1019
@@ -568,12 +568,12 @@
 		religion = secularism
 		size = 476
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 2423
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 452
@@ -651,12 +651,12 @@
 		religion = secularism
 		size = 657
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 3342
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 624
@@ -734,12 +734,12 @@
 		religion = secularism
 		size = 1241
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 6310
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 1179
@@ -817,12 +817,12 @@
 		religion = secularism
 		size = 748
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 3803
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 711
@@ -900,12 +900,12 @@
 		religion = secularism
 		size = 657
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 3342
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 624
@@ -983,12 +983,12 @@
 		religion = secularism
 		size = 748
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 3803
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 711

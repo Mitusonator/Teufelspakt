@@ -55,12 +55,12 @@
 		religion = secularism
 		size = 9
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = lao
 		religion =  buddhist 
 		size = 1609
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = lao
 		religion = secularism
 		size = 12
@@ -143,12 +143,12 @@
 		religion = secularism
 		size = 8
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = lao
 		religion =  buddhist 
 		size = 1337
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = lao
 		religion = secularism
 		size = 10
@@ -226,12 +226,12 @@
 		religion = secularism
 		size = 3
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = lao
 		religion =  buddhist 
 		size = 539
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = lao
 		religion = secularism
 		size = 4
@@ -309,12 +309,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = lao
 		religion =  buddhist 
 		size = 1097
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = lao
 		religion = secularism
 		size = 8
@@ -392,12 +392,12 @@
 		religion = secularism
 		size = 3
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khmer
 		religion =  buddhist 
 		size = 542
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khmer
 		religion = secularism
 		size = 4
@@ -475,12 +475,12 @@
 		religion = secularism
 		size = 3
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khmer
 		religion =  buddhist 
 		size = 584
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khmer
 		religion = secularism
 		size = 4

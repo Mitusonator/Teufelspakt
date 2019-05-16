@@ -25,7 +25,7 @@
 		religion =  sunni 
 		size = 4490
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = pashtun
 		religion =  sunni 
 		size = 3729
@@ -63,7 +63,7 @@
 		religion =  sunni 
 		size = 3250
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tajik
 		religion =  sunni 
 		size = 2699
@@ -106,7 +106,7 @@
 		religion =  sunni 
 		size = 2735
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = uzbek
 		religion =  sunni 
 		size = 2271
@@ -149,7 +149,7 @@
 		religion =  sunni 
 		size = 2305
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = pashtun
 		religion =  sunni 
 		size = 1914
@@ -225,7 +225,7 @@
 		religion =  sunni 
 		size = 1305
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = pashtun
 		religion =  sunni 
 		size = 1083
@@ -281,7 +281,7 @@
 		religion =  sunni 
 		size = 1442
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = pashtun
 		religion =  sunni 
 		size = 1197
@@ -319,7 +319,7 @@
 		religion =  sunni 
 		size = 2670
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = pashtun
 		religion =  sunni 
 		size = 2217

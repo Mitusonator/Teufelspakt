@@ -70,17 +70,17 @@
 		religion = secularism
 		size = 52
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 3153
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 72
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 17386
@@ -178,12 +178,12 @@
 		religion =  protestant 
 		size = 19
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shona
 		religion =  protestant 
 		size = 1465
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shona
 		religion = secularism
 		size = 33
@@ -276,12 +276,12 @@
 		religion = secularism
 		size = 26
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shona
 		religion =  protestant 
 		size = 1593
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shona
 		religion = secularism
 		size = 36
@@ -354,12 +354,12 @@
 		religion = secularism
 		size = 11
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 673
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 15
@@ -457,12 +457,12 @@
 		religion = secularism
 		size = 42
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tonga
 		religion =  protestant 
 		size = 2522
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tonga
 		religion = secularism
 		size = 58
@@ -550,12 +550,12 @@
 		religion = secularism
 		size = 22
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 1346
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 31
@@ -648,12 +648,12 @@
 		religion = secularism
 		size = 40
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shona
 		religion =  protestant 
 		size = 2412
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shona
 		religion = secularism
 		size = 55

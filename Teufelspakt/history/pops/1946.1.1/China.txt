@@ -60,12 +60,12 @@
 		religion = secularism
 		size = 1350
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2555
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 658
@@ -143,12 +143,12 @@
 		religion = secularism
 		size = 1282
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2426
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 625
@@ -226,12 +226,12 @@
 		religion = secularism
 		size = 1347
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2548
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 657
@@ -314,12 +314,12 @@
 		religion = secularism
 		size = 1612
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 3050
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 786
@@ -397,12 +397,12 @@
 		religion = secularism
 		size = 2170
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4106
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1059
@@ -480,12 +480,12 @@
 		religion = secularism
 		size = 2138
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4045
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1043
@@ -563,12 +563,12 @@
 		religion = secularism
 		size = 1877
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 3552
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 915
@@ -646,12 +646,12 @@
 		religion = secularism
 		size = 900
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 1704
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 439
@@ -729,12 +729,12 @@
 		religion = secularism
 		size = 1292
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2446
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 630
@@ -812,12 +812,12 @@
 		religion = secularism
 		size = 2523
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4773
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1231
@@ -905,12 +905,12 @@
 		religion = secularism
 		size = 219
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 414
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 106
@@ -998,12 +998,12 @@
 		religion = secularism
 		size = 405
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 767
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 197
@@ -1091,12 +1091,12 @@
 		religion = secularism
 		size = 2774
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 5248
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1353
@@ -1174,12 +1174,12 @@
 		religion = secularism
 		size = 2547
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4819
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1242
@@ -1257,12 +1257,12 @@
 		religion = secularism
 		size = 716
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 1355
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 349
@@ -1340,12 +1340,12 @@
 		religion = secularism
 		size = 1747
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 3304
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 852
@@ -1423,12 +1423,12 @@
 		religion = secularism
 		size = 2217
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4194
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1081
@@ -1506,12 +1506,12 @@
 		religion = secularism
 		size = 1489
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2818
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 726
@@ -1589,12 +1589,12 @@
 		religion = secularism
 		size = 1863
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 3525
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 908
@@ -1672,12 +1672,12 @@
 		religion = secularism
 		size = 1942
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 3676
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 947
@@ -1755,12 +1755,12 @@
 		religion = secularism
 		size = 1896
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 3588
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 925
@@ -1838,12 +1838,12 @@
 		religion = secularism
 		size = 599
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 1134
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 292
@@ -1921,12 +1921,12 @@
 		religion = secularism
 		size = 1236
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2339
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 603
@@ -2004,12 +2004,12 @@
 		religion = secularism
 		size = 2745
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 5195
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1339
@@ -2087,12 +2087,12 @@
 		religion = secularism
 		size = 1850
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 3500
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 902
@@ -2170,12 +2170,12 @@
 		religion = secularism
 		size = 796
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 1507
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 388
@@ -2253,12 +2253,12 @@
 		religion = secularism
 		size = 1200
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2270
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 585
@@ -2336,12 +2336,12 @@
 		religion = secularism
 		size = 2020
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 3823
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 985
@@ -2419,12 +2419,12 @@
 		religion = secularism
 		size = 1075
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2035
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 524
@@ -2502,22 +2502,22 @@
 		religion = secularism
 		size = 3240
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 6130
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1580
 	 } 
-	farmers = {
+	artisans = {
 		culture = chinese
 		religion =  taoism 
 		size = 1170915
 	 } 
-	farmers = {
+	artisans = {
 		culture = chinese
 		religion = secularism
 		size = 301934
@@ -2585,12 +2585,12 @@
 		religion = secularism
 		size = 2270
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4295
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1107
@@ -2668,12 +2668,12 @@
 		religion = secularism
 		size = 2457
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4649
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1198
@@ -2751,12 +2751,12 @@
 		religion = secularism
 		size = 3001
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 5679
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1464
@@ -2839,12 +2839,12 @@
 		religion = secularism
 		size = 2766
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 5235
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1349
@@ -2922,12 +2922,12 @@
 		religion = secularism
 		size = 2428
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4594
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1184
@@ -3005,12 +3005,12 @@
 		religion = secularism
 		size = 1282
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2426
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 625
@@ -3088,12 +3088,12 @@
 		religion = secularism
 		size = 2138
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4045
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1043
@@ -3171,12 +3171,12 @@
 		religion = secularism
 		size = 2098
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 3969
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1023
@@ -3254,12 +3254,12 @@
 		religion = secularism
 		size = 2138
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4045
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1043
@@ -3347,22 +3347,22 @@
 		religion = secularism
 		size = 1098
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4045
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1043
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 12991
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 3349
@@ -3440,12 +3440,12 @@
 		religion = secularism
 		size = 2138
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4045
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1043
@@ -3523,12 +3523,12 @@
 		religion = secularism
 		size = 2138
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4045
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1043
@@ -3606,12 +3606,12 @@
 		religion = secularism
 		size = 2138
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 4045
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1043
@@ -3689,12 +3689,12 @@
 		religion = secularism
 		size = 1282
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2426
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 625

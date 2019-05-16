@@ -69,7 +69,7 @@
 		religion =  sunni 
 		size = 20
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 22
@@ -107,7 +107,7 @@
 		religion =  sunni 
 		size = 8075
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian_muslim
 		religion =  sunni 
 		size = 4308
@@ -185,12 +185,12 @@
 		religion = secularism
 		size = 5
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tamil
 		religion =  hindu 
 		size = 629
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tamil
 		religion = secularism
 		size = 3
@@ -288,12 +288,12 @@
 		religion = secularism
 		size = 39
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sinhala
 		religion =  buddhist 
 		size = 4158
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sinhala
 		religion = secularism
 		size = 20
@@ -366,12 +366,12 @@
 		religion = secularism
 		size = 8
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tamil
 		religion =  hindu 
 		size = 919
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tamil
 		religion = secularism
 		size = 4
@@ -474,12 +474,12 @@
 		religion = secularism
 		size = 3
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion =  hindu 
 		size = 5204
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion = secularism
 		size = 39
@@ -572,12 +572,12 @@
 		religion = secularism
 		size = 49
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion =  buddhist 
 		size = 7585
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion = secularism
 		size = 57
@@ -655,12 +655,12 @@
 		religion = secularism
 		size = 37
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion =  buddhist 
 		size = 5806
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion = secularism
 		size = 43
@@ -738,12 +738,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = karen
 		religion =  protestant 
 		size = 1628
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = karen
 		religion = secularism
 		size = 12
@@ -821,12 +821,12 @@
 		religion = secularism
 		size = 14
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion =  buddhist 
 		size = 2276
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion = secularism
 		size = 17
@@ -904,12 +904,12 @@
 		religion = secularism
 		size = 63
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 9737
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 73
@@ -1012,12 +1012,12 @@
 		religion = secularism
 		size = 18
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion =  buddhist 
 		size = 2802
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion = secularism
 		size = 21
@@ -1095,12 +1095,12 @@
 		religion = secularism
 		size = 14
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion =  buddhist 
 		size = 2276
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion = secularism
 		size = 17
@@ -1163,12 +1163,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = karen
 		religion =  protestant 
 		size = 291
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = karen
 		religion = secularism
 		size = 2
@@ -1246,12 +1246,12 @@
 		religion = secularism
 		size = 24
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion =  buddhist 
 		size = 3757
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion = secularism
 		size = 28
@@ -1329,12 +1329,12 @@
 		religion = secularism
 		size = 35
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shan
 		religion =  buddhist 
 		size = 5522
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shan
 		religion = secularism
 		size = 41
@@ -1427,12 +1427,12 @@
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 760
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 5
@@ -1535,12 +1535,12 @@
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kachin
 		religion =  protestant 
 		size = 681
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kachin
 		religion = secularism
 		size = 5
@@ -1628,12 +1628,12 @@
 		religion = secularism
 		size = 18
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mon
 		religion =  buddhist 
 		size = 2805
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mon
 		religion = secularism
 		size = 21
@@ -1726,12 +1726,12 @@
 		religion = secularism
 		size = 9
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion =  buddhist 
 		size = 1541
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = burmese
 		religion = secularism
 		size = 11
@@ -1819,12 +1819,12 @@
 		religion = secularism
 		size = 23
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = rakhine
 		religion =  buddhist 
 		size = 3671
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = rakhine
 		religion = secularism
 		size = 27
@@ -1917,12 +1917,12 @@
 		religion = secularism
 		size = 338
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 7823
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1194
@@ -1937,12 +1937,12 @@
 		religion = secularism
 		size = 21487
 	 } 
-	farmers = {
+	artisans = {
 		culture = malay
 		religion =  sunni 
 		size = 19000
 	 } 
-	farmers = {
+	artisans = {
 		culture = malay
 		religion =  sunni 
 		size = 20988
@@ -1952,7 +1952,7 @@
 		religion =  hindu 
 		size = 17094
 	 } 
-	farmers = {
+	artisans = {
 		culture = indian
 		religion = secularism
 		size = 2610
@@ -2020,12 +2020,12 @@
 		religion = secularism
 		size = 11
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 1158
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 29
@@ -2118,12 +2118,12 @@
 		religion = secularism
 		size = 22
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2235
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 57
@@ -2191,12 +2191,12 @@
 		religion =  taoism 
 		size = 111
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 300
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 1
@@ -2289,12 +2289,12 @@
 		religion = secularism
 		size = 24
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2460
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 63
@@ -2387,12 +2387,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 1095
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 28
@@ -2485,12 +2485,12 @@
 		religion = secularism
 		size = 27
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 2755
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 70
@@ -2588,12 +2588,12 @@
 		religion = secularism
 		size = 18
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 1828
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 46
@@ -2734,12 +2734,12 @@
 		religion = secularism
 		size = 1546
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese_cantonese
 		religion =  taoism 
 		size = 2903
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese_cantonese
 		religion = secularism
 		size = 748
@@ -2749,12 +2749,12 @@
 		religion =  taoism 
 		size = 530943
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese_cantonese
 		religion = secularism
 		size = 136910
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indonesian
 		religion =  sunni 
 		size = 14335
@@ -2832,12 +2832,12 @@
 		religion = secularism
 		size = 33
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = jewish
 		religion =  jewish 
 		size = 2942
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = jewish
 		religion = secularism
 		size = 90
@@ -2894,7 +2894,7 @@
 		religion =  sunni 
 		size = 1550
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 1063
@@ -2953,7 +2953,7 @@
 		religion =  sunni 
 		size = 32
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 89
@@ -2996,7 +2996,7 @@
 		religion =  sunni 
 		size = 32
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 89
@@ -3039,7 +3039,7 @@
 		religion =  sunni 
 		size = 27
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 75
@@ -3067,12 +3067,12 @@
 		religion =  sunni 
 		size = 1067
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 1640
 	 } 
-	farmers = {
+	artisans = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 92461
@@ -3115,7 +3115,7 @@
 		religion =  sunni 
 		size = 1016
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mande
 		religion =  sunni 
 		size = 1371
@@ -3168,7 +3168,7 @@
 		religion =  sunni 
 		size = 2822
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 3311
@@ -3196,7 +3196,7 @@
 		religion =  sunni 
 		size = 1495
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 1753
@@ -3303,12 +3303,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nuer
 		religion =  protestant 
 		size = 509
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nuer
 		religion = secularism
 		size = 11
@@ -3409,12 +3409,12 @@
 		religion = secularism
 		size = 12
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nuba
 		religion =  protestant 
 		size = 627
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nuba
 		religion = secularism
 		size = 14
@@ -3478,7 +3478,7 @@
 		religion =  sunni 
 		size = 1352
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 1586
@@ -3577,12 +3577,12 @@
 		religion = secularism
 		size = 34
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = fur
 		religion =  protestant 
 		size = 1771
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = fur
 		religion = secularism
 		size = 40
@@ -3665,12 +3665,12 @@
 		religion = secularism
 		size = 31
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = fur
 		religion =  protestant 
 		size = 1587
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = fur
 		religion = secularism
 		size = 36
@@ -3758,12 +3758,12 @@
 		religion = secularism
 		size = 14
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = dinka
 		religion =  protestant 
 		size = 722
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = dinka
 		religion = secularism
 		size = 16
@@ -3851,12 +3851,12 @@
 		religion = secularism
 		size = 41
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shilluk
 		religion =  protestant 
 		size = 2134
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shilluk
 		religion = secularism
 		size = 49
@@ -3959,12 +3959,12 @@
 		religion = secularism
 		size = 7
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = azande
 		religion =  protestant 
 		size = 400
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = azande
 		religion = secularism
 		size = 9
@@ -4042,12 +4042,12 @@
 		religion = secularism
 		size = 14
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bari
 		religion =  protestant 
 		size = 730
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bari
 		religion = secularism
 		size = 16
@@ -4145,22 +4145,22 @@
 		religion = secularism
 		size = 28
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tuposa
 		religion =  protestant 
 		size = 1131
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tuposa
 		religion = secularism
 		size = 26
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nuer
 		religion =  protestant 
 		size = 341
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nuer
 		religion = secularism
 		size = 7
@@ -4248,12 +4248,12 @@
 		religion = secularism
 		size = 38
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tigray
 		religion =  orthodox 
 		size = 1117
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tigray
 		religion = secularism
 		size = 28
@@ -4341,12 +4341,12 @@
 		religion = secularism
 		size = 13
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tigray
 		religion =  orthodox 
 		size = 394
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tigray
 		religion = secularism
 		size = 10
@@ -4439,12 +4439,12 @@
 		religion = secularism
 		size = 30
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tigray
 		religion =  orthodox 
 		size = 881
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tigray
 		religion = secularism
 		size = 22
@@ -4510,7 +4510,7 @@
 		religion =  sunni 
 		size = 1492
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = somali
 		religion =  sunni 
 		size = 1988
@@ -4615,7 +4615,7 @@
 		religion =  sunni 
 		size = 1022
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = somali
 		religion =  sunni 
 		size = 1362
@@ -4643,7 +4643,7 @@
 		religion =  sunni 
 		size = 1022
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = somali
 		religion =  sunni 
 		size = 1362
@@ -4701,7 +4701,7 @@
 		religion =  sunni 
 		size = 2570
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = temne
 		religion =  sunni 
 		size = 3559
@@ -4779,12 +4779,12 @@
 		religion = secularism
 		size = 3
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 2158
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 5
@@ -4822,7 +4822,7 @@
 		religion =  sunni 
 		size = 1080
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mende
 		religion =  sunni 
 		size = 1495
@@ -4900,12 +4900,12 @@
 		religion = secularism
 		size = 21
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 3879
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 39
@@ -5013,12 +5013,12 @@
 		religion = secularism
 		size = 12
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = akan
 		religion =  protestant 
 		size = 2295
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = akan
 		religion = secularism
 		size = 23
@@ -5096,12 +5096,12 @@
 		religion = secularism
 		size = 12
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 2295
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 23
@@ -5179,12 +5179,12 @@
 		religion = secularism
 		size = 39
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = akan
 		religion =  protestant 
 		size = 7175
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = akan
 		religion = secularism
 		size = 72
@@ -5262,12 +5262,12 @@
 		religion = secularism
 		size = 12
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 2232
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 22
@@ -5315,7 +5315,7 @@
 		religion =  sunni 
 		size = 1320
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mossi
 		religion =  sunni 
 		size = 2420
@@ -5411,12 +5411,12 @@
 		religion = secularism
 		size = 11
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ewe
 		religion =  catholic 
 		size = 2046
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ewe
 		religion = secularism
 		size = 20
@@ -5449,7 +5449,7 @@
 		religion =  sunni 
 		size = 2230
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mossi
 		religion =  sunni 
 		size = 1022
@@ -5522,12 +5522,12 @@
 		religion = secularism
 		size = 233
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion =  protestant 
 		size = 8208
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion = secularism
 		size = 409
@@ -5605,12 +5605,12 @@
 		religion = secularism
 		size = 97
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion =  protestant 
 		size = 3412
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion = secularism
 		size = 170
@@ -5688,12 +5688,12 @@
 		religion = secularism
 		size = 201
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion =  protestant 
 		size = 7090
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion = secularism
 		size = 353
@@ -5771,12 +5771,12 @@
 		religion = secularism
 		size = 89
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion =  protestant 
 		size = 3129
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion = secularism
 		size = 156
@@ -5854,12 +5854,12 @@
 		religion = secularism
 		size = 67
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion =  protestant 
 		size = 2357
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion = secularism
 		size = 117
@@ -5937,12 +5937,12 @@
 		religion = secularism
 		size = 90
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = igbo
 		religion =  protestant 
 		size = 3179
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = igbo
 		religion = secularism
 		size = 158
@@ -6020,12 +6020,12 @@
 		religion = secularism
 		size = 70
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion =  protestant 
 		size = 2486
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion = secularism
 		size = 124
@@ -6123,12 +6123,12 @@
 		religion = secularism
 		size = 93
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion =  protestant 
 		size = 3271
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yoruba
 		religion = secularism
 		size = 163
@@ -6216,12 +6216,12 @@
 		religion = secularism
 		size = 225
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ijaw
 		religion =  protestant 
 		size = 7924
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ijaw
 		religion = secularism
 		size = 395
@@ -6319,12 +6319,12 @@
 		religion = secularism
 		size = 173
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ijaw
 		religion =  protestant 
 		size = 6084
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ijaw
 		religion = secularism
 		size = 303
@@ -6412,12 +6412,12 @@
 		religion = secularism
 		size = 189
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibo
 		religion =  protestant 
 		size = 6659
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibo
 		religion = secularism
 		size = 332
@@ -6495,12 +6495,12 @@
 		religion = secularism
 		size = 141
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibibio
 		religion =  protestant 
 		size = 4970
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibibio
 		religion = secularism
 		size = 247
@@ -6578,12 +6578,12 @@
 		religion = secularism
 		size = 137
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibo
 		religion =  protestant 
 		size = 4832
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibo
 		religion = secularism
 		size = 240
@@ -6621,7 +6621,7 @@
 		religion =  sunni 
 		size = 2307
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tiv
 		religion =  sunni 
 		size = 4044
@@ -6659,7 +6659,7 @@
 		religion =  sunni 
 		size = 1465
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nupe
 		religion =  sunni 
 		size = 2567
@@ -6687,7 +6687,7 @@
 		religion =  sunni 
 		size = 1075
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_muslim
 		religion =  sunni 
 		size = 1884
@@ -6725,7 +6725,7 @@
 		religion =  sunni 
 		size = 3305
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = fula
 		religion =  sunni 
 		size = 5792
@@ -6753,7 +6753,7 @@
 		religion =  sunni 
 		size = 1075
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = fula
 		religion =  sunni 
 		size = 1884
@@ -6826,12 +6826,12 @@
 		religion = secularism
 		size = 36
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 1276
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 63
@@ -6874,7 +6874,7 @@
 		religion =  sunni 
 		size = 2525
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hausa
 		religion =  sunni 
 		size = 4425
@@ -6912,7 +6912,7 @@
 		religion =  sunni 
 		size = 2845
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nupe
 		religion =  sunni 
 		size = 4986
@@ -6960,7 +6960,7 @@
 		religion =  sunni 
 		size = 1282
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hausa
 		religion =  sunni 
 		size = 2247
@@ -7008,7 +7008,7 @@
 		religion =  sunni 
 		size = 6027
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hausa
 		religion =  sunni 
 		size = 10563
@@ -7036,7 +7036,7 @@
 		religion =  sunni 
 		size = 1977
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hausa
 		religion =  sunni 
 		size = 3465
@@ -7084,7 +7084,7 @@
 		religion =  sunni 
 		size = 3532
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hausa
 		religion =  sunni 
 		size = 6190
@@ -7122,7 +7122,7 @@
 		religion =  sunni 
 		size = 4405
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hausa
 		religion =  sunni 
 		size = 7720
@@ -7165,7 +7165,7 @@
 		religion =  sunni 
 		size = 2717
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hausa
 		religion =  sunni 
 		size = 4762
@@ -7198,7 +7198,7 @@
 		religion =  sunni 
 		size = 2037
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = fula
 		religion =  sunni 
 		size = 3570
@@ -7271,12 +7271,12 @@
 		religion = secularism
 		size = 59
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kanuri
 		religion =  catholic 
 		size = 2085
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kanuri
 		religion = secularism
 		size = 104
@@ -7354,12 +7354,12 @@
 		religion = secularism
 		size = 71
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kanuri
 		religion =  catholic 
 		size = 2507
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kanuri
 		religion = secularism
 		size = 125
@@ -7442,12 +7442,12 @@
 		religion = secularism
 		size = 59
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kanuri
 		religion =  catholic 
 		size = 2085
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kanuri
 		religion = secularism
 		size = 104
@@ -7525,12 +7525,12 @@
 		religion = secularism
 		size = 13
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 1667
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 25
@@ -7618,12 +7618,12 @@
 		religion = secularism
 		size = 18
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 2188
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 33
@@ -7706,12 +7706,12 @@
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 150
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 4
@@ -7809,12 +7809,12 @@
 		religion = secularism
 		size = 13
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 1483
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 18
@@ -7917,12 +7917,12 @@
 		religion = secularism
 		size = 3
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 375
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 4
@@ -8000,12 +8000,12 @@
 		religion = secularism
 		size = 2
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 300
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 3
@@ -8078,12 +8078,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tonga
 		religion =  protestant 
 		size = 686
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tonga
 		religion = secularism
 		size = 8
@@ -8166,12 +8166,12 @@
 		religion = secularism
 		size = 3
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bemba
 		religion =  catholic 
 		size = 409
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bemba
 		religion = secularism
 		size = 5
@@ -8244,12 +8244,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 751
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 9
@@ -8332,12 +8332,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chewa
 		religion =  protestant 
 		size = 727
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chewa
 		religion = secularism
 		size = 9
@@ -8435,12 +8435,12 @@
 		religion = secularism
 		size = 37
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ganda
 		religion =  protestant 
 		size = 1642
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ganda
 		religion = secularism
 		size = 20
@@ -8533,12 +8533,12 @@
 		religion = secularism
 		size = 36
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nyakole
 		religion =  protestant 
 		size = 1572
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nyakole
 		religion = secularism
 		size = 19
@@ -8636,12 +8636,12 @@
 		religion = secularism
 		size = 14
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = langi
 		religion =  protestant 
 		size = 641
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = langi
 		religion = secularism
 		size = 8
@@ -8729,12 +8729,12 @@
 		religion = secularism
 		size = 14
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 641
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 8
@@ -8772,7 +8772,7 @@
 		religion =  sunni 
 		size = 2847
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = soga
 		religion =  sunni 
 		size = 1569
@@ -8885,12 +8885,12 @@
 		religion = secularism
 		size = 22
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kikuyu
 		religion =  protestant 
 		size = 2508
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kikuyu
 		religion = secularism
 		size = 18
@@ -8948,7 +8948,7 @@
 		religion =  protestant 
 		size = 114
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = meru
 		religion =  protestant 
 		size = 96
@@ -9021,12 +9021,12 @@
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = luhya
 		religion =  protestant 
 		size = 529
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = luhya
 		religion = secularism
 		size = 4
@@ -9114,12 +9114,12 @@
 		religion = secularism
 		size = 25
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = maasai
 		religion =  protestant 
 		size = 2805
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = maasai
 		religion = secularism
 		size = 21
@@ -9237,12 +9237,12 @@
 		religion = secularism
 		size = 29
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = luhya
 		religion =  protestant 
 		size = 3258
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = luhya
 		religion = secularism
 		size = 24
@@ -9335,12 +9335,12 @@
 		religion = secularism
 		size = 8
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion =  hindu 
 		size = 980
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion = secularism
 		size = 7
@@ -9428,12 +9428,12 @@
 		religion = secularism
 		size = 18
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion =  protestant 
 		size = 221
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion = secularism
 		size = 52
@@ -9501,7 +9501,7 @@
 		religion =  sunni 
 		size = 40
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = swahili
 		religion =  sunni 
 		size = 34
@@ -9597,12 +9597,12 @@
 		religion = secularism
 		size = 15
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kikuyu
 		religion =  protestant 
 		size = 1792
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kikuyu
 		religion = secularism
 		size = 13
@@ -9693,7 +9693,7 @@
 		religion =  sunni 
 		size = 2430
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = swahili
 		religion =  sunni 
 		size = 2292
@@ -9736,7 +9736,7 @@
 		religion =  sunni 
 		size = 1637
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_muslim
 		religion =  sunni 
 		size = 1544
@@ -9822,12 +9822,12 @@
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = makonde
 		religion =  protestant 
 		size = 355
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = makonde
 		religion = secularism
 		size = 4
@@ -9900,12 +9900,12 @@
 		religion = secularism
 		size = 3
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yao
 		religion =  catholic 
 		size = 288
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yao
 		religion = secularism
 		size = 3
@@ -9988,12 +9988,12 @@
 		religion = secularism
 		size = 7
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yao
 		religion =  catholic 
 		size = 567
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yao
 		religion = secularism
 		size = 7
@@ -10081,12 +10081,12 @@
 		religion = secularism
 		size = 20
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 1510
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 19
@@ -10164,12 +10164,12 @@
 		religion = secularism
 		size = 20
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 1515
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 19
@@ -10247,12 +10247,12 @@
 		religion = secularism
 		size = 65
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 4913
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 62
@@ -10340,12 +10340,12 @@
 		religion = secularism
 		size = 29
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 2172
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 27
@@ -10428,12 +10428,12 @@
 		religion = secularism
 		size = 20
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 1529
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 19
@@ -10511,12 +10511,12 @@
 		religion = secularism
 		size = 17
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = maasai
 		religion =  protestant 
 		size = 1292
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = maasai
 		religion = secularism
 		size = 16
@@ -10604,12 +10604,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 1455
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 3
@@ -10692,12 +10692,12 @@
 		religion = secularism
 		size = 8
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chewa
 		religion =  protestant 
 		size = 1779
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chewa
 		religion = secularism
 		size = 4
@@ -10805,12 +10805,12 @@
 		religion = secularism
 		size = 19
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 1034
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 43
@@ -10898,12 +10898,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shona
 		religion =  protestant 
 		size = 553
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shona
 		religion = secularism
 		size = 23
@@ -10986,12 +10986,12 @@
 		religion = secularism
 		size = 3
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shona
 		religion =  protestant 
 		size = 203
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = shona
 		religion = secularism
 		size = 8
@@ -11074,12 +11074,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khoisan
 		religion =  protestant 
 		size = 88
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khoisan
 		religion = secularism
 		size = 3
@@ -11177,12 +11177,12 @@
 		religion = secularism
 		size = 63
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion =  hindu 
 		size = 1682
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion = secularism
 		size = 93
@@ -11265,12 +11265,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_french
 		religion =  catholic 
 		size = 152
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_french
 		religion = secularism
 		size = 3
@@ -11338,12 +11338,12 @@
 		religion = secularism
 		size = 2
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 15
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 3
@@ -11411,12 +11411,12 @@
 		religion = secularism
 		size = 2
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 15
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 3
@@ -11464,12 +11464,12 @@
 		religion =  protestant 
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1
@@ -11547,12 +11547,12 @@
 		religion = secularism
 		size = 2
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 2
@@ -11610,12 +11610,12 @@
 		religion =  protestant 
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1
@@ -11673,12 +11673,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1
@@ -11786,12 +11786,12 @@
 		religion = secularism
 		size = 13
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 238
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 21
@@ -11909,12 +11909,12 @@
 		religion = secularism
 		size = 250
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 5899
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 461
@@ -11987,42 +11987,42 @@
 		religion = secularism
 		size = 2
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 34
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 7
 	 } 
-	farmers = {
+	artisans = {
 		culture = english
 		religion =  protestant 
 		size = 185
 	 } 
-	farmers = {
+	artisans = {
 		culture = english
 		religion = secularism
 		size = 43
 	 } 
-	farmers = {
+	artisans = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 303
 	 } 
-	farmers = {
+	artisans = {
 		culture = black_anglo
 		religion = secularism
 		size = 71
 	 } 
-	farmers = {
+	artisans = {
 		culture = mestizo
 		religion =  catholic 
 		size = 442
 	 } 
-	farmers = {
+	artisans = {
 		culture = mestizo
 		religion = secularism
 		size = 103
@@ -12100,12 +12100,12 @@
 		religion = secularism
 		size = 7
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 496
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 23
@@ -12173,12 +12173,12 @@
 		religion = secularism
 		size = 2
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 28
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 6
@@ -12256,12 +12256,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 119
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 1
@@ -12344,12 +12344,12 @@
 		religion = secularism
 		size = 3
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 22
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 5
@@ -12427,12 +12427,12 @@
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 51
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 11
@@ -12525,22 +12525,22 @@
 		religion = secularism
 		size = 5
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion =  hindu 
 		size = 94
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 23
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 1
@@ -12648,12 +12648,12 @@
 		religion = secularism
 		size = 23
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 785
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 36
@@ -12746,12 +12746,12 @@
 		religion = secularism
 		size = 9
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 115
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 5
@@ -12839,12 +12839,12 @@
 		religion = secularism
 		size = 3
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 294
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 7
@@ -12942,12 +12942,12 @@
 		religion = secularism
 		size = 11
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 246
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 15
@@ -13045,12 +13045,12 @@
 		religion = secularism
 		size = 30
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion =  hindu 
 		size = 711
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion = secularism
 		size = 14
@@ -13133,7 +13133,7 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 36
@@ -13221,12 +13221,12 @@
 		religion = secularism
 		size = 20
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion =  hindu 
 		size = 714
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion = secularism
 		size = 20
@@ -13319,12 +13319,12 @@
 		religion = secularism
 		size = 2
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 72
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_anglo
 		religion = secularism
 		size = 2
@@ -13412,12 +13412,12 @@
 		religion = secularism
 		size = 2
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = pardo_portuguese
 		religion =  catholic 
 		size = 99
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = pardo_portuguese
 		religion = secularism
 		size = 2
@@ -13515,12 +13515,12 @@
 		religion =  hindu 
 		size = 14
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion =  hindu 
 		size = 273
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion = secularism
 		size = 13
@@ -13628,12 +13628,12 @@
 		religion = secularism
 		size = 22
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion =  hindu 
 		size = 1051
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion = secularism
 		size = 40
@@ -13716,12 +13716,12 @@
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion =  hindu 
 		size = 216
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = indian
 		religion = secularism
 		size = 8
@@ -13804,12 +13804,12 @@
 		religion = secularism
 		size = 3
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = micronesian
 		religion =  protestant 
 		size = 118
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = micronesian
 		religion = secularism
 		size = 5
@@ -13872,7 +13872,7 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = melanesian
 		religion =  protestant 
 		size = 183
@@ -13955,12 +13955,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kanak
 		religion =  catholic 
 		size = 108
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kanak
 		religion = secularism
 		size = 5
@@ -14003,7 +14003,7 @@
 		religion =  protestant 
 		size = 9
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = melanesian
 		religion =  protestant 
 		size = 6
@@ -14096,12 +14096,12 @@
 		religion = secularism
 		size = 528
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 3284
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 501
@@ -14194,12 +14194,12 @@
 		religion = secularism
 		size = 5
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polynesian
 		religion =  catholic 
 		size = 90
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polynesian
 		religion = secularism
 		size = 4
@@ -14247,12 +14247,12 @@
 		religion =  catholic 
 		size = 11
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polynesian
 		religion =  catholic 
 		size = 20
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polynesian
 		religion = secularism
 		size = 1
@@ -14330,12 +14330,12 @@
 		religion = secularism
 		size = 18
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion =  protestant 
 		size = 278
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion = secularism
 		size = 55
@@ -14433,12 +14433,12 @@
 		religion = secularism
 		size = 222
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 1387
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 211
@@ -14516,12 +14516,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1
@@ -14619,12 +14619,12 @@
 		religion = secularism
 		size = 79
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 496
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 75
@@ -14732,12 +14732,12 @@
 		religion = secularism
 		size = 653
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 3383
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 620
@@ -14820,12 +14820,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nuba
 		religion =  protestant 
 		size = 509
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nuba
 		religion = secularism
 		size = 11
@@ -14908,12 +14908,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tswana
 		religion =  protestant 
 		size = 349
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = tswana
 		religion = secularism
 		size = 14
@@ -14961,7 +14961,7 @@
 		religion =  sunni 
 		size = 15
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = toubou
 		religion =  sunni 
 		size = 41
@@ -15034,12 +15034,12 @@
 		religion = secularism
 		size = 5
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion =  protestant 
 		size = 83
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion = secularism
 		size = 15
@@ -15127,12 +15127,12 @@
 		religion = secularism
 		size = 255
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = scottish
 		religion =  protestant 
 		size = 1917
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = scottish
 		religion = secularism
 		size = 243
@@ -15230,12 +15230,12 @@
 		religion = secularism
 		size = 209
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = scottish
 		religion =  protestant 
 		size = 1571
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = scottish
 		religion = secularism
 		size = 199
@@ -15333,12 +15333,12 @@
 		religion = secularism
 		size = 507
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 3806
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 482
@@ -15446,12 +15446,12 @@
 		religion = secularism
 		size = 683
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 5124
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 649
@@ -15559,12 +15559,12 @@
 		religion = secularism
 		size = 144
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = scottish
 		religion =  protestant 
 		size = 1080
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = scottish
 		religion = secularism
 		size = 136
@@ -15662,12 +15662,12 @@
 		religion = secularism
 		size = 2215
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 16605
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 2104
@@ -15775,12 +15775,12 @@
 		religion = secularism
 		size = 213
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 1602
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 203
@@ -15888,12 +15888,12 @@
 		religion = secularism
 		size = 1608
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 6512
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1527
@@ -16001,12 +16001,12 @@
 		religion = secularism
 		size = 399
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 1620
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 380
@@ -16114,12 +16114,12 @@
 		religion = secularism
 		size = 139
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 566
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 132
@@ -16237,12 +16237,12 @@
 		religion = secularism
 		size = 1123
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = welsh
 		religion =  protestant 
 		size = 4550
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = welsh
 		religion = secularism
 		size = 1067
@@ -16340,12 +16340,12 @@
 		religion = secularism
 		size = 3038
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 12303
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 2886
@@ -16443,12 +16443,12 @@
 		religion = secularism
 		size = 2870
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 11625
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 2726
@@ -16546,12 +16546,12 @@
 		religion = secularism
 		size = 533
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 2160
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 506
@@ -16649,12 +16649,12 @@
 		religion = secularism
 		size = 2482
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 10052
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 2358
@@ -16752,12 +16752,12 @@
 		religion = secularism
 		size = 1775
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 7191
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1687
@@ -16855,12 +16855,12 @@
 		religion = secularism
 		size = 2380
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 9640
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 2261
@@ -16958,12 +16958,12 @@
 		religion = secularism
 		size = 1435
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 5812
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1363
@@ -17061,12 +17061,12 @@
 		religion = secularism
 		size = 3834
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 15528
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 3642
@@ -17164,12 +17164,12 @@
 		religion = secularism
 		size = 1098
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 4448
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1043
@@ -17267,12 +17267,12 @@
 		religion = secularism
 		size = 701
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 2839
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 665
@@ -17370,12 +17370,12 @@
 		religion = secularism
 		size = 1186
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 4806
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1127
@@ -17473,12 +17473,12 @@
 		religion = secularism
 		size = 2253
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 9127
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 2141
@@ -17576,12 +17576,12 @@
 		religion = secularism
 		size = 1086
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 4400
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1032
@@ -17679,12 +17679,12 @@
 		religion = secularism
 		size = 1114
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 4512
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1058
@@ -17782,12 +17782,12 @@
 		religion = secularism
 		size = 1520
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 6160
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1444
@@ -17885,12 +17885,12 @@
 		religion = secularism
 		size = 1697
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 6876
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1612
@@ -17988,12 +17988,12 @@
 		religion = secularism
 		size = 1491
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 6041
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1417
@@ -18091,12 +18091,12 @@
 		religion = secularism
 		size = 1612
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 6528
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1531
@@ -18194,12 +18194,12 @@
 		religion = secularism
 		size = 2004
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 8117
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1903
@@ -18297,12 +18297,12 @@
 		religion = secularism
 		size = 1101
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 4459
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1045
@@ -18400,12 +18400,12 @@
 		religion = secularism
 		size = 1527
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 6186
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1451
@@ -18503,12 +18503,12 @@
 		religion = secularism
 		size = 971
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 3934
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 923
@@ -18606,12 +18606,12 @@
 		religion = secularism
 		size = 1786
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 7234
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1697
@@ -18709,12 +18709,12 @@
 		religion = secularism
 		size = 8770
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 35522
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 8332
@@ -18729,37 +18729,37 @@
 		religion = secularism
 		size = 26751
 	 } 
-	farmers = {
+	artisans = {
 		culture = english
 		religion =  protestant 
 		size = 922543
 	 } 
-	farmers = {
+	artisans = {
 		culture = english
 		religion = secularism
 		size = 216399
 	 } 
-	farmers = {
+	artisans = {
 		culture = jewish
 		religion =  jewish 
 		size = 32284
 	 } 
-	farmers = {
+	artisans = {
 		culture = jewish
 		religion = secularism
 		size = 7573
 	 } 
-	farmers = {
+	artisans = {
 		culture = white_anglo
 		religion =  protestant 
 		size = 24213
 	 } 
-	farmers = {
+	artisans = {
 		culture = white_anglo
 		religion = secularism
 		size = 5679
 	 } 
-	farmers = {
+	artisans = {
 		culture = haredim_jewish
 		religion =  jewish 
 		size = 3321
@@ -18837,12 +18837,12 @@
 		religion = secularism
 		size = 1849
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 7491
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1757
@@ -18940,12 +18940,12 @@
 		religion = secularism
 		size = 2927
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 11854
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 2780
@@ -19043,12 +19043,12 @@
 		religion = secularism
 		size = 2031
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 8229
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 1930
@@ -19146,12 +19146,12 @@
 		religion = secularism
 		size = 89
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 362
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 85
@@ -19234,12 +19234,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = dinka
 		religion =  protestant 
 		size = 509
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = dinka
 		religion = secularism
 		size = 11
@@ -19342,12 +19342,12 @@
 		religion = secularism
 		size = 536
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2776
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 509
@@ -19455,12 +19455,12 @@
 		religion = secularism
 		size = 536
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2776
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 509
@@ -19558,12 +19558,12 @@
 		religion = secularism
 		size = 174
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion =  protestant 
 		size = 705
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = english
 		religion = secularism
 		size = 165
@@ -19651,12 +19651,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion =  protestant 
 		size = 130
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion = secularism
 		size = 30
@@ -19754,12 +19754,12 @@
 		religion = secularism
 		size = 863
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 4474
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 820
@@ -19857,12 +19857,12 @@
 		religion = secularism
 		size = 536
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2776
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 509
@@ -19960,12 +19960,12 @@
 		religion = secularism
 		size = 536
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2776
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 509
@@ -20063,12 +20063,12 @@
 		religion = secularism
 		size = 391
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2027
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 371
@@ -20166,12 +20166,12 @@
 		religion = secularism
 		size = 391
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2027
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 371
@@ -20219,7 +20219,7 @@
 		religion =  catholic 
 		size = 5
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 5
@@ -20317,12 +20317,12 @@
 		religion = secularism
 		size = 1244
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 6446
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 1182
@@ -20420,12 +20420,12 @@
 		religion = secularism
 		size = 391
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2027
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 371
@@ -20523,12 +20523,12 @@
 		religion = secularism
 		size = 1153
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 5972
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 1095
@@ -20626,12 +20626,12 @@
 		religion = secularism
 		size = 391
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2027
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 371
@@ -20729,12 +20729,12 @@
 		religion = secularism
 		size = 391
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2027
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 371
@@ -20832,12 +20832,12 @@
 		religion = secularism
 		size = 391
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2027
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 371
@@ -20935,12 +20935,12 @@
 		religion = secularism
 		size = 391
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2027
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 371
@@ -21038,12 +21038,12 @@
 		religion = secularism
 		size = 391
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2027
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 371
@@ -21141,12 +21141,12 @@
 		religion = secularism
 		size = 391
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2027
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 371
@@ -21244,12 +21244,12 @@
 		religion = secularism
 		size = 2147
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = european
 		religion =  protestant 
 		size = 11119
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = european
 		religion = secularism
 		size = 2039
@@ -21357,12 +21357,12 @@
 		religion = secularism
 		size = 653
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 3383
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 620
@@ -21460,12 +21460,12 @@
 		religion = secularism
 		size = 653
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 3383
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 620
@@ -21563,12 +21563,12 @@
 		religion = secularism
 		size = 2897
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = european
 		religion =  protestant 
 		size = 15003
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = european
 		religion = secularism
 		size = 2752
@@ -21676,12 +21676,12 @@
 		religion = secularism
 		size = 4594
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = european
 		religion =  protestant 
 		size = 23792
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = european
 		religion = secularism
 		size = 4364
@@ -21789,12 +21789,12 @@
 		religion = secularism
 		size = 653
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 3383
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 620
@@ -21892,12 +21892,12 @@
 		religion = secularism
 		size = 653
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 3383
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 620
@@ -21995,12 +21995,12 @@
 		religion = secularism
 		size = 653
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 3383
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 620
@@ -22098,12 +22098,12 @@
 		religion = secularism
 		size = 653
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 3383
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 620
@@ -22201,12 +22201,12 @@
 		religion = secularism
 		size = 653
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 3383
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 620
@@ -22294,12 +22294,12 @@
 		religion = secularism
 		size = 103
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 843
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 123
@@ -22387,12 +22387,12 @@
 		religion = secularism
 		size = 318
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2605
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 380
@@ -22470,12 +22470,12 @@
 		religion = secularism
 		size = 310
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2538
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 370
@@ -22553,12 +22553,12 @@
 		religion = secularism
 		size = 287
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovene
 		religion =  catholic 
 		size = 2350
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovene
 		religion = secularism
 		size = 343
@@ -22601,7 +22601,7 @@
 		religion =  protestant 
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = micronesian
 		religion =  protestant 
 		size = 2
@@ -22679,12 +22679,12 @@
 		religion = secularism
 		size = 147
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion =  protestant 
 		size = 1170
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion = secularism
 		size = 210
@@ -22762,12 +22762,12 @@
 		religion = secularism
 		size = 7
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion =  protestant 
 		size = 60
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion = secularism
 		size = 10
@@ -22840,12 +22840,12 @@
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion =  protestant 
 		size = 72
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion = secularism
 		size = 12
@@ -22938,12 +22938,12 @@
 		religion = secularism
 		size = 7
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 837
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 10
@@ -23031,12 +23031,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 366
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 23
@@ -23114,12 +23114,12 @@
 		religion = secularism
 		size = 27
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = maltese
 		religion =  catholic 
 		size = 2517
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = maltese
 		religion = secularism
 		size = 91
@@ -23197,12 +23197,12 @@
 		religion = secularism
 		size = 44
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion =  protestant 
 		size = 1605
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion = secularism
 		size = 111
@@ -23290,12 +23290,12 @@
 		religion = secularism
 		size = 18
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion =  protestant 
 		size = 679
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_anglo
 		religion = secularism
 		size = 47
@@ -23331,7 +23331,7 @@
 }
 #Acre - Acre (539000/134750 POPS)
 916 = {
-	artisans = {
+	craftsmen = {
 		culture = druze
 		religion =  druze
 		size = 3492
@@ -23409,12 +23409,12 @@
 		religion = secularism
 		size = 8
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = jewish
 		religion =  jewish 
 		size = 1782
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = jewish
 		religion = secularism
 		size = 22
@@ -23457,7 +23457,7 @@
 		religion =  sunni 
 		size = 3260
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 2139
@@ -23548,12 +23548,12 @@
 		religion = secularism
 		size = 7
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 1586
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 20
@@ -23576,7 +23576,7 @@
 		religion =  sunni 
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 59

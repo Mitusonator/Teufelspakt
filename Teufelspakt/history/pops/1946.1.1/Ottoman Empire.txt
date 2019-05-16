@@ -10,7 +10,7 @@
 		religion =  sunni 
 		size = 1250
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2433
@@ -33,7 +33,7 @@
 		religion =  sunni 
 		size = 1020
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 1985
@@ -61,12 +61,12 @@
 		religion =  sunni 
 		size = 1250
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 1188
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 3814
@@ -119,12 +119,12 @@
 		religion =  sunni 
 		size = 19906
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 18911
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 60715
@@ -187,12 +187,12 @@
 		religion =  sunni 
 		size = 2393
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2273
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 7300
@@ -220,12 +220,12 @@
 		religion =  sunni 
 		size = 1831
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 1740
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 5586
@@ -263,12 +263,12 @@
 		religion =  sunni 
 		size = 4218
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 4007
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 12867
@@ -296,12 +296,12 @@
 		religion =  sunni 
 		size = 2138
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2031
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 6520
@@ -329,7 +329,7 @@
 		religion =  sunni 
 		size = 1440
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2803
@@ -357,12 +357,12 @@
 		religion =  sunni 
 		size = 1608
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 1527
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 4905
@@ -390,12 +390,12 @@
 		religion =  sunni 
 		size = 1302
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 1236
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 3971
@@ -423,12 +423,12 @@
 		religion =  sunni 
 		size = 1397
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 1327
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 4263
@@ -471,12 +471,12 @@
 		religion =  sunni 
 		size = 8584
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 8155
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 26182
@@ -514,12 +514,12 @@
 		religion =  sunni 
 		size = 2501
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2376
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 7630
@@ -557,12 +557,12 @@
 		religion =  sunni 
 		size = 3829
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 3638
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 11680
@@ -590,12 +590,12 @@
 		religion =  sunni 
 		size = 1416
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 1345
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 4321
@@ -638,12 +638,12 @@
 		religion =  sunni 
 		size = 5623
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 5341
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 17150
@@ -671,12 +671,12 @@
 		religion =  sunni 
 		size = 1525
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 1449
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 4652
@@ -714,12 +714,12 @@
 		religion =  sunni 
 		size = 3414
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 3243
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 10414
@@ -762,12 +762,12 @@
 		religion =  sunni 
 		size = 9114
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 8658
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 27797
@@ -820,12 +820,12 @@
 		religion =  sunni 
 		size = 3242
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 3080
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 9889
@@ -868,12 +868,12 @@
 		religion =  sunni 
 		size = 3408
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 3237
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 10395
@@ -916,12 +916,12 @@
 		religion =  sunni 
 		size = 3140
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2983
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 9577
@@ -954,12 +954,12 @@
 		religion =  sunni 
 		size = 1187
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 1127
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 3620
@@ -997,12 +997,12 @@
 		religion =  sunni 
 		size = 2744
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2607
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 8370
@@ -1040,12 +1040,12 @@
 		religion =  sunni 
 		size = 2661
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2528
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 8117
@@ -1083,12 +1083,12 @@
 		religion =  sunni 
 		size = 2846
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2704
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 8682
@@ -1131,12 +1131,12 @@
 		religion =  sunni 
 		size = 2814
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2674
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 8585
@@ -1159,7 +1159,7 @@
 		religion =  sunni 
 		size = 1530
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2978
@@ -1205,12 +1205,12 @@
 		religion =  sunni 
 		size = 1857
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 1764
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 5665
@@ -1243,12 +1243,12 @@
 		religion =  sunni 
 		size = 1372
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 1303
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 4185
@@ -1291,12 +1291,12 @@
 		religion =  sunni 
 		size = 2821
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2680
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 8604
@@ -1339,12 +1339,12 @@
 		religion =  sunni 
 		size = 2789
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2649
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 8507
@@ -1377,12 +1377,12 @@
 		religion =  sunni 
 		size = 2170
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2061
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 6618
@@ -1415,12 +1415,12 @@
 		religion =  sunni 
 		size = 1691
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kurdish
 		religion =  sunni 
 		size = 1606
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kurdish
 		religion =  sunni 
 		size = 5158
@@ -1458,17 +1458,17 @@
 		religion =  sunni 
 		size = 5010
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 4759
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 7817
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kurdish
 		religion =  sunni 
 		size = 7464
@@ -1506,12 +1506,12 @@
 		religion =  sunni 
 		size = 3682
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 3498
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 11231
@@ -1554,12 +1554,12 @@
 		religion =  sunni 
 		size = 3280
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 3116
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 10005
@@ -1597,12 +1597,12 @@
 		religion =  sunni 
 		size = 2897
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2752
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 8837
@@ -1640,12 +1640,12 @@
 		religion =  sunni 
 		size = 2776
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2637
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 8468
@@ -1683,12 +1683,12 @@
 		religion =  sunni 
 		size = 4104
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 3898
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 12517
@@ -1731,12 +1731,12 @@
 		religion =  sunni 
 		size = 2489
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 2364
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = turkish
 		religion =  sunni 
 		size = 7592

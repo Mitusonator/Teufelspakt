@@ -55,12 +55,12 @@
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = inuit
 		religion =  protestant 
 		size = 69
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = inuit
 		religion = secularism
 		size = 12
@@ -138,12 +138,12 @@
 		religion = secularism
 		size = 11
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = faroe
 		religion =  protestant 
 		size = 195
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = faroe
 		religion = secularism
 		size = 35
@@ -211,12 +211,12 @@
 		religion = secularism
 		size = 144
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion =  protestant 
 		size = 523
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion = secularism
 		size = 137
@@ -299,12 +299,12 @@
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = inuit
 		religion =  protestant 
 		size = 69
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = inuit
 		religion = secularism
 		size = 12
@@ -372,12 +372,12 @@
 		religion = secularism
 		size = 1628
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion =  protestant 
 		size = 5910
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion = secularism
 		size = 1547
@@ -455,12 +455,12 @@
 		religion = secularism
 		size = 739
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion =  protestant 
 		size = 2683
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion = secularism
 		size = 702
@@ -538,12 +538,12 @@
 		religion = secularism
 		size = 144
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion =  protestant 
 		size = 523
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion = secularism
 		size = 137
@@ -621,12 +621,12 @@
 		religion = secularism
 		size = 674
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion =  protestant 
 		size = 2448
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion = secularism
 		size = 641
@@ -714,12 +714,12 @@
 		religion = secularism
 		size = 3307
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion =  protestant 
 		size = 11999
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion = secularism
 		size = 3141
@@ -797,12 +797,12 @@
 		religion = secularism
 		size = 567
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion =  protestant 
 		size = 2060
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion = secularism
 		size = 539
@@ -880,12 +880,12 @@
 		religion = secularism
 		size = 49
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion =  protestant 
 		size = 178
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = danish
 		religion = secularism
 		size = 46

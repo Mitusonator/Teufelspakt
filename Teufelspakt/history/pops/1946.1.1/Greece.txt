@@ -70,12 +70,12 @@
 		religion = secularism
 		size = 23
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 354
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 22
@@ -173,12 +173,12 @@
 		religion = secularism
 		size = 23
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 354
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 22
@@ -281,7 +281,7 @@
 		religion =  orthodox 
 		size = 13159
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 839
@@ -379,12 +379,12 @@
 		religion = secularism
 		size = 19
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 626
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 39
@@ -462,12 +462,12 @@
 		religion = secularism
 		size = 19
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 626
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 39
@@ -545,12 +545,12 @@
 		religion = secularism
 		size = 35
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 1167
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 74
@@ -628,12 +628,12 @@
 		religion = secularism
 		size = 19
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 626
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 39
@@ -711,12 +711,12 @@
 		religion = secularism
 		size = 20
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 665
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 42
@@ -804,12 +804,12 @@
 		religion = secularism
 		size = 44
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 665
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 42
@@ -897,12 +897,12 @@
 		religion = secularism
 		size = 20
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 665
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 42
@@ -980,12 +980,12 @@
 		religion = secularism
 		size = 35
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 1167
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 74
@@ -1078,12 +1078,12 @@
 		religion = secularism
 		size = 23
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 354
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 22
@@ -1181,12 +1181,12 @@
 		religion = secularism
 		size = 45
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 674
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 43
@@ -1284,12 +1284,12 @@
 		religion = secularism
 		size = 23
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 354
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 22
@@ -1387,12 +1387,12 @@
 		religion = secularism
 		size = 71
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 1064
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 67
@@ -1490,12 +1490,12 @@
 		religion = secularism
 		size = 71
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion =  orthodox 
 		size = 1064
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = greek
 		religion = secularism
 		size = 67

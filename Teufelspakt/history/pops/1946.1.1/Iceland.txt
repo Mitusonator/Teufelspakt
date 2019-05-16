@@ -50,12 +50,12 @@
 		religion = secularism
 		size = 189
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = icelandic
 		religion =  protestant 
 		size = 1020
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = icelandic
 		religion = secularism
 		size = 180

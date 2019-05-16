@@ -60,12 +60,12 @@
 		religion = secularism
 		size = 76
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sikkim
 		religion =  buddhist 
 		size = 1831
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sikkim
 		religion = secularism
 		size = 96

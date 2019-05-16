@@ -19,11 +19,11 @@ rebel =
 
 
 everyday_needs = {
-	canned_food = 60
+	canned_food = 30
 }
 
 luxury_needs = {
-	canned_food = 60
+	canned_food = 30
 }
 
 promote_to = {

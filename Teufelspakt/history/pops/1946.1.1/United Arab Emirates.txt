@@ -25,12 +25,12 @@
 		religion =  sunni 
 		size = 39
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 119
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 1
@@ -83,12 +83,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 411
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 4

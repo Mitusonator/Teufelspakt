@@ -35,12 +35,12 @@
 		religion = secularism
 		size = 5
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ngalop
 		religion =  buddhist 
 		size = 516
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ngalop
 		religion = secularism
 		size = 6

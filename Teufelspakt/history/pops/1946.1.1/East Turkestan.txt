@@ -96,7 +96,7 @@
 		religion =  sunni 
 		size = 2645
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = uighur
 		religion =  sunni 
 		size = 1287

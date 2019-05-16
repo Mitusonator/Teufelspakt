@@ -45,12 +45,12 @@
 		religion = secularism
 		size = 24
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 7182
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 72
@@ -98,12 +98,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 423
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 4
@@ -156,12 +156,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 1840
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 18
@@ -214,12 +214,12 @@
 		religion = secularism
 		size = 2
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 817
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 8
@@ -272,12 +272,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 1986
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 20
@@ -330,12 +330,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 452
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 4
@@ -393,12 +393,12 @@
 		religion = secularism
 		size = 24
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 7042
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 71
@@ -446,12 +446,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 328
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 3
@@ -504,12 +504,12 @@
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 1256
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 12
@@ -562,12 +562,12 @@
 		religion = secularism
 		size = 2
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 612
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 6
@@ -615,12 +615,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 518
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 5
@@ -673,12 +673,12 @@
 		religion = secularism
 		size = 7
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 2133
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 21
@@ -736,12 +736,12 @@
 		religion = secularism
 		size = 7
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 2133
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 21
@@ -799,12 +799,12 @@
 		religion = secularism
 		size = 4
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 1416
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion = secularism
 		size = 14

@@ -70,12 +70,12 @@
 		religion = secularism
 		size = 2147
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_spanish
 		religion =  catholic 
 		size = 10710
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_spanish
 		religion = secularism
 		size = 2040
@@ -193,12 +193,12 @@
 		religion = secularism
 		size = 1085
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_spanish
 		religion =  catholic 
 		size = 5413
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_spanish
 		religion = secularism
 		size = 1031
@@ -306,12 +306,12 @@
 		religion = secularism
 		size = 975
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_spanish
 		religion =  catholic 
 		size = 4863
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_spanish
 		religion = secularism
 		size = 926
@@ -419,12 +419,12 @@
 		religion = secularism
 		size = 2302
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_spanish
 		religion =  catholic 
 		size = 11486
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_spanish
 		religion = secularism
 		size = 2187

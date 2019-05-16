@@ -50,22 +50,22 @@
 		religion = secularism
 		size = 3112
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 13699
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 2956
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 43984
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 9491
@@ -133,22 +133,22 @@
 		religion = secularism
 		size = 2108
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 9282
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 2003
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 29803
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 6431
@@ -216,22 +216,22 @@
 		religion = secularism
 		size = 1651
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 7268
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1568
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 23335
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 5036
@@ -299,22 +299,22 @@
 		religion = secularism
 		size = 822
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 3619
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 781
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 11623
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 2508
@@ -382,22 +382,22 @@
 		religion = secularism
 		size = 5063
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 22288
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 4809
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 71558
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 15442
@@ -465,22 +465,22 @@
 		religion = secularism
 		size = 539
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 2374
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 512
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 7625
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1645
@@ -558,22 +558,22 @@
 		religion = secularism
 		size = 539
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 2374
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 512
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 7625
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1645
@@ -651,22 +651,22 @@
 		religion = secularism
 		size = 2676
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 11780
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 2542
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 37822
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 8162
@@ -734,22 +734,22 @@
 		religion = secularism
 		size = 9180
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 40412
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 8721
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 129746
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 27999
@@ -817,22 +817,22 @@
 		religion = secularism
 		size = 895
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 3940
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 850
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 12650
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 2730
@@ -900,22 +900,22 @@
 		religion = secularism
 		size = 1210
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 5328
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1149
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 17108
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 3692
@@ -983,72 +983,72 @@
 		religion = secularism
 		size = 13042
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 57412
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 12390
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 184328
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 39778
 	 } 
-	farmers = {
+	artisans = {
 		culture = japanese
 		religion =  shinto 
 		size = 1057791
 	 } 
-	farmers = {
+	artisans = {
 		culture = japanese
 		religion = secularism
 		size = 228277
 	 } 
-	farmers = {
+	artisans = {
 		culture = chinese
 		religion =  taoism 
 		size = 69386
 	 } 
-	farmers = {
+	artisans = {
 		culture = chinese
 		religion = secularism
 		size = 14973
 	 } 
-	farmers = {
+	artisans = {
 		culture = korean
 		religion =  taoism 
 		size = 86732
 	 } 
-	farmers = {
+	artisans = {
 		culture = korean
 		religion = secularism
 		size = 18717
 	 } 
-	farmers = {
+	artisans = {
 		culture = filipino
 		religion =  catholic 
 		size = 104079
 	 } 
-	farmers = {
+	artisans = {
 		culture = filipino
 		religion = secularism
 		size = 22460
 	 } 
-	farmers = {
+	artisans = {
 		culture = ryukyuan
 		religion =  shinto 
 		size = 34693
 	 } 
-	farmers = {
+	artisans = {
 		culture = ryukyuan
 		religion = secularism
 		size = 7486
@@ -1106,22 +1106,22 @@
 		religion = secularism
 		size = 6408
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 28209
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 6087
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 90568
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 19545
@@ -1189,22 +1189,22 @@
 		religion = secularism
 		size = 9180
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 40412
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 8721
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 129746
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 27999
@@ -1272,22 +1272,22 @@
 		religion = secularism
 		size = 7502
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 33028
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 7127
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 106038
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 22883
@@ -1355,22 +1355,22 @@
 		religion = secularism
 		size = 3228
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 14210
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 3066
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 45623
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 9845
@@ -1438,22 +1438,22 @@
 		religion = secularism
 		size = 9521
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 41916
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 9045
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 134574
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 29042
@@ -1521,22 +1521,22 @@
 		religion = secularism
 		size = 1154
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 5083
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1097
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 16321
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 3522
@@ -1604,22 +1604,22 @@
 		religion = secularism
 		size = 2858
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 12583
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 2715
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 40400
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 8718
@@ -1687,22 +1687,22 @@
 		religion = secularism
 		size = 1558
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 6859
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1480
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 22024
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 4753
@@ -1770,22 +1770,22 @@
 		religion = secularism
 		size = 6001
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 26419
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 5701
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 84821
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 18305
@@ -1853,22 +1853,22 @@
 		religion = secularism
 		size = 5423
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 23874
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 5152
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 76650
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 16541
@@ -1936,22 +1936,22 @@
 		religion = secularism
 		size = 1638
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 7213
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1556
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 23160
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 4998
@@ -2019,22 +2019,22 @@
 		religion = secularism
 		size = 1930
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 8499
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1834
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 27290
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 5889
@@ -2102,22 +2102,22 @@
 		religion = secularism
 		size = 1264
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 5566
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1201
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 17872
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 3857
@@ -2185,22 +2185,22 @@
 		religion = secularism
 		size = 2009
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 8846
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1909
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 28405
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 6129
@@ -2268,22 +2268,22 @@
 		religion = secularism
 		size = 878
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 3865
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 834
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 12410
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 2678
@@ -2351,22 +2351,22 @@
 		religion = secularism
 		size = 2101
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 9249
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1995
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 29693
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 6408
@@ -2434,22 +2434,22 @@
 		religion = secularism
 		size = 888
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 3912
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 844
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 12563
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 2711
@@ -2517,22 +2517,22 @@
 		religion = secularism
 		size = 2557
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 11256
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 2429
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 36139
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 7799
@@ -2600,22 +2600,22 @@
 		religion = secularism
 		size = 2298
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 10120
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 2183
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 32490
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 7011
@@ -2683,22 +2683,22 @@
 		religion = secularism
 		size = 1530
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 6737
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1453
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 21631
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 4668
@@ -2766,22 +2766,22 @@
 		religion = secularism
 		size = 1284
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 5655
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1220
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 18156
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 3918
@@ -2849,22 +2849,22 @@
 		religion = secularism
 		size = 1593
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 7016
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1514
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 22527
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 4861
@@ -2932,22 +2932,22 @@
 		religion = secularism
 		size = 1344
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 5920
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 1277
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 19009
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 4102
@@ -3015,22 +3015,22 @@
 		religion = secularism
 		size = 4355
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 19171
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 4137
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 61551
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 13283
@@ -3098,22 +3098,22 @@
 		religion = secularism
 		size = 2278
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 10031
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 2164
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 32206
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 6950
@@ -3181,22 +3181,22 @@
 		religion = secularism
 		size = 4073
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 17932
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 3870
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 57574
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 12424
@@ -3264,22 +3264,22 @@
 		religion = secularism
 		size = 2393
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 10535
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 2273
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion =  shinto 
 		size = 33823
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = japanese
 		religion = secularism
 		size = 7299

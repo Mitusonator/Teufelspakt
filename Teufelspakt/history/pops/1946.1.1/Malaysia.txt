@@ -10,7 +10,7 @@
 		religion =  sunni 
 		size = 1897
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = malay
 		religion =  sunni 
 		size = 4950
@@ -63,7 +63,7 @@
 		religion =  sunni 
 		size = 4705
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = malay
 		religion =  sunni 
 		size = 12274
@@ -106,7 +106,7 @@
 		religion =  sunni 
 		size = 1242
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = malay
 		religion =  sunni 
 		size = 3241
@@ -134,7 +134,7 @@
 		religion =  sunni 
 		size = 3380
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = malay
 		religion =  sunni 
 		size = 2204
@@ -167,7 +167,7 @@
 		religion =  sunni 
 		size = 1452
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = malay
 		religion =  sunni 
 		size = 3789
@@ -200,7 +200,7 @@
 		religion =  sunni 
 		size = 1325
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = malay
 		religion =  sunni 
 		size = 3456

@@ -30,12 +30,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibad_arab
 		religion =  ibad 
 		size = 890
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibad_arab
 		religion = secularism
 		size = 4
@@ -108,12 +108,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibad_arab
 		religion =  ibad 
 		size = 1007
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibad_arab
 		religion = secularism
 		size = 5
@@ -191,12 +191,12 @@
 		religion = secularism
 		size = 1
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibad_arab
 		religion =  ibad 
 		size = 549
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibad_arab
 		religion = secularism
 		size = 2
@@ -239,12 +239,12 @@
 		religion =  ibad 
 		size = 151
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibad_arab
 		religion =  ibad 
 		size = 398
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibad_arab
 		religion = secularism
 		size = 2
@@ -277,7 +277,7 @@
 		religion =  ibad 
 		size = 16
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibad_arab
 		religion =  ibad 
 		size = 44
@@ -320,12 +320,12 @@
 		religion =  ibad 
 		size = 106
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibad_arab
 		religion =  ibad 
 		size = 281
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = ibad_arab
 		religion = secularism
 		size = 1

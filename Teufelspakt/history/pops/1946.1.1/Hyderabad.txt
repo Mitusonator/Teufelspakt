@@ -72,13 +72,13 @@
         size = 149
     }
 
-    artisans = {
+    craftsmen = {
         culture = telegu
         religion = hindu
         size = 7212
     }
 
-    artisans = {
+    craftsmen = {
         culture = telegu
         religion = secularism
         size = 165
@@ -140,7 +140,7 @@
         size = 11736
     }
 
-    artisans = {
+    craftsmen = {
         culture = indian_muslim
         religion = sunni
         size = 13044
@@ -238,13 +238,13 @@
         size = 280
     }
 
-    artisans = {
+    craftsmen = {
         culture = telegu
         religion = hindu
         size = 13554
     }
 
-    artisans = {
+    craftsmen = {
         culture = telegu
         religion = secularism
         size = 311
@@ -306,7 +306,7 @@
         size = 7423
     }
 
-    artisans = {
+    craftsmen = {
         culture = indian_muslim
         religion = sunni
         size = 8251
@@ -404,13 +404,13 @@
         size = 165
     }
 
-    artisans = {
+    craftsmen = {
         culture = telegu
         religion = hindu
         size = 8017
     }
 
-    artisans = {
+    craftsmen = {
         culture = telegu
         religion = secularism
         size = 184

@@ -2566,7 +2566,7 @@
 		religion = protestant
 		size = 222342
 	 } 
-	farmers = {
+	artisans = {
 		culture = dutch
 		religion = secularism
 		size = 43141
@@ -2576,7 +2576,7 @@
 		religion = protestant 
 		size = 41380
 	 } 
-	farmers = {
+	artisans = {
 		culture = european
 		religion = secularism
 		size = 8029

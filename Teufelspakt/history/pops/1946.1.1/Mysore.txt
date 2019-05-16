@@ -42,7 +42,7 @@
         size = 8807
     }
 
-    artisans = {
+    craftsmen = {
         culture = indian_muslim
         religion = sunni
         size = 8367
@@ -116,7 +116,7 @@
         size = 10203
     }
 
-    artisans = {
+    craftsmen = {
         culture = indian_muslim
         religion = sunni
         size = 11342
@@ -220,13 +220,13 @@
         size = 138
     }
 
-    artisans = {
+    craftsmen = {
         culture = kannada
         religion = hindu
         size = 6730
     }
 
-    artisans = {
+    craftsmen = {
         culture = kannada
         religion = secularism
         size = 154
@@ -318,13 +318,13 @@
         size = 57
     }
 
-    artisans = {
+    craftsmen = {
         culture = kannada
         religion = hindu
         size = 2805
     }
 
-    artisans = {
+    craftsmen = {
         culture = kannada
         religion = secularism
         size = 64

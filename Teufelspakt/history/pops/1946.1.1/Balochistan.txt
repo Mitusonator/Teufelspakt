@@ -33,7 +33,7 @@
 		religion =  sunni 
 		size = 1755
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = baluchi
 		religion =  sunni 
 		size = 2244
@@ -56,7 +56,7 @@
 		religion =  sunni 
 		size = 3510
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = baluchi
 		religion =  sunni 
 		size = 1122

@@ -60,12 +60,12 @@
 		religion = secularism
 		size = 56
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_french
 		religion =  catholic 
 		size = 5453
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_french
 		religion = secularism
 		size = 69
@@ -163,12 +163,12 @@
 		religion = secularism
 		size = 28
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bakongo
 		religion =  catholic 
 		size = 2725
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bakongo
 		religion = secularism
 		size = 34
@@ -256,12 +256,12 @@
 		religion = secularism
 		size = 33
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = luba
 		religion =  catholic 
 		size = 3234
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = luba
 		religion = secularism
 		size = 40
@@ -349,12 +349,12 @@
 		religion = secularism
 		size = 50
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bakongo
 		religion =  catholic 
 		size = 4861
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bakongo
 		religion = secularism
 		size = 61
@@ -442,12 +442,12 @@
 		religion = secularism
 		size = 12
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 1235
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 15
@@ -535,12 +535,12 @@
 		religion = secularism
 		size = 22
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 2174
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 27
@@ -613,12 +613,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 600
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 7
@@ -691,12 +691,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 600
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 7
@@ -774,12 +774,12 @@
 		religion = secularism
 		size = 29
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 2781
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 35
@@ -857,12 +857,12 @@
 		religion = secularism
 		size = 36
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 3476
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 44
@@ -945,12 +945,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongo
 		religion =  catholic 
 		size = 600
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongo
 		religion = secularism
 		size = 7
@@ -1038,12 +1038,12 @@
 		religion = secularism
 		size = 34
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongo
 		religion =  catholic 
 		size = 3320
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongo
 		religion = secularism
 		size = 42
@@ -1121,12 +1121,12 @@
 		religion = secularism
 		size = 41
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = luba
 		religion =  catholic 
 		size = 3951
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = luba
 		religion = secularism
 		size = 50
@@ -1209,12 +1209,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongo
 		religion =  catholic 
 		size = 600
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongo
 		religion = secularism
 		size = 7
@@ -1302,12 +1302,12 @@
 		religion = secularism
 		size = 18
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongo
 		religion =  catholic 
 		size = 1782
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mongo
 		religion = secularism
 		size = 22
@@ -1395,12 +1395,12 @@
 		religion = secularism
 		size = 26
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion =  catholic 
 		size = 2557
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = african_minor
 		religion = secularism
 		size = 32
@@ -1493,12 +1493,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = azande
 		religion =  protestant 
 		size = 600
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = azande
 		religion = secularism
 		size = 7
@@ -1576,12 +1576,12 @@
 		religion = secularism
 		size = 76
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hutu
 		religion =  catholic 
 		size = 4063
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hutu
 		religion = secularism
 		size = 51
@@ -1669,12 +1669,12 @@
 		religion = secularism
 		size = 29
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hutu
 		religion =  catholic 
 		size = 2263
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hutu
 		religion = secularism
 		size = 11
@@ -1772,12 +1772,12 @@
 		religion = secularism
 		size = 4083
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion =  catholic 
 		size = 18938
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion = secularism
 		size = 3879
@@ -1792,12 +1792,12 @@
 		religion = secularism
 		size = 12453
 	 } 
-	farmers = {
+	artisans = {
 		culture = wallonian
 		religion =  catholic 
 		size = 133324
 	 } 
-	farmers = {
+	artisans = {
 		culture = wallonian
 		religion = secularism
 		size = 27307
@@ -1807,7 +1807,7 @@
 		religion =  catholic 
 		size = 278001
 	 } 
-	farmers = {
+	artisans = {
 		culture = flemish
 		religion = secularism
 		size = 56940
@@ -1885,12 +1885,12 @@
 		religion = secularism
 		size = 1823
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = flemish
 		religion =  catholic 
 		size = 8456
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = flemish
 		religion = secularism
 		size = 1731
@@ -1988,12 +1988,12 @@
 		religion = secularism
 		size = 2269
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = flemish
 		religion =  catholic 
 		size = 10525
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = flemish
 		religion = secularism
 		size = 2155
@@ -2101,12 +2101,12 @@
 		religion = secularism
 		size = 2786
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = flemish
 		religion =  catholic 
 		size = 12926
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = flemish
 		religion = secularism
 		size = 2647
@@ -2204,12 +2204,12 @@
 		religion = secularism
 		size = 1325
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = flemish
 		religion =  catholic 
 		size = 6149
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = flemish
 		religion = secularism
 		size = 1259
@@ -2307,12 +2307,12 @@
 		religion = secularism
 		size = 749
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion =  catholic 
 		size = 3474
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion = secularism
 		size = 711
@@ -2410,12 +2410,12 @@
 		religion = secularism
 		size = 509
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion =  catholic 
 		size = 2364
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion = secularism
 		size = 484
@@ -2513,12 +2513,12 @@
 		religion = secularism
 		size = 1554
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion =  catholic 
 		size = 7209
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion = secularism
 		size = 1476
@@ -2616,12 +2616,12 @@
 		religion = secularism
 		size = 1243
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion =  catholic 
 		size = 5766
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion = secularism
 		size = 1181
@@ -2719,12 +2719,12 @@
 		religion = secularism
 		size = 446
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion =  catholic 
 		size = 2068
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion = secularism
 		size = 423
@@ -2832,12 +2832,12 @@
 		religion = secularism
 		size = 427
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion =  catholic 
 		size = 1982
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = wallonian
 		religion = secularism
 		size = 405

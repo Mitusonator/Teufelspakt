@@ -70,17 +70,17 @@
 		religion = secularism
 		size = 247
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 3685
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 235
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 11832
@@ -183,12 +183,12 @@
 		religion = secularism
 		size = 268
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 3992
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 254
@@ -296,12 +296,12 @@
 		religion = secularism
 		size = 138
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 2054
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 131
@@ -409,12 +409,12 @@
 		religion = secularism
 		size = 110
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 1640
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 104
@@ -522,12 +522,12 @@
 		religion = secularism
 		size = 318
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 4732
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 302
@@ -635,12 +635,12 @@
 		religion = secularism
 		size = 458
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 6824
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 435
@@ -748,12 +748,12 @@
 		religion = secularism
 		size = 360
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 5372
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 342
@@ -851,12 +851,12 @@
 		religion = secularism
 		size = 291
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 4339
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 277
@@ -964,12 +964,12 @@
 		religion = secularism
 		size = 1116
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 16613
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 1060
@@ -1097,12 +1097,12 @@
 		religion = secularism
 		size = 398
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 5929
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 378
@@ -1200,12 +1200,12 @@
 		religion = secularism
 		size = 160
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 2381
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 152
@@ -1313,22 +1313,22 @@
 		religion = secularism
 		size = 130
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 1510
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 96
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion =  catholic 
 		size = 431
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = german
 		religion = secularism
 		size = 27
@@ -1426,12 +1426,12 @@
 		religion = secularism
 		size = 131
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 1962
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 125
@@ -1539,12 +1539,12 @@
 		religion = secularism
 		size = 182
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 2713
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 173
@@ -1642,12 +1642,12 @@
 		religion = secularism
 		size = 203
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 3025
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 193
@@ -1755,12 +1755,12 @@
 		religion = secularism
 		size = 476
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 7095
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 452
@@ -1868,12 +1868,12 @@
 		religion = secularism
 		size = 149
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 2223
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 141
@@ -1971,12 +1971,12 @@
 		religion = secularism
 		size = 131
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 1962
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 125
@@ -2074,12 +2074,12 @@
 		religion = secularism
 		size = 348
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 5193
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 331
@@ -2192,12 +2192,12 @@
 		religion = secularism
 		size = 187
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 2790
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 178
@@ -2295,12 +2295,12 @@
 		religion = secularism
 		size = 441
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 6568
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 419
@@ -2408,12 +2408,12 @@
 		religion = secularism
 		size = 693
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 10320
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 658
@@ -2521,12 +2521,12 @@
 		religion = secularism
 		size = 126
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 1875
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 119
@@ -2634,12 +2634,12 @@
 		religion = secularism
 		size = 269
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 4007
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 255
@@ -2737,12 +2737,12 @@
 		religion = secularism
 		size = 208
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 3097
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 197
@@ -2840,12 +2840,12 @@
 		religion = secularism
 		size = 88
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 1313
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 83
@@ -2943,12 +2943,12 @@
 		religion = secularism
 		size = 269
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 4011
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 256
@@ -3046,12 +3046,12 @@
 		religion = secularism
 		size = 634
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 9446
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 602
@@ -3149,12 +3149,12 @@
 		religion = secularism
 		size = 209
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 3122
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 199
@@ -3252,12 +3252,12 @@
 		religion = secularism
 		size = 181
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 2698
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 172
@@ -3355,12 +3355,12 @@
 		religion = secularism
 		size = 655
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 9753
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 622
@@ -3458,12 +3458,12 @@
 		religion = secularism
 		size = 319
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 4748
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 303
@@ -3561,12 +3561,12 @@
 		religion = secularism
 		size = 199
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 2969
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 189
@@ -3664,12 +3664,12 @@
 		religion = secularism
 		size = 191
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion =  catholic 
 		size = 2851
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = polish
 		religion = secularism
 		size = 182

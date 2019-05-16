@@ -20,7 +20,7 @@
 		religion =  sunni 
 		size = 1375
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 2794
@@ -58,7 +58,7 @@
 		religion =  sunni 
 		size = 1625
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 3302
@@ -81,7 +81,7 @@
 		religion =  sunni 
 		size = 1835
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 3729
@@ -104,7 +104,7 @@
 		religion =  sunni 
 		size = 3160
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 1605
@@ -132,7 +132,7 @@
 		religion =  sunni 
 		size = 1660
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 3373
@@ -170,7 +170,7 @@
 		religion =  sunni 
 		size = 1647
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 3348
@@ -203,7 +203,7 @@
 		religion =  sunni 
 		size = 1837
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 3734
@@ -241,7 +241,7 @@
 		religion =  sunni 
 		size = 3175
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 6453
@@ -274,7 +274,7 @@
 		religion =  sunni 
 		size = 1447
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 2941
@@ -315,7 +315,7 @@
 		religion =  sunni 
 		size = 2710
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 5508
@@ -363,7 +363,7 @@
 		religion =  sunni 
 		size = 15
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 30
@@ -406,7 +406,7 @@
 		religion =  sunni 
 		size = 35
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 71
@@ -454,7 +454,7 @@
 		religion =  sunni 
 		size = 52
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 106
@@ -482,7 +482,7 @@
 		religion =  sunni 
 		size = 1735
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sunni_arab
 		religion =  sunni 
 		size = 3526

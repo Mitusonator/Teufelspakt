@@ -60,12 +60,12 @@
 		religion = secularism
 		size = 48
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khmer
 		religion =  buddhist 
 		size = 4606
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khmer
 		religion = secularism
 		size = 34
@@ -168,12 +168,12 @@
 		religion = secularism
 		size = 19
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khmer
 		religion =  buddhist 
 		size = 1854
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khmer
 		religion = secularism
 		size = 14
@@ -241,12 +241,12 @@
 		religion = secularism
 		size = 8
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khmer
 		religion =  buddhist 
 		size = 825
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khmer
 		religion = secularism
 		size = 6
@@ -314,12 +314,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khmer
 		religion =  buddhist 
 		size = 622
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = khmer
 		religion = secularism
 		size = 4

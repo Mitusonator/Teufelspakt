@@ -70,12 +70,12 @@
 		religion = secularism
 		size = 401
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion =  protestant 
 		size = 1830
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion = secularism
 		size = 381
@@ -173,12 +173,12 @@
 		religion = secularism
 		size = 79
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion =  protestant 
 		size = 363
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion = secularism
 		size = 75
@@ -276,12 +276,12 @@
 		religion = secularism
 		size = 180
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion =  protestant 
 		size = 824
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion = secularism
 		size = 171
@@ -389,12 +389,12 @@
 		religion = secularism
 		size = 210
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion =  protestant 
 		size = 957
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion = secularism
 		size = 199
@@ -492,12 +492,12 @@
 		religion = secularism
 		size = 151
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion =  protestant 
 		size = 690
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion = secularism
 		size = 144
@@ -595,12 +595,12 @@
 		religion = secularism
 		size = 412
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion =  protestant 
 		size = 1879
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion = secularism
 		size = 391
@@ -698,12 +698,12 @@
 		religion = secularism
 		size = 1581
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion =  protestant 
 		size = 7208
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion = secularism
 		size = 1502
@@ -841,12 +841,12 @@
 		religion = secularism
 		size = 375
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion =  protestant 
 		size = 1709
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion = secularism
 		size = 356
@@ -944,12 +944,12 @@
 		religion = secularism
 		size = 691
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion =  protestant 
 		size = 3152
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion = secularism
 		size = 657
@@ -1057,12 +1057,12 @@
 		religion = secularism
 		size = 714
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion =  protestant 
 		size = 3255
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion = secularism
 		size = 678
@@ -1170,12 +1170,12 @@
 		religion = secularism
 		size = 498
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion =  protestant 
 		size = 2273
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = finnish
 		religion = secularism
 		size = 473
@@ -1273,12 +1273,12 @@
 		religion = secularism
 		size = 27
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = swedish
 		religion =  protestant 
 		size = 126
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = swedish
 		religion = secularism
 		size = 26

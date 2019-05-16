@@ -60,12 +60,12 @@
 		religion = secularism
 		size = 24
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = azerbaijani
 		religion =  shiite 
 		size = 2927
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = azerbaijani
 		religion = secularism
 		size = 59
@@ -143,12 +143,12 @@
 		religion = secularism
 		size = 21
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = azerbaijani
 		religion =  shiite 
 		size = 2525
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = azerbaijani
 		religion = secularism
 		size = 51
@@ -226,12 +226,12 @@
 		religion = secularism
 		size = 15
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = azerbaijani
 		religion =  shiite 
 		size = 1829
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = azerbaijani
 		religion = secularism
 		size = 37
@@ -309,12 +309,12 @@
 		religion = secularism
 		size = 12
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = azerbaijani
 		religion =  shiite 
 		size = 1482
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = azerbaijani
 		religion = secularism
 		size = 30

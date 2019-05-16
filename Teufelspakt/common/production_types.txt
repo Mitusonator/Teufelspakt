@@ -130,10 +130,10 @@ cement_template = {
 fish_canned_food_factory = {       
 	template = factory_template	
 	input_goods = { 
-		fish = 3.75 #5.25$
+		fish = 7.5
 	}
 	output_goods = canned_food 
-	value = 16.75 #8.375$
+	value = 33.5
 
 	bonus = {
 		trigger = { 
@@ -153,11 +153,10 @@ fish_canned_food_factory = {
 cattle_canned_food_factory = {       
 	template = factory_template	
 	input_goods = { 
-		cattle = 3.75
-		#5.25$
+		cattle = 7.5
 	}
 	output_goods = canned_food 
-	value = 26.25
+	value = 52.5
 	bonus = {
 		trigger = { 
 			country = { has_country_flag = spcmedium }
@@ -177,11 +176,11 @@ cattle_canned_food_factory = {
 wool_canned_food_factory = {       
 	template = factory_template	
 	input_goods = { 
-		wool = 3.75 
+		wool = 7.5 
 		#5.25$
 	}
 	output_goods = canned_food 
-	value = 26.25 
+	value = 52.5 
 	bonus = {
 		trigger = { 
 			trade_goods_in_state = wool 
@@ -193,11 +192,11 @@ wool_canned_food_factory = {
 fruit_canned_food_factory = {       
 	template = factory_template	
 	input_goods = { 
-		fruit = 3.75 
+		fruit = 7.5 
 		#5.25$
 	}
 	output_goods = canned_food 
-	value = 26.25
+	value = 52.5
 
 	bonus = {
 		trigger = { 
@@ -217,11 +216,11 @@ fruit_canned_food_factory = {
 grain_canned_food_factory = {       
 	template = factory_template	
 	input_goods = { 
-		grain = 10 
+		grain = 20 
 		#14$
 	}
 	output_goods = canned_food 
-	value = 70
+	value = 140
 	bonus = {
 		trigger = { 
 			country = { has_country_flag = spcmedium }
@@ -240,11 +239,11 @@ grain_canned_food_factory = {
 rice_canned_food_factory = {       
 	template = factory_template	
 	input_goods = { 
-		rice = 10
+		rice = 20
 		#14$
 	}
 	output_goods = canned_food 
-	value = 70
+	value = 140
 	bonus = {
 		trigger = { 
 			country = { has_country_flag = spcmedium }
@@ -263,11 +262,11 @@ rice_canned_food_factory = {
 oil_seeds_canned_food_factory = {       
 	template = factory_template	
 	input_goods = { 
-		oil_seeds = 6.75
+		oil_seeds = 13.5
 		#9.45$
 	}
 	output_goods = canned_food 
-	value = 47.25
+	value = 94.5
 	bonus = {
 		trigger = { 
 			country = { has_country_flag = spcmedium }
@@ -1652,7 +1651,7 @@ RGO_template_credit = {
 		
 	employees = {
 		{ 
-			poptype = labourers 
+			poptype = artisans 
 			effect = throughput
 			amount = 1
 		}
@@ -1689,162 +1688,162 @@ RGO_template_labourers = {
 fishing_wharf = {
 	template = RGO_template_farmers
 	output_goods = fish 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 cattle_ranch = {
 	template = RGO_template_farmers
 	output_goods = cattle 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 sheep_ranch = {
 	template = RGO_template_farmers
 	output_goods = wool 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 orchard = {
 	template = RGO_template_farmers
 	output_goods = fruit 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 grain_farm = {
 	template = RGO_template_farmers
 	output_goods = grain 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 rice_farm = {
 	template = RGO_template_farmers
 	output_goods = rice 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 timber_lodge = {
 	template = RGO_template_farmers
 	output_goods = timber 
-	value = 160.0
+	value = 40.0
 	farm = yes
 }
 
 oil_seeds_ranch = {
 	template = RGO_template_farmers
 	output_goods = oil_seeds 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 iron_mine = {
 	template = RGO_template_labourers
 	output_goods = iron
-	value = 100.0
+	value = 25.0
 	mine = yes
 }
 
 other_minerals_mine = {
 	template = RGO_template_labourers
 	output_goods = other_minerals
-	value = 100.0
+	value = 25.0
 	mine = yes
 }
 
 copper_mine = {
 	template = RGO_template_labourers
 	output_goods = copper
-	value = 100.0
+	value = 25.0
 	mine = yes
 }
 
 bauxite_mine = {
 	template = RGO_template_labourers
 	output_goods = bauxite 
-	value = 100.0
+	value = 25.0
 	mine = yes
 }
 
 coal_mine = {
 	template = RGO_template_labourers
 	output_goods = coal 
-	value = 100.0
+	value = 25.0
 	mine = yes
 }
 
 gas_rig = {
 	template = RGO_template_labourers
 	output_goods = gas 
-	value = 100.0
+	value = 25.0
 	mine = yes
 }
 
 petroleum_rig = {
 	template = RGO_template_labourers
 	output_goods = petroleum 
-	value = 100.0
+	value = 25.0
 	mine = yes
 }
 
 rubber_lodge = {
 	template = RGO_template_labourers
 	output_goods = rubber 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 precious_metal_mine = {
 	template = RGO_template_labourers
 	output_goods = gold_silver
-	value = 100.0
+	value = 25.0
 	mine = yes
 }
 
 sugar_plantation = {
 	template = RGO_template_farmers
 	output_goods = sugar 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 tea_plantation = {
 	template = RGO_template_farmers
 	output_goods = tea 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 tobacco_plantation = {
 	template = RGO_template_farmers
 	output_goods = tobacco 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 coffee_plantation = {
 	template = RGO_template_farmers
 	output_goods = coffee 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 cotton_plantation = {
 	template = RGO_template_farmers
 	output_goods = cotton 
-	value = 80.0
+	value = 20.0
 	farm = yes
 }
 
 credit_mine = {
 	template = RGO_template_credit
 	output_goods = credit
-	value = 30
-	farm = yes
+	value = 25
+	mine = yes
 }
 
 ### Artisans #####################################################################################

@@ -70,12 +70,12 @@
 		religion = secularism
 		size = 60
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mestizo
 		religion =  catholic 
 		size = 1485
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mestizo
 		religion = secularism
 		size = 57
@@ -183,12 +183,12 @@
 		religion = secularism
 		size = 33
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = native_american_minor
 		religion =  catholic 
 		size = 822
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = native_american_minor
 		religion = secularism
 		size = 32
@@ -291,12 +291,12 @@
 		religion = secularism
 		size = 7
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = native_american_minor
 		religion =  catholic 
 		size = 175
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = native_american_minor
 		religion = secularism
 		size = 6
@@ -399,12 +399,12 @@
 		religion = secularism
 		size = 8
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = native_american_minor
 		religion =  catholic 
 		size = 206
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = native_american_minor
 		religion = secularism
 		size = 8
@@ -512,12 +512,12 @@
 		religion = secularism
 		size = 118
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion =  catholic 
 		size = 2879
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion = secularism
 		size = 112
@@ -625,12 +625,12 @@
 		religion = secularism
 		size = 158
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mestizo
 		religion =  catholic 
 		size = 3865
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mestizo
 		religion = secularism
 		size = 150
@@ -728,12 +728,12 @@
 		religion = secularism
 		size = 94
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mestizo
 		religion =  catholic 
 		size = 2314
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mestizo
 		religion = secularism
 		size = 90
@@ -831,12 +831,12 @@
 		religion = secularism
 		size = 63
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion =  catholic 
 		size = 1543
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion = secularism
 		size = 60
@@ -944,12 +944,12 @@
 		religion = secularism
 		size = 57
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mestizo
 		religion =  catholic 
 		size = 1413
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = mestizo
 		religion = secularism
 		size = 55
@@ -1047,22 +1047,22 @@
 		religion = secularism
 		size = 808
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_spanish
 		religion =  catholic 
 		size = 5739
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = white_spanish
 		religion = secularism
 		size = 223
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion =  taoism 
 		size = 13967
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = chinese
 		religion = secularism
 		size = 544
@@ -1200,12 +1200,12 @@
 		religion = secularism
 		size = 38
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion =  catholic 
 		size = 947
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion = secularism
 		size = 36
@@ -1313,12 +1313,12 @@
 		religion = secularism
 		size = 57
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion =  catholic 
 		size = 1407
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion = secularism
 		size = 54
@@ -1426,12 +1426,12 @@
 		religion = secularism
 		size = 90
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion =  catholic 
 		size = 2205
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion = secularism
 		size = 85
@@ -1539,12 +1539,12 @@
 		religion = secularism
 		size = 53
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion =  catholic 
 		size = 1309
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion = secularism
 		size = 51
@@ -1652,12 +1652,12 @@
 		religion = secularism
 		size = 34
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = native_american_minor
 		religion =  catholic 
 		size = 848
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = native_american_minor
 		religion = secularism
 		size = 33
@@ -1760,12 +1760,12 @@
 		religion = secularism
 		size = 7
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = native_american_minor
 		religion =  catholic 
 		size = 194
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = native_american_minor
 		religion = secularism
 		size = 7
@@ -1873,12 +1873,12 @@
 		religion = secularism
 		size = 101
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion =  catholic 
 		size = 2484
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion = secularism
 		size = 96
@@ -1986,12 +1986,12 @@
 		religion = secularism
 		size = 108
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = aimara
 		religion =  catholic 
 		size = 2640
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = aimara
 		religion = secularism
 		size = 102
@@ -2109,12 +2109,12 @@
 		religion = secularism
 		size = 99
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion =  catholic 
 		size = 2419
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = quechua
 		religion = secularism
 		size = 94
@@ -2217,12 +2217,12 @@
 		religion = secularism
 		size = 23
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = aimara
 		religion =  catholic 
 		size = 576
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = aimara
 		religion = secularism
 		size = 22

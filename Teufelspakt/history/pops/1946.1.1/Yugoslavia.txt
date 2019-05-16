@@ -50,12 +50,12 @@
 		religion = secularism
 		size = 335
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 2603
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 330
@@ -143,12 +143,12 @@
 		religion = secularism
 		size = 24
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 187
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 23
@@ -176,7 +176,7 @@
 		religion =  sunni 
 		size = 1120
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bosniak
 		religion =  sunni 
 		size = 1103
@@ -249,12 +249,12 @@
 		religion = secularism
 		size = 24
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 187
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 23
@@ -322,12 +322,12 @@
 		religion = secularism
 		size = 11
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 91
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 11
@@ -463,12 +463,12 @@
 		religion = secularism
 		size = 502
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovene
 		religion =  catholic 
 		size = 2994
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 437
@@ -536,12 +536,12 @@
 		religion = secularism
 		size = 383
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovene
 		religion =  catholic 
 		size = 2284
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 333
@@ -634,12 +634,12 @@
 		religion = secularism
 		size = 49
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovene
 		religion =  catholic 
 		size = 292
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 42
@@ -707,22 +707,22 @@
 		religion = secularism
 		size = 69
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = italian
 		religion =  catholic 
 		size = 135
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = italian
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = croat
 		religion =  catholic 
 		size = 767
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = croat
 		religion = secularism
 		size = 59
@@ -790,27 +790,27 @@
 		religion = secularism
 		size = 419
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 804
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 62
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = roma
 		religion =  orthodox 
 		size = 2680
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 209
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bosniak
 		religion =  sunni 
 		size = 2076
@@ -883,12 +883,12 @@
 		religion = secularism
 		size = 57
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 748
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 58
@@ -966,12 +966,12 @@
 		religion = secularism
 		size = 43
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 556
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 43
@@ -1049,12 +1049,12 @@
 		religion = secularism
 		size = 17
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 219
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 17
@@ -1132,12 +1132,12 @@
 		religion = secularism
 		size = 141
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = croat
 		religion =  catholic 
 		size = 1820
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 142
@@ -1205,12 +1205,12 @@
 		religion = secularism
 		size = 68
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 883
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 69
@@ -1288,12 +1288,12 @@
 		religion = secularism
 		size = 79
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = croat
 		religion =  catholic 
 		size = 1024
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 80
@@ -1361,12 +1361,12 @@
 		religion = secularism
 		size = 99
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = croat
 		religion =  catholic 
 		size = 1286
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 100
@@ -1434,12 +1434,12 @@
 		religion = secularism
 		size = 102
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = croat
 		religion =  catholic 
 		size = 1324
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 103
@@ -1507,12 +1507,12 @@
 		religion = secularism
 		size = 153
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = croat
 		religion =  catholic 
 		size = 1979
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 154
@@ -1580,12 +1580,12 @@
 		religion = secularism
 		size = 93
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 1212
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 94
@@ -1663,12 +1663,12 @@
 		religion = secularism
 		size = 40
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = croat
 		religion =  catholic 
 		size = 528
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 41
@@ -1741,7 +1741,7 @@
 		religion =  sunni 
 		size = 1242
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bosniak
 		religion =  sunni 
 		size = 3495
@@ -1867,12 +1867,12 @@
 		religion = secularism
 		size = 164
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 1321
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 138
@@ -1955,12 +1955,12 @@
 		religion = secularism
 		size = 213
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 1718
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 180
@@ -2053,12 +2053,12 @@
 		religion = secularism
 		size = 147
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 982
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 103
@@ -2141,12 +2141,12 @@
 		religion = secularism
 		size = 153
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = croat
 		religion =  catholic 
 		size = 1237
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 129
@@ -2229,12 +2229,12 @@
 		religion = secularism
 		size = 25
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 206
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 21
@@ -2302,12 +2302,12 @@
 		religion = secularism
 		size = 106
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 825
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 104
@@ -2385,12 +2385,12 @@
 		religion = secularism
 		size = 248
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 1926
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 244
@@ -2468,12 +2468,12 @@
 		religion = secularism
 		size = 60
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 780
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 61
@@ -2551,22 +2551,22 @@
 		religion = secularism
 		size = 628
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 744
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 94
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 4141
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 524
@@ -2634,12 +2634,12 @@
 		religion = secularism
 		size = 103
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 803
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 101
@@ -2707,12 +2707,12 @@
 		religion = secularism
 		size = 172
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 1336
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 169
@@ -2780,12 +2780,12 @@
 		religion = secularism
 		size = 271
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 2110
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 267
@@ -2853,12 +2853,12 @@
 		religion = secularism
 		size = 230
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 1790
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 227
@@ -2936,12 +2936,12 @@
 		religion = secularism
 		size = 127
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = serb
 		religion =  orthodox 
 		size = 991
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 125
@@ -3007,7 +3007,7 @@
 		religion =  sunni 
 		size = 5125
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = albanian
 		religion =  sunni 
 		size = 5047
@@ -3073,7 +3073,7 @@
 		religion =  sunni 
 		size = 1645
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bosniak
 		religion =  sunni 
 		size = 1619
@@ -3146,12 +3146,12 @@
 		religion = secularism
 		size = 273
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = bulgarian
 		religion =  orthodox 
 		size = 4644
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = yugoslav
 		religion = secularism
 		size = 283
@@ -3254,7 +3254,7 @@
 		religion =  sunni 
 		size = 1091
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = roma
 		religion =  sunni 
 		size = 1414

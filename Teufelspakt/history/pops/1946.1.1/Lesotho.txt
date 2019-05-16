@@ -40,12 +40,12 @@
 		religion = secularism
 		size = 31
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sotho
 		religion =  protestant 
 		size = 1764
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = sotho
 		religion = secularism
 		size = 31

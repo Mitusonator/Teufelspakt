@@ -30,12 +30,12 @@ everyday_needs = {
 	#fruit = 4
 	#grain = 4
 	#rice = 4
-	fuel = 40
-	automobiles = 40
+	fuel = 50
+	automobiles = 50
 }
 
 life_needs = { 
-    	canned_food = 120
+    	canned_food = 60
 }
 
 luxury_needs = {

@@ -20,7 +20,7 @@
 		religion =  sunni 
 		size = 2837
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = albanian
 		religion =  sunni 
 		size = 2695

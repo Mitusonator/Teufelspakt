@@ -72,13 +72,13 @@
         size = 73
     }
 
-    artisans = {
+    craftsmen = {
         culture = manupur
         religion = hindu
         size = 3570
     }
 
-    artisans = {
+    craftsmen = {
         culture = manupur
         religion = secularism
         size = 82

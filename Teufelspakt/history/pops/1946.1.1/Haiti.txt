@@ -70,12 +70,12 @@
 		religion = secularism
 		size = 168
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_french
 		religion =  catholic 
 		size = 7825
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_french
 		religion = secularism
 		size = 159
@@ -183,12 +183,12 @@
 		religion = secularism
 		size = 142
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_french
 		religion =  catholic 
 		size = 6647
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = black_french
 		religion = secularism
 		size = 135

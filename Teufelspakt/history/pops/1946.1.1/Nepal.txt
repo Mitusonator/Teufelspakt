@@ -60,12 +60,12 @@
 		religion = secularism
 		size = 153
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nepali
 		religion =  hindu 
 		size = 13431
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nepali
 		religion = secularism
 		size = 170
@@ -178,12 +178,12 @@
 		religion = secularism
 		size = 127
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nepali
 		religion =  hindu 
 		size = 11113
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = nepali
 		religion = secularism
 		size = 140

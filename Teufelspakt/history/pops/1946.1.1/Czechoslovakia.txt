@@ -50,12 +50,12 @@
 		religion = secularism
 		size = 3070
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion =  catholic 
 		size = 13288
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion = secularism
 		size = 2916
@@ -163,12 +163,12 @@
 		religion = secularism
 		size = 1288
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion =  catholic 
 		size = 5574
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion = secularism
 		size = 1223
@@ -256,12 +256,12 @@
 		religion = secularism
 		size = 372
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion =  catholic 
 		size = 1610
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion = secularism
 		size = 353
@@ -359,12 +359,12 @@
 		religion = secularism
 		size = 1529
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion =  catholic 
 		size = 6619
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion = secularism
 		size = 1453
@@ -462,12 +462,12 @@
 		religion = secularism
 		size = 671
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion =  catholic 
 		size = 2906
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion = secularism
 		size = 638
@@ -555,12 +555,12 @@
 		religion = secularism
 		size = 1398
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion =  catholic 
 		size = 6054
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion = secularism
 		size = 1329
@@ -648,12 +648,12 @@
 		religion = secularism
 		size = 1375
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion =  catholic 
 		size = 5953
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion = secularism
 		size = 1306
@@ -751,12 +751,12 @@
 		religion = secularism
 		size = 777
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion =  catholic 
 		size = 3366
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion = secularism
 		size = 738
@@ -854,12 +854,12 @@
 		religion = secularism
 		size = 1416
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovak
 		religion =  catholic 
 		size = 6129
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovak
 		religion = secularism
 		size = 1345
@@ -967,12 +967,12 @@
 		religion = secularism
 		size = 727
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovak
 		religion =  catholic 
 		size = 3147
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovak
 		religion = secularism
 		size = 690
@@ -1050,12 +1050,12 @@
 		religion = secularism
 		size = 843
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovak
 		religion =  catholic 
 		size = 3648
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovak
 		religion = secularism
 		size = 800
@@ -1133,12 +1133,12 @@
 		religion = secularism
 		size = 841
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovak
 		religion =  catholic 
 		size = 3643
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovak
 		religion = secularism
 		size = 799
@@ -1216,12 +1216,12 @@
 		religion = secularism
 		size = 1966
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 8508
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 1867
@@ -1329,22 +1329,22 @@
 		religion = secularism
 		size = 808
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion =  catholic 
 		size = 3444
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = hungarian
 		religion = secularism
 		size = 756
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovak
 		religion =  catholic 
 		size = 54
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = slovak
 		religion = secularism
 		size = 12
@@ -1432,12 +1432,12 @@
 		religion = secularism
 		size = 1539
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion =  catholic 
 		size = 6662
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion = secularism
 		size = 1462
@@ -1535,12 +1535,12 @@
 		religion = secularism
 		size = 722
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion =  catholic 
 		size = 3125
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = czech
 		religion = secularism
 		size = 686

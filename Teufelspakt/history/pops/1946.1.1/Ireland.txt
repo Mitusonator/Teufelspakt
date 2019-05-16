@@ -70,12 +70,12 @@
 		religion = secularism
 		size = 71
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion =  catholic 
 		size = 445
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion = secularism
 		size = 67
@@ -173,12 +173,12 @@
 		religion = secularism
 		size = 131
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion =  catholic 
 		size = 819
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion = secularism
 		size = 125
@@ -276,12 +276,12 @@
 		religion = secularism
 		size = 131
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion =  catholic 
 		size = 819
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion = secularism
 		size = 125
@@ -379,12 +379,12 @@
 		religion = secularism
 		size = 201
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion =  catholic 
 		size = 1256
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion = secularism
 		size = 191
@@ -482,12 +482,12 @@
 		religion = secularism
 		size = 201
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion =  catholic 
 		size = 1256
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion = secularism
 		size = 191
@@ -585,12 +585,12 @@
 		religion = secularism
 		size = 201
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion =  catholic 
 		size = 1256
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion = secularism
 		size = 191
@@ -688,12 +688,12 @@
 		religion = secularism
 		size = 1049
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion =  catholic 
 		size = 6528
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion = secularism
 		size = 997
@@ -708,52 +708,52 @@
 		religion = secularism
 		size = 3201
 	 } 
-	farmers = {
+	artisans = {
 		culture = irish
 		religion =  catholic 
 		size = 183314
 	 } 
-	farmers = {
+	artisans = {
 		culture = irish
 		religion = secularism
 		size = 27999
 	 } 
-	farmers = {
+	artisans = {
 		culture = white_anglo
 		religion =  protestant 
 		size = 28370
 	 } 
-	farmers = {
+	artisans = {
 		culture = white_anglo
 		religion = secularism
 		size = 4333
 	 } 
-	farmers = {
+	artisans = {
 		culture = chinese
 		religion =  taoism 
 		size = 5972
 	 } 
-	farmers = {
+	artisans = {
 		culture = chinese
 		religion = secularism
 		size = 912
 	 } 
-	farmers = {
+	artisans = {
 		culture = black_anglo
 		religion =  protestant 
 		size = 8958
 	 } 
-	farmers = {
+	artisans = {
 		culture = black_anglo
 		religion = secularism
 		size = 1368
 	 } 
-	farmers = {
+	artisans = {
 		culture = polish
 		religion =  catholic 
 		size = 14931
 	 } 
-	farmers = {
+	artisans = {
 		culture = polish
 		religion = secularism
 		size = 2280
@@ -831,12 +831,12 @@
 		religion = secularism
 		size = 71
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion =  catholic 
 		size = 445
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion = secularism
 		size = 67
@@ -934,12 +934,12 @@
 		religion = secularism
 		size = 169
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion =  catholic 
 		size = 1057
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = irish
 		religion = secularism
 		size = 161

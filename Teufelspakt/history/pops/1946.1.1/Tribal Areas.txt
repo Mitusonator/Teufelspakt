@@ -15,7 +15,7 @@
 		religion =  sunni 
 		size = 1857
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = pashtun
 		religion =  sunni 
 		size = 2387

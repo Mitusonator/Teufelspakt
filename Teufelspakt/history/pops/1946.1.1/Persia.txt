@@ -60,12 +60,12 @@
 		religion = secularism
 		size = 30
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 3663
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 74
@@ -153,12 +153,12 @@
 		religion = secularism
 		size = 18
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 2211
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 45
@@ -236,12 +236,12 @@
 		religion = secularism
 		size = 19
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 2321
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 47
@@ -319,12 +319,12 @@
 		religion = secularism
 		size = 21
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 2623
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 53
@@ -357,7 +357,7 @@
 		religion =  sunni 
 		size = 1187
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = kurdish
 		religion =  sunni 
 		size = 2930
@@ -430,12 +430,12 @@
 		religion = secularism
 		size = 18
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 2200
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 44
@@ -508,12 +508,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 822
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 16
@@ -591,12 +591,12 @@
 		religion = secularism
 		size = 21
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 2587
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 52
@@ -674,12 +674,12 @@
 		religion = secularism
 		size = 178
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 21564
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 440
@@ -772,12 +772,12 @@
 		religion = secularism
 		size = 21
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 2593
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 52
@@ -855,12 +855,12 @@
 		religion = secularism
 		size = 14
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 1770
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 36
@@ -938,12 +938,12 @@
 		religion = secularism
 		size = 14
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 1698
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 34
@@ -1011,12 +1011,12 @@
 		religion = secularism
 		size = 7
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 931
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 19
@@ -1094,12 +1094,12 @@
 		religion = secularism
 		size = 48
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 5906
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 120
@@ -1177,12 +1177,12 @@
 		religion = secularism
 		size = 17
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 2085
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 42
@@ -1255,12 +1255,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 1293
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 26
@@ -1338,12 +1338,12 @@
 		religion = secularism
 		size = 13
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 1583
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 32
@@ -1421,12 +1421,12 @@
 		religion = secularism
 		size = 24
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 2949
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 60
@@ -1504,12 +1504,12 @@
 		religion = secularism
 		size = 28
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 3463
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 70
@@ -1592,12 +1592,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 1318
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 26
@@ -1665,12 +1665,12 @@
 		religion = secularism
 		size = 8
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 1009
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 20
@@ -1748,12 +1748,12 @@
 		religion = secularism
 		size = 25
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 3100
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 63
@@ -1831,12 +1831,12 @@
 		religion = secularism
 		size = 12
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 1522
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 31
@@ -1904,12 +1904,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 731
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 14
@@ -1987,12 +1987,12 @@
 		religion = secularism
 		size = 24
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 2949
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 60
@@ -2070,12 +2070,12 @@
 		religion = secularism
 		size = 11
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 1383
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 28
@@ -2153,12 +2153,12 @@
 		religion = secularism
 		size = 12
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 1474
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 30
@@ -2226,12 +2226,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 736
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 15
@@ -2309,12 +2309,12 @@
 		religion = secularism
 		size = 6
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 736
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 15
@@ -2402,12 +2402,12 @@
 		religion = secularism
 		size = 12
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 1474
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 30
@@ -2485,12 +2485,12 @@
 		religion = secularism
 		size = 18
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 2260
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 46
@@ -2563,12 +2563,12 @@
 		religion = secularism
 		size = 7
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 851
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 17
@@ -2601,7 +2601,7 @@
 		religion =  sunni 
 		size = 2440
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = baluchi
 		religion =  sunni 
 		size = 1505
@@ -2674,12 +2674,12 @@
 		religion = secularism
 		size = 61
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 7375
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 150
@@ -2752,12 +2752,12 @@
 		religion = secularism
 		size = 8
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 973
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 19
@@ -2835,12 +2835,12 @@
 		religion = secularism
 		size = 12
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 1474
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 30
@@ -2913,12 +2913,12 @@
 		religion = secularism
 		size = 10
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion =  shiite 
 		size = 1274
 	 } 
-	artisans = {
+	craftsmen = {
 		culture = persian
 		religion = secularism
 		size = 26
