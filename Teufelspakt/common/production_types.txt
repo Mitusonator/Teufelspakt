@@ -1863,7 +1863,7 @@ artisan_fishmonger = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_canned_food = {       
@@ -1880,7 +1880,7 @@ artisan_canned_food = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_costermonger = {       
@@ -1898,7 +1898,7 @@ artisan_costermonger = {
 	type = artisan
 
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_baker = {       
@@ -1915,7 +1915,7 @@ artisan_baker = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_rice_trader = {       
@@ -1932,7 +1932,7 @@ artisan_rice_trader = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 
@@ -1950,7 +1950,7 @@ artisan_seeds_trader = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_gas_fuel = {    # liquefied natural gas  
@@ -1966,7 +1966,7 @@ artisan_gas_fuel = {    # liquefied natural gas
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_pharmaceuticals = {
@@ -1983,7 +1983,7 @@ artisan_pharmaceuticals = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_integrated_circuits = {
@@ -2001,7 +2001,7 @@ artisan_integrated_circuits = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_software_developer = {
@@ -2020,7 +2020,7 @@ artisan_software_developer = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_accountant = {
@@ -2038,7 +2038,7 @@ artisan_accountant = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_telephonist = {
@@ -2057,7 +2057,7 @@ artisan_telephonist = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_teacher = {       
@@ -2074,7 +2074,7 @@ artisan_teacher = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_health = {       
@@ -2091,7 +2091,7 @@ artisan_health = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_culture = {       
@@ -2108,7 +2108,7 @@ artisan_culture = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 artisan_recreation = {       
@@ -2125,7 +2125,7 @@ artisan_recreation = {
 	
 	type = artisan
 	
-	workforce = 1000
+	workforce = 500
 }
 
 
