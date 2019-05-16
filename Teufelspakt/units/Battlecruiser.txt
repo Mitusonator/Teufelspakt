@@ -39,9 +39,15 @@ modern_cruiser = {
 	supply_consumption = 1.0
 	#cost 1B
 	supply_cost = {
+<<<<<<< HEAD
 		ships = 0.6
 		weaponry = 2
 		fuel = 0.8
+=======
+		ships = 1.5
+		weaponry = 5
+		fuel = 2
+>>>>>>> parent of c25ced6... testing
 	}
 	
 	#Naval Abilties

@@ -37,9 +37,15 @@ submarine = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
+<<<<<<< HEAD
 		ships = 3.2
 		weaponry = 1.6
 		fuel = 1.6
+=======
+		ships = 4
+		weaponry = 2
+		fuel = 2
+>>>>>>> parent of c25ced6... testing
 	}
 	
 	#Naval Abilties

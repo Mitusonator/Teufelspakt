@@ -28,9 +28,15 @@ modern_infantry = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
+<<<<<<< HEAD
 		small_arms = 0.15
 		weaponry = 0.75
 		fuel = 0.8
+=======
+		small_arms = 0.015
+		weaponry = 0.075
+		fuel = 0.08
+>>>>>>> parent of c25ced6... testing
 	}
 
 	#Land Abilties

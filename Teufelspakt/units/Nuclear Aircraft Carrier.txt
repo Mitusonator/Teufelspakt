@@ -39,10 +39,17 @@ modern_destroyer = {
 	
 	supply_consumption = 1.0
 	supply_cost = { # 1.2
+<<<<<<< HEAD
 		ships = 6.4
 		weaponry = 6.4
 		fuel = 1.6
 		aeroplanes = 6.4
+=======
+		ships = 8
+		weaponry = 8
+		fuel = 2
+		aeroplanes = 8
+>>>>>>> parent of c25ced6... testing
 	}
 	
 	#Naval Abilties

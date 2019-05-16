@@ -35,9 +35,15 @@ frigate = {
 	
 	supply_consumption = 1.0
 	supply_cost = {
+<<<<<<< HEAD
 		ships = 0.64
 		weaponry = 0.64
 		fuel = 0.64
+=======
+		ships = 0.8
+		weaponry = 0.8
+		fuel = 0.8
+>>>>>>> parent of c25ced6... testing
 	}
 	
 	#Naval Abilties
