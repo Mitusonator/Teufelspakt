@@ -98,6 +98,7 @@ central_clearing = {
 	year = 1968
 	cost = 7200
 
+	tax_eff = 0.5
 	activate_building = financial_services_factory
 	artisan_throughput = 0.1
 	ai_chance = {
