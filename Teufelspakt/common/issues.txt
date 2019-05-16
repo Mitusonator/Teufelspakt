@@ -43,7 +43,7 @@ party_issues = {
 		interventionism = {
 			factory_owner_cost = 1
 			tax_efficiency = 0.01
-			min_social_spending = 0.1
+			#min_social_spending = 0.1
 
 			#max_tax = 0.75
 
@@ -73,7 +73,7 @@ party_issues = {
 		state_capitalism = {
 			tax_efficiency = 0.02
 			min_tax = 0.25
-			min_social_spending = 0.2
+			#min_social_spending = 0.2
 
 			#max_tax = 0.9
 			
@@ -104,7 +104,7 @@ party_issues = {
 			min_tax = 0.20
 			min_tariff = 0.10
 			tax_efficiency = 0.05
-			min_social_spending = 0.30
+			#min_social_spending = 0.30
 			mobilisation_economy_impact = -0.10
 			#factory_maintenance = 0.5
 			factory_owner_cost = 3
@@ -135,7 +135,7 @@ party_issues = {
 		planned_economy = {
 			min_tax = 0.20
 			min_tariff = 0.20
-			min_social_spending = 0.4
+			#min_social_spending = 0.4
 			mobilisation_economy_impact = -0.25
 			tax_efficiency = 0.10
 			factory_owner_cost = -1
