@@ -11,15 +11,15 @@ rebel =
 }
 
 everyday_needs = { 
-	footwear = 0.25
-	furniture = 0.25
-	beverages = 0.25
-	pharmaceuticals = 0.25
-	beverage_tobacco = 0.25
-	furniture_houseware = 0.25
-	clothes_footwear = 0.25
-	heating_electricity = 0.5
-	cement = 0.25
+	footwear = 2.5
+	furniture = 2.5
+	beverages = 2.5
+	pharmaceuticals = 2.5
+	beverage_tobacco = 2.5
+	furniture_houseware = 2.5
+	clothes_footwear = 2.5
+	heating_electricity = 5
+	cement = 2.5
 
 	#fish	= 0.25
 	#cattle = 0.25
@@ -31,21 +31,21 @@ everyday_needs = {
 }
 
 life_needs = { 
-    canned_food = 1
+    canned_food = 10
 }
 
 luxury_needs = {
-	cigarettes = 0.5
-	telecommunications = 0.5
-	automobiles = 0.5
-	jewellery = 0.5
-	health = 0.5
-	transport = 0.5
-	communication = 0.5
-	education_rnd = 0.5
-	culture = 0.5
-	recreation = 0.5
-	financial_services = 0.5
+	cigarettes = 5
+	telecommunications = 5
+	automobiles = 5
+	jewellery = 5
+	health = 5
+	transport = 5
+	communication = 5
+	education_rnd = 5
+	culture = 5
+	recreation = 5
+	financial_services = 5
 	
 }
 

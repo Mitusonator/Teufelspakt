@@ -21,44 +21,44 @@ rebel =
 can_build = yes
 
 everyday_needs = { 
-	footwear = 8
-	furniture = 4
-	beverages = 8
-	pharmaceuticals = 8
-	beverage_tobacco = 4
-	furniture_houseware = 4
-	clothes_footwear = 4
-	heating_electricity = 8
-	cement = 4
+	footwear = 80
+	furniture = 40
+	beverages = 80
+	pharmaceuticals = 80
+	beverage_tobacco = 40
+	furniture_houseware = 40
+	clothes_footwear = 40
+	heating_electricity = 80
+	cement = 40
 
 	#fish	= 4
 	#cattle = 4
 	#fruit = 4
 	#grain = 4
 	#rice = 4
-	fuel = 4
-	automobiles = 4
+	fuel = 40
+	automobiles = 40
 }
 
 life_needs = { 
-    	canned_food = 12
+    	canned_food = 120
 }
 
 luxury_needs = {
-	cigarettes = 8
-	telecommunications = 8
-	automobiles = 8
-	jewellery = 8
-	health = 8
-	transport = 8
-	communication = 8
-	education_rnd = 8
-	culture = 8
-	recreation = 8
-	computers = 8
-	ships = 2
-	aeroplanes = 3
-	financial_services = 3
+	cigarettes = 80
+	telecommunications = 80
+	automobiles = 80
+	jewellery = 80
+	health = 80
+	transport = 80
+	communication = 80
+	education_rnd = 80
+	culture = 80
+	recreation = 80
+	computers = 80
+	ships = 20
+	aeroplanes = 30
+	financial_services = 30
 }
 
 country_migration_target = {

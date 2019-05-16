@@ -33,42 +33,42 @@ luxury_needs_income =
 }
 
 everyday_needs = { 
-	footwear = 2.0
-	furniture = 1
-	beverages = 2
-	pharmaceuticals = 3
-	beverage_tobacco = 1
-	furniture_houseware = 1
-	clothes_footwear = 1
-	heating_electricity = 3
-	cement = 1
+	footwear = 20
+	furniture = 10
+	beverages = 20
+	pharmaceuticals = 30
+	beverage_tobacco = 10
+	furniture_houseware = 10
+	clothes_footwear = 10
+	heating_electricity = 30
+	cement = 10
 
 	#fish	= 1
 	#cattle = 1
 	#fruit = 1
 	#grain = 1
 	#rice = 1
-	fuel = 1
-	automobiles = 1
+	fuel = 10
+	automobiles = 10
 }
 
 life_needs = { 
-    	canned_food = 4
+    	canned_food = 40
 }
 
 luxury_needs = {
-	cigarettes = 2
-	telecommunications = 2
-	automobiles = 2
-	jewellery = 2
-	health = 3
-	transport = 2
-	communication = 2
-	education_rnd = 5
-	culture = 2
-	recreation = 2
-	computers = 2
-	financial_services = 2
+	cigarettes = 20
+	telecommunications = 20
+	automobiles = 20
+	jewellery = 20
+	health = 30
+	transport = 20
+	communication = 20
+	education_rnd = 50
+	culture = 20
+	recreation = 20
+	computers = 20
+	financial_services = 20
 	
 }
 
