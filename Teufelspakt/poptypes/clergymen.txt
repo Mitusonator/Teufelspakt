@@ -33,43 +33,42 @@ luxury_needs_income =
 }
 
 everyday_needs = { 
-	footwear = 20
-	furniture = 10
-	beverages = 20
-	pharmaceuticals = 30
-	beverage_tobacco = 10
-	furniture_houseware = 10
-	clothes_footwear = 10
-	heating_electricity = 30
-	cement = 10
+	footwear = 10
+	furniture = 5
+	beverages = 10
+	pharmaceuticals = 15
+	beverage_tobacco = 5
+	furniture_houseware = 5
+	clothes_footwear = 5
+	heating_electricity = 15
+	cement = 5
 
 	#fish	= 1
 	#cattle = 1
 	#fruit = 1
 	#grain = 1
 	#rice = 1
-	fuel = 12.5
-	automobiles = 12.5
+	fuel = 6.25
+	automobiles = 6.25
 }
 
 life_needs = { 
-    	canned_food = 20
+    	canned_food = 4
 }
 
 luxury_needs = {
-	cigarettes = 20
-	telecommunications = 20
-	automobiles = 20
-	jewellery = 20
-	health = 30
-	transport = 20
-	communication = 20
-	education_rnd = 50
-	culture = 20
-	recreation = 20
-	computers = 20
-	financial_services = 20
-	
+	cigarettes = 10
+	telecommunications = 10
+	automobiles = 10
+	jewellery = 10
+	health = 15
+	transport = 10
+	communication = 10
+	education_rnd = 25
+	culture = 10
+	recreation = 10
+	financial_services = 10
+	computers = 10
 }
 
 country_migration_target = {

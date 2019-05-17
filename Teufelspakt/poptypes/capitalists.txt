@@ -1,6 +1,5 @@
 sprite = 4
 color = { 18 129 10 }
-#is_artisan = yes
 strata = rich
 #state_capital_only = yes
 
@@ -36,8 +35,8 @@ everyday_needs = {
 	#fruit = 4
 	#grain = 4
 	#rice = 4
-	fuel = 50
-	automobiles = 50
+	fuel = 4
+	automobiles = 4
 }
 
 life_needs = { 
@@ -55,10 +54,10 @@ luxury_needs = {
 	education_rnd = 80
 	culture = 80
 	recreation = 80
+	financial_services = 160
 	computers = 80
 	ships = 20
 	aeroplanes = 30
-	financial_services = 30
 }
 
 country_migration_target = {

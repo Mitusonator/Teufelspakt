@@ -1,11 +1,10 @@
 sprite = 11
 color = { 127 3 3 }
-#is_artisan = yes
+is_artisan = yes
 #equivalent = clerks
 #max_size = 250000
 #merge_max_size = 10000
 #state_capital_only = yes
-unemployment = yes
 strata = middle
 rebel =
 {
@@ -15,42 +14,42 @@ rebel =
 
 
 everyday_needs = { 
-	footwear = 20
-	furniture = 10
-	beverages = 20
-	pharmaceuticals = 20
-	beverage_tobacco = 10
-	furniture_houseware = 10
-	clothes_footwear = 10
-	heating_electricity = 25
-	cement = 10
+	footwear = 10.0
+	furniture = 5
+	beverages = 10
+	pharmaceuticals = 10
+	beverage_tobacco = 5
+	furniture_houseware = 5
+	clothes_footwear = 5
+	heating_electricity = 12.5
+	cement = 5
 
 	#fish	= 1
 	#cattle = 1
 	#fruit = 1
 	#grain = 1
 	#rice = 1
-	fuel = 10
-	automobiles = 10
+	fuel = 5
+	automobiles = 5
 }
 
 life_needs = { 
-    	canned_food = 15
+    	canned_food = 7.5
 }
 
 luxury_needs = {
-	cigarettes = 20
-	telecommunications = 20
-	automobiles = 20
-	jewellery = 20
-	health = 20
-	transport = 20
-	communication = 20
-	education_rnd = 30
-	culture = 20
-	recreation = 20
-	computers = 20
+	cigarettes = 10
+	telecommunications = 10
+	automobiles = 10
+	jewellery = 10
+	health = 10
+	transport = 10
+	communication = 10
+	education_rnd = 15
+	culture = 10
+	recreation = 10
 	financial_services = 20
+	computers = 10
 }
 
 country_migration_target = {
@@ -539,16 +538,16 @@ promote_to =
 			modifier = { factor = -1 state_scope = { capitalists = 0.04 } }
 			modifier = { factor = -1 state_scope = { capitalists = 0.06 } }
 			modifier = { factor = -1 state_scope = { capitalists = 0.08 } }
-			modifier = { factor =  1 literacy = 0.01 }
-			modifier = { factor =  1 literacy = 0.10 }
-			modifier = { factor =  1 literacy = 0.20 }
-			modifier = { factor =  1 literacy = 0.30 }
-			modifier = { factor =  1 literacy = 0.40 }
-			modifier = { factor =  1 literacy = 0.50 }
-			modifier = { factor =  2 literacy = 0.60 }
-			modifier = { factor =  2 literacy = 0.70 }
-			modifier = { factor =  2 literacy = 0.80 }
-			modifier = { factor =  4 literacy = 0.90 }
+			modifier = { factor =  0.25 literacy = 0.01 }
+			modifier = { factor =  0.25 literacy = 0.10 }
+			modifier = { factor =  0.25 literacy = 0.20 }
+			modifier = { factor =  0.25 literacy = 0.30 }
+			modifier = { factor =  0.25 literacy = 0.40 }
+			modifier = { factor =  0.25 literacy = 0.50 }
+			modifier = { factor =  0.5 literacy = 0.60 }
+			modifier = { factor =  0.5 literacy = 0.70 }
+			modifier = { factor =  0.5 literacy = 0.80 }
+			modifier = { factor =  1 literacy = 0.90 }
 		}
 		modifier = { factor = -10 NOT = { has_country_flag = market_communism } owner = { government = proletarian_dictatorship } }  
 	}
