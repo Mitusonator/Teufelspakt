@@ -3,6 +3,9 @@ color = { 136 136 136 }
 strata = middle
 #state_capital_only = yes
 
+research_points = 1
+research_optimum = 0.04
+
 demote_migrant = yes
 
 rebel =
