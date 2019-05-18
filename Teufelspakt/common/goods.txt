@@ -29,112 +29,156 @@ raw_material_goods = {
 	fish = {
 		cost = 1.4
 		color = { 128 98 73 }
+		money = yes
+	    tradeable = yes
 	}
 
 	cattle = {
 		cost = 1.4
 		color = { 84 227 40 }
+		money = yes
+		tradeable = yes
 	}
 
 	wool = {
 		cost = 1.4
 		color = { 234 195 158 }
+		money = yes
+		tradeable = yes
 	}
 
 	fruit = {
 		cost = 1.4
 		color = { 255 0 0 }
+		money = yes
+		tradeable = yes
 	}
 
 	grain = {
 		cost = 1.4
 		color = { 219 157 36 }
+		money = yes
+		tradeable = yes
 	}
 
 	rice = {
 		cost = 1.4
 		color = { 125 158 43 }
+		money = yes
+		tradeable = yes
 	}
 
 	timber = {
 		cost = 1.4
 		color = { 146 72 17 }
+		money = yes
+		tradeable = yes
 	}
 
 	oil_seeds = {
 		cost = 1.4
 		color = { 213 177 118 }
+		money = yes
+		tradeable = yes
 	}
 
 	iron = {
 		cost = 1.5
 		color = { 111 111 111 }
+		money = yes
+		tradeable = yes
 	}
 
 	other_minerals = {
 		cost = 1.5
 		color = { 69 0 182 }
+		money = yes
+		tradeable = yes
 	}
 
 	copper = {
 		cost = 1.5
 		color = { 11 29 177 }
+		money = yes
+		tradeable = yes
 	}
 
 	bauxite = {
 		cost = 1.5
 		color = { 11 129 77 }
+		money = yes
+		tradeable = yes
 	}
 
 	coal = {
 		cost = 1.5
 		color = { 11 29 77 }
+		money = yes
+		tradeable = yes
 	}
 
 	gas = {
 		cost = 1.5
 		color = { 0 255 0 }
+		money = yes
+		tradeable = yes
 	}
 
 	petroleum = {
 		cost = 1.5
 		color = { 0 0 0 }
+		money = yes
+		tradeable = yes
 	}
 
 	rubber = {
 		cost = 1.4
 		color = { 123 110 86 }
+		money = yes
+		tradeable = yes
 	}
 
 	gold_silver = {
 		cost = 1.5
 		overseas_penalty = yes
 		color = { 253 199 110 }
+		money = yes
+		tradeable = yes
 	}
 
 	sugar = {
 		cost = 1.4
 		color = { 181 228 102 }
+		money = yes
+		tradeable = yes
 	}
 
 	tea = {
 		cost = 1.4
 		color = { 201 135 15 }
+		money = yes
+		tradeable = yes
 	}
 
 	tobacco = {
 		cost = 1.4
 		color = { 100 69 30 }
+		money = yes
+		tradeable = yes
 	}
 
 	coffee = {
 		cost = 1.4
 		color = { 27 19 7 }
+		money = yes
+		tradeable = yes
 	}
 
 	cotton = {
 		cost = 1.4
 		color = { 255 255 255 }
+		money = yes
+		tradeable = yes
 	}
 }
 industrial_goods = {

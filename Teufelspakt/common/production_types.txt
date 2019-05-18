@@ -1842,7 +1842,7 @@ cotton_plantation = {
 credit_mine = {
 	template = RGO_template_credit
 	output_goods = credit
-	value = 25
+	value = 1250
 	mine = yes
 }
 

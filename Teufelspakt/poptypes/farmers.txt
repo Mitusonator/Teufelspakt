@@ -11,14 +11,14 @@ rebel =
 }
 
 everyday_needs = { 
-	footwear = 1.25
-	furniture = 1.25
-	beverages = 1.25
-	pharmaceuticals = 1.25
-	beverage_tobacco = 1.25
-	furniture_houseware = 1.25
-	clothes_footwear = 1.25
-	heating_electricity = 2.5
+	footwear = 5
+	furniture = 2.5
+	beverages = 5
+	pharmaceuticals = 5
+	beverage_tobacco = 2.5
+	furniture_houseware = 2.5
+	clothes_footwear = 2.5
+	heating_electricity = 7.5
 	cement = 1.25
 
 	#fish	= 0.25
@@ -26,26 +26,26 @@ everyday_needs = {
 	#fruit = 0.25
 	#grain = 0.25
 	#rice = 0.25
-	fuel = 0.625
-	automobiles = 0.625
+	fuel = 2.5
+	automobiles = 2.5
 }
 
 life_needs = { 
-    canned_food = 1
+    canned_food = 5
 }
 
 luxury_needs = {
-	cigarettes = 2.5
-	telecommunications = 2.5
-	automobiles = 2.5
-	jewellery = 2.5
-	health = 2.5
-	transport = 2.5
-	communication = 2.5
-	education_rnd = 2.5
-	culture = 2.5
-	recreation = 2.5
-	financial_services = 2.5
+	cigarettes = 5
+	telecommunications = 5
+	automobiles = 5
+	jewellery = 5
+	health = 5
+	transport = 5
+	communication = 5
+	education_rnd = 5
+	culture = 5
+	recreation = 5
+	financial_services = 5
 }
 
 country_migration_target = {

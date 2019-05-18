@@ -42,6 +42,59 @@ promotion_chance = { # 0.4
 			literacy = 0.36
 		}
 	}
+	
+	group = {
+		modifier = {
+			factor = 0.5
+			everyday_needs = 0.1
+			strata = poor
+		}
+		modifier = {
+			factor = 0.5
+			everyday_needs = 0.2
+			strata = poor
+		}
+		modifier = {
+			factor = 0.5
+			everyday_needs = 0.3
+			strata = poor
+		}
+		modifier = {
+			factor = 0.5
+			everyday_needs = 0.4
+			strata = poor
+		}
+		modifier = {
+			factor = 0.5
+			everyday_needs = 0.5
+			strata = poor
+		}
+		modifier = {
+			factor = 0.5
+			everyday_needs = 0.6
+			strata = poor
+		}
+		modifier = {
+			factor = 0.4
+			everyday_needs = 0.7
+			strata = poor
+		}
+		modifier = {
+			factor = 0.3
+			everyday_needs = 0.8
+			strata = poor
+		}
+		modifier = {
+			factor = 0.2
+			everyday_needs = 0.9
+			strata = poor
+		}
+		modifier = {
+			factor = 0.1
+			everyday_needs = 1
+			strata = poor
+		}
+	}
 
 	group = {
 		modifier = {
@@ -272,11 +325,11 @@ demotion_chance = { # 1
 	group = {
 		modifier = {
 			factor = 0.1
-			NOT = { life_needs = 1.0 }
+			NOT = { everyday_needs = 1.0 }
 		}
 		modifier = {
 			factor = 0.2
-			NOT = { life_needs = 0.9 }
+			NOT = { everyday_needs = 0.9 }
 		}
 		modifier = {
 			factor = 0.3
@@ -354,40 +407,47 @@ demotion_chance = { # 1
 			location = { controlled_by = owner }
 		}
 		modifier = {
-			factor = 0.5
-			unemployment = 0.6
-			NOT = { OR = { type = craftsmen  type = clerks } }
-			location = { controlled_by = owner }
-			literacy = 0.05
-		}
-		modifier = {
-			factor = 0.5
-			unemployment = 0.7
-			NOT = { OR = { type = craftsmen  type = clerks } }
-			location = { controlled_by = owner }
-			literacy = 0.075
-		}
-		modifier = {
-			factor = 0.5
-			unemployment = 0.8
-			NOT = { OR = { type = craftsmen  type = clerks } }
-			location = { controlled_by = owner }
-			literacy = 0.10
-		}
-		modifier = {
-			factor = 0.5
-			unemployment = 0.9
-			NOT = { OR = { type = craftsmen  type = clerks } }
-			location = { controlled_by = owner }
-			literacy = 0.125
-		}
-		modifier = {
-			factor = 0.5
+			factor = 1
 			unemployment = 1.0
 			NOT = { OR = { type = craftsmen  type = clerks } }
 			location = { controlled_by = owner }
 			literacy = 0.15
 		}
+		#modifier = {
+		#	factor = 0.5
+		#	unemployment = 0.6
+		#	NOT = { OR = { type = craftsmen  type = clerks } }
+		#	location = { controlled_by = owner }
+		#	literacy = 0.05
+		#}
+		#modifier = {
+		#	factor = 0.5
+		#	unemployment = 0.7
+		#	NOT = { OR = { type = craftsmen  type = clerks } }
+		#	location = { controlled_by = owner }
+		#	literacy = 0.075
+		#}
+		#modifier = {
+		#	factor = 0.5
+		#	unemployment = 0.8
+		#	NOT = { OR = { type = craftsmen  type = clerks } }
+		#	location = { controlled_by = owner }
+		#	literacy = 0.10
+		#}
+		#modifier = {
+		#	factor = 0.5
+		#	unemployment = 0.9
+		#	NOT = { OR = { type = craftsmen  type = clerks } }
+		#	location = { controlled_by = owner }
+		#	literacy = 0.125
+		#}
+		#modifier = {
+		#	factor = 0.5
+		#	unemployment = 1.0
+		#	NOT = { OR = { type = craftsmen  type = clerks } }
+		#	location = { controlled_by = owner }
+		#	literacy = 0.15
+		#}
 		
 	}
 	modifier = {
