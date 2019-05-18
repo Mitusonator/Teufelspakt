@@ -279,7 +279,10 @@ country_event = {
   title = EVT_8211026_NAME
   desc = EVT_8211026_DESC
   picture = "space_militarisation"
+  fire_only_once = yes
+  
   trigger = {
+    NOT = { has_global_flag = project_mjolnir }
     tag = GER
 	year = 1967
 	NOT = { badboy = 0.9 }
@@ -287,6 +290,7 @@ country_event = {
 
   option = {
     name = EVT_8211026_A
+    set_global_flag = project_mjolnir
 	prestige = 100
     badboy = 1
 	USA = { country_event = 8211027 }
