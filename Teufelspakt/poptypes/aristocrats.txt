@@ -484,6 +484,7 @@ promote_to = {
 	}
 	artisans = { 
 		factor = 0.01 
+		modifier = { factor = -100.0 NOT = { location = { trade_goods = credit } } } 
 		modifier = { factor = 2 } 
 		modifier = { factor = 10 NOT = { has_country_flag = market_communism } owner = { government = proletarian_dictatorship } }  
 	}
