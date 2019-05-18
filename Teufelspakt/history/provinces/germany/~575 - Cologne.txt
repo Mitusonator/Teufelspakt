@@ -1,43 +1,36 @@
 owner = GER
 controller = GER
 add_core = GER
-add_core = BAV
-trade_goods = cattle
+trade_goods = coal
 life_rating = 35
-terrain = urban_munich
+terrain = good_farmland
 railroad = 1
 colonial = 0
 state_building = {
-	level = 2
-	building = glass_factory
+	level = 1
+	building = small_arms_factory
 	upgrade = yes
 }
 state_building = {
-	level = 2
-	building = optics_factory
+	level = 1
+	building = coal_fuel_factory
 	upgrade = yes
 }
 state_building = {
-	level = 3
-	building = footwear_factory
+	level = 1
+	building = steel_factory
 	upgrade = yes
 }
 1992.1.1 = {
 owner = GER
 controller = GER
 add_core = GER
-add_core = BAV
 life_rating = 35
 railroad = 3
 colonial = 0
 state_building = {
-	level = 2
-	building = communication_factory
-	upgrade = yes
-}
-state_building = {
-	level = 2
-	building = computers_factory
+	level = 1
+	building = heating_electricity_factory
 	upgrade = yes
 }
 }

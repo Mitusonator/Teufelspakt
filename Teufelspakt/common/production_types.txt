@@ -4,7 +4,8 @@
 factory_template = {
 	efficiency = {
 		cement = 0.1 #if no cement, work at 75% efficiency 
-		machine_parts = 0.15 
+		machine_parts = 0.15
+		steel = 0.05
 		fuel = 0.05 
 	}
 	
@@ -64,6 +65,7 @@ modern_factory_template = {
 	efficiency = {
 		cement = 0.1 #if no cement, work at 75% efficiency 
 		machine_parts = 0.15 
+		steel = 0.05
 		heating_electricity = 0.25
 	}
 	
@@ -95,7 +97,9 @@ modern_factory_template = {
 
 cement_template = {
 	efficiency = {
-		machine_parts = 0.15 
+		machine_parts = 0.15
+		steel = 0.05
+		fuel = 0.05
 	}
 	
 	owner =

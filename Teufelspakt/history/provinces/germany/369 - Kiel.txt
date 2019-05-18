@@ -8,8 +8,8 @@ railroad = 1
 colonial = 0
 set_province_flag = kiel_canal
 state_building = {
-	level = 1
-	building = glass_factory
+	level = 2
+	building = footwear_factory
 	upgrade = yes
 }
 state_building = {

@@ -1,19 +1,18 @@
 owner = GER
 controller = GER
 add_core = GER
-add_core = DDR
-trade_goods = iron
+trade_goods = fish
 life_rating = 35
-terrain = good_farmland
+terrain = marginal_farmland
 railroad = 1
 colonial = 0
 state_building = {
-	level = 3
-	building = automobiles_factory
+	level = 1
+	building = ships_factory
 	upgrade = yes
 }
 state_building = {
-	level = 3
+	level = 1
 	building = steel_factory
 	upgrade = yes
 }
@@ -24,9 +23,4 @@ add_core = GER
 life_rating = 35
 railroad = 3
 colonial = 0
-state_building = {
-	level = 1
-	building = transport_factory
-	upgrade = yes
-}
 }
