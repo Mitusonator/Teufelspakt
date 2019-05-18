@@ -326,35 +326,35 @@ demotion_chance = { # 1
 		modifier = {
 			factor = 0.1
 			NOT = { everyday_needs = 1.0 }
-			NOT = { luxury_needs = 0.01 }
+			NOT = { luxury_needs = 0.25 }
 		}
 		modifier = {
 			factor = 0.2
 			NOT = { everyday_needs = 0.9 }
-			NOT = { luxury_needs = 0.01 }
+			NOT = { luxury_needs = 0.25 }
 		}
 		modifier = {
 			factor = 0.3
 			NOT = { everyday_needs = 0.8 }
-			NOT = { luxury_needs = 0.01 }
+			NOT = { luxury_needs = 0.25 }
 			location = { controlled_by = owner }
 		}
 		modifier = {
 			factor = 0.4
 			NOT = { everyday_needs = 0.7 }
-			NOT = { luxury_needs = 0.01 }
+			NOT = { luxury_needs = 0.25 }
 			location = { controlled_by = owner }
 		}
 		modifier = {
 			factor = 0.5
 			NOT = { everyday_needs = 0.6 }
-			NOT = { luxury_needs = 0.01 }
+			NOT = { luxury_needs = 0.25 }
 			location = { controlled_by = owner }
 		}
 		modifier = {
 			factor = 0.5
 			NOT = { everyday_needs = 0.5 }
-			NOT = { luxury_needs = 0.01 }
+			NOT = { luxury_needs = 0.25 }
 			NOT = { OR = { type = craftsmen  type = clerks } }
 			location = { controlled_by = owner }
 			literacy = 0.05
@@ -362,7 +362,7 @@ demotion_chance = { # 1
 		modifier = {
 			factor = 0.5
 			NOT = { everyday_needs = 0.4 }
-			NOT = { luxury_needs = 0.01 }
+			NOT = { luxury_needs = 0.25 }
 			NOT = { OR = { type = craftsmen  type = clerks } }
 			location = { controlled_by = owner }
 			literacy = 0.075
@@ -370,7 +370,7 @@ demotion_chance = { # 1
 		modifier = {
 			factor = 0.5
 			NOT = { everyday_needs = 0.3 }
-			NOT = { luxury_needs = 0.01 }
+			NOT = { luxury_needs = 0.25 }
 			NOT = { OR = { type = craftsmen  type = clerks } }
 			location = { controlled_by = owner }
 			literacy = 0.10
@@ -378,7 +378,7 @@ demotion_chance = { # 1
 		modifier = {
 			factor = 0.5
 			NOT = { everyday_needs = 0.2 }
-			NOT = { luxury_needs = 0.01 }
+			NOT = { luxury_needs = 0.25 }
 			NOT = { OR = { type = craftsmen  type = clerks } }
 			location = { controlled_by = owner }
 			literacy = 0.125
@@ -386,7 +386,7 @@ demotion_chance = { # 1
 		modifier = {
 			factor = 0.5
 			NOT = { everyday_needs = 0.1 }
-			NOT = { luxury_needs = 0.01 }
+			NOT = { luxury_needs = 0.25 }
 			NOT = { OR = { type = craftsmen  type = clerks } }
 			location = { controlled_by = owner }
 			literacy = 0.15
