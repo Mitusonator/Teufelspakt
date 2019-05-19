@@ -138,7 +138,7 @@ set_global_flag = education_setup
 
 
 province_event = {
-	id = 999912
+	id = 9999912
 	title = "Developmental Level in $STATENAME$"
 	desc = EVTDESC1412201
 
@@ -175,7 +175,7 @@ province_event = {
 }
 
 province_event = {
-	id = 999911
+	id = 9999911
 	title = "Developmental Level in $STATENAME$"
 	desc = EVTDESC1412201
 
@@ -213,7 +213,7 @@ province_event = {
 }
 
 province_event = {
-	id = 999910
+	id = 9999910
 	title = "Developmental Level in $STATENAME$"
 	desc = EVTDESC1412201
 
@@ -251,7 +251,7 @@ province_event = {
 }
 
 province_event = {
-	id = 999909
+	id = 9999909
 	title = "Developmental Level in $STATENAME$"
 	desc = EVTDESC1412201
 
@@ -289,7 +289,7 @@ province_event = {
 }
 
 province_event = {
-	id = 999908
+	id = 9999908
 	title = "Developmental Level in $STATENAME$"
 	desc = EVTDESC1412201
 

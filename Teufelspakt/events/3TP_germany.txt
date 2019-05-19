@@ -1238,8 +1238,10 @@ country_event = {
   mean_time_to_happen = { days = 1 }
   
   option = {
-            name = "EVT_9999915_A"	
+            name = "EVT_9999915_A"
+            prestige = 5			
 	        any_pop = { consciousness = 3 }
+			any_country = { relation = { who = GER value = 5 } }
   }
 
 }
@@ -1249,6 +1251,8 @@ country_event = {
   title = EVT_9999914_NAME
   desc = EVT_9999914_DESC
   picture = "nwo2_fall_of_berlin_wall"
+  fire_only_once = yes
+  
   trigger = {
              tag = GER
              exists = GER
@@ -1303,4 +1307,34 @@ country_event = {
     badboy = -1000
 
   }
+}
+
+country_event = {
+  id = 9999907 #New Fuhrer - Panweltisch Nationalsozialismus
+  title = EVT_9999907_NAME
+  desc = EVT_9999907_DESC
+  picture = "nazi_rally"
+  fire_only_once = yes
+
+  trigger = {
+             tag = GER
+             year = 1982
+			 month = 4
+			 government = populist_dictatorship
+			 NOT = { has_global_flag = ger_chancellor_wehrmacht }
+			 NOT = { has_global_flag = ger_chancellor_himmler }
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999907_A"
+			set_global_flag = international_nazism
+            prestige = 10			
+			badboy = -5
+	        any_pop = { consciousness = 1 }
+			any_country = { relation = { who = GER value = 10 } }
+			USA = { relation = { who = GER value = -20 } }
+  }
+
 }
