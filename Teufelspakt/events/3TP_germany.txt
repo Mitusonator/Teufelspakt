@@ -1333,9 +1333,56 @@ country_event = {
 			set_global_flag = international_nazism
             prestige = 10			
 			badboy = -5
-	        any_pop = { consciousness = 1 }
+	        any_pop = { consciousness = -1 }
 			any_country = { relation = { who = GER value = 10 } }
 			USA = { relation = { who = GER value = -20 } }
+			country_event = 9999906
+  }
+
+}
+
+country_event = {
+  id = 9999906 #Formation of NSGAP
+  title = EVT_9999906_NAME
+  desc = EVT_9999906_DESC
+  picture = "nazi_rally"
+  is_triggered_only = yes
+  
+  option = {
+            name = "EVT_9999906_A"
+            prestige = 5
+			any_pop = { consciousness = -1 }
+			country_event = 9999905
+  }
+
+}
+
+country_event = {
+  id = 9999905 #Matter of Ethnicity
+  title = EVT_9999905_NAME
+  desc = EVT_9999905_DESC
+  picture = "nazi_rally"
+  is_triggered_only = yes
+  
+  option = {
+            name = "EVT_9999905_A"
+            prestige = 5
+			country_event = 9999904
+  }
+
+}
+
+country_event = {
+  id = 9999904 #The Past
+  title = EVT_9999904_NAME
+  desc = EVT_9999904_DESC
+  picture = "nazi_rally"
+  is_triggered_only = yes
+  
+  option = {
+            name = "EVT_9999904_A"
+            badboy = -1
+			USA = { relation = { who = GER value = -50 } }
   }
 
 }

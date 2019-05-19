@@ -143,6 +143,17 @@ party = {	#SRP (Neo Fascists)			1946-1952
 		trade_policy = protectionism
 		war_policy = jingoism
 		start_date = 1946.1.1
+		end_date = 1982.5.1
+}
+party = {
+		name = "NSGAP"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = populist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1982.5.1
 		end_date = 3000.10.23
 }
 #party = {	#PBC (Radical Christians)	1989-2015
