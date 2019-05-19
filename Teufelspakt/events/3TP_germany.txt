@@ -1315,6 +1315,7 @@ country_event = {
   desc = EVT_9999907_DESC
   picture = "nazi_rally"
   fire_only_once = yes
+  major = yes
 
   trigger = {
              tag = GER
