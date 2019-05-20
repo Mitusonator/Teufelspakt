@@ -6661,4 +6661,36 @@ stack_overflow = {
 swi_ger_war_buff = {
 	mobilisation_size = 0.50
 	tax_efficiency = 0.25
+	icon = 12
+}
+
+religious_purges = {
+	ruling_party_support = -0.10
+	global_assimilation_rate = 0.10
+	education_efficiency_modifier = -0.10
+	global_pop_militancy_modifier = 0.03
+	tax_efficiency = 0.01
+	icon = 18
+}
+
+cult_of_the_state = {
+	ruling_party_support = 0.10
+	global_assimilation_rate = 0.10
+	global_pop_militancy_modifier = -0.01
+	global_pop_consciousness_modifier = -0.01
+	icon = 17
+}
+
+volkslegion = {
+    tax_efficiency = -0.01
+	education_efficiency_modifier = 0.05
+	mobilisation_size = 0.05
+	leadership_modifier = 0.10
+	land_organisation = 0.10
+	org_regain = 0.10
+	land_unit_start_experience = 5
+	global_pop_militancy_modifier = -0.01
+	global_pop_consciousness_modifier = -0.01
+	war_exhaustion = -1
+	icon = 17
 }

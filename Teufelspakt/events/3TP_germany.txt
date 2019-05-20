@@ -16,6 +16,12 @@ country_event = {
             name = "EVT_9999960_A"	
 	        any_pop = { militancy = -1 }
 			prestige = 100
+            any_pop = { 
+                       ideology = {
+	                               factor = 0.60
+	                               value = populist
+                       }
+            }
 			country_event = 9999959
   }
 
@@ -1383,6 +1389,101 @@ country_event = {
             name = "EVT_9999904_A"
             badboy = -1
 			USA = { relation = { who = GER value = -50 } }
+  }
+
+}
+
+country_event = {
+  id = 9999903 #War on Religion
+  title = EVT_9999903_NAME
+  desc = EVT_9999903_DESC
+  picture = "nazi_books_burning"
+  fire_only_once = yes
+
+  trigger = {
+             tag = GER
+             year = 1970
+			 month = 6
+			 government = populist_dictatorship
+			 NOT = { has_global_flag = ger_chancellor_wehrmacht }
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999903_A"
+			set_global_flag = ger_war_on_religion
+            any_pop = { limit = { NOT = { religion = secularism } } militancy = 3 }
+			add_country_modifier = { name = religious_purges duration = 3650 }
+            any_pop = { 
+                       ideology = {
+	                               factor = 0.25
+	                               value = populist
+                       }
+            }
+  }
+  
+  option = {
+            name = "EVT_9999903_B"
+            any_pop = { limit = { NOT = { religion = secularism } } militancy = -1 }
+  }
+
+}
+
+country_event = {
+  id = 9999902 #Creation of Volkslegion
+  title = EVT_9999902_NAME
+  desc = EVT_9999902_DESC
+  picture = "ss"
+  fire_only_once = yes
+
+  trigger = {
+             tag = GER
+             year = 1977
+			 month = 3
+			 government = populist_dictatorship
+			 NOT = { has_global_flag = ger_chancellor_himmler }
+			 NOT = { has_global_flag = ger_chancellor_wehrmacht }
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999902_A"
+            any_pop = { militancy = -1 }
+			add_country_modifier = { name = volkslegion duration = -1 }
+  }
+
+}
+
+country_event = {
+  id = 9999901 #End of War on Religion
+  title = EVT_9999901_NAME
+  desc = EVT_9999901_DESC
+  picture = "nazi_books_burning"
+  fire_only_once = yes
+
+  trigger = {
+             tag = GER
+             year = 1980
+			 month = 1
+			 government = populist_dictatorship
+			 has_global_flag = ger_war_on_religion
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999901_A"
+            any_pop = { militancy = -1 }
+			add_country_modifier = { name = cult_of_the_state duration = -1 }
+			remove_country_modifier = religious_purges
+            any_pop = { 
+                       ideology = {
+	                               factor = 0.25
+	                               value = populist
+                       }
+            }
   }
 
 }
