@@ -382,9 +382,11 @@ country_event = {
 			996 = { secede_province = GER }
 			997 = { secede_province = GER }
 			1006 = { secede_province = GER }
+			2580 = { secede_province = GER }
 			996 = { secede_province = RUS }
 			997 = { secede_province = RUS }
 			1006 = { secede_province = RUS }
+			2580 = { secede_province = RUS }
 			UBD = { government = sar_government }
 			badboy = 5
   }
@@ -410,6 +412,7 @@ country_event = {
 			996 = { add_core = UBD }
 			997 = { add_core = UBD }
 			1006 = { add_core = UBD }
+			2580 = { add_core = UBD }
 			badboy = 7.5
   }
   option = {
@@ -419,9 +422,11 @@ country_event = {
 			996 = { secede_province = GER }
 			997 = { secede_province = GER }
 			1006 = { secede_province = GER }
+			2580 = { secede_province = GER }
 			996 = { secede_province = RUS }
 			997 = { secede_province = RUS }
 			1006 = { secede_province = RUS }
+			2580 = { secede_province = RUS }
 			release_vassal = UBD
 			badboy = 2.5
   }
@@ -432,10 +437,12 @@ country_event = {
 			996 = { secede_province = GER }
 			997 = { secede_province = GER }
 			1006 = { secede_province = GER }
+			2580 = { secede_province = GER }
 			994 = { secede_province = RUS }
 			996 = { secede_province = RUS }
 			997 = { secede_province = RUS }
 			1006 = { secede_province = RUS }
+			2580 = { secede_province = RUS }
 			release_vassal = UBD
   }
   option = {
@@ -445,6 +452,7 @@ country_event = {
 			996 = { add_core = UBD }
 			997 = { add_core = UBD }
 			1006 = { add_core = UBD }
+			2580 = { add_core = UBD }
 			release_vassal = UBD
 			badboy = 1
   }
