@@ -1434,7 +1434,7 @@ country_event = {
   id = 9999902 #Creation of Volkslegion
   title = EVT_9999902_NAME
   desc = EVT_9999902_DESC
-  picture = "ss"
+  picture = "vl_flag"
   fire_only_once = yes
 
   trigger = {
