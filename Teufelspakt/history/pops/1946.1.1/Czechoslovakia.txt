@@ -355,12 +355,12 @@
 		size = 6968
 	 } 
 	clerks = {
-		culture = czech
+		culture = german
 		religion = secularism
 		size = 1529
 	 } 
 	craftsmen = {
-		culture = czech
+		culture = german
 		religion =  catholic 
 		size = 6619
 	 } 
@@ -463,12 +463,12 @@
 		size = 671
 	 } 
 	craftsmen = {
-		culture = czech
+		culture = german
 		religion =  catholic 
 		size = 2906
 	 } 
 	craftsmen = {
-		culture = czech
+		culture = german
 		religion = secularism
 		size = 638
 	 } 
@@ -561,12 +561,12 @@
 		size = 6054
 	 } 
 	craftsmen = {
-		culture = czech
+		culture = german
 		religion = secularism
 		size = 1329
 	 } 
 	craftsmen = {
-		culture = czech
+		culture = german
 		religion =  catholic 
 		size = 19120
 	 } 
@@ -752,12 +752,12 @@
 		size = 777
 	 } 
 	craftsmen = {
-		culture = czech
+		culture = german
 		religion =  catholic 
 		size = 3366
 	 } 
 	craftsmen = {
-		culture = czech
+		culture = german
 		religion = secularism
 		size = 738
 	 } 
@@ -1433,12 +1433,12 @@
 		size = 1539
 	 } 
 	craftsmen = {
-		culture = czech
+		culture = german
 		religion =  catholic 
 		size = 6662
 	 } 
 	craftsmen = {
-		culture = czech
+		culture = german
 		religion = secularism
 		size = 1462
 	 } 

@@ -20084,62 +20084,62 @@
 #Eisenstadt - Burgenland (233000/58250 POPS)
 624 = {
 	officers = {
-		culture = croat
+		culture = german
 		religion =  catholic 
 		size = 151
 	 } 
 	officers = {
-		culture = croat
+		culture = german
 		religion = secularism
 		size = 22
 	 } 
 	soldiers = {
-		culture = croat
+		culture = german
 		religion =  catholic 
 		size = 609
 	 } 
 	soldiers = {
-		culture = croat
+		culture = german
 		religion = secularism
 		size = 89
 	 } 
 	bureaucrats = {
-		culture = croat
+		culture = german
 		religion =  catholic 
 		size = 1880
 	 } 
 	bureaucrats = {
-		culture = croat
+		culture = german
 		religion = secularism
 		size = 274
 	 } 
 	clergymen = {
-		culture = croat
+		culture = german
 		religion =  catholic 
 		size = 1016
 	 } 
 	clergymen = {
-		culture = croat
+		culture = german
 		religion = secularism
 		size = 148
 	 } 
 	craftsmen = {
-		culture = croat
+		culture = german
 		religion =  catholic 
 		size = 1213
 	 } 
 	craftsmen = {
-		culture = croat
+		culture = german
 		religion = secularism
 		size = 177
 	 } 
 	craftsmen = {
-		culture = croat
+		culture = german
 		religion =  catholic 
 		size = 3834
 	 } 
 	craftsmen = {
-		culture = croat
+		culture = german
 		religion = secularism
 		size = 560
 	 } 

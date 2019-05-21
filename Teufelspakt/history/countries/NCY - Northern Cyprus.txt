@@ -70,7 +70,7 @@ schools = army_tech_school
 		}
 	# Political Reforms
 	political_opinions = regulated_opinion
-	minorities_reform = minorities_equal_rights
+	minorities_reform = minorities_affirmative_action
 	immigration_policy = quota_immigration
 	internet_infrastructure = quality_of_service
 	political_parties = parties_only_nominated

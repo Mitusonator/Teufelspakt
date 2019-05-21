@@ -558,29 +558,30 @@ political_reforms = {
 		}
 	}
 	minorities_reform = {
-		next_step_only = yes
+		#next_step_only = yes
 		administrative = yes
-		minorities_oppression = { #oppression
-		rules = { primary_culture_voting = yes culture_voting = yes } # primary_culture_voting
+		minorities_oppression = { #segregation
+		    rules = { primary_culture_voting = yes  culture_voting = yes }
 			global_immigrant_attract = -0.5
 			global_assimilation_rate = -1
+			administrative_multiplier = 1
+			non_accepted_pop_militancy_modifier = 0.10
+			pension_level = -1
+			#allow = { not = { minorities_reform = minorities_equal_rights } }
+		}
+		minorities_equal_rights = { #forced assimilation
+		    rules = { primary_culture_voting = yes  culture_voting = yes }
+			global_population_growth = 0.001
+			global_immigrant_attract = -0.50
+			global_assimilation_rate = 1
+			administrative_multiplier = 2
 			non_accepted_pop_militancy_modifier = 0.10
 		}
-		minorities_equal_rights = { # limited
+		minorities_affirmative_action = { #equal rights
 			rules = { all_voting = yes }
-			global_population_growth = 0.001
-			administrative_multiplier = 1
-			global_pop_consciousness_modifier = 0.01
-		allow = { not = { citizenship_policy = residency } }
-		}
-		minorities_affirmative_action = { # protected
-			rules = { all_voting = yes }
-			global_immigrant_attract = 0.5
 			global_population_growth = 0.002
-			global_assimilation_rate = 0.1
-			administrative_multiplier = 2 
-			global_pop_consciousness_modifier = 0.02
-		allow = { citizenship_policy = full_citizenship }
+			global_pop_consciousness_modifier = 0.01
+		    allow = { not = { citizenship_policy = residency } }
 		}
 	}
 	voting_system = {

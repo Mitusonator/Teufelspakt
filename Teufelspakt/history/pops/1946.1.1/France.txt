@@ -10003,12 +10003,22 @@
 	craftsmen = {
 		culture = french
 		religion =  catholic 
-		size = 4502
-	 } 
+		size = 2251
+	 }
+	craftsmen = {
+		culture = german
+		religion =  catholic 
+		size = 2251
+	 }	 
 	craftsmen = {
 		culture = french
 		religion = secularism
-		size = 1022
+		size = 511
+	 } 
+	craftsmen = {
+		culture = german
+		religion = secularism
+		size = 511
 	 } 
 	craftsmen = {
 		culture = french
@@ -10116,13 +10126,23 @@
 	craftsmen = {
 		culture = french
 		religion =  catholic 
-		size = 3051
+		size = 1526
+	 } 
+	craftsmen = {
+		culture = german
+		religion =  catholic 
+		size = 1526
 	 } 
 	craftsmen = {
 		culture = french
 		religion = secularism
-		size = 692
+		size = 346
 	 } 
+	craftsmen = {
+		culture = german
+		religion = secularism
+		size = 346
+	 }
 	craftsmen = {
 		culture = french
 		religion =  catholic 
