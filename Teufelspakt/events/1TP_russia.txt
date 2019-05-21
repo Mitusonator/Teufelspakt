@@ -376,7 +376,7 @@ country_event = {
 
   
    option = {
-            name = "Incorporate Occupation zone into the Reich and return ethnic Russian territory but keep Peterburg"
+            name = "Incorporate Occupation zone into the Reich and return ethnic Russian territory but keep Petersburg"
             ai_chance = { factor = 0.2 }
 			994 = { secede_province = GER }
 			996 = { secede_province = GER }
@@ -397,10 +397,12 @@ country_event = {
 			996 = { secede_province = GER }
 			997 = { secede_province = GER }
 			1006 = { secede_province = GER }
+			2580 = { secede_province = GER }
 			994 = { secede_province = RUS }
 			996 = { secede_province = RUS }
 			997 = { secede_province = RUS }
 			1006 = { secede_province = RUS }
+			2580 = { secede_province = RUS }
 			UBD = { government = sar_government }
 			badboy = 2.5
   } 
