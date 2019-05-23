@@ -614,10 +614,47 @@ country_event = {
     trigger = {
              tag = GER
 			 war = no
-			 CZH = { has_country_modifier = communist_bloc }
-			 exists = CZH
-			 year = 1969
-			 month = 9
+			 OR = {
+			       #AND = {
+				   #       exists = CZH
+			       #       CZH = { has_country_modifier = communist_bloc }			  
+				   #}
+			       #AND = {
+				   #       exists = XEA
+			       #       XEA = { has_country_modifier = communist_bloc }	
+				   #	  XEA = { owns = 625 }
+				   #	  XEA = { owns = 626 }
+				   #	  XEA = { owns = 631 }
+				   #	  XEA = { owns = 633 }
+				   #	  XEA = { owns = 634 }
+				   #	  XEA = { owns = 635 }
+				   #	  XEA = { owns = 636 }						  
+				   #}				 
+			       #AND = {
+				   #       exists = BOH
+				   #	  exists = SLV
+			       #       BOH = { has_country_modifier = communist_bloc }
+                   #       SLV = { has_country_modifier = communist_bloc }						  
+				   #}
+				   AND = {
+						  GER = { owns = 625 }
+						  GER = { owns = 626 }
+						  GER = { owns = 631 }
+						  GER = { owns = 633 }
+						  GER = { owns = 634 }
+						  GER = { owns = 635 }
+						  GER = { owns = 636 }
+				   }
+				   AND = {
+						  625 = { owner = { AND = { has_country_modifier = communist_bloc ai = yes } } }
+						  626 = { owner = { AND = { has_country_modifier = communist_bloc ai = yes } } }
+						  631 = { owner = { AND = { has_country_modifier = communist_bloc ai = yes } } }
+						  633 = { owner = { AND = { has_country_modifier = communist_bloc ai = yes } } }
+						  634 = { owner = { AND = { has_country_modifier = communist_bloc ai = yes } } }
+						  635 = { owner = { AND = { has_country_modifier = communist_bloc ai = yes } } }
+						  636 = { owner = { AND = { has_country_modifier = communist_bloc ai = yes } } }
+				   }
+			 }
 			 NOT = { badboy = 0.6 }
              has_global_flag = blocsenabled
 			 NOT = { has_global_flag = ger_dealt_with_czh }
@@ -629,7 +666,11 @@ country_event = {
   option = {
             name = "EVT_9999939_A" #Integrated bohemia and moravia
 			ai_chance = { factor = 0.6 }
+			any_country = { limit = { NOT = { tag = CZH tag = BOH } owns = 625 } release = BOH }
+			any_country = { limit = { NOT = { tag = CZH tag = SLV } owns = 633 } release = SLV }
 			inherit = CZH
+			inherit = BOH
+			inherit = SLV
 			BOH = { all_core = { add_core = GER }  }
 			badboy = 10
 			set_global_flag = ger_dealt_with_czh
@@ -639,7 +680,11 @@ country_event = {
             name = "EVT_9999939_B" #Protectorate	
 			ai_chance = { factor = 0.4 }
 			set_global_flag = ger_dealt_with_czh
+			any_country = { limit = { NOT = { tag = CZH tag = BOH } owns = 625 } release = BOH }
+			any_country = { limit = { NOT = { tag = CZH tag = SLV } owns = 633 } release = SLV }
 			inherit = CZH
+			inherit = BOH
+			inherit = SLV
 			625 = { secede_province = BOH }
 			626 = { secede_province = BOH }
 			631 = { secede_province = BOH }
@@ -657,7 +702,7 @@ country_event = {
 			GER = { create_vassal = BOH }
 			BOH = { government = sar_government }
 			GER = { badboy = 5 }
-			GER = { country_event = 9999938	}
+			GER = { country_event = 9999938 }
   }
 
 }
