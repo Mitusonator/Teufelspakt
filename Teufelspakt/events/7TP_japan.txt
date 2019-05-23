@@ -334,6 +334,7 @@ country_event = {
   trigger = {
              tag = JAP
              has_global_flag = JAP_civil_war
+			 NOT = { has_global_flag = jap_cw_ryk_victory }
 			 war = no
 			 NOT = { exists = RYK }
   }

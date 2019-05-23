@@ -6710,7 +6710,7 @@ total_blockade = {
 }
 
 us_support = {
-	mobilisation_size = 0.10
+	mobilisation_size = 0.20
 	leadership_modifier = 0.20
 	land_organisation = 0.20
 	org_regain = 0.10
