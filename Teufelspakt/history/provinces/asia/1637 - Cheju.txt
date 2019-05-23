@@ -1,6 +1,7 @@
 owner = USA
 controller = USA
 add_core = KOR
+add_core = JAP
 
 #add_core =  JDO
 

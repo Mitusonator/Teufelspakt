@@ -23,6 +23,7 @@ country_event = {
                        }
             }
 			country_event = 9999959
+			USA = { country_event = 9999900 }
   }
 
 }

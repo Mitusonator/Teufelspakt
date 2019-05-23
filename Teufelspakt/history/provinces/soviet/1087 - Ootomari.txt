@@ -2,6 +2,7 @@ owner = USA
 controller = USA
 add_core = RUS
 add_core = JAP
+add_core = RYK
 trade_goods = coal
 life_rating = 35
 terrain = conifer_forest_hills

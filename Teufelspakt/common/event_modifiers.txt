@@ -6699,3 +6699,22 @@ volkslegion = {
 	war_exhaustion = -1
 	icon = 17
 }
+
+total_blockade = {
+    import_cost = 10
+    factory_throughput = -0.75 
+    rgo_throughput = -0.50
+    factory_owner_cost = 2
+    tax_efficiency = -0.10
+    icon = 18
+}
+
+us_support = {
+	mobilisation_size = 0.10
+	leadership_modifier = 0.20
+	land_organisation = 0.20
+	org_regain = 0.10
+	land_unit_start_experience = 10
+	war_exhaustion = -1
+	icon = 17
+}
