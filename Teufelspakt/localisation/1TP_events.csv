@@ -362,4 +362,4 @@ EVT_9999887_A;Excellent!;;;;;;;;;;;;;x;;;;
 EVT_9999885_NAME;Neu Ostsiedlung;;;;;;;;;;;;;x;;;;
 EVT_9999885_DESC;Although misleading in name since it not only concern eastern land, program called "Neu Ostsiedlung" was proposed as an effort of colonisation and assimilation of territories that aren't ethnically German (yet), it also includes forceful relocation of non-German population deep into the Reich. The program is very ambitious and may demand some financial backing, it may also anger ethnic population. But it is yet to be decided whether the program will see its realisation.;;;;;;;;;;;;;x;;;;
 EVT_9999885_A;All world shall be German!;;;;;;;;;;;;;x;;;;
-EVT_9999885_A;It isn't worth the effort;;;;;;;;;;;;;x;;;;
+EVT_9999885_B;It isn't worth the effort;;;;;;;;;;;;;x;;;;
