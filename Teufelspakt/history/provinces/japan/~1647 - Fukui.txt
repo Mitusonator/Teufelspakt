@@ -1,10 +1,9 @@
 owner = JAP
 controller = JAP
 add_core = JAP
-add_core = RYK
-trade_goods = rice
+trade_goods = other_minerals
 life_rating = 35
-terrain = good_farmland
+terrain = hilly_farmland
 railroad = 1
 colonial = 0
 1992.1.1 = {

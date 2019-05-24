@@ -236,6 +236,8 @@ country_event = {
 			 }
 		    }
 			SPL = { add_country_modifier = { name = total_war duration = 1825 } }
+			BYE = { add_country_modifier = { name = total_war duration = 1825 } }
+			LIT = { add_country_modifier = { name = total_war duration = 1825 } }
 			POL = { add_country_modifier = { name = total_war duration = 1825 } }
 			change_tag_no_core_switch = SPL
 			GER = { relation = { who = SPL value = -400 } }
@@ -282,6 +284,8 @@ country_event = {
 			 }
 		    }
 			SPL = { add_country_modifier = { name = total_war duration = 1825 } }
+			BYE = { add_country_modifier = { name = total_war duration = 1825 } }
+			LIT = { add_country_modifier = { name = total_war duration = 1825 } }
 			POL = { add_country_modifier = { name = total_war duration = 1825 } }
 			GER = { relation = { who = SPL value = -400 } }
 		    GER = { diplomatic_influence = { who = SPL value = -400 } }
