@@ -197,7 +197,7 @@ country_event = {
   trigger = {
      tag = FRA
  	 NOT = { war_with = GER }
-	 POL = { has_recently_lost_war = yes }
+	 FRA = { has_recently_lost_war = yes }
 	 GER = { has_recently_lost_war = no }
 	 has_global_flag = fra_ger_border_war
   }
