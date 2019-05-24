@@ -1402,7 +1402,8 @@ country_event = {
 	
 trigger = {
 NOT = { has_country_modifier = un_sanctions }
-badboy = 25
+NOT = { has_country_modifier = unsc_permanent_member }
+badboy = 1
 }
 
 option = {
@@ -1420,7 +1421,7 @@ country_event = {
 	
 trigger = {
 has_country_modifier = un_sanctions
-NOT = { badboy = 25 }
+NOT = { badboy = 1 }
 }
 
 option = {
@@ -1438,7 +1439,8 @@ country_event = {
 trigger = {
 OR = { has_country_modifier = atomic_nation has_country_modifier = hydrogen_nation }
 NOT = { has_country_modifier = nuke_sanctions }
-badboy = 25
+NOT = { has_country_modifier = unsc_permanent_member }
+badboy = 1
 }
 
 option = {

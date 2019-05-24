@@ -524,15 +524,15 @@ country_event = {
 }
 
 country_event = {
-  id = 9999942 #Cheat for AI Germany
+  id = 9999942 #Cheat for AI
   title = EVT_9999942_NAME
   desc = EVT_9999942_DESC
   picture = "ss"
   fire_only_once = yes
 
   trigger = {
-             tag = GER
-			 year = 1960
+             #tag = GER
+			 #year = 1960
 			 ai = yes
              badboy = 1
   }
@@ -543,7 +543,7 @@ country_event = {
             name = "EVT_9999942_A"
 			badboy = -500
             prestige = -100
-            set_global_flag = can_attack_infamous_ai_ger			
+            #set_country_flag = can_attack_infamous_ai			
   }
 
 }

@@ -680,7 +680,7 @@ NOT = { AND = { THIS = { ai = yes } part_of_sphere  = yes } }
 		any_owned_province = {
 			is_core = THIS
 		}
-		NOT = { any_owned_province = { is_capital = yes } }
+		#NOT = { any_owned_province = { is_capital = yes } }
 	}
 
 	po_demand_state = yes
@@ -835,7 +835,7 @@ war_policy = jingoism war = yes has_country_flag = world_medium has_country_flag
 			NOT = { is_core = THIS }
 			#is_colonial = no
 		}
-		NOT = { any_owned_province = { is_capital = yes } }
+		#NOT = { any_owned_province = { is_capital = yes } }
 	}
 	
 	allowed_states_in_crisis = {
@@ -2298,7 +2298,7 @@ THIS = { NOT = { has_country_flag = renounced_war_rights } }
 THIS = { NOT = { has_country_flag = un_armistice } }
 		NOT = { is_our_vassal = THIS }
 		THIS = { NOT = { war_policy = pacifism } }
-		badboy = 1
+		badboy = 1.2
 		NOT = { AND = { tag = GER ai = yes NOT = { has_global_flag = can_attack_infamous_ai_ger } } }
 	}
 	

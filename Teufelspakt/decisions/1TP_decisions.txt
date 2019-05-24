@@ -52,6 +52,7 @@ ger_claim_gg = {
                     AND = {					
 					       ai = yes
 						   year = 1975
+						   NOT = { badboy = 0.4 }
 					}
                     AND = {					
 					       ai = no
