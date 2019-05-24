@@ -74,7 +74,7 @@ ger_claim_gg = {
 			707 = { add_core = GER }
 			719 = { add_core = GER }
 			GER = { prestige = 10 }
-			badboy = 
+			GER = { badboy = 10 }
 			GER = { set_country_flag = claimed_gg }
 		}
 
