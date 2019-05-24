@@ -962,13 +962,13 @@ country_event = {
   
   option = {
             name = EVT_9999966_A #It was just a bluff...
-			ai_chance = { factor = 0.2 }
+			ai_chance = { factor = 0 }
             badboy = -1
   }
   
   option = {
             name = EVT_9999966_B #So it is war 
-			ai_chance = { factor = 0.8 }
+			ai_chance = { factor = 1 }
 			set_global_flag = rus_ukr_border_war
 			war = {
 			 target = UKR
