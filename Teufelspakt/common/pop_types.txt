@@ -503,7 +503,7 @@ demotion_chance = { # 1
 
 #general migration chance mtth, same for all pops
 migration_chance = { # 1
-	factor = 1
+	factor = 2
 
 modifier = { factor = 0.4 location = { total_pops = 2000000 } }
 
@@ -945,12 +945,13 @@ assimilation_chance = { # 1
 		NOT = { is_culture_group = THIS }
 		NOT = { is_culture_group = african_diaspora_cultures THIS = { is_culture_group = african } }
 		NOT = { is_culture_group = neo_european_cultures THIS = { is_culture_group = european } }
+		NOT = { country = { has_country_flag = neu_ostsiedlung_flag } }
 	}
 	group = {
-	    modifier = { factor = 0.2 has_pop_religion = secularism country = { has_country_flag = war_on_religion_flag } }
-	    modifier = { factor = 0.3 has_pop_religion = secularism country = { has_country_flag = cult_of_state_flag } }
+	    modifier = { factor = 1.0 has_pop_religion = secularism country = { has_country_flag = war_on_religion_flag } }
+	    modifier = { factor = 1.5 has_pop_religion = secularism country = { has_country_flag = cult_of_state_flag } }
 	}
-	modifier = { factor = 2.5 country = { has_country_flag = neu_ostsiedlung_flag } }
+	modifier = { factor = 5 country = { has_country_flag = neu_ostsiedlung_flag } }
 }
 
 #general conversion mtth, same for all pops

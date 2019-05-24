@@ -500,14 +500,14 @@ migration_target = {
 		}
 	}
 	modifier = { 
-	             factor = 3
+	             factor = 10
 				 THIS = { OR = { is_primary_culture = yes is_accepted_culture = yes } }
 	             is_primary_culture = no
 				 is_accepted_culture = no
 	             country = { has_country_flag = neu_ostsiedlung_flag } 
 	}
 	modifier = { 
-	             factor = 3
+	             factor = 10
 				 THIS = { is_primary_culture = no is_accepted_culture = no }
 	             is_primary_culture = yes
 				 is_accepted_culture = yes

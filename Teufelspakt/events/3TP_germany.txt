@@ -1559,6 +1559,7 @@ country_event = {
   
   option = {
             name = "EVT_9999885_A"
+			ai_chance = { factor = 0.7 }
             any_pop = { limit = { is_accepted_culture = no is_primary_culture = no } militancy = 2 }
 			set_country_flag = neu_ostsiedlung_flag
 			political_reform = minorities_equal_rights
@@ -1567,6 +1568,7 @@ country_event = {
   
   option = {
             name = "EVT_9999885_B"
+			ai_chance = { factor = 0.3 }
             any_pop = { limit = { is_accepted_culture = no is_primary_culture = no } militancy = -1 }
   }
 
