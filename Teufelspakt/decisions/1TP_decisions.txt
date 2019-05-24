@@ -35,4 +35,51 @@ integrate_sweden_ger = {
 		}
 }
 
+ger_claim_gg = {
+	picture = "gg"
+	potential = {
+                 tag = GER
+				 has_global_flag = ger_expanded
+				 has_global_flag = blocsenabled
+				 NOT = { has_country_flag = claimed_gg }
+	}
+
+	allow = {
+              GER = { owns = 712 }	
+			  GER = { owns = 699 }	
+			  GER = { owns = 685 }	
+              OR = { 
+                    AND = {					
+					       ai = yes
+						   year = 1975
+					}
+                    AND = {					
+					       ai = no
+						   NOT = { badboy = 0.5 }
+					}
+			  }			  
+            
+	}
+
+    alert = yes
+
+		effect = {
+            PRU_701 = { add_core = GER }
+			RUS_706 = { add_core = GER }
+			RUS_715 = { add_core = GER }
+			AUS_702 = { add_core = GER }
+			PRU_684 = { add_core = GER }
+			689 = { add_core = GER }
+			707 = { add_core = GER }
+			719 = { add_core = GER }
+			GER = { prestige = 10 }
+			badboy = 
+			GER = { set_country_flag = claimed_gg }
+		}
+
+		ai_will_do = { 
+			factor = 1
+		}
+}
+
 }

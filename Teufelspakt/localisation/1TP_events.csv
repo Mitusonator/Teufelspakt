@@ -4,6 +4,8 @@
 ##;;;;;;;;;;;X
 # Events;;;;;;;;;;;X
 ##;;;;;;;;;;;X
+ger_claim_gg_title;Claim Territory of Former General Government;;;;;;;;x
+ger_claim_gg_desc;During the War territory of Poland proper was transformed into General Government. Maybe we should think about re-incorporating this land into the Reich.;;;;;;;;x
 unite_italy_ITA_title;Italian Unification;;;;;;;;x
 unite_italy_ITA_desc;Finally! With our governments being compatible Italy can reunite once again.;;;;;;;;x
 unite_italy_IRS_title;Italian Unification;;;;;;;;x
@@ -149,9 +151,10 @@ EVT_9999954_NAME;German Intervention in French Civil War;;;;;;;;;;;;;x;;;;
 EVT_9999954_DESC;Turmoil in France raises opportunity to size Luxembourg and Alsatian Condominium.;;;;;;;;;;;;;x;;;;
 EVT_9999954_A;Size Luxembourg!;;;;;;;;;;;;;x;;;;
 EVT_9999954_B;Size Luxembourg and Alsace!;;;;;;;;;;;;;x;;;;
-EVT_9999954_C;Don't anger the French..;;;;;;;;;;;;;x;;;;
-EVT_9999953_NAME;Germany Sizes Alsace;;;;;;;;;;;;;x;;;;
-EVT_9999953_DESC;Germany used our civil war as an opportunity to size Alsace, what should we do?;;;;;;;;;;;;;x;;;;
+EVT_9999954_C;Don't anger the French...;;;;;;;;;;;;;x;;;;
+EVT_9999954_D;We need more room at the west!;;;;;;;;;;;;;x;;;;
+EVT_9999953_NAME;Germany Demands Eastern France;;;;;;;;;;;;;x;;;;
+EVT_9999953_DESC;Germany used our civil war as an opportunity to size Alsace, and now they are demanding even more territory what should we do?;;;;;;;;;;;;;x;;;;
 EVT_9999953_A;We has more pressing issues...;;;;;;;;;;;;;x;;;;
 EVT_9999953_B;Aggression has to be met with aggression!;;;;;;;;;;;;;x;;;;
 EVT_9999952_NAME;The Truth;;;;;;;;;;;;;x;;;;
@@ -363,3 +366,6 @@ EVT_9999885_NAME;Neu Ostsiedlung;;;;;;;;;;;;;x;;;;
 EVT_9999885_DESC;Although misleading in name since it not only concern eastern land, program called "Neu Ostsiedlung" was proposed as an effort of colonisation and assimilation of territories that aren't ethnically German (yet), it also includes forceful relocation of non-German population deep into the Reich. The program is very ambitious and may demand some financial backing, it may also anger ethnic population. But it is yet to be decided whether the program will see its realisation.;;;;;;;;;;;;;x;;;;
 EVT_9999885_A;All world shall be German!;;;;;;;;;;;;;x;;;;
 EVT_9999885_B;It isn't worth the effort;;;;;;;;;;;;;x;;;;
+EVT_9999884_NAME;French Republic Victorious;;;;;;;;;;;;;x;;;;
+EVT_9999884_DESC;We were able to win the civil war, now Petain will be judged for his crimes.;;;;;;;;;;;;;x;;;;
+EVT_9999884_A;Liberte, Egalite, Fraternite!;;;;;;;;;;;;;x;;;;

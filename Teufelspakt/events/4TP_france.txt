@@ -63,7 +63,7 @@ country_event = {
 		add_country_modifier = { name = atomic_nation duration = -1 }
 		prestige = 2000
 		inherit = ALS
-		create_vassal = ALS
+		release_vassal = ALS
   }
 
 }
@@ -93,10 +93,31 @@ country_event = {
   
   option = {
             name = EVT_9999954_B #Size Luxemburg and Alsace 
-			ai_chance = { factor = 0.7 }
+			ai_chance = { factor = 0.5 }
 			GER = { inherit = LUX }
 			GER = { inherit = ALS }
 			badboy = 5
+  }
+  option = {
+            name = EVT_9999954_D #Demand Western France 
+			ai_chance = { factor = 0.2 }
+			GER = { inherit = LUX }
+			GER = { inherit = ALS }
+			432 = { add_core = GER }
+			411 = { add_core = GER }
+			414 = { add_core = GER }
+			413 = { add_core = GER }
+			405 = { add_core = BEL }
+			404 = { add_core = BEL }
+			405 = { add_core = WLL }
+			404 = { add_core = WLL }
+			401 = { add_core = BEL }
+			399 = { add_core = BEL }
+			400 = { add_core = BEL }
+			401 = { add_core = FLA }
+			399 = { add_core = FLA }
+			400 = { add_core = FLA }
+			badboy = 10
 			FRA = { country_event = 9999953 }
   }
   option = {
@@ -107,7 +128,7 @@ country_event = {
 }
 
 country_event = {
-  id = 9999953 #Alsace annexation - French reaction
+  id = 9999953 #German demand - French reaction
   title = EVT_9999953_NAME
   desc = EVT_9999953_DESC
   picture = "german_ethnic_map"
@@ -116,13 +137,15 @@ country_event = {
   
   option = {
             name = EVT_9999953_A #Accept annexation
-			ai_chance = { factor = 0.9 }
+			ai_chance = { factor = 0.2 }
             prestige = -50
+			any_owned = { limit = { is_core = GER }  secede_province = GER }
+			any_owned = { limit = { is_core = BEL }  secede_province = BEL }
   }
   
   option = {
             name = EVT_9999953_B #Declare War on Germany 
-			ai_chance = { factor = 0.1 }
+			ai_chance = { factor = 0.8 }
 			war = {
 			 target = GER
 			 attacker_goal = {
@@ -134,6 +157,58 @@ country_event = {
 			 }
 		    }
             GER = { badboy = -3 }
+			set_global_flag = fra_ger_border_war
+  }
+
+}
+
+country_event = {
+  id = 9999884 #Republican Victory
+  title = EVT_9999984_NAME
+  desc = EVT_9999984_DESC
+  picture = "petain_de_gaulle"
+  fire_only_once = yes
+
+  trigger = {
+             tag = FRA
+             has_global_flag = FRA_civil_war
+			 war = no
+			 NOT = { exists = UFR }
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999955_A #Victory
+			ai_chance = { factor = 1 }
+		    prestige = 100
+			FRA = { all_core = { remove_core = UFR } }
+  }
+
+}
+
+country_event = {
+  id = 9999883 #FRA-GER war German Victory
+  title = EVT_9999883_NAME
+  desc = EVT_9999883_DESC
+  picture = "german_ethnic_map"
+  fire_only_once = yes
+
+  trigger = {
+     tag = FRA
+ 	 NOT = { war_with = GER }
+	 POL = { has_recently_lost_war = yes }
+	 GER = { has_recently_lost_war = no }
+	 has_global_flag = fra_ger_border_war
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999883_A #Surrender
+			ai_chance = { factor = 1 }
+            any_owned = { limit = { is_core = GER }  secede_province = GER }
+			clr_global_flag = pol_ger_border_war
   }
 
 }

@@ -4,6 +4,11 @@ RUS = {
 	influence_value = 0
 	military_access = yes
 }
+FRA = {
+	level = 1
+	value = -100
+	influence_value = 0
+}
 CRI = {
 	level = 5
 	value = 200
