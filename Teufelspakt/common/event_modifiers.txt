@@ -6664,9 +6664,14 @@ stack_overflow = {
 	tax_efficiency = -0.25
 }
 
-swi_ger_war_buff = {
-	mobilisation_size = 0.50
+total_war = {
+	mobilisation_size = 1.00
+	leadership_modifier = -0.30
+	land_organisation = -0.30
 	tax_efficiency = 0.25
+	org_regain = 0.15
+	land_unit_start_experience = -10
+	war_exhaustion = -3
 	icon = 12
 }
 
@@ -6711,12 +6716,13 @@ total_blockade = {
 }
 
 us_support = {
-	mobilisation_size = 0.20
-	leadership_modifier = 0.20
-	land_organisation = 0.20
-	org_regain = 0.10
+	mobilisation_size = 0.30
+	leadership_modifier = 0.30
+	land_organisation = 0.30
+	tax_efficiency = 0.05
+	org_regain = 0.15
 	land_unit_start_experience = 10
-	war_exhaustion = -1
+	war_exhaustion = -2
 	icon = 17
 }
 

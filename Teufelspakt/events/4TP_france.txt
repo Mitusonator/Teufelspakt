@@ -31,6 +31,8 @@ country_event = {
 				casus_belli = civil_war
 			 }
 		    }
+			FRA = { add_country_modifier = { name = total_war duration = 1825 } }
+			UFR = { add_country_modifier = { name = total_war duration = 1825 } }
   }    
 
 }

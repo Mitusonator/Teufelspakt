@@ -1033,7 +1033,7 @@ country_event = {
 			609 = { add_core = GER }
 			607 = { add_core = GER }
 			608 = { add_core = GER }
-			SWI = { add_country_modifier = { name = swi_ger_war_buff duration = 1825 } }
+			SWI = { add_country_modifier = { name = total_war duration = 1825 } }
 			war = {
 			 target = SWI
 			 attacker_goal = {

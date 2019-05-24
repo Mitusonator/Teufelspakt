@@ -130,7 +130,7 @@ country_event = {
 			government = presidential_dictatorship
 			government = populist_dictatorship
 			government = nationalist_dictatorship
-			government = absolute_monarchy
+			#government = absolute_monarchy
 			government = theocracy
 		}
 
