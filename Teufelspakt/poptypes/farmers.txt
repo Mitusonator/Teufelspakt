@@ -469,8 +469,26 @@ migration_target = {
 	modifier = {
 		factor = 0.1
 		is_primary_culture = no # minority is majority in province
+		is_accepted_culture = no
+		NOT = { country = { has_country_flag = neu_ostsiedlung_flag } }
 	}
 	
+	modifier = { factor = 1.2 total_pops = 100000 }
+	modifier = { factor = 1.2 total_pops = 200000 }
+	modifier = { factor = 1.2 total_pops = 300000 }
+	modifier = { factor = 1.2 total_pops = 400000 }
+	modifier = { factor = 1.2 total_pops = 500000 }
+	modifier = { factor = 1.2 total_pops = 600000 }
+	modifier = { factor = 1.2 total_pops = 700000 }
+	modifier = { factor = 1.2 total_pops = 800000 }
+	modifier = { factor = 1.2 total_pops = 900000 }
+	modifier = { factor = 1.2 total_pops = 1000000 }
+	modifier = { factor = 1.2 total_pops = 1100000 }
+	modifier = { factor = 1.2 total_pops = 1200000 }
+	modifier = { factor = 1.2 total_pops = 1300000 }
+	modifier = { factor = 1.2 total_pops = 1400000 }
+	modifier = { factor = 1.2 total_pops = 1500000 }
+
 	modifier = {
 		factor = 1.2
 		has_pop_culture = THIS
@@ -480,6 +498,20 @@ migration_target = {
 		state_scope = {
 			has_factories = no
 		}
+	}
+	modifier = { 
+	             factor = 3
+				 THIS = { OR = { is_primary_culture = yes is_accepted_culture = yes } }
+	             is_primary_culture = no
+				 is_accepted_culture = no
+	             country = { has_country_flag = neu_ostsiedlung_flag } 
+	}
+	modifier = { 
+	             factor = 3
+				 THIS = { is_primary_culture = no is_accepted_culture = no }
+	             is_primary_culture = yes
+				 is_accepted_culture = yes
+	             country = { has_country_flag = neu_ostsiedlung_flag } 
 	}
 	modifier = {
 		factor = 2

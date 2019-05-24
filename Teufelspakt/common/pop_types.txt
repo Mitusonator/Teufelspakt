@@ -565,6 +565,33 @@ modifier = { factor = -0.1 NOT = { year = 2030 } }
 	OR = { is_primary_culture = no is_accepted_culture = no } 
 		location = { is_primary_culture = no is_accepted_culture = no } 
 	}
+	
+	modifier = { 
+	             factor = 1.5
+				 OR = { is_primary_culture = no is_accepted_culture = no }
+	             location = { is_primary_culture = no is_accepted_culture = no } 
+				 country = { has_country_flag = neu_ostsiedlung_flag }  
+	}
+	
+	modifier = { 
+	             factor = -1
+				 OR = { is_primary_culture = no is_accepted_culture = no }
+	             location = { is_primary_culture = yes is_accepted_culture = yes } 
+				 country = { has_country_flag = neu_ostsiedlung_flag }  
+	}
+	
+	modifier = { 
+	             factor = 3
+				 OR = { is_primary_culture = yes is_accepted_culture = yes }
+	             location = { is_primary_culture = yes is_accepted_culture = yes } 
+				 country = { has_country_flag = neu_ostsiedlung_flag }  
+	}
+	modifier = { 
+	             factor = -1
+				 OR = { is_primary_culture = yes is_accepted_culture = yes }
+	             location = { is_primary_culture = no is_accepted_culture = no } 
+				 country = { has_country_flag = neu_ostsiedlung_flag }  
+	}
 }
 
 #general colonial migration mtth, same for all pops
@@ -750,7 +777,7 @@ modifier = { factor = 0.05 NOT = { OR = { government = democracy government = de
 
 	modifier = { 
 		factor = -0.5
-		country = { OR = { immigration_policy = nobody_gets_out government = proletarian_dictatorship } }
+		country = { OR = { immigration_policy = nobody_gets_out government = populist_dictatorship } }
 	}	
 
 	modifier = {
@@ -758,6 +785,10 @@ modifier = { factor = 0.05 NOT = { OR = { government = democracy government = de
 		NOT = { is_primary_culture = yes }
 		NOT = { is_accepted_culture = yes }
 		country = { has_country_flag = ethnic_cleansing }
+	}
+	modifier = { 
+	             factor = -0.5
+	             country = { has_country_flag = neu_ostsiedlung_flag } 
 	}
 }
 
@@ -915,6 +946,11 @@ assimilation_chance = { # 1
 		NOT = { is_culture_group = african_diaspora_cultures THIS = { is_culture_group = african } }
 		NOT = { is_culture_group = neo_european_cultures THIS = { is_culture_group = european } }
 	}
+	group = {
+	    modifier = { factor = 0.2 has_pop_religion = secularism country = { has_country_flag = war_on_religion_flag } }
+	    modifier = { factor = 0.3 has_pop_religion = secularism country = { has_country_flag = cult_of_state_flag } }
+	}
+	modifier = { factor = 2.5 country = { has_country_flag = neu_ostsiedlung_flag } }
 }
 
 #general conversion mtth, same for all pops
@@ -936,6 +972,10 @@ conversion_chance = { # 1.0
 	group = {
 		modifier = { factor = 0.2 country = { religious_policy = moralism } }
 		modifier = { factor = 0.2 country = { religious_policy = pro_atheism } }
+	}
+	group = {
+	    modifier = { factor = 0.2 NOT = { has_pop_religion = secularism } country = { has_country_flag = war_on_religion_flag } }
+	    modifier = { factor = 0.1 NOT = { has_pop_religion = secularism } country = { has_country_flag = cult_of_state_flag } }
 	}
 
 	modifier = { factor = 0.2 culture = THIS }

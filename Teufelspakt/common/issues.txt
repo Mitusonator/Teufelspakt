@@ -567,7 +567,7 @@ political_reforms = {
 			administrative_multiplier = 1
 			non_accepted_pop_militancy_modifier = 0.10
 			pension_level = -1
-			#allow = { not = { minorities_reform = minorities_equal_rights } }
+			allow = { NOT = { country = { has_country_flag = neu_ostsiedlung_flag } } }
 		}
 		minorities_equal_rights = { #forced assimilation
 		    rules = { primary_culture_voting = yes  culture_voting = yes }

@@ -6718,3 +6718,11 @@ us_support = {
 	war_exhaustion = -1
 	icon = 17
 }
+
+neu_ostsiedlung = {
+	tax_efficiency = -0.01
+	global_assimilation_rate = 0.10
+	education_efficiency_modifier = 0.05
+	non_accepted_pop_militancy_modifier = 0.03
+	icon = 17
+}
