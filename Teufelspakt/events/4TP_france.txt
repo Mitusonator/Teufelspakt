@@ -208,7 +208,8 @@ country_event = {
             name = EVT_9999883_A #Surrender
 			ai_chance = { factor = 1 }
             any_owned = { limit = { is_core = GER }  secede_province = GER }
-			clr_global_flag = pol_ger_border_war
+			any_owned = { limit = { is_core = BEL }  secede_province = BEL }
+			clr_global_flag = fra_ger_border_war
   }
 
 }
