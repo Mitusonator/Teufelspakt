@@ -207,7 +207,7 @@ country_event = {
   option = {
     name = EVT_9999892_A
 	prestige = 25
-    money = 50000
+    money = 100000
 	relation = { who = USA value = 100 }
     add_country_modifier = { name = us_support duration = 3650 }
   }
