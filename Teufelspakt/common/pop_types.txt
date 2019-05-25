@@ -780,7 +780,7 @@ colonialmigration_chance = {
 
 #general emigration chance
 emigration_chance = { # 0.5
-	factor = 1.0
+	factor = 0.5
 
 group = {
 modifier = { factor = -0.1 NOT = { year = 1990 } }
@@ -848,88 +848,87 @@ modifier = { factor = -0.1 NOT = { year = 2030 } }
 
 	group = {
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { administration_spending = 0.1 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { administration_spending = 0.2 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { administration_spending = 0.3 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { administration_spending = 0.4 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { administration_spending = 0.5 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { administration_spending = 0.6 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { administration_spending = 0.7 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { administration_spending = 0.8 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { administration_spending = 0.9 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { administration_spending = 0.99 immigration_policy = nobody_gets_out }
 		}
 	}
 	
 	group = {
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { military_spending = 0.1 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { military_spending = 0.2 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { military_spending = 0.3 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { military_spending = 0.4 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { military_spending = 0.5 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { military_spending = 0.6 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { military_spending = 0.7 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { military_spending = 0.8 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
+			factor = -0.10
 			country = { military_spending = 0.9 immigration_policy = nobody_gets_out }
 		}
 		modifier = {
-			factor = -0.075
-		country = { military_spending = 0.99 
-immigration_policy = nobody_gets_out }
+			factor = -0.10
+		country = { military_spending = 0.99 immigration_policy = nobody_gets_out }
 		}
 	}
 
