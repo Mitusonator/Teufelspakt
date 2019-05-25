@@ -34,7 +34,7 @@ tactical_drone = {
 	
 
 	#Land Abilties
-	reconnaissance = 0
+	reconnaissance = 0.1
 	attack = 6
 	defence = 4
 	discipline = 1.0
