@@ -1,6 +1,7 @@
-owner = RWA
-controller = RWA
+owner = BEL
+controller = BEL
 add_core = BRN
+add_core = UCS
 trade_goods = sugar
 life_rating = 15
 terrain = mountain_farmland

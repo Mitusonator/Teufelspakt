@@ -2,6 +2,7 @@ owner = SAF
 controller = SAF
 add_core = NAM
 add_core =  ECA
+add_core = UCS
 trade_goods = iron
 life_rating = 35
 terrain = dry_grassland

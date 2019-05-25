@@ -197,7 +197,7 @@ country_event = { # Event to switch core
 			AND = { tag = GRE government = proletarian_dictatorship NOT = { exists = UGR } }
 
 			AND = { tag = DDR NOT = { government = proletarian_dictatorship } NOT = { exists = GER } }
-			AND = { tag = UCS NOT = { government = proletarian_dictatorship } NOT = { exists = CNG } }
+			#AND = { tag = UCS NOT = { government = proletarian_dictatorship } NOT = { exists = CNG } }
 			AND = { tag = NKO NOT = { government = proletarian_dictatorship } NOT = { exists = SKO } }
 			AND = { tag = UGR NOT = { government = proletarian_dictatorship } NOT = { exists = GRE } }
 		}
@@ -214,7 +214,7 @@ country_event = { # Event to switch core
 		random_country = { limit = { tag = GRE government = proletarian_dictatorship NOT = { exists = UGR } } change_tag = UGR }
 
 		random_country = { limit = { tag = DDR NOT = { government = proletarian_dictatorship } NOT = { exists = GER } } change_tag = GER }
-		random_country = { limit = { tag = UCS NOT = { government = proletarian_dictatorship } NOT = { exists = CNG } } change_tag = CNG }
+		#random_country = { limit = { tag = UCS NOT = { government = proletarian_dictatorship } NOT = { exists = CNG } } change_tag = CNG }
 		random_country = { limit = { tag = NKO NOT = { government = proletarian_dictatorship } NOT = { exists = SKO } } change_tag = SKO }
 		random_country = { limit = { tag = UGR NOT = { government = proletarian_dictatorship } NOT = { exists = GRE } } change_tag = GRE }
 

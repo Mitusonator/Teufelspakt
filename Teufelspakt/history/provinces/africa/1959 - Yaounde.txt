@@ -1,6 +1,7 @@
 owner = FRA
 controller = FRA
 add_core = CMR
+add_core = UCS
 trade_goods = timber
 life_rating = 15
 terrain = jungle_hills

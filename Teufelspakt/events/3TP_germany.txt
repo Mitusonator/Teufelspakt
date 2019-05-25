@@ -1573,3 +1573,42 @@ country_event = {
   }
 
 }
+
+country_event = {
+  id = 9999882 #Mittelafrika from Belgian Congo
+  title = EVT_9999882_NAME
+  desc = EVT_9999882_DESC
+  picture = "belgian_congo"
+  fire_only_once = yes
+
+  trigger = {
+             tag = GER
+			 GER = { owns = 1983 }
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = "EVT_9999882_A" #Establish Mittelafrika
+			ai_chance = { factor = 0.6 }
+			prestige = 50
+			CNG = { all_core = { add_core = UCS } }
+			#RWA = { all_core = { add_core = UCS } }
+			#BRN = { all_core = { add_core = UCS } }
+            release_vassal = UCS
+			GER = { relation = { who = UCS value = 400 } }
+            GER = { diplomatic_influence = { who = UCS value = 400 } }
+			UCS = { capital = 1982 }
+  }
+  
+  option = {
+            name = "EVT_9999882_B" #Establish Free Congo
+			ai_chance = { factor = 0.4 }
+			prestige = 25
+            release = CNG
+			CNG = { any_pop = { ideology = { factor = 0.30 value = populist } } }
+			GER = { relation = { who = CNG value = 400 } }
+            GER = { diplomatic_influence = { who = CNG value = 400 } }
+  }
+
+}
