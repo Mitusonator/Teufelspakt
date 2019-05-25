@@ -666,7 +666,7 @@ pops = {
 	INVENTION_IMPACT_ON_DEMAND = 0.01, -- how much each invention in a country increases demand for a product in percent
 	POP_TO_LEADERSHIP = 0.0001, -- how much leadership every 1000 officers gives each day.
 	ARTISAN_MIN_PRODUCTIVITY = 4, -- Minimum efficieny of an artisan
-	SLAVE_GROWTH_DIVISOR = 0.05, -- Slaves have N times lower growth
+	SLAVE_GROWTH_DIVISOR = 1.00, -- Slaves have N times lower growth
 	
 	MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
 	LUXURY_CON_CHANGE = 0.01, -- con boost from over-buying luxuary goods
