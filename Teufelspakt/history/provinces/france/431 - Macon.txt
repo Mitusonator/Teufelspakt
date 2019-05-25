@@ -1,5 +1,5 @@
-owner = FRA
-controller = FRA
+owner = UFR
+controller = UFR
 add_core = UFR
 add_core = FRA
 trade_goods = coal

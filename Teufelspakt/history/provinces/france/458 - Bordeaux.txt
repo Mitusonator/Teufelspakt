@@ -1,5 +1,5 @@
-owner = UFR
-controller = UFR
+owner = FRA
+controller = FRA
 add_core = UFR
 add_core = FRA
 trade_goods = fruit
