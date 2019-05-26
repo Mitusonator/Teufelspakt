@@ -453,7 +453,7 @@ title = "Global Temperature deviation has risen to 1.0C"
 trigger = {
 year = 2019
 NOT = { has_country_flag = two_degree }
-any_owned = {
+any_owned_province = {
 AND = {
 OR = {
 trade_goods = fruit
@@ -466,7 +466,8 @@ trade_goods = tobacco
 trade_goods = coffee
 trade_goods = cotton
 }
-NOT = { OR = { has_province_modifier = one_degree has_province_modifier = two_degree has_province_modifier = three_degree has_province_modifier = four_point_five_degree } } 
+NOT = { has_province_modifier = one_degree has_province_modifier = two_degree has_province_modifier = three_degree has_province_modifier = four_point_five_degree }
+}
 }
 }
 
@@ -535,7 +536,7 @@ trigger = {
 year = 2039
 has_country_flag = one_degree
 NOT = { has_country_flag = three_degree }
-any_owned = {
+any_owned_province = {
 AND = {
 OR = {
 trade_goods = fruit
@@ -548,7 +549,7 @@ trade_goods = tobacco
 trade_goods = coffee
 trade_goods = cotton
 }
-NOT = { OR = { has_province_modifier = two_degree has_province_modifier = three_degree has_province_modifier = four_point_five_degree } } 
+NOT = { has_province_modifier = two_degree has_province_modifier = three_degree has_province_modifier = four_point_five_degree }
 }
 }
 }
@@ -621,7 +622,7 @@ trigger = {
 year = 2059
 has_country_flag = two_degree
 NOT = { has_country_flag = four_point_five_degree }
-any_owned = {
+any_owned_province = {
 AND = {
 OR = {
 trade_goods = fruit
@@ -634,7 +635,7 @@ trade_goods = tobacco
 trade_goods = coffee
 trade_goods = cotton
 }
-NOT = { OR = { has_province_modifier = three_degree has_province_modifier = four_point_five_degree } } 
+NOT = { has_province_modifier = three_degree has_province_modifier = four_point_five_degree } 
 }
 }
 }
@@ -705,7 +706,7 @@ title = "Global Temperature deviation has risen to 4.5C"
 trigger = {
 year = 2079
 has_country_flag = three_degree
-any_owned = {
+any_owned_province = {
 AND = {
 OR = {
 trade_goods = fruit
@@ -718,7 +719,7 @@ trade_goods = tobacco
 trade_goods = coffee
 trade_goods = cotton
 }
-NOT = { OR = { has_province_modifier = four_point_five_degree } } 
+NOT = { has_province_modifier = four_point_five_degree }
 }
 }
 }
