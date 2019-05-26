@@ -76,7 +76,7 @@ country_event = { # Country is sphered change government
 		is_vassal = no
 		NOT = { has_country_flag = accept_differances_in_gov_by_democracy }
 		sphere_owner = { OR = { government = democracy1 government = democracy government = hms_government government = hms_government1 } } 
-		NOT = { OR = { government = absolute_monarchy government = democracy government = democracy1 government = sar_government government = mandate_government government = colonial_government government = hms_government government = hms_government1 government = presidential_dictatorship } }
+		NOT = { OR = { government = absolute_monarchy government = democracy government = democracy1 government = sar_government government = mandate_government government = colonial_government government = hms_government government = hms_government1 government = presidential_dictatorship government = proletarian_dictatorship government = proletarian_dictatorship1 government = socialist_democracy } }
 	}
 
 	mean_time_to_happen = {
@@ -114,8 +114,8 @@ country_event = {
 		has_global_flag = blocsenabled
 		year = 1955
 		NOT = { has_country_flag = accept_differances_in_gov_by_communist }
-		sphere_owner = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } } 
-		NOT = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 ruling_party_ideology = communist ruling_party_ideology = socialist } }
+		sphere_owner = { OR = { government = populist_dictatorship government = absolute_monarchy government = nationlist_dictatorship } } 
+		NOT = { OR = { government = populist_dictatorship government = absolute_monarchy government = nationlist_dictatorship government = sar_government government = mandate_government ruling_party_ideology = populist ruling_party_ideology = traditionalist ruling_party_ideology = nationalist ruling_party_ideology = communist_social } }
 	}
 
 	mean_time_to_happen = {
@@ -188,7 +188,7 @@ country_event = { # Demand install communist in-power
 	option = {
 		name = EVT_19003_A
 		FROM = { set_country_flag = accept_differances_in_gov_by_communist }
-		ai_chance = { factor = 0.5 modifier = { factor = 0 FROM = { NOT = { tag = FIN } OR = { government = democracy government = hms_government government = absolute_monarchy } } } }
+		ai_chance = { factor = 0.5 modifier = { factor = 0 FROM = { NOT = { tag = FIN } OR = { government = democracy government = hms_government government = proletarian_dictatorship government = proletarian_dictatorship1 government = socialist_democracy } } } }
 	}
 	
 	option = {
@@ -275,7 +275,7 @@ country_event = { # Demand install communist in-power
 		sphere_owner = { 
 		diplomatic_influence = { who = THIS value = -100 } 
 			relation = { who = THIS value = -200 } 
-			casus_belli = { target = THIS type = install_communist_gov_cb months = 12  }
+			casus_belli = { target = THIS type = install_authoritarian_regime months = 12  }
 		}
 		ai_chance = { factor = 0.5  }
 	}
@@ -283,7 +283,7 @@ country_event = { # Demand install communist in-power
 	option = {
 		name = EVT_19006_B
 		set_country_flag = soi_demand_install
-	government = proletarian_dictatorship country_event = 800042
+	    government = populist_dictatorship country_event = 800050
 		ai_chance = { factor = 0.5 }
 	}
 }
