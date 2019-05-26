@@ -10,7 +10,7 @@ NOT = { has_country_modifier = climate_denial }
 
 allow = {
 	OR = {
-	ruling_party_ideology = populist
+	#ruling_party_ideology = populist
 	ruling_party_ideology = nationalist
 	ruling_party_ideology = traditionalist
 	ruling_party_ideology = communist
@@ -26,7 +26,7 @@ remove_country_modifier = green_3
 remove_country_modifier = green_4
 
 any_owned = { 
-limit = { OR = { trade_goods = gas trade_goods = petroleum } }
+limit = { OR = { trade_goods = gas trade_goods = petroleum trade_goods = coal } }
 add_province_modifier = { name = denial_production_province duration = -1 }
 }
 
@@ -46,7 +46,7 @@ has_country_modifier = climate_denial
 allow = {
 	NOT = { 
 	OR = {
-	ruling_party_ideology = populist
+	#ruling_party_ideology = populist
 	ruling_party_ideology = nationalist
 	ruling_party_ideology = traditionalist
 	ruling_party_ideology = communist
@@ -173,7 +173,7 @@ genetically_modified_organism = 1
 	social_networking = 1
 hacktivism = 1
 			election = no
-OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive ruling_party_ideology = big_tent ruling_party_ideology = socialist is_greater_power = yes }
+OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive ruling_party_ideology = big_tent ruling_party_ideology = socialist ruling_party_ideology = populist is_greater_power = yes }
 				}
 	effect = {
 prestige = 10
@@ -202,7 +202,7 @@ neoeconomic_responsibility = 1
 		allow = {
 			war = no
 			election = no
-OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive ruling_party_ideology = big_tent ruling_party_ideology = socialist }
+OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive ruling_party_ideology = big_tent ruling_party_ideology = socialist ruling_party_ideology = populist  }
 				}
 	effect = {
 country_event = 1411120
@@ -230,7 +230,7 @@ neoeconomic_responsibility = 1
 		allow = {
 			war = no
 			election = no
-OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive ruling_party_ideology = big_tent ruling_party_ideology = socialist }
+OR = { ruling_party_ideology = liberal ruling_party_ideology = progressive ruling_party_ideology = big_tent ruling_party_ideology = socialist ruling_party_ideology = populist }
 				}
 	effect = {
 country_event = 1411123
