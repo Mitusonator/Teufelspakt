@@ -452,7 +452,22 @@ title = "Global Temperature deviation has risen to 1.0C"
 
 trigger = {
 year = 2019
-NOT = { has_country_flag = one_degree }
+
+any_owned = {
+AND = {
+OR = {
+trade_goods = fruit
+trade_goods = grain
+trade_goods = rice
+trade_goods = oil_seeds
+trade_goods = sugar
+trade_goods = tea
+trade_goods = tobacco
+trade_goods = coffee
+trade_goods = cotton
+}
+NOT = { OR = { has_province_modifier = one_degree has_province_modifier = two_degree has_province_modifier = three_degree has_province_modifier = four_point_five_degree } } 
+}
 }
 
 mean_time_to_happen = { 
@@ -479,6 +494,11 @@ modifier = { factor = 5 NOT = { any_greater_power = { NOT = { has_country_modifi
 option = {
 name = "This is bad"
 set_country_flag = one_degree
+
+any_owned = { remove_province_modifier = one_degree }
+any_owned = { remove_province_modifier = two_degree }
+any_owned = { remove_province_modifier = three_degree }
+any_owned = { remove_province_modifier = four_point_five_degree }
 
 any_owned = { 
 
@@ -514,7 +534,22 @@ title = "Global Temperature deviation has risen to 2.0C"
 trigger = {
 year = 2039
 has_country_flag = one_degree
-NOT = { has_country_flag = two_degree }
+any_owned = {
+AND = {
+OR = {
+trade_goods = fruit
+trade_goods = grain
+trade_goods = rice
+trade_goods = oil_seeds
+trade_goods = sugar
+trade_goods = tea
+trade_goods = tobacco
+trade_goods = coffee
+trade_goods = cotton
+}
+NOT = { OR = { has_province_modifier = two_degree has_province_modifier = three_degree has_province_modifier = four_point_five_degree } } 
+}
+}
 }
 
 mean_time_to_happen = { 
@@ -544,6 +579,9 @@ name = "This is bad"
 set_country_flag = two_degree
 
 any_owned = { remove_province_modifier = one_degree }
+any_owned = { remove_province_modifier = two_degree }
+any_owned = { remove_province_modifier = three_degree }
+any_owned = { remove_province_modifier = four_point_five_degree }
 
 any_owned = { 
 
@@ -581,7 +619,22 @@ title = "Global Temperature deviation has risen to 3.0C"
 trigger = {
 year = 2059
 has_country_flag = two_degree
-NOT = { has_country_flag = three_degree }
+any_owned = {
+AND = {
+OR = {
+trade_goods = fruit
+trade_goods = grain
+trade_goods = rice
+trade_goods = oil_seeds
+trade_goods = sugar
+trade_goods = tea
+trade_goods = tobacco
+trade_goods = coffee
+trade_goods = cotton
+}
+NOT = { OR = { has_province_modifier = three_degree has_province_modifier = four_point_five_degree } } 
+}
+}
 }
 
 mean_time_to_happen = { 
@@ -609,7 +662,10 @@ option = {
 name = "This is bad"
 set_country_flag = three_degree
 
+any_owned = { remove_province_modifier = one_degree }
 any_owned = { remove_province_modifier = two_degree }
+any_owned = { remove_province_modifier = three_degree }
+any_owned = { remove_province_modifier = four_point_five_degree }
 
 any_owned = { 
 
@@ -646,8 +702,23 @@ title = "Global Temperature deviation has risen to 4.5C"
 
 trigger = {
 year = 2079
-NOT = { has_country_flag = 45_degree }
 has_country_flag = three_degree
+any_owned = {
+AND = {
+OR = {
+trade_goods = fruit
+trade_goods = grain
+trade_goods = rice
+trade_goods = oil_seeds
+trade_goods = sugar
+trade_goods = tea
+trade_goods = tobacco
+trade_goods = coffee
+trade_goods = cotton
+}
+NOT = { OR = { has_province_modifier = four_point_five_degree } } 
+}
+}
 }
 
 mean_time_to_happen = { 
@@ -675,7 +746,10 @@ option = {
 name = "This is bad"
 set_country_flag = 45_degree
 
+any_owned = { remove_province_modifier = one_degree }
+any_owned = { remove_province_modifier = two_degree }
 any_owned = { remove_province_modifier = three_degree }
+any_owned = { remove_province_modifier = four_point_five_degree }
 
 any_owned = { 
 

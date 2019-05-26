@@ -2480,14 +2480,14 @@ icon = 3
 ### Climate Change ###
 
 one_sea_level = {
-local_RGO_output = -0.50
+local_RGO_output = -0.05
 immigrant_push = 0.25
 immigrant_attract = -0.25
 icon = 14
 }
 
 two_sea_level = {
-local_RGO_output = -1.50
+local_RGO_output = -0.10
 immigrant_push = 0.50
 population_growth = -0.001
 immigrant_attract = -0.50
@@ -2495,7 +2495,7 @@ icon = 14
 }
 
 three_sea_level = {
-local_RGO_output = -4.50
+local_RGO_output = -0.20
 immigrant_push = 1
 population_growth = -0.002
 immigrant_attract = -1
@@ -2503,7 +2503,7 @@ icon = 14
 }
 
 four_sea_level = {
-local_RGO_output = -8
+local_RGO_output = -0.40
 immigrant_push = 1.5
 population_growth = -0.003
 immigrant_attract = -1.5
@@ -2515,22 +2515,22 @@ icon = 11
 }
 
 four_point_five_degree = {
-local_RGO_output = -8
+local_RGO_output = -0.40
 icon = 14
 }
 
 three_degree = {
-local_RGO_output = -4.50
+local_RGO_output = -0.20
 icon = 14
 }
 
 two_degree = {
-local_RGO_output = -1.50
+local_RGO_output = -0.10
 icon = 14
 }
 
 one_degree = {
-local_RGO_output = -0.50
+local_RGO_output = -0.05
 icon = 14
 }
 
