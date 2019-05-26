@@ -7402,7 +7402,7 @@ ai_chance = { factor = 0.1 }
 #1947 Paris Peace Treaties - initiate
 country_event = {
 	id = 1512182
-title = "Paris Peace Treaties, 1947"
+title = "Paris Peace Treaties, 1946"
 	desc = EVTDESC1512182
 	picture = "1947_paris_peace_treaties"
 
@@ -7424,14 +7424,17 @@ option = {
 name = "May we have lasting peace in Europe"
 ENG = { country_event = 1512183 }
 FRA = { country_event = 1512183 }
-RUS = { country_event = 1512183 }
-YUG = { country_event = 1512183 }
+POL = { country_event = 1512183 }
+CZH = { country_event = 1512183 }
+#RUS = { country_event = 1512183 }
+#YUG = { country_event = 1512183 }
+SER = { country_event = 1512183 }
 GRE = { country_event = 1512183 }
 
 BEL = { country_event = 1512183 }
 NET = { country_event = 1512183 }
 
-ITA = { country_event = 1512184 }
+#ITA = { country_event = 1512184 }
 add_country_modifier = { name = war_rep_income duration = 3650 }
 		}
 
@@ -7440,7 +7443,7 @@ add_country_modifier = { name = war_rep_income duration = 3650 }
 #1947 Paris Peace Treaties - benefactors
 country_event = {
 	id = 1512183
-title = "Paris Peace Treaties, 1947"
+title = "Paris Peace Treaties, 1946"
 	desc = EVTDESC1512182
 	picture = "1947_paris_peace_treaties"
 
@@ -7456,7 +7459,7 @@ add_country_modifier = { name = war_rep_income duration = 3650 }
 #1947 Paris Peace Treaties - reparations
 country_event = {
 	id = 1512184
-title = "Paris Peace Treaties, 1947"
+title = "Paris Peace Treaties, 1946"
 	desc = EVTDESC1512182
 	picture = "1947_paris_peace_treaties"
 
