@@ -452,7 +452,7 @@ title = "Global Temperature deviation has risen to 1.0C"
 
 trigger = {
 year = 2019
-
+NOT = { has_country_flag = two_degree }
 any_owned = {
 AND = {
 OR = {
@@ -534,6 +534,7 @@ title = "Global Temperature deviation has risen to 2.0C"
 trigger = {
 year = 2039
 has_country_flag = one_degree
+NOT = { has_country_flag = three_degree }
 any_owned = {
 AND = {
 OR = {
@@ -619,6 +620,7 @@ title = "Global Temperature deviation has risen to 3.0C"
 trigger = {
 year = 2059
 has_country_flag = two_degree
+NOT = { has_country_flag = four_point_five_degree }
 any_owned = {
 AND = {
 OR = {
