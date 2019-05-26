@@ -440,7 +440,7 @@ country_event = { # The New Regime - Communist
 		}
 		any_owned = {
 			remove_province_modifier = labor_union
-		remove_province_modifier = militant_trade_union
+		    remove_province_modifier = militant_trade_union
 			remove_province_modifier = worker_union
 			remove_province_modifier = strike_solution
 			remove_province_modifier = province_strike
@@ -826,7 +826,7 @@ country_event = { #The New Regime - populist or dictatorship
 		political_reform = gender_role_based
 		political_reform = parties_not_allowed
 		political_reform = nobody_gets_out
-		political_reform = minorities_oppression
+		political_reform = minorities_equal_rights
 		political_reform = no_meetings
 		political_reform = quality_of_service
 		# end - from rebel_types
