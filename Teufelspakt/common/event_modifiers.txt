@@ -6043,7 +6043,7 @@ apartheid = {
 
 ### Political Leaders PDM ###
 expert_diplomat = {
-	diplomatic_points_modifier = 0.25
+	diplomatic_points_modifier = 0.30
 	badboy = -0.05
 	icon = 17
 }

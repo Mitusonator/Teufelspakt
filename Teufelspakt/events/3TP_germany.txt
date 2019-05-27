@@ -101,10 +101,39 @@ country_event = {
   }
 
   mean_time_to_happen = { months = 1 }
-  
+
+   option = {
+            name = "EVT_9999957_F"
+			ai_chance = { factor = 0.1 }
+            set_global_flag = ger_chancellor_goebbels			
+	        any_pop = { consciousness = 1 }
+			remove_country_modifier = expert_diplomat
+		    remove_country_modifier = successful_industrialist
+		    remove_country_modifier = ivory_tower_intellectual
+		    remove_country_modifier = man_of_the_people
+		    remove_country_modifier = landed_gentleman
+		    remove_country_modifier = military_man
+		    remove_country_modifier = lord_admiral
+		    remove_country_modifier = raving_loon
+		    remove_country_modifier = luddite
+		    remove_country_modifier = great_statesman
+		    remove_country_modifier = backroom_boy
+		    remove_country_modifier = great_reformer
+		    remove_country_modifier = gauche_buffoon
+		    remove_country_modifier = administrative_genius
+		    remove_country_modifier = visionary_thinker
+		    remove_country_modifier = competent_placeholder
+		    remove_country_modifier = imperious_autocrat
+		    remove_country_modifier = prince_of_terror
+		    remove_country_modifier = efficient_sociopath
+		    remove_country_modifier = pig_headed_isolationist
+		    remove_country_modifier = ambitious_union_boss
+		    remove_country_modifier = dour_economist
+			add_country_modifier = { name = great_statesman duration = -1 }
+  } 
   option = {
             name = "EVT_9999957_A"
-			ai_chance = { factor = 0.3 }
+			ai_chance = { factor = 0.25 }
             set_global_flag = ger_chancellor_borman			
 	        any_pop = { consciousness = 1 }
 			remove_country_modifier = expert_diplomat
@@ -133,7 +162,7 @@ country_event = {
   }
   option = {
             name = "EVT_9999957_B"
-			ai_chance = { factor = 0.3 }
+			ai_chance = { factor = 0.25 }
             set_global_flag = ger_chancellor_speer			
 	        any_pop = { consciousness = 1 }
 			remove_country_modifier = expert_diplomat
@@ -158,7 +187,7 @@ country_event = {
 		    remove_country_modifier = pig_headed_isolationist
 		    remove_country_modifier = ambitious_union_boss
 		    remove_country_modifier = dour_economist
-			add_country_modifier = { name = great_reformer duration = -1 }
+			add_country_modifier = { name = administrative_genius duration = -1 }
   }
   option = {
             name = "EVT_9999957_C"
@@ -1388,6 +1417,29 @@ country_event = {
 	        any_pop = { consciousness = -1 }
 			any_country = { relation = { who = GER value = 10 } }
 			USA = { relation = { who = GER value = -20 } }
+			remove_country_modifier = expert_diplomat
+		    remove_country_modifier = successful_industrialist
+		    remove_country_modifier = ivory_tower_intellectual
+		    remove_country_modifier = man_of_the_people
+		    remove_country_modifier = landed_gentleman
+		    remove_country_modifier = military_man
+		    remove_country_modifier = lord_admiral
+		    remove_country_modifier = raving_loon
+		    remove_country_modifier = luddite
+		    remove_country_modifier = great_statesman
+		    remove_country_modifier = backroom_boy
+		    remove_country_modifier = great_reformer
+		    remove_country_modifier = gauche_buffoon
+		    remove_country_modifier = administrative_genius
+		    remove_country_modifier = visionary_thinker
+		    remove_country_modifier = competent_placeholder
+		    remove_country_modifier = imperious_autocrat
+		    remove_country_modifier = prince_of_terror
+		    remove_country_modifier = efficient_sociopath
+		    remove_country_modifier = pig_headed_isolationist
+		    remove_country_modifier = ambitious_union_boss
+		    remove_country_modifier = dour_economist
+			add_country_modifier = { name = great_reformer duration = -1 }
 			country_event = 9999906
   }
 
