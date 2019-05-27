@@ -11,6 +11,7 @@ join_communist_bloc = {
 			exists = USA
 			exists = GER
 			
+			NOT = { has_country_flag = joindemo }
 			NOT = { has_country_flag = joincomm }
 			
 			has_global_flag = blocsenabled 
