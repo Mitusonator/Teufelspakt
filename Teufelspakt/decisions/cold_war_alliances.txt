@@ -10,7 +10,7 @@ join_communist_bloc = {
 			NOT = { OR = { tag = GER tag = USA } }
 			exists = USA
 			exists = GER
-			NOT = { has_country_flag = joindemo }
+			
 			NOT = { has_country_flag = joincomm }
 			
 			has_global_flag = blocsenabled 

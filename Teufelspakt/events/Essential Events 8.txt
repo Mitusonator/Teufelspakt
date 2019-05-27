@@ -8863,7 +8863,7 @@ remove_province_modifier = bretton_woods_effect }
 
 }
 
-#Kicked out of the VSZ
+#Kicked out of the VIISEZ
 country_event = {
 	id = 1111111
 title = "Kicked out of the VSZ aid"
@@ -8872,7 +8872,8 @@ title = "Kicked out of the VSZ aid"
 
 trigger = {
 OR = {
-NOT = { OR = { has_country_modifier = communist_bloc  has_country_modifier = communist_bloc_leader } }
+#NOT = { OR = { has_country_modifier = communist_bloc  has_country_modifier = communist_bloc_leader } }
+has_country_flag = joindemo
 NOT = { has_global_flag = comecon_active }
 }
 has_country_modifier = comecon
