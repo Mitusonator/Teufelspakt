@@ -877,6 +877,130 @@ NOT = { country = { OR = { government = nationalist_dictatorship government = po
 	populist = { 		
 		factor = 1 
 		
+		modifier = {
+			factor = 1.1
+		 	revanchism = 0.05
+		}
+		modifier = {
+			factor = 1.1
+		 	revanchism = 0.10
+		}
+		modifier = {
+			factor = 1.1
+		 	revanchism = 0.15
+		}
+		modifier = {
+			factor = 1.1
+		 	revanchism = 0.20
+		}
+		modifier = {
+			factor = 1.1
+		 	revanchism = 0.25
+		}
+		modifier = {
+			factor = 1.5
+		 	revanchism = 0.30
+			OR = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+			}
+		}
+		modifier = {
+			factor = 2
+		 	revanchism = 0.35
+			OR = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+			}
+		}
+		modifier = {
+			factor = 3
+		 	revanchism = 0.40
+			OR = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+			}
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.05 
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.10 
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.15 
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.05
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.10
+		}
+		modifier = {
+			factor = 1.1
+			social_reform_want = 0.15
+		}
+
+		modifier = {
+			factor = 1.1
+			NOT = { political_reform_want = 0.05 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { political_reform_want = 0.10 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { political_reform_want = 0.15 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { political_reform_want = 0.05 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { political_reform_want = 0.10 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { political_reform_want = 0.15 }
+		}
+		
+		modifier = {
+			factor = 2
+			ruling_party_ideology = populist
+		}		
+		
+		modifier = {
+			factor = 1.10
+		 	is_disarmed = yes
+		}
+
+		modifier = {
+			factor = 1.5
+			country = {
+				NOT = { plurality = 30 }
+				ruling_party_ideology = populist
+			}
+		}		
+		
+		modifier = {
+			factor = 4
+			country = {
+OR = { government = absolute_monarchy 
+	government = populist_dictatorship }
+			}
+			OR = {
+				is_primary_culture = yes
+				is_accepted_culture = yes
+			}
+		}
+		
 modifier = { factor = 4 country = { ruling_party_ideology = populist } everyday_needs = 0.5 }
 
 modifier = { factor = 0.25 country = { ruling_party_ideology = populist } NOT = { everyday_needs = 0.5 } }
@@ -931,7 +1055,7 @@ modifier = { factor = 1.25 country = { is_vassal = yes } }
 
 # Dynamic Decisions
 
-modifier = { factor = 1.1 country = { war = yes } }
+modifier = { factor = 1.2 country = { war = yes } }
 
 modifier = { factor = 1.1 country = { has_country_flag = recent_terrorist_attack } }
 
@@ -939,7 +1063,7 @@ modifier = { factor = 1.5 country = { has_country_flag = populist_surge } }
 
 
 		# Immigration Influence
-modifier = { factor = 0.5 NOT = { militancy = 4 } }
+modifier = { factor = 0.75 NOT = { militancy = 4 country = { ruling_party_ideology = populist } } }
 modifier = { factor = 1.25 location = { has_recent_imigration = 350 } }
 modifier = { factor = 2.0 location = { has_national_minority = yes } }
 
