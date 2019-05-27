@@ -626,7 +626,6 @@ location = { controlled_by = owner } }
 	OR = { is_primary_culture = no is_accepted_culture = no } 
 location = { is_primary_culture = no is_accepted_culture = no } 
 	}
-}
 	
 	modifier = { 
 	             factor = 2.5
