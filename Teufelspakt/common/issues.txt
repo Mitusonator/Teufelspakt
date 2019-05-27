@@ -724,25 +724,25 @@ social_reforms = {
 	unemployment_subsidies = {
 		next_step_only = yes
 		no_subsidies = {
-			unemployment_benefit = 4
+		
 		}
 		minimal_subsidies = { # trinket_subsidies
-			unemployment_benefit = 8
+			unemployment_benefit = 4
 			global_immigrant_attract = 0.1
 			global_pop_consciousness_modifier = -0.01
 		}
 		ghent_system = { # low_subsidies
-			unemployment_benefit = 12
+			unemployment_benefit = 8
 			global_immigrant_attract = 0.2
 			global_pop_consciousness_modifier = -0.02
 		}
 		generous_subsidies = { # acceptable_subsidies
-			unemployment_benefit = 16
+			unemployment_benefit = 12
 			global_immigrant_attract = 0.3
 			global_pop_consciousness_modifier = -0.03
 		}
 		citizen_salary = { # good_subsidies
-			unemployment_benefit = 20
+			unemployment_benefit = 16
 			global_immigrant_attract = 0.4
 			global_pop_consciousness_modifier = -0.04
 		}
@@ -914,30 +914,35 @@ social_reforms = {
 		next_step_only = yes
 		no_social_service = { # no_endowment
 			pension_level = 3
+			unemployment_benefit = 4
 		}
 		social_services = { # small_endowment
 			administrative_multiplier = 1
 			global_pop_consciousness_modifier = -0.02
 			global_pop_militancy_modifier = -0.02
 			pension_level = 3.5
+			unemployment_benefit = 6
 		}
 		social_abuse_protection = { # medium_endowment
 			administrative_multiplier = 2
 			global_pop_consciousness_modifier = -0.03
 			global_pop_militancy_modifier = -0.04
 			pension_level = 4
+			unemployment_benefit = 8
 		}
 		anti_terror_surveillance  = { # large_endowment
 			administrative_multiplier = 4
 			global_pop_consciousness_modifier = -0.04
 			global_pop_militancy_modifier = -0.06
 			pension_level = 4.5
+			unemployment_benefit = 10
 		}
 		the_safety_grid = { # massive_endowment
 			administrative_multiplier = 8
 			global_pop_consciousness_modifier = -0.05
 			global_pop_militancy_modifier = -0.08
 			pension_level = 5
+			unemployment_benefit = 12
 		}
 	}
 
