@@ -453,7 +453,7 @@ NOT = { OR = { tag = IAR tag = TRE tag = DZG tag = SCS tag = UNT tag = TGZ tag =
 		name = "Rejoice!"
 		government = democracy
 		remove_country_modifier = sar_status
-		#set_country_flag = endofsarstatus2
+		set_country_flag = endofsarstatus2
 		}
 	}
 #Defcon 5
@@ -489,16 +489,6 @@ remove_country_modifier = defcon3
 remove_country_modifier = defcon4
 		}
 	}
-	
-	option = {
-		name = "Peace has returned"
-add_country_modifier = { name = defcon5 duration = -1 }
-remove_country_modifier = defcon1
-remove_country_modifier = defcon2
-remove_country_modifier = defcon3
-remove_country_modifier = defcon4
-		}
-	}
 #Defcon 4
 country_event = {
 	id = 1300033
@@ -508,9 +498,13 @@ country_event = {
 
 	trigger = {
 		war = no
-		#involved_in_crisis = yes
-		#NOT = { crisis_temperature = 90 }
-OR = { has_country_modifier = cold_war_medium has_country_modifier = world_medium }
+
+OR = { 
+AND = { crisis_exist = no OR = { has_country_modifier = cold_war_medium has_country_modifier = world_medium } }
+
+AND = { crisis_exist = yes 
+NOT = { crisis_temperature = 35 } }
+}
 		NOT = { has_country_modifier = defcon4 }
 		}
 	
@@ -532,9 +526,12 @@ country_event = {
 
 	trigger = {
 		war = no
-		#involved_in_crisis = yes
-		#crisis_temperature = 90
-		OR = { has_country_modifier = cold_war_high has_country_modifier = world_high }
+OR = { 
+AND = { crisis_exist = no OR = { has_country_modifier = cold_war_high has_country_modifier = world_high } }
+
+AND = { crisis_exist = yes crisis_temperature = 35 
+NOT = { crisis_temperature = 75 } }
+}
 		NOT = { has_country_modifier = defcon3 }
 		}
 	
@@ -555,7 +552,13 @@ country_event = {
 	picture = "defcon"
 
 	trigger = {
-		OR = { war = yes has_country_modifier = cold_war_hot }
+		OR = { 
+		war = yes 
+AND = { crisis_exist = no 
+has_country_modifier = cold_war_hot }
+AND = { crisis_exist = yes
+crisis_temperature = 75 }
+		}
 		NOT = { national_provinces_occupied = 0.40 }
 		NOT = { has_country_modifier = defcon2 }
 		}
@@ -1446,7 +1449,7 @@ badboy = 1
 option = {
 name = "We shall press on!"
 add_country_modifier = { name = nuke_sanctions duration = -1 }
-prestige = -10
+prestige = -25
 		}
 }
 #Oil Crisis
@@ -2268,6 +2271,8 @@ NOT = { AND = { tag = KMT ai = yes } }
 NOT = { AND = { tag = YUG ai = yes } }
 NOT = { AND = { tag = RUS ai = yes } }
 
+NOT = { has_country_modifier = reducing_corruption }
+
 OR = {
 AND = { 
 ai = yes
@@ -2315,6 +2320,8 @@ NOT = { AND = { tag = CHI NOT = { year = 1960 } ai = yes } }
 NOT = { AND = { tag = KMT ai = yes } }
 NOT = { AND = { tag = YUG ai = yes } }
 NOT = { AND = { tag = RUS ai = yes } }
+
+NOT = { has_country_modifier = reducing_corruption }
 
 OR = { 
 AND = { 
@@ -2368,6 +2375,8 @@ NOT = { AND = { tag = KMT ai = yes } }
 NOT = { AND = { tag = YUG ai = yes } }
 NOT = { AND = { tag = RUS ai = yes } }
 
+NOT = { has_country_modifier = reducing_corruption }
+
 OR = { 
 AND = {
 ai = yes
@@ -2418,6 +2427,8 @@ NOT = { AND = { tag = CHI NOT = { year = 1960 } ai = yes } }
 NOT = { AND = { tag = KMT ai = yes } }
 NOT = { AND = { tag = YUG ai = yes } }
 NOT = { AND = { tag = RUS ai = yes } }
+
+NOT = { has_country_modifier = reducing_corruption }
 
 OR = {
 AND = {

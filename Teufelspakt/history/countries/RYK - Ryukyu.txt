@@ -10,6 +10,9 @@ civilized = yes
 prestige = 22
 last_election = 1944.6.1
 ruling_party = "Japanese Patriotic Alliance"
+
+set_country_flag = not_symbol_of_nation
+
 upper_house = {
 	populist = 4
 	liberal = 21

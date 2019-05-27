@@ -2,6 +2,17 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+
+### Anti-Corruption Drive ###
+
+reducing_corruption = {
+political_reform_desire = 0.5
+research_points_modifier = -0.1
+leadership_modifier = -0.2
+tax_efficiency = 0.1
+icon = 5
+}
+
 ### Forced Decolonisation ###
 
 decolonise_request = {
@@ -14,6 +25,19 @@ icon = 8
 }
 
 ### Officer Led Military Coups ###
+
+rebel_nation = {
+	leadership_modifier = 0.25
+	land_organisation = 0.25
+	naval_organisation = 0.25
+	max_military_spending = 1
+	tax_efficiency = 0.15
+	unit_start_experience = 0.5
+	war_exhaustion = -0.5
+	supply_consumption = -0.5
+	mobilisation_size = 0.25
+	icon = 16
+}
 
 coup_risk = {
 	core_pop_militancy_modifier = 0.05
@@ -615,6 +639,12 @@ life_rating = 0.25
 local_factory_input = -0.25
 local_ruling_party_support = 0.25
 local_artisan_output = 0.5
+icon = 1
+}
+
+capital_pop_boom = { 
+immigrant_attract = 2
+population_growth = 0.003
 icon = 1
 }
 
@@ -2480,14 +2510,14 @@ icon = 3
 ### Climate Change ###
 
 one_sea_level = {
-local_RGO_output = -0.05
+local_RGO_output = -0.10
 immigrant_push = 0.25
 immigrant_attract = -0.25
 icon = 14
 }
 
 two_sea_level = {
-local_RGO_output = -0.10
+local_RGO_output = -0.20
 immigrant_push = 0.50
 population_growth = -0.001
 immigrant_attract = -0.50
@@ -2495,7 +2525,7 @@ icon = 14
 }
 
 three_sea_level = {
-local_RGO_output = -0.20
+local_RGO_output = -0.30
 immigrant_push = 1
 population_growth = -0.002
 immigrant_attract = -1
@@ -2516,21 +2546,25 @@ icon = 11
 
 four_point_five_degree = {
 local_RGO_output = -0.40
+#local_RGO_throughput = -0.40
 icon = 14
 }
 
 three_degree = {
-local_RGO_output = -0.20
+local_RGO_output = -0.30
+#local_RGO_throughput = -0.30
 icon = 14
 }
 
 two_degree = {
-local_RGO_output = -0.10
+local_RGO_output = -0.20
+#local_RGO_throughput = -0.20
 icon = 14
 }
 
 one_degree = {
-local_RGO_output = -0.05
+local_RGO_output = -0.10
+#local_RGO_throughput = -0.10
 icon = 14
 }
 
@@ -5393,7 +5427,7 @@ independent_bloc = {
 	factory_owner_cost = 0.20
 	farm_RGO_size = 0.1
 	mine_RGO_size = 0.1
-	non_accepted_pop_militancy_modifier = 0.10
+	#non_accepted_pop_militancy_modifier = 0.10
 	prestige = -0.01
 	research_points_modifier = -0.010
 	icon = 7
@@ -5459,7 +5493,7 @@ nukes_enabled = {
 #}
 boycott_fascism = { 
 	prestige = -0.01
-	badboy = 0.02
+	badboy = 0.01
 }
 colonial_unrest = {
         local_RGO_throughput = -0.6
@@ -6043,8 +6077,8 @@ apartheid = {
 
 ### Political Leaders PDM ###
 expert_diplomat = {
-	diplomatic_points_modifier = 0.30
-	badboy = -0.05
+	diplomatic_points_modifier = 0.50
+	badboy = -0.10
 	icon = 17
 }
 
@@ -6672,6 +6706,21 @@ in_disrepair = {
 stack_overflow = {
 	goods_demand = 0.25
 	tax_efficiency = -0.25
+	icon = 9
+}
+
+tax_boost_modifier = {
+	tax_efficiency = 0.10
+	icon = 10
+}
+
+constitutional_crisis = {
+	badboy = 0.01
+	icon = 6
+}
+
+change_ruling_party = {
+	icon = 6
 }
 
 total_war = {

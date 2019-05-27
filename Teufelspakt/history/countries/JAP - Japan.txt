@@ -10,6 +10,9 @@ civilized = yes
 prestige = 750
 last_election = 1945.10.1
 ruling_party = "Imperial Guard"
+
+set_country_flag = not_symbol_of_nation
+
 upper_house = {
 	populist = 4
 	liberal = 21
