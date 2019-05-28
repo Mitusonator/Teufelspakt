@@ -54,7 +54,13 @@ any_country = { limit = { alliance_with = THIS } leave_alliance = THIS }
 		alert = no
 		allow = {
 			war = no
-			OR = { is_vassal = yes is_greater_power = yes is_secondary_power = yes war_policy = jingoism government = sar_government }
+			OR = { 
+			      is_vassal = yes 
+				  is_greater_power = yes 
+				  #is_secondary_power = yes 
+				  war_policy = jingoism 
+				  government = sar_government 
+			}
 		}
 		effect = {
 			prestige = -50
