@@ -637,7 +637,7 @@ location = { is_primary_culture = no is_accepted_culture = no }
 	}
 	
 	modifier = { 
-	             factor = -1
+	             factor = -2
 				 OR = { is_primary_culture = no is_accepted_culture = no }
 	             location = { is_primary_culture = yes is_accepted_culture = yes } 
 				 country = { has_country_flag = neu_ostsiedlung_flag }  
@@ -650,7 +650,7 @@ location = { is_primary_culture = no is_accepted_culture = no }
 				 country = { has_country_flag = neu_ostsiedlung_flag }  
 	}
 	modifier = { 
-	             factor = -1
+	             factor = -2
 				 OR = { is_primary_culture = yes is_accepted_culture = yes }
 	             location = { is_primary_culture = no is_accepted_culture = no } 
 				 country = { has_country_flag = neu_ostsiedlung_flag }  
