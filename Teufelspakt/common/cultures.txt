@@ -203,29 +203,11 @@ union = ENG
 european_germanic_cultures = {
 	leader = european
 	unit = PrussianGC
-	estonian = { # tag = EST
+	german = {
 		 #!religion = { protestant }
-		 color = { 40 30 60 }
-		 first_names = { Aadu Alar Aleksander Andrus Artur August Bernard Dmitri Eduard Eerik Elmar Ernst Georg Gustav Haman Harri Heino Hendrik Hjalmar Ivari Jaan Jakob Johannes Joosep Juhan Julius Jüri Kaarel Kalev Konstantin Lennart Ludvig Madis Mart Mikhel Nigul Olev Paavo Peeter Pent Ragnar Siiri Sven Tarmo Tõnis Toomas Uno Valmar Villwm Voldemar }
-		 last_names = { Aamisepp Aavik Adams Anvel Barbarus Bornhöhe Eenpalu Hint Hurt Jaakson Kangro Kint Klaasen Koern Kõiv Kotli Kumari Kupine Kuusik Leppik Lipping Lohk Mäe Männil Moora Natus Nurkse Nurmekund Õkva Öpik Orkivu Päts Perna Piiper Poska Puusepp Ränk Rei Reinman Siinmaa Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma }
-	}
-	latvian = { # tag = LAT
-		 #!religion = { protestant }
-		 color = { 162 17 48 }
-		 first_names = { Aaron Abrams Alberts Aleksandrs Aloisz Andrejs Arkadij Armands Arnolds Atis Brunis Bruno Eduards Eliass Elmars Emils Evgenijs Filips Fricis Gustavs Heinrihs Hermanis Izaks Janis Jazeps Jekabs Johans Juris Karlis Krisjanis Leo Mark Martins Mihails Mikelis Nikolajs Oskars Pauls Peteris Rihards Roberts Romans Sandis Sergejs Valdemars Valerians Valter Vilis Vladimirs Zigfrids }
-		 last_names = { Abakovskis Apsenieks Balodis Baumanis Berkis Berzin Betins Braons Caks Cakste Caps Celmins Dalins Dambitis Darzins "de Kolongs" Desslers Eizenteins Goppers Halsmans Irbitis Kalnins Kalpaks Kucis Kovalevskis Krogzems Kronvalds Kuks Kviesis Lacis Leiko Loskis Maters Matisons Meierovics Mihelssons Milenbahs Millers Needra Ozolins Petrovs Plieksans Pumpurs Rothko Simanis Stucka Tumins Ulmanis Veidenbaums }
-	}
-	lithuanian = { # tag = LIT
-		 #!religion = { protestant }
-		 color = { 17 162 48 }
-		 first_names = { Aleksandras Algirdas Andrius Antanas Arturas Arunas Augustinas Balys Boris Bronislovas Danielius Darius Gendiminas Henrikas Jonas Jonusas Juozas Juras Jurgis Justas Kazimieras Kazys Kipras Konstantinas Lukas Marijus Markas Mikalojus Mindaugas Motejus Mykolas Paulius Petras Povilas Ramunas Ringaudas Rolandas Simonas Stasys Steponas Valdas Valdemaras Viktoras Vilhelmas Visvaldas Vladimiras Vygantas Vytautas Zydrunas }
-		 last_names = { Adamkus Almenas Avizienis Baltrusaitis Brazauskas Basanavicius Birutis Bradziunas Buga Ciurlionis Danauskas Daukantas Dobkevicius Dubeneckis Dvarionas Galdikas Grinius Griskevicius Ivanauskas Jablonskis Jucys Krupavicius Landsbergis Lozoraitis Merkys Paksas Paleckis Paulauskas Petrauskas Piskarkas Pozela Radvila Sabaniauskas Schatz Simonavicius Sirvydas Slezevicius Semtona Snieckus Stauaitis Straizys Stulginkis Svedas Terleckas Urbsys Vagnorius Valeska Voldemaras Zemaitis Zuokas }
-	}
-	hungarian = {
-		 #!religion = { catholic }
-		 color = { 180 255 120 }
-		 first_names = { Alajos Albert Álmos Anasztáz András Arisztid Aurél Béla Benedek Béni Bertalan Dániel Dávid Edvárd Éliás Erno Ferencz Gábor Gábriel Gáspár György Gyula Ignác Imre István Izidor János József "József Manes" Kálmán Károly Katalin Kelemen Krisztian Lajos László Manó Mihály Mór Myklós Ödön Ottó Péter Rafael Sándor Simon Tivadar Vilmos Virág Zsigmond }
-		 last_names = { Andrássy Apponyi Aulich Bacher Baross Batthyány Beöthy Bothmer Damjanich Dessewffy Egressy "Erényi Ullmann" Farkas "Frakasházi Fischer" Goldziher Gungl Hauszmann Heller Horthy Izsó Joseffy Katona Kaufman Kéler Kiss Knezich Kogutowicz Lahner Lázár Leiningen-Westerburg Lichtenstein Liszt Mikszáth Molnár Nagy-Sándor Österreicher Ottinger Perczel Poeltenberg Reményi Rohr Schweidel Széchenyi Szemere Szlávic Tersztyansky Török Varga Vécsey "von Benedek" }
+		 color = { 110 80 80 }
+		 first_names = { Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried Günther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph Julius Karl Konrad Kurt Leonhard Leopold Lorenz Lothar Ludwig Maximilian Michael Otto Reinhold Rudolf Stefan Theodor Viktor Walter Werner Wilhelm }
+		 last_names = { Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach Hoffmann Hummel Köhler Merkel Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb Stolzer Trunk "von Baden" "von Benedek" "von Böhm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz" "von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach" "von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
 	}
 	silesians = {
 		 #!religion = { catholic }
@@ -233,22 +215,6 @@ european_germanic_cultures = {
 		 first_names = { Adam Aleksander Antoni Boleslaw Bonawentura Bronislaw Dezydery Edmund Edward Emil Eustachy Felicjan Franciszek Gustaw Henryk Ignacy Jakub Jan Jedrzej Józef Juliusz Karol Kazimierz Klemens Konstanty Lech Leon Leopold Lucjan Ludwik Maciej Marceli Marian Mariusz Melchior Michal Mieczyslaw Roman Romuald Samuel Stanislaw Stefan Tadeusz Tomasz Waclaw Wilhelm Witold Wladyslaw Wojciech Zygmunt }
 		 last_names = { Bem Bór-Komorowski Brzóska Chalasinski Chlaposwski Chlopicki Chrzanowski Dabrowski Dembinski Fabryvy Hauke-Boask Iszikowski Jasinski Klicki Konopczynski Krukowiecki Kruszewski Langiewicz Madalinski Mierolawski Mikolajczyk Mokronowski Niepokólczycki Ostrowski Pac Pilsudski Poniatowski Potocki Preadzynski Radziwill Rokossowski Rola-Zymierski Rómmel Rózicky Rybinski Rydz-Smigly Sanguszko Skrzynecki Soltyk Sowinski Taczaneowski Traugutt Wawrzecki Wieniawa-Dlugoszowski Wybicki Wysocki Zajaczek Zaluski Zamoyski Zeligowski }
 	}
-	german = {
-		 #!religion = { protestant }
-		 color = { 110 80 80 }
-		 first_names = { Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried Günther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph Julius Karl Konrad Kurt Leonhard Leopold Lorenz Lothar Ludwig Maximilian Michael Otto Reinhold Rudolf Stefan Theodor Viktor Walter Werner Wilhelm }
-		 last_names = { Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach Hoffmann Hummel Köhler Merkel Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb Stolzer Trunk "von Baden" "von Benedek" "von Böhm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz" "von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach" "von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
-	}
-	mennonites = {
-		 #!religion = { mennonite }
-		 color = { 139 139 131 }
-		 first_names = { Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried Günther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph Julius Karl Konrad Kurt Leonhard Leopold Lorenz Lothar Ludwig Maximilian Michael Otto Reinhold Rudolf Stefan Theodor Viktor Walter Werner Wilhelm }
-		 last_names = { Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach Hoffmann Hummel Köhler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb Stolzer Trunk "von Baden" "von Benedek" "von Böhm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz" "von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach" "von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
-	}
-}
-european_dutch_cultures = {
-	leader = european
-	unit = PrussianGC
 	dutch = {
 		 #!religion = { catholic }
 		 color = { 230 130 50 }
@@ -261,6 +227,109 @@ european_dutch_cultures = {
 		 first_names = { Alexander Alexandre Alfons Alphonse Adriaan Albert Andries Antoine Auguste Boudewijn Bonifaas Camille Charles Constant David Désiré Diederik Edmond Emmanuel Etienne Eugène Félix Filip Frans Ferdinand François Frederik Guillaume Gustave Hendrik Henri Herman Ignaas Ignace Jan Jean Jean-Baptiste Jean-François Jean-Louis Jean-Jacques Jochem Joseph Josse Jozef Jules Karel Laurens Léon Léonard Leopold Louis Lucien Manfred Mathias Nicolas Nikolaas Olivier Paul Philippe Philippe-Joseph Pierre Pieter Robert Sylvain Theodoor Victor Vincent Werner Willem }
 		 last_names = { Andries "Annez de Zillebroeck" Barbanson Barthélémy Beaucarne Beernaert Berthels Bethune Beyts Bischoff Blomme Bosmans "Boucqueau de Villeraye" Buylaert Buyse Claes Claus Cogels Cols Coppens Coppieters Corten Cruts "d'Arschot Schoonhoven" d'Ansembourg d'Hanens "de Brouckère" "de Celles" "de Coninck" "de Decker" "de Foere" "de Gaesebeke" "de Ghellink" "de Grez" "de Haerne" "de Jonghe" "de Jonghe d'Ardoye" "de Langhe" "de Leeuw" "de Leuze" "de Man" "de Meer de Moorsel" "de Meester" "de Mérode" "de Muelenaere" "de Pelichy" "de Renesse" "de Robiano" "de Rodes" "de Roo" "de Ryckere" "de Smet" "de Theux de Meylandt" "de Tiecken" "de Viron" "de Woelmont" Dayeneux Delberke Delehaye Delwarde "Desmanet de Biesme" Destouvelles Deswert Devaux Dhanis Domis "du Bois" Fransman Gelders Geudens Goethals Hennequin "Huysman d'Annecroix" Jacobs Janssens Joos Jottrand Kockaert Ledeganck Lefebvre Liedts Marcq Meeus Morel Moyersoen Mulle Nypels Ooms Osy Peemans Peeters Petens Rodenbach Roels Rosseuw Rouppe Rutten Serruys Schollaert Speelman Simons Struye "Surlet de Chokier" "Surmont de Volsberghe" Terlinden Teuwens Tilkens Thienpont "van Caloen" "van Casteel" "van Crombrugghe" "van de Kerchove" "van de Werve de Vorselaar" "van de Weyer" "van den Broucke" "van den Hove" "van der Belen" "van der Bruggen" "van der Burch" "van der Eecken" "van der Linden" "van der Linden d'Hooghvorst" "van der Looy" "van Dievoet" "van Dorpe" "van Havre" "van Hoobrouck" "van Innis" "van Meenen" "van Neste" "van Snick" "van Tongerloo" "van Volden de Lombeke" "van Zeeland" Vandive Verbeke Vercruysse Verduyn Vergauwen "Verseyden de Varick" Verwilghen "Vilain XIIII" Wallaert Wannaar Werbrouck Wyvekens }
 	}
+	swedish = {
+		 #!religion = { protestant }
+		 color = { 20 40 160 }
+		 first_names = { Albrecht Alexander Arnold August Axel Baltzar Carl Christofer Didrik Edvard Elias Emil Erik Esaias Fabian Frans Fredrik Gunnar Gustav Henrik Jakob Jesper Johan Julius Knut Lars Ludvig Magnus Michael Nikolaus Nils Olof Oscar Per Rudolf Sten Theodor Verner Viktor Vilhelm }
+		 last_names = { Abelin Bernardotte Bildt Björnstjerna Brahe Brakenhielm Breitholtz Chrsiterson Crusebjörn Dyrssen Ehnemark Ehrenstam Gyllengranat Gyndestolpe Ingelman Leijonhufvud Lindman Mörner Nordenskiöld "Palanger af Vega" Palmstierna Peyron Rappe Reuterskiöld Rosensvärd Ryding Sprengtportem Ström Taube Tawast Thörnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm }
+	}
+	norwegian = {
+		 #!religion = { protestant }
+		 color = { 255 218 185  }
+		 first_names = { Alfred Adrian Arne Bernt Bjorn Carl Caspar Christian Christopher Cort Einar Elias Fredrik Georg Gerhard Gustav Haakon Hans Harald Herman Johan Jorgen Ludvig Nils Ogmund Olav Osvald Otto Peter Sigurd }
+		 last_names = { Adeler Balchen Berg Bloch Borresen Bratzland Brentzon Dhal Egge Fleicher Frisvold Hákonarson Hansen Hund Kaldager Konow Lambrechts Morgenstierne Munthe Petersen Rye Sissener Skjalgsson Tambarskjelve "von Holstein-Glücksburg" "von Klenow" Wedel-Jarlsberg Wiborg With Zeiner-Gundersen }
+	}
+	danish = {
+		 #!religion = { protestant }
+		 color = { 220 40 40 }
+		 first_names = { Aage Adam Alber Anders ASmund Axel Carl Christian Edvard Edvin Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar Jacob Johan Julius Knud Ludvig Magnus Michael Niels Olav Otto Peter Poul Sigurd Sven Tage Thomas Thorvald Ukrik Valdemar Vilhelm }
+		 last_names = { Ahlefeldt Asp-Persson Berger Bonde Carlsen Dannemand Danneskjold-Samso "de Meza" Eberlin Falsen Folsach Güntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg Stemman Suenson Thygeson Trampe Urne "von Holstein" "von Oldenburg" Wadenstierna Wedel-Heinen Zytphen-Adeler }
+	}
+	icelandic = {
+		 #!religion = { protestant }
+		 color = { 80 20 150 }
+		 first_names = { Agnar Ásgeir Björn Eidur Einar Emil Geir Gudmund Gunnar Hannes Hermann Jón Kristján Magnús Ólafur Pétur Sigurdur Stefán Sveinn Tryggvi }
+		 last_names = { Arnórsson Ásgeirsson Benediktsson Bjarnasen Björnsson Eggers Eldjárn Hafstein Hansen Hermannsson Johánesson Jónsson Magnússon Stefánsson Steinthosson Thórdarson Thórhallson Thorláksson Thurs }
+	}
+	faroe = {
+		 #!religion = { protestant }
+		 color = { 128 155 252 }
+		 first_names = { Albrecht Alexander Arnold August Axel Baltzar Carl Christofer Didrik Edvard Elias Emil Erik Esaias Fabian Frans Fredrik Gunnar Gustav Henrik Jakob Jesper Johan Julius Knut Lars Ludvig Magnus Michael Nikolaus Nils Olof Oscar Per Rudolf Sten Theodor Verner Viktor Vilhelm }
+		 last_names = { Abelin Bernardotte Bildt Björnstjerna Brahe Brakenhielm Breitholtz Chrsiterson Crusebjörn Dyrssen Ehnemark Ehrenstam Gyllengranat Gyndestolpe Ingelman Leijonhufvud Lindman Mörner Nordenskiöld "Palanger af Vega" Palmstierna Peyron Rappe Reuterskiöld Rosensvärd Ryding Sprengtportem Ström Taube Tawast Thörnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm }
+	}
+	mennonites = {
+		 #!religion = { mennonite }
+		 color = { 139 139 131 }
+		 first_names = { Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried Günther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph Julius Karl Konrad Kurt Leonhard Leopold Lorenz Lothar Ludwig Maximilian Michael Otto Reinhold Rudolf Stefan Theodor Viktor Walter Werner Wilhelm }
+		 last_names = { Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach Hoffmann Hummel Köhler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb Stolzer Trunk "von Baden" "von Benedek" "von Böhm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz" "von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach" "von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
+	}
+}
+european_fino_ugric = {
+	leader = european
+	unit = PrussianGC
+	estonian = { # tag = EST
+		 #!religion = { protestant }
+		 color = { 40 30 60 }
+		 first_names = { Aadu Alar Aleksander Andrus Artur August Bernard Dmitri Eduard Eerik Elmar Ernst Georg Gustav Haman Harri Heino Hendrik Hjalmar Ivari Jaan Jakob Johannes Joosep Juhan Julius Jüri Kaarel Kalev Konstantin Lennart Ludvig Madis Mart Mikhel Nigul Olev Paavo Peeter Pent Ragnar Siiri Sven Tarmo Tõnis Toomas Uno Valmar Villwm Voldemar }
+		 last_names = { Aamisepp Aavik Adams Anvel Barbarus Bornhöhe Eenpalu Hint Hurt Jaakson Kangro Kint Klaasen Koern Kõiv Kotli Kumari Kupine Kuusik Leppik Lipping Lohk Mäe Männil Moora Natus Nurkse Nurmekund Õkva Öpik Orkivu Päts Perna Piiper Poska Puusepp Ränk Rei Reinman Siinmaa Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma }
+	}
+	hungarian = {
+		 #!religion = { catholic }
+		 color = { 180 255 120 }
+		 first_names = { Alajos Albert Álmos Anasztáz András Arisztid Aurél Béla Benedek Béni Bertalan Dániel Dávid Edvárd Éliás Erno Ferencz Gábor Gábriel Gáspár György Gyula Ignác Imre István Izidor János József "József Manes" Kálmán Károly Katalin Kelemen Krisztian Lajos László Manó Mihály Mór Myklós Ödön Ottó Péter Rafael Sándor Simon Tivadar Vilmos Virág Zsigmond }
+		 last_names = { Andrássy Apponyi Aulich Bacher Baross Batthyány Beöthy Bothmer Damjanich Dessewffy Egressy "Erényi Ullmann" Farkas "Frakasházi Fischer" Goldziher Gungl Hauszmann Heller Horthy Izsó Joseffy Katona Kaufman Kéler Kiss Knezich Kogutowicz Lahner Lázár Leiningen-Westerburg Lichtenstein Liszt Mikszáth Molnár Nagy-Sándor Österreicher Ottinger Perczel Poeltenberg Reményi Rohr Schweidel Széchenyi Szemere Szlávic Tersztyansky Török Varga Vécsey "von Benedek" }
+	}
+	finnish = {
+		 #!religion = { protestant }
+		 color = { 220 220 220 }
+		 first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
+		 last_names = { Airo Alopaeus Aspara Cajander Ehrnrooth Heinrichs Heiskanen Holsti Ignatius Järnefält Linder Mannerheim Multamäki Nenonen Oesch Öquist Österman Paasikivi Raappana Ramsay Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
+	}
+	komi = {
+		 #!religion = { orthodox }
+		 color = { 240 255 255 }
+		 first_names = { Albrecht Alexander Arnold August Axel Baltzar Carl Christofer Didrik Edvard Elias Emil Erik Esaias Fabian Frans Fredrik Gunnar Gustav Henrik Jakob Jesper Johan Julius Knut Lars Ludvig Magnus Michael Nikolaus Nils Olof Oscar Per Rudolf Sten Theodor Verner Viktor Vilhelm }
+		 last_names = { Abelin Bernardotte Bildt Björnstjerna Brahe Brakenhielm Breitholtz Chrsiterson Crusebjörn Dyrssen Ehnemark Ehrenstam Gyllengranat Gyndestolpe Ingelman Leijonhufvud Lindman Mörner Nordenskiöld "Palanger af Vega" Palmstierna Peyron Rappe Reuterskiöld Rosensvärd Ryding Sprengtportem Ström Taube Tawast Thörnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm }
+	}
+	mari = {
+		 #!religion = { orthodox }
+		 color = { 245 255 250 }
+		 first_names = { Albrecht Alexander Arnold August Axel Baltzar Carl Christofer Didrik Edvard Elias Emil Erik Esaias Fabian Frans Fredrik Gunnar Gustav Henrik Jakob Jesper Johan Julius Knut Lars Ludvig Magnus Michael Nikolaus Nils Olof Oscar Per Rudolf Sten Theodor Verner Viktor Vilhelm }
+		 last_names = { Abelin Bernardotte Bildt Björnstjerna Brahe Brakenhielm Breitholtz Chrsiterson Crusebjörn Dyrssen Ehnemark Ehrenstam Gyllengranat Gyndestolpe Ingelman Leijonhufvud Lindman Mörner Nordenskiöld "Palanger af Vega" Palmstierna Peyron Rappe Reuterskiöld Rosensvärd Ryding Sprengtportem Ström Taube Tawast Thörnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm }
+	}
+	udmurt = {
+		 #!religion = { orthodox }
+		 color = { 0 255 255 }
+		 first_names = { Alexander Andrey Dokya Dondy Inmar Kuaz Kuzma Kyldysin Ozhmeg Pyotr Sergey Vladimir }
+		 last_names = { Baysarov Begishev Blinov Blok Brechalov Chaynikov Chepkasov Dorodov Konev Loginov Markin Pugachyov Pyatchenko Solovyov Shklyaev Sysoyev Tuktaryov Ulyanenko Volkov Zarbatov }
+	}
+	sami = {
+		 #!religion = { protestant }
+		 color = { 60 180 110 }
+		 first_names = { Asllak Biejas Dure Erke Hanno Iskko Joha Laras Markkos Mikko Niillas Osku Uhkku }
+		 last_names = { Hætta Somby Turi Magga Dunfjeld Kvitfjell Kappfjell }
+	}
+}
+european_baltic = {
+	leader = european
+	unit = PrussianGC
+	latvian = { # tag = LAT
+		 #!religion = { protestant }
+		 color = { 162 17 48 }
+		 first_names = { Aaron Abrams Alberts Aleksandrs Aloisz Andrejs Arkadij Armands Arnolds Atis Brunis Bruno Eduards Eliass Elmars Emils Evgenijs Filips Fricis Gustavs Heinrihs Hermanis Izaks Janis Jazeps Jekabs Johans Juris Karlis Krisjanis Leo Mark Martins Mihails Mikelis Nikolajs Oskars Pauls Peteris Rihards Roberts Romans Sandis Sergejs Valdemars Valerians Valter Vilis Vladimirs Zigfrids }
+		 last_names = { Abakovskis Apsenieks Balodis Baumanis Berkis Berzin Betins Braons Caks Cakste Caps Celmins Dalins Dambitis Darzins "de Kolongs" Desslers Eizenteins Goppers Halsmans Irbitis Kalnins Kalpaks Kucis Kovalevskis Krogzems Kronvalds Kuks Kviesis Lacis Leiko Loskis Maters Matisons Meierovics Mihelssons Milenbahs Millers Needra Ozolins Petrovs Plieksans Pumpurs Rothko Simanis Stucka Tumins Ulmanis Veidenbaums }
+	}
+	lithuanian = { # tag = LIT
+		 #!religion = { protestant }
+		 color = { 17 162 48 }
+		 first_names = { Aleksandras Algirdas Andrius Antanas Arturas Arunas Augustinas Balys Boris Bronislovas Danielius Darius Gendiminas Henrikas Jonas Jonusas Juozas Juras Jurgis Justas Kazimieras Kazys Kipras Konstantinas Lukas Marijus Markas Mikalojus Mindaugas Motejus Mykolas Paulius Petras Povilas Ramunas Ringaudas Rolandas Simonas Stasys Steponas Valdas Valdemaras Viktoras Vilhelmas Visvaldas Vladimiras Vygantas Vytautas Zydrunas }
+		 last_names = { Adamkus Almenas Avizienis Baltrusaitis Brazauskas Basanavicius Birutis Bradziunas Buga Ciurlionis Danauskas Daukantas Dobkevicius Dubeneckis Dvarionas Galdikas Grinius Griskevicius Ivanauskas Jablonskis Jucys Krupavicius Landsbergis Lozoraitis Merkys Paksas Paleckis Paulauskas Petrauskas Piskarkas Pozela Radvila Sabaniauskas Schatz Simonavicius Sirvydas Slezevicius Semtona Snieckus Stauaitis Straizys Stulginkis Svedas Terleckas Urbsys Vagnorius Valeska Voldemaras Zemaitis Zuokas }
+	}
+}
+european_dutch_cultures = {
+	leader = european
+	unit = PrussianGC
+	
 	union = NET
 }
 european_west_slavic = {
@@ -338,66 +407,6 @@ levantine = {
 scandinavian = {
 	leader = european
 	unit = SwedishGC
-	danish = {
-		 #!religion = { protestant }
-		 color = { 220 40 40 }
-		 first_names = { Aage Adam Alber Anders ASmund Axel Carl Christian Edvard Edvin Erik Folke Frederik Georg Hannibal Hans Henrik Herman Hugo Ivar Jacob Johan Julius Knud Ludvig Magnus Michael Niels Olav Otto Peter Poul Sigurd Sven Tage Thomas Thorvald Ukrik Valdemar Vilhelm }
-		 last_names = { Ahlefeldt Asp-Persson Berger Bonde Carlsen Dannemand Danneskjold-Samso "de Meza" Eberlin Falsen Folsach Güntelberg Gyldenfeldt Haack Hambro Haxthausen Juul Klauman Krogh Laessoe Leuenbach Lovenbalk Michaelsen Mylius Neergaard Obelitz Oxholm Reventlow Rosenkrantz Schack-Schackenborg Stemman Suenson Thygeson Trampe Urne "von Holstein" "von Oldenburg" Wadenstierna Wedel-Heinen Zytphen-Adeler }
-	}
-	faroe = {
-		 #!religion = { protestant }
-		 color = { 128 155 252 }
-		 first_names = { Albrecht Alexander Arnold August Axel Baltzar Carl Christofer Didrik Edvard Elias Emil Erik Esaias Fabian Frans Fredrik Gunnar Gustav Henrik Jakob Jesper Johan Julius Knut Lars Ludvig Magnus Michael Nikolaus Nils Olof Oscar Per Rudolf Sten Theodor Verner Viktor Vilhelm }
-		 last_names = { Abelin Bernardotte Bildt Björnstjerna Brahe Brakenhielm Breitholtz Chrsiterson Crusebjörn Dyrssen Ehnemark Ehrenstam Gyllengranat Gyndestolpe Ingelman Leijonhufvud Lindman Mörner Nordenskiöld "Palanger af Vega" Palmstierna Peyron Rappe Reuterskiöld Rosensvärd Ryding Sprengtportem Ström Taube Tawast Thörnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm }
-	}
-	finnish = {
-		 #!religion = { protestant }
-		 color = { 220 220 220 }
-		 first_names = { Aatto Akseli Aleksanteri Anders Aukusti Edvard Eemil Erkki Erno Fabian Fredrik Fridolf Georg Gösta Harald Hjalmar Hugo Johannes Juho Kaarlo Kurt Lars Martti Mikko Paavo Petteri Rudolf Väinö Viktor Vilho }
-		 last_names = { Airo Alopaeus Aspara Cajander Ehrnrooth Heinrichs Heiskanen Holsti Ignatius Järnefält Linder Mannerheim Multamäki Nenonen Oesch Öquist Österman Paasikivi Raappana Ramsay Sihvo Siilasvuo Talvela Thesleff Tujulin Tuompo "von Hesse-Kassel" Walden Wallenius Wetzer }
-	}
-	icelandic = {
-		 #!religion = { protestant }
-		 color = { 80 20 150 }
-		 first_names = { Agnar Ásgeir Björn Eidur Einar Emil Geir Gudmund Gunnar Hannes Hermann Jón Kristján Magnús Ólafur Pétur Sigurdur Stefán Sveinn Tryggvi }
-		 last_names = { Arnórsson Ásgeirsson Benediktsson Bjarnasen Björnsson Eggers Eldjárn Hafstein Hansen Hermannsson Johánesson Jónsson Magnússon Stefánsson Steinthosson Thórdarson Thórhallson Thorláksson Thurs }
-	}
-	komi = {
-		 #!religion = { orthodox }
-		 color = { 240 255 255 }
-		 first_names = { Albrecht Alexander Arnold August Axel Baltzar Carl Christofer Didrik Edvard Elias Emil Erik Esaias Fabian Frans Fredrik Gunnar Gustav Henrik Jakob Jesper Johan Julius Knut Lars Ludvig Magnus Michael Nikolaus Nils Olof Oscar Per Rudolf Sten Theodor Verner Viktor Vilhelm }
-		 last_names = { Abelin Bernardotte Bildt Björnstjerna Brahe Brakenhielm Breitholtz Chrsiterson Crusebjörn Dyrssen Ehnemark Ehrenstam Gyllengranat Gyndestolpe Ingelman Leijonhufvud Lindman Mörner Nordenskiöld "Palanger af Vega" Palmstierna Peyron Rappe Reuterskiöld Rosensvärd Ryding Sprengtportem Ström Taube Tawast Thörnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm }
-	}
-	mari = {
-		 #!religion = { orthodox }
-		 color = { 245 255 250 }
-		 first_names = { Albrecht Alexander Arnold August Axel Baltzar Carl Christofer Didrik Edvard Elias Emil Erik Esaias Fabian Frans Fredrik Gunnar Gustav Henrik Jakob Jesper Johan Julius Knut Lars Ludvig Magnus Michael Nikolaus Nils Olof Oscar Per Rudolf Sten Theodor Verner Viktor Vilhelm }
-		 last_names = { Abelin Bernardotte Bildt Björnstjerna Brahe Brakenhielm Breitholtz Chrsiterson Crusebjörn Dyrssen Ehnemark Ehrenstam Gyllengranat Gyndestolpe Ingelman Leijonhufvud Lindman Mörner Nordenskiöld "Palanger af Vega" Palmstierna Peyron Rappe Reuterskiöld Rosensvärd Ryding Sprengtportem Ström Taube Tawast Thörnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm }
-	}
-	udmurt = {
-		 #!religion = { orthodox }
-		 color = { 0 255 255 }
-		 first_names = { Alexander Andrey Dokya Dondy Inmar Kuaz Kuzma Kyldysin Ozhmeg Pyotr Sergey Vladimir }
-		 last_names = { Baysarov Begishev Blinov Blok Brechalov Chaynikov Chepkasov Dorodov Konev Loginov Markin Pugachyov Pyatchenko Solovyov Shklyaev Sysoyev Tuktaryov Ulyanenko Volkov Zarbatov }
-	}
-	norwegian = {
-		 #!religion = { protestant }
-		 color = { 255 218 185  }
-		 first_names = { Alfred Adrian Arne Bernt Bjorn Carl Caspar Christian Christopher Cort Einar Elias Fredrik Georg Gerhard Gustav Haakon Hans Harald Herman Johan Jorgen Ludvig Nils Ogmund Olav Osvald Otto Peter Sigurd }
-		 last_names = { Adeler Balchen Berg Bloch Borresen Bratzland Brentzon Dhal Egge Fleicher Frisvold Hákonarson Hansen Hund Kaldager Konow Lambrechts Morgenstierne Munthe Petersen Rye Sissener Skjalgsson Tambarskjelve "von Holstein-Glücksburg" "von Klenow" Wedel-Jarlsberg Wiborg With Zeiner-Gundersen }
-	}
-	sami = {
-		 #!religion = { protestant }
-		 color = { 60 180 110 }
-		 first_names = { Asllak Biejas Dure Erke Hanno Iskko Joha Laras Markkos Mikko Niillas Osku Uhkku }
-		 last_names = { Hætta Somby Turi Magga Dunfjeld Kvitfjell Kappfjell }
-	}
-	swedish = {
-		 #!religion = { protestant }
-		 color = { 20 40 160 }
-		 first_names = { Albrecht Alexander Arnold August Axel Baltzar Carl Christofer Didrik Edvard Elias Emil Erik Esaias Fabian Frans Fredrik Gunnar Gustav Henrik Jakob Jesper Johan Julius Knut Lars Ludvig Magnus Michael Nikolaus Nils Olof Oscar Per Rudolf Sten Theodor Verner Viktor Vilhelm }
-		 last_names = { Abelin Bernardotte Bildt Björnstjerna Brahe Brakenhielm Breitholtz Chrsiterson Crusebjörn Dyrssen Ehnemark Ehrenstam Gyllengranat Gyndestolpe Ingelman Leijonhufvud Lindman Mörner Nordenskiöld "Palanger af Vega" Palmstierna Peyron Rappe Reuterskiöld Rosensvärd Ryding Sprengtportem Ström Taube Tawast Thörnell Thulstrup Tingsten Ulner Virgin "von Essen" "von Hohenhausen" "von Otter" "von Platen" Weidenhielm }
-	}
 union = SCA
 }
 pan_albanian = {
