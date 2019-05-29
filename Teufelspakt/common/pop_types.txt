@@ -505,7 +505,7 @@ demotion_chance = { # 1
 migration_chance = { # 1
 	factor = 2
 
-modifier = { factor = 2 always = yes }	
+modifier = { factor = 1.0 always = yes }	
 	
 modifier = { factor = 0.5 location = { total_pops = 2000000 } }
 
@@ -661,7 +661,7 @@ location = { is_primary_culture = no is_accepted_culture = no }
 colonialmigration_chance = {
 	factor = 0.25
 	
-	modifier = { factor = 1 always = yes }
+	modifier = { factor = 0.25 always = yes }
 
 	modifier = {
 		factor = -0.5
