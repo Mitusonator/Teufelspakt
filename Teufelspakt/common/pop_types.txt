@@ -505,6 +505,8 @@ demotion_chance = { # 1
 migration_chance = { # 1
 	factor = 2
 
+modifier = { factor = 2 always = yes }	
+	
 modifier = { factor = 0.5 location = { total_pops = 2000000 } }
 
 group = {
@@ -658,6 +660,8 @@ location = { is_primary_culture = no is_accepted_culture = no }
 #general colonial migration mtth, same for all pops
 colonialmigration_chance = {
 	factor = 0.25
+	
+	modifier = { factor = 1 always = yes }
 
 	modifier = {
 		factor = -0.5
@@ -779,8 +783,10 @@ colonialmigration_chance = {
 
 #general emigration chance
 emigration_chance = { # 0.5
-	factor = 0.5
+	factor = 1.0
 
+    modifier = { factor = 0.5 always = yes }	
+	
 group = {
 modifier = { factor = -0.1 NOT = { year = 1990 } }
 
@@ -927,7 +933,7 @@ modifier = { factor = -0.1 NOT = { year = 2030 } }
 		}
 		modifier = {
 			factor = -0.10
-		country = { military_spending = 0.99 immigration_policy = nobody_gets_out }
+		    country = { military_spending = 0.99 immigration_policy = nobody_gets_out }
 		}
 	}
 
