@@ -11633,82 +11633,82 @@ election = yes
 
 }
 
-#Formation of Bizonia - USA proposes
-country_event = {
-	id = 1512282
-title = "Formation of Bizonia"
-	desc = EVTDESC1512282
-	picture = "bizonia"
+##Formation of Bizonia - USA proposes
+#country_event = {
+#	id = 1512282
+#title = "Formation of Bizonia"
+#	desc = EVTDESC1512282
+#	picture = "bizonia"
+#
+#fire_only_once = yes
+#
+#trigger = {
+#tag = USA
+#GER = { exists = no }
+#any_owned_province = { is_core = GER }
+#ENG = { any_owned_province = { is_core = GER } }
+#has_country_flag = no_partition_of_west_germany
+#ENG = { has_country_flag = no_partition_of_west_germany }
+#OR = { exists = OG1 RUS = { has_country_flag = policy_on_germany } }
+#NOT = { year = 1990 }
+#NOT = { has_country_flag = form_bizonia }
+#}
+#
+#mean_time_to_happen = { 
+#months = 1
+#	}
+#
+#option = {
+#name = "Propose the Bizone to the British (80% chance of success)"
+#prestige = 50
+#any_owned = { limit = { is_core = GER } secede_province = OG4 }
+#create_vassal = OG4
+#OG4 = { civilized = yes government = mandate_government country_event = 800054 ruling_party_ideology = big_tent }
+#diplomatic_influence = { who = OG4 value = 200 }
+#OG4 = { primary_culture = german }
+#ENG = { country_event = 1512283 }
+#set_country_flag = form_bizonia
+#ai_chance = { factor = 0.8 }
+#		}
+#
+#option = {
+#name = "We'll create our own occupation zone"
+#set_country_flag = occupation_zone_potential
+#ENG = { set_country_flag = occupation_zone_potential }
+#ai_chance = { factor = 0.2 }
+#		}
+#}
 
-fire_only_once = yes
-
-trigger = {
-tag = USA
-GER = { exists = no }
-any_owned_province = { is_core = GER }
-ENG = { any_owned_province = { is_core = GER } }
-has_country_flag = no_partition_of_west_germany
-ENG = { has_country_flag = no_partition_of_west_germany }
-OR = { exists = OG1 RUS = { has_country_flag = policy_on_germany } }
-NOT = { year = 1990 }
-NOT = { has_country_flag = form_bizonia }
-}
-
-mean_time_to_happen = { 
-months = 1
-	}
-
-option = {
-name = "Propose the Bizone to the British (80% chance of success)"
-prestige = 50
-any_owned = { limit = { is_core = GER } secede_province = OG4 }
-create_vassal = OG4
-OG4 = { civilized = yes government = mandate_government country_event = 800054 ruling_party_ideology = big_tent }
-diplomatic_influence = { who = OG4 value = 200 }
-OG4 = { primary_culture = german }
-ENG = { country_event = 1512283 }
-set_country_flag = form_bizonia
-ai_chance = { factor = 0.8 }
-		}
-
-option = {
-name = "We'll create our own occupation zone"
-set_country_flag = occupation_zone_potential
-ENG = { set_country_flag = occupation_zone_potential }
-ai_chance = { factor = 0.2 }
-		}
-}
-
-#Formation of Bizonia - ENG acceptance
-country_event = {
-	id = 1512283
-title = "Formation of Bizonia"
-	desc = EVTDESC1512282
-	picture = "bizonia"
-
-is_triggered_only = yes
-
-option = {
-name = "Merge the two zones into an autonomous unit"
-
-prestige = 100
-
-relation = { who = USA value = 50 }
-
-any_owned = { limit = { is_core = GER } secede_province = OG4 }
-
-diplomatic_influence = { who = OG4 value = 100 }
-
-ai_chance = { factor = 0.8 }
-		}
-
-option = {
-name = "We will focus on our own zone"
-set_country_flag = occupation_zone_potential
-USA = { set_country_flag = occupation_zone_potential }
-ai_chance = { factor = 0.2 }
-		}
-}
+##Formation of Bizonia - ENG acceptance
+#country_event = {
+#	id = 1512283
+#title = "Formation of Bizonia"
+#	desc = EVTDESC1512282
+#	picture = "bizonia"
+#
+#is_triggered_only = yes
+#
+#option = {
+#name = "Merge the two zones into an autonomous unit"
+#
+#prestige = 100
+#
+#relation = { who = USA value = 50 }
+#
+#any_owned = { limit = { is_core = GER } secede_province = OG4 }
+#
+#diplomatic_influence = { who = OG4 value = 100 }
+#
+#ai_chance = { factor = 0.8 }
+#		}
+#
+#option = {
+#name = "We will focus on our own zone"
+#set_country_flag = occupation_zone_potential
+#USA = { set_country_flag = occupation_zone_potential }
+#ai_chance = { factor = 0.2 }
+#		}
+#}
 
 ##Formation of Trizonia - USA proposes
 #country_event = {
@@ -12618,7 +12618,7 @@ any_country = { limit = { has_country_flag = joincomm } country_event = 19810 }
 
 
 			remove_country_modifier = communist_bloc
-			GER  = { country_event = 8225001 }
+			#GER  = { country_event = 8225001 }
 
 clr_country_flag = joindemo
 	remove_country_modifier = democratic_bloc
@@ -13286,64 +13286,65 @@ is_triggered_only = yes
   option = {
 	name = "We will drain the swamp!"	
 any_pop = { limit = { OR = { type = aristocrats type = officers type = bureaucrats } } militancy = 10 }
+		country_event = 100100
   }
 
 }
 
-#London Agreement on German External Debts
-country_event = {
-  id = 1512324
-  title = "London Agreement on German External Debts"
-  desc = EVTDESC1512324
-  picture = "ger_debt_relief"
-
-fire_only_once = yes
-
-  trigger = {
-	tag = GER
-	government = democracy
-	year = 1953
-	exists = DDR
-	NOT = { year = 1990 }
-	NOT = { badboy = 0.5 }
-	war = no
-	is_vassal = no
-	has_global_flag = blocsenabled
-  }
-
-mean_time_to_happen = { months = 9 }
-
-  option = {
-	name = "Great!"	
-	prestige = 50
-add_country_modifier = { name = tax_boost_modifier duration = 3650 }
-  }
-
-}
-
-#Death of King Bhumibol Adulyadej of Thailand
-country_event = {
-  id = 1512325
-  title = "Death of King Bhumibol Adulyadej"
-  desc = EVTDESC1512325
-  picture = "bhumibol_adulyadej_death"
-
-fire_only_once = yes
-
-  trigger = {
-	tag = THI
-OR = { government = absolute_monarchy government = hms_government government = hms_government1 }
-	year = 2016
-  }
-
-mean_time_to_happen = { months = 10 }
-
-  option = {
-	name = "The nation is in mourning!"
-	any_pop = { militancy = -10 }	
-  }
-
-}
+##London Agreement on German External Debts
+#country_event = {
+#  id = 1512324
+#  title = "London Agreement on German External Debts"
+#  desc = EVTDESC1512324
+#  picture = "ger_debt_relief"
+#
+#fire_only_once = yes
+#
+#  trigger = {
+#	tag = GER
+#	government = democracy
+#	year = 1953
+#	exists = DDR
+#	NOT = { year = 1990 }
+#	NOT = { badboy = 0.5 }
+#	war = no
+#	is_vassal = no
+#	has_global_flag = blocsenabled
+#  }
+#
+#mean_time_to_happen = { months = 9 }
+#
+#  option = {
+#	name = "Great!"	
+#	prestige = 50
+#add_country_modifier = { name = tax_boost_modifier duration = 3650 }
+#  }
+#
+#}
+#
+##Death of King Bhumibol Adulyadej of Thailand
+#country_event = {
+#  id = 1512325
+#  title = "Death of King Bhumibol Adulyadej"
+#  desc = EVTDESC1512325
+#  picture = "bhumibol_adulyadej_death"
+#
+#fire_only_once = yes
+#
+#  trigger = {
+#	tag = THI
+#OR = { government = absolute_monarchy government = hms_government government = hms_government1 }
+#	year = 2016
+#  }
+#
+#mean_time_to_happen = { months = 10 }
+#
+#  option = {
+#	name = "The nation is in mourning!"
+#	any_pop = { militancy = -10 }	
+#  }
+#
+#}
 
 #Select new party
 country_event = {
@@ -13425,5 +13426,121 @@ clr_country_flag = appoint_ruling_party
 random_owned = { limit = { owner = { NOT = { pop_majority_ideology = nationalist } } } owner = { country_event = 6016818 } }
 
   }
+
+}
+
+#United Nations Trusteeship proposal after dismemberment
+country_event = {
+  id = 1512327
+  title = "UN Trusteeship over $FROMCOUNTRY$?"
+  desc = EVTDESC1512327
+  picture = "united_nations_trust_territories"
+
+	is_triggered_only = yes
+
+  option = {
+	name = "Accept the mandate"
+	prestige = 100
+	money = -500000
+	create_vassal = FROM
+FROM = { government = mandate_government country_event = 800054 money = 500000 add_country_modifier = { name = tax_boost_modifier duration = 3650 } add_country_modifier = { name = economic_boom duration = 3650 } set_country_flag = great_war_mandate_un }
+	diplomatic_influence = { who = FROM value = 200 }
+	diplomatic_influence = { who = FROM value = 200 }
+	relation = { who = FROM value = 200 }
+	ai_chance = { 
+		factor = 1
+		modifier = { factor = 0 NOT = { money = 500000 } }
+	}	
+  }
+
+  option = {
+	name = "The $FROMCOUNTRY_ADJ$ people can rule themselves"
+	relation = { who = FROM value = 50 }
+	ai_chance = { 
+		factor = 1
+		modifier = { factor = 0 money = 500000 }
+	}	
+  }
+
+}
+
+#Trigger UN mandate independence
+country_event = { 
+  id = 1512328
+  title = "Independence of $COUNTRY$"
+  desc = EVT_fullindependence_DESC
+  picture = "un_mandate_end"
+
+  trigger = {
+
+government = mandate_government
+	
+has_country_flag = great_war_mandate_un
+
+	election = no
+
+	is_vassal = yes
+
+	war = no
+}
+
+  mean_time_to_happen = { 
+	months = 60
+		}
+
+  option = {
+    name = EVT_fullindependence_A
+	prestige = 50
+	clr_country_flag = great_war_mandate_un
+	overlord = { country_event = 15406 }
+	ai_chance = { factor = 1 }
+  }
+  option = {
+    name = "Remain as a protectorate"
+	prestige = -50
+	
+#Constitutional Monarchy
+FROM = {
+random_owned = { limit = { owner = { overlord = { OR = { government = hms_government government = hms_government1 government = absolute_monarchy } } } } owner = { government = hms_government1 } }
+}
+
+#Democracy
+FROM = {
+random_owned = { limit = { owner = { overlord = { OR = { government = democracy government = democracy } } } } owner = { government = democracy } }
+}
+
+#Socialist Democracy
+FROM = {
+random_owned = { limit = { owner = { overlord = { government = socialist_democracy } } } owner = { government = socialist_democracy ruling_party_ideology = socialist } }
+}
+
+#Communist Dictatorships
+FROM = {
+random_owned = { limit = { owner = { overlord = { OR = { government = proletarian_dictatorship government = proletarian_dictatorship1 } } } } owner = { government = proletarian_dictatorship ruling_party_ideology = communist country_event = 800052 } }
+}
+
+#Theocracy
+FROM = {
+random_owned = { limit = { owner = { overlord = { government = theocracy } } } owner = { government = theocracy country_event = 800050 ruling_party_ideology = traditionalist } }
+}
+
+#Presidential Dictatorship
+FROM = {
+random_owned = { limit = { owner = { overlord = { government = presidential_dictatorship } } } owner = { government = presidential_dictatorship country_event = 800050 } }
+}
+
+#Nationalist Dictatorship
+FROM = {
+random_owned = { limit = { owner = { overlord = { government = populist_dictatorship } } } owner = { government = populist_dictatorship country_event = 800050 ruling_party_ideology = populist } }
+}
+
+#Sectarian Dictatorship
+FROM = {
+random_owned = { limit = { owner = { overlord = { government = nationalist_dictatorship } } } owner = { government = nationalist_dictatorship country_event = 800050 ruling_party_ideology = nationalist } }
+}
+
+	clr_country_flag = great_war_mandate_un
+	ai_chance = { factor = 0 }
+	}
 
 }
