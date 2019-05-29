@@ -209,7 +209,7 @@ country_event = {
 	prestige = 25
     money = 100000
 	relation = { who = USA value = 100 }
-    add_country_modifier = { name = us_support duration = 3650 }
+    add_country_modifier = { name = foreign_support duration = 3650 }
   }
 }
 

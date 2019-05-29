@@ -33,6 +33,8 @@ country_event = {
 		    }
 			FRA = { add_country_modifier = { name = total_war duration = 1825 } }
 			UFR = { add_country_modifier = { name = total_war duration = 1825 } }
+			
+			UFR = { country_event = 9999875 }
   }    
 
 }
@@ -58,12 +60,15 @@ country_event = {
 			ai_chance = { factor = 1 }
 			
         change_tag = FRA
-		government = populist_dictatorship
+		#government = populist_dictatorship
 		#ruling_party_ideology = traditionalist
 		add_country_modifier = { name = atomic_nation duration = -1 }
 		prestige = 2000
 		inherit = ALS
 		release_vassal = ALS
+		FRA = { capital = 425 }
+		FRA = { all_core = { remove_core = UFR } }
+		GER = { country_event = 9999880 }
   }
 
 }
@@ -141,6 +146,7 @@ country_event = {
             prestige = -50
 			any_owned = { limit = { is_core = GER }  secede_province = GER }
 			any_owned = { limit = { is_core = BEL }  secede_province = BEL }
+			
   }
   
   option = {
@@ -212,4 +218,336 @@ country_event = {
 			clr_global_flag = fra_ger_border_war
   }
 
+}
+
+country_event = {
+  id = 9999875 #French Civil War - UFR
+  title = EVT_9999875_NAME
+  desc = EVT_9999875_DESC
+  picture = "petain_de_gaulle"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999875_A
+			ai_chance = { factor = 1 }
+			prestige = -10
+  }    
+
+}
+
+country_event = {
+  id = 9999881 #Petain's Death
+  title = EVT_9999881_NAME
+  desc = EVT_9999881_DESC
+  picture = "petain_de_gaulle"
+  fire_only_once = yes
+
+  trigger = {
+             OR = { tag = FRA  tag = UFR }
+             year = 1954
+			 month = 6
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999881_A
+			ai_chance = { factor = 1 }
+			
+			any_pop = { consciousness = 1 }
+			UFR = { any_pop = { militancy = 1.5 } }
+  }    
+
+}
+
+country_event = {
+  id = 9999880 #Funding Bucard and Doriot - GER
+  title = EVT_9999880_NAME
+  desc = EVT_9999880_DESC
+  picture = "bucard_doriot"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999880_A
+			ai_chance = { factor = 0.5 }		
+			money = -100000
+			badboy = 1
+			relation = { who = FRA value = -300 }
+			FRA = { country_event = 9999879 }
+  }
+  option = {
+            name = EVT_9999880_B
+			ai_chance = { factor = 0.5 }
+            relation = { who = FRA value = 50 }			
+			prestige = -1
+  }  
+
+}
+
+country_event = {
+  id = 9999879 #French Civil War - Part 2
+  title = EVT_9999879_NAME
+  desc = EVT_9999879_DESC
+  picture = "bucard_doriot"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999879_A
+			ai_chance = { factor = 0.5 }
+			
+			set_global_flag = FRA_civil_war_2
+	        
+			411 = { add_core = UFR }
+			414 = { add_core = UFR }
+			432 = { add_core = UFR }
+			407 = { add_core = UFR }
+			413 = { add_core = UFR }
+			408 = { add_core = UFR }
+			405 = { add_core = UFR }
+			403 = { add_core = UFR }
+			404 = { add_core = UFR }
+			399 = { add_core = UFR }
+			401 = { add_core = UFR }
+			400 = { add_core = UFR }
+			402	= { add_core = UFR }
+			2570 = { add_core = UFR }
+			415 = { add_core = UFR }
+			416 = { add_core = UFR }
+			417 = { add_core = UFR }
+			418 = { add_core = UFR }
+			436 = { add_core = UFR }
+			434 = { add_core = UFR }
+			437 = { add_core = UFR }
+			441 = { add_core = UFR }
+			435 = { add_core = UFR }
+			424 = { add_core = UFR }
+			423 = { add_core = UFR }
+			422 = { add_core = UFR }
+			421 = { add_core = UFR }
+			420 = { add_core = UFR }
+			442 = { add_core = UFR }
+			458 = { add_core = UFR }
+			
+            release = UFR
+			
+			UFR = { government = populist_dictatorship }
+			UFR = { ruling_party_ideology = populist }
+			
+			UFR = { capital = 423 }
+			
+			FRA = { all_core = { add_core = UFR } }
+		    war = {
+			 target = UFR
+			 attacker_goal = {
+				casus_belli = civil_war
+			 }
+			 defender_goal = {
+				casus_belli = civil_war
+			 }
+		    }
+			#FRA = { add_country_modifier = { name = total_war duration = 1825 } }
+			#UFR = { add_country_modifier = { name = total_war duration = 1825 } }
+			UFR = { relation = { who = GER value = 200 } }
+			UFR = { money = 100000 }
+			UFR = { add_country_modifier = { name = foreign_support duration = 3650 } }
+  }  
+
+  option = {
+            name = EVT_9999879_B
+			ai_chance = { factor = 0.5 }
+			
+			set_global_flag = FRA_civil_war_2
+	        
+			411 = { add_core = UFR }
+			414 = { add_core = UFR }
+			432 = { add_core = UFR }
+			407 = { add_core = UFR }
+			413 = { add_core = UFR }
+			408 = { add_core = UFR }
+			405 = { add_core = UFR }
+			403 = { add_core = UFR }
+			404 = { add_core = UFR }
+			399 = { add_core = UFR }
+			401 = { add_core = UFR }
+			400 = { add_core = UFR }
+			402	= { add_core = UFR }
+			2570 = { add_core = UFR }
+			415 = { add_core = UFR }
+			416 = { add_core = UFR }
+			417 = { add_core = UFR }
+			418 = { add_core = UFR }
+			436 = { add_core = UFR }
+			434 = { add_core = UFR }
+			437 = { add_core = UFR }
+			441 = { add_core = UFR }
+			435 = { add_core = UFR }
+			424 = { add_core = UFR }
+			423 = { add_core = UFR }
+			422 = { add_core = UFR }
+			421 = { add_core = UFR }
+			420 = { add_core = UFR }
+			442 = { add_core = UFR }
+			458 = { add_core = UFR }
+			
+            release = UFR
+			
+			UFR = { government = populist_dictatorship }
+			UFR = { ruling_party_ideology = populist }
+			
+			UFR = { capital = 423 }
+			
+			FRA = { all_core = { add_core = UFR } }
+		    war = {
+			 target = UFR
+			 attacker_goal = {
+				casus_belli = civil_war
+			 }
+			 defender_goal = {
+				casus_belli = civil_war
+			 }
+		    }
+			#FRA = { add_country_modifier = { name = total_war duration = 1825 } }
+			#UFR = { add_country_modifier = { name = total_war duration = 1825 } }
+			UFR = { relation = { who = GER value = 200 } }
+			UFR = { add_country_modifier = { name = foreign_support duration = 3650 } }
+			
+			change_tag_no_core_switch = UFR
+  }
+
+}
+
+country_event = {
+  id = 9999878 #Nationalists win Civil war part 2
+  title = EVT_9999878_NAME
+  desc = EVT_9999878_DESC
+  picture = "bucard_doriot"
+  fire_only_once = yes
+
+  trigger = {
+             tag = FRA
+             has_global_flag = FRA_civil_war_2
+			 war = no
+			 NOT = { exists = UFR }
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999878_A #Victory
+			ai_chance = { factor = 1 }
+		    prestige = 100
+			FRA = { all_core = { remove_core = UFR } }
+  }
+
+}
+
+country_event = {
+  id = 9999877 #Fascists win Civil war part 2
+  title = EVT_9999877_NAME
+  desc = EVT_9999877_DESC
+  picture = "bucard_doriot"
+  fire_only_once = yes
+
+  trigger = {
+             tag = UFR
+             has_global_flag = FRA_civil_war_2
+			 war = no
+			 NOT = { exists = FRA }
+  }
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999877_A #Victory
+			ai_chance = { factor = 1 }
+			change_tag = FRA
+			FRA = { all_core = { remove_core = UFR } }
+			FRA = { capital = 425 }
+	        prestige = -1500
+			GER = { inherit = LUX }
+			GER = { inherit = ALS }
+			#411 = { add_core = UFR }
+			414 = { add_core = UFR }
+			432 = { add_core = UFR }
+			407 = { add_core = UFR }
+			413 = { add_core = UFR }
+			408 = { add_core = UFR }
+			405 = { add_core = UFR }
+			403 = { add_core = UFR }
+			404 = { add_core = UFR }
+			399 = { add_core = UFR }
+			401 = { add_core = UFR }
+			400 = { add_core = UFR }
+			402	= { add_core = UFR }
+			2570 = { add_core = UFR }
+			415 = { add_core = UFR }
+			416 = { add_core = UFR }
+			417 = { add_core = UFR }
+			418 = { add_core = UFR }
+			436 = { add_core = UFR }
+			434 = { add_core = UFR }
+			437 = { add_core = UFR }
+			441 = { add_core = UFR }
+			435 = { add_core = UFR }
+			424 = { add_core = UFR }
+			423 = { add_core = UFR }
+			422 = { add_core = UFR }
+			421 = { add_core = UFR }
+			420 = { add_core = UFR }
+			442 = { add_core = UFR }
+			458 = { add_core = UFR }
+			#432 = { add_core = GER }
+			411 = { add_core = GER }
+			#414 = { add_core = GER }
+			#413 = { add_core = GER }
+			#405 = { add_core = BEL }
+			#404 = { add_core = BEL }
+			#405 = { add_core = WLL }
+			#404 = { add_core = WLL }
+			#401 = { add_core = BEL }
+			#399 = { add_core = BEL }
+			#400 = { add_core = BEL }
+			#401 = { add_core = FLA }
+			#399 = { add_core = FLA }
+			#400 = { add_core = FLA }
+			any_owned = { limit = { is_core = GER }  secede_province = GER }
+			any_owned = { limit = { is_core = BEL }  secede_province = BEL }
+			any_owned = { limit = { is_core = IRS }  secede_province = IRS }
+			release_vassal = UFR
+			UFR = { prestige = -5000 }
+			GER = { create_vassal = UFR }
+			UFR = { capital = 418 }
+			UFR = { government = sar_government }
+			UFR = { ruling_party_ideology = populist }
+			GER = { country_event = 9999876 }
+			any_pop = { militancy = 3 } 
+  }
+
+}
+
+country_event = {
+  id = 9999876 #Germany receives its award
+  title = EVT_9999876_NAME
+  desc = EVT_9999876_DESC
+  picture = "bucard_doriot"
+  is_triggered_only = yes
+
+  mean_time_to_happen = { days = 1 }
+  
+  option = {
+            name = EVT_9999876_A
+			ai_chance = { factor = 1 }		
+			prestige = 200
+			relation = { who = FRA value = 500 }
+			relation = { who = UFR value = 500 }
+			GER = { diplomatic_influence = { who = FRA value = 500 } }
+			GER = { diplomatic_influence = { who = UFR value = 500 } }
+  }
+ 
 }

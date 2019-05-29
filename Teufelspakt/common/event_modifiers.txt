@@ -6774,7 +6774,7 @@ total_blockade = {
     icon = 18
 }
 
-us_support = {
+foreign_support = {
 	mobilisation_size = 0.30
 	leadership_modifier = 0.30
 	land_organisation = 0.30
