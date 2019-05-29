@@ -450,14 +450,14 @@ country_event = {
   
   option = {
             name = EVT_9999981_A #Size Danzig
-			ai_chance = { factor = 0.40 }
+			ai_chance = { factor = 0.30 }
             GER = { inherit = DZG }
 			badboy = 5
   }
   
   option = {
             name = EVT_9999981_B #Size Danzig and demand more 
-			ai_chance = { factor = 0.30 }
+			ai_chance = { factor = 0.35 }
 			GER = { inherit = DZG }
 			badboy = 7.5
             694 = { add_core = GER }
@@ -470,7 +470,7 @@ country_event = {
   }
   option = {
             name = EVT_9999981_C #Size Danzig and demand even more 
-			ai_chance = { factor = 0.20 }
+			ai_chance = { factor = 0.25 }
 			GER = { inherit = DZG }
 			badboy = 10
             694 = { add_core = GER }
