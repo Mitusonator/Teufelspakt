@@ -1391,98 +1391,99 @@ political_decisions = {
 
         }
 
-        claim_greater_germany = {
-				picture = "claim_greater_germany"
-                potential = {
-                        tag = GER
-                        NOT = { has_country_flag = claim_greater_germany }
-                        NOT = { has_country_modifier = ger_war_rep }
-                }
-
-                allow = {
-                       tag = GER
-						part_of_sphere = no
-						has_unclaimed_cores = no
-						NOT = {	
-				has_country_flag = claim_greater_germany
-				ruling_party_ideology = socialist
-				ruling_party_ideology = progressive
-				ruling_party_ideology = liberal 
-						}
-						is_vassal = no
-                        prestige = 45
-                        OR = {
-                           ruling_party_ideology = populist
-					ruling_party_ideology = nationalist
-                            jingoism = 24
-					has_country_flag = reject_oder_neisse
-                        }
-                }
-
-                effect = {
-                        badboy = 24
-                        set_country_flag = claim_greater_germany
-                        685 = { add_core = GER }
-                        684 = { add_core = GER }
-                        683 = { add_core = GER }
-                        682 = { add_core = GER }
-                        681 = { add_core = GER }
-                        546 = { add_core = GER }
-                        679 = { add_core = GER }
-                        692 = { add_core = GER }
-                        680 = { add_core = GER }
-                        693 = { add_core = GER }
-                        696 = { add_core = GER }
-                        695 = { add_core = GER }
-                        698 = { add_core = GER }
-                        697 = { add_core = GER }
-				690 = { add_core = GER }
-                        691 = { add_core = GER }
-                        694 = { add_core = GER }
-                        699 = { add_core = GER }
-                        700 = { add_core = GER }
-                        701 = { add_core = GER }
-                        371 = { add_core = GER }
-                        412 = { add_core = GER }
-                        409 = { add_core = GER }
-                        410 = { add_core = GER }
-				}
-
-        }
-        abandon_claim_greater_germany = {
-				picture = "claim_greater_germany"
-                potential = {
-                        tag = GER
-                        has_country_flag = claim_greater_germany
-                        OR = {
-                                government = democracy
-                                government = hms_government
-                        }
-                }
-
-                allow = {
-                        war = no
-                        is_vassal = no
-                        has_country_flag = claim_greater_germany
-                        OR = {
-                              ruling_party_ideology = progressive
-                                ruling_party_ideology = liberal
-                        }
-                }
-
-                effect = {
-						prestige = 10
-                        any_pop = {
-                                consciousness = 1
-                        }
-                        clr_country_flag = claim_greater_germany
-                        all_core = { 
-                                limit = { NOT = { owned_by = THIS } OR = { is_primary_culture = yes is_accepted_culture  = yes } }
-                                remove_core = GER
-                        }
-                }
-
-        }
+        #claim_greater_germany = {
+		#		picture = "claim_greater_germany"
+        #        potential = {
+        #                tag = GER
+        #                NOT = { has_country_flag = claim_greater_germany }
+        #                NOT = { has_country_modifier = ger_war_rep }
+        #        }
+        #
+        #        allow = {
+        #               tag = GER
+		#				part_of_sphere = no
+		#				has_unclaimed_cores = no
+		#				NOT = {	
+		#		has_country_flag = claim_greater_germany
+		#		ruling_party_ideology = socialist
+		#		ruling_party_ideology = progressive
+		#		ruling_party_ideology = liberal 
+		#				}
+		#				is_vassal = no
+        #                prestige = 45
+        #                OR = {
+        #                   ruling_party_ideology = populist
+		#			ruling_party_ideology = nationalist
+        #                    jingoism = 24
+		#			has_country_flag = reject_oder_neisse
+        #                }
+        #        }
+        #
+        #        effect = {
+        #                badboy = 24
+        #                set_country_flag = claim_greater_germany
+        #                685 = { add_core = GER }
+        #                684 = { add_core = GER }
+        #                683 = { add_core = GER }
+        #                682 = { add_core = GER }
+        #                681 = { add_core = GER }
+        #                546 = { add_core = GER }
+        #                679 = { add_core = GER }
+        #                692 = { add_core = GER }
+        #                680 = { add_core = GER }
+        #                693 = { add_core = GER }
+        #                696 = { add_core = GER }
+        #                695 = { add_core = GER }
+        #                698 = { add_core = GER }
+        #                697 = { add_core = GER }
+		#		        690 = { add_core = GER }
+        #                691 = { add_core = GER }
+        #                694 = { add_core = GER }
+        #                699 = { add_core = GER }
+        #                700 = { add_core = GER }
+        #                701 = { add_core = GER }
+        #                371 = { add_core = GER }
+        #                412 = { add_core = GER }
+        #                409 = { add_core = GER }
+        #                410 = { add_core = GER }
+		#				689 = { add_core = GER }
+		#		}
+        #
+        #}
+        #abandon_claim_greater_germany = {
+		#		picture = "claim_greater_germany"
+        #        potential = {
+        #                tag = GER
+        #                has_country_flag = claim_greater_germany
+        #                OR = {
+        #                        government = democracy
+        #                        government = hms_government
+        #                }
+        #        }
+        #
+        #        allow = {
+        #                war = no
+        #                is_vassal = no
+        #                has_country_flag = claim_greater_germany
+        #                OR = {
+        #                      ruling_party_ideology = progressive
+        #                        ruling_party_ideology = liberal
+        #                }
+        #        }
+        #
+        #        effect = {
+		#				prestige = 10
+        #                any_pop = {
+        #                        consciousness = 1
+        #                }
+        #                clr_country_flag = claim_greater_germany
+        #                all_core = { 
+        #                        limit = { NOT = { owned_by = THIS } OR = { is_primary_culture = yes is_accepted_culture  = yes } }
+        #                        remove_core = GER
+        #                }
+        #        }
+        #
+        #}
 
 		claim_greater_greece = {
 				picture = "claim_greater_greece"
