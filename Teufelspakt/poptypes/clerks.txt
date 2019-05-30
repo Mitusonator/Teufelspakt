@@ -456,31 +456,14 @@ migration_target = {
 		}
 	}
 	modifier = { 
-	             factor = 10
-				 THIS = { OR = { is_primary_culture = yes is_accepted_culture = yes } }
-	             is_primary_culture = no
+	             factor = 100
+	             NOT = { has_pop_culture = THIS }
 				 is_accepted_culture = no
 	             country = { has_country_flag = neu_ostsiedlung_flag } 
 	}
 	modifier = { 
-	             factor = 10
-				 THIS = { is_primary_culture = no is_accepted_culture = no }
-	             is_primary_culture = yes
-				 is_accepted_culture = yes
-	             country = { has_country_flag = neu_ostsiedlung_flag } 
-	}
-	modifier = { 
 	             factor = 0.01
-				 THIS = { OR = { is_primary_culture = yes is_accepted_culture = yes } }
-	             is_primary_culture = yes
-				 is_accepted_culture = yes
-	             country = { has_country_flag = neu_ostsiedlung_flag } 
-	}
-	modifier = { 
-	             factor = 0.01
-				 THIS = { is_primary_culture = no is_accepted_culture = no }
-	             is_primary_culture = no
-				 is_accepted_culture = no
+	             has_pop_culture = THIS
 	             country = { has_country_flag = neu_ostsiedlung_flag } 
 	}
 	modifier = {

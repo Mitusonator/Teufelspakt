@@ -636,17 +636,17 @@ location = { is_primary_culture = no is_accepted_culture = no }
 				 country = { has_country_flag = neu_ostsiedlung_flag }  
 	}
 	
-	modifier = { 
-	             factor = -2
-				 OR = { is_primary_culture = no is_accepted_culture = no }
-	             location = { is_primary_culture = yes is_accepted_culture = yes } 
-				 country = { has_country_flag = neu_ostsiedlung_flag }  
-	}
+	#modifier = { 
+	#             factor = -2
+	#			  OR = { is_primary_culture = no is_accepted_culture = no }
+	#             location = { OR = { is_primary_culture = yes is_accepted_culture = yes } } 
+	#			  country = { has_country_flag = neu_ostsiedlung_flag }  
+	#}
 	
 	modifier = { 
 	             factor = 3
 				 OR = { is_primary_culture = yes is_accepted_culture = yes }
-	             location = { is_primary_culture = yes is_accepted_culture = yes } 
+	             location = { OR = { is_primary_culture = yes is_accepted_culture = yes } } 
 				 country = { has_country_flag = neu_ostsiedlung_flag }  
 	}
 	modifier = { 
@@ -1099,6 +1099,7 @@ assimilation_chance = { # 1
 	modifier = {
     	factor = -1
 		has_culture_core = yes
+		NOT = { country = { has_country_flag = neu_ostsiedlung_flag } }
 	}
 
 	group = {
@@ -1208,10 +1209,10 @@ assimilation_chance = { # 1
 		NOT = { country = { has_country_flag = neu_ostsiedlung_flag } }
 	}
 	group = {
-	    modifier = { factor = 1.0 has_pop_religion = secularism country = { has_country_flag = war_on_religion_flag } }
-	    modifier = { factor = 1.5 has_pop_religion = secularism country = { has_country_flag = cult_of_state_flag } }
+	    modifier = { factor = 4.0 has_pop_religion = secularism country = { has_country_flag = war_on_religion_flag } }
+	    modifier = { factor = 6.0 has_pop_religion = secularism country = { has_country_flag = cult_of_state_flag } }
 	}
-	modifier = { factor = 5 country = { has_country_flag = neu_ostsiedlung_flag } }
+	modifier = { factor = 15 country = { has_country_flag = neu_ostsiedlung_flag } }
 }
 
 #general conversion mtth, same for all pops
