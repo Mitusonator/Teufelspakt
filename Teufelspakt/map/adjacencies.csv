@@ -198,4 +198,7 @@ From;To;Type;Through;Data;Comment
 2968;3001;canal;1723;3;Panama Canal
 #2773;2774;canal;860;4;Bosphorus
 2968;3002;canal;860;5;Nicaragua Canal
+2707;2714;canal;994;6;White Sea Canal 1
+2714;2715;canal;995;7;White Sea Canal 2
+2715;2716;canal;988;8;White Sea Canal 3
 -1;-1;;-1;-1

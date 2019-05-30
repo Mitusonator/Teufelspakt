@@ -83,4 +83,42 @@ ger_claim_gg = {
 		}
 }
 
+	build_white_sea_canal = {
+		
+		picture = "white_sea_canal"
+		potential = {
+			NOT = { is_canal_enabled = 6 }
+			is_greater_power = yes
+		}
+		allow = {
+			#deep_mining = 1
+		    money = 1000000
+			AND = {
+			       OR = {
+			        	  994 = { owner = { in_sphere = THIS } }
+			        	  owns = 994
+			       }
+			       OR = {
+			        	  995 = { owner = { in_sphere = THIS } }
+			        	  owns = 995
+			       }
+			       OR = {
+			        	  988 = { owner = { in_sphere = THIS } }
+			        	  owns = 995
+			       }
+			}
+		}
+		effect = {
+			enable_canal = 6
+			enable_canal = 7
+			enable_canal = 8
+			money = -1000000
+			prestige = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
 }
