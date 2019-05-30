@@ -92,7 +92,8 @@ any_owned_province = { has_building = naval_base }
 has_global_flag = open_arctic_route
 has_country_modifier = arctic_route
 NOT = { has_country_modifier = arctic_route_control }
-any_owned_province = { OR = { is_core = FIN is_core = CAN is_core = RUS is_core = NOR is_core = SWE is_core = ICL is_core = USA is_core = JAP is_core = ENG is_core = GRN } }is_greater_power = yes
+any_owned_province = { OR = { is_core = FIN is_core = CAN is_core = RUS is_core = NOR is_core = SWE is_core = ICL is_core = USA is_core = JAP is_core = ENG is_core = GRN } }
+is_greater_power = yes
 		}
 
 	allow = {
