@@ -104,7 +104,7 @@ ger_claim_gg = {
 			       }
 			       OR = {
 			        	  988 = { owner = { in_sphere = THIS } }
-			        	  owns = 995
+			        	  owns = 988
 			       }
 			}
 		}
