@@ -1119,47 +1119,51 @@ set_country_flag = postindusboom
 any_owned = { limit = { is_colonial = no } add_province_modifier = { name = industrial_pop_boom duration = 3650 } }
 		}
 			}
-#Return of Port Arthur
-country_event = {
-	id = 1400035
-	title = "Return of Port Arthur"
-	desc = EVTDESC1400035
-	picture = "returnofportarthur"
-
-	trigger = {
-	tag = RUS
-	CHI = { exists = yes }
-	year = 1955
-	1481 = { owned_by = RUS }
-	NOT = { year = 1990 }
-	RUS = { government = proletarian_dictatorship }
-	war = no
-	CHI = { government = proletarian_dictatorship }
-		NOT = { has_country_flag = returnofportarthur }
-			}
-	
-	option = {
-	name = "Return the territory without compensation"
-1481 = { secede_province = CHI }
-prestige = 10
-relation = { who = CHI value = 100 }
-set_country_flag = returnofportarthur
-ai_chance = { factor = 100 }
-		}
-option = {
-	name = "Keep our territory"
-relation = { who = CHI value = -200 }
-set_country_flag = returnofportarthur
-ai_chance = { factor = 10 }
-		}
-option = {
-	name = "Grant independence to Port Arthur"
-release = MCK
-relation = { who = CHI value = -200 }
-set_country_flag = returnofportarthur
-ai_chance = { factor = 0 }
-		}
-			}
+##Return of Port Arthur
+#country_event = {
+#	id = 1400035
+#	title = "Return of Port Arthur"
+#	desc = EVTDESC1400035
+#	picture = "returnofportarthur"
+#
+#	trigger = {
+#	tag = RUS
+#	CHI = { exists = yes }
+#	year = 1955
+#	1481 = { owned_by = RUS }
+#	NOT = { year = 1990 }
+#	RUS = { government = proletarian_dictatorship }
+#	war = no
+#	CHI = { government = proletarian_dictatorship }
+#	NOT = { has_country_flag = returnofportarthur }
+#			}
+#	
+#	option = {
+#	name = "Return the territory without compensation"
+#1481 = { secede_province = CHI }
+#prestige = 10
+#relation = { who = CHI value = 100 }
+#set_country_flag = returnofportarthur
+#ai_chance = { factor = 100 }
+#		}
+#option = {
+#	name = "Keep our territory"
+#relation = { who = CHI value = -200 }
+#set_country_flag = returnofportarthur
+#ai_chance = { factor = 10 }
+#		}
+#option = {
+#	name = "Grant independence to Port Arthur"
+#
+#1481 = { secede_province = MCK }
+#
+#relation = { who = MCK value = 200 }
+#diplomatic_influence = { who = MCK value = 200 }
+#relation = { who = CHI value = -200 }
+#set_country_flag = returnofportarthur
+#ai_chance = { factor = 0 }
+#		}
+#
 #Finished Construction of the Seikan Tunnel
 country_event = {
 	id = 1400036
