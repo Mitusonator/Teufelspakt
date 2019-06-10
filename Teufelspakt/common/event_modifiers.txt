@@ -2,6 +2,30 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+### Common Market Tariffs ###
+
+cmttimer = {
+	icon = 5
+}
+
+cmthigh = {
+	import_cost = 0.25
+	max_tariff = 0.1
+	min_tariff = 0.1
+	icon = 10
+}
+
+cmtmedium = {
+	icon = 9
+}
+
+cmtlow = {
+	import_cost = -0.25
+	max_tariff = -0.1
+	min_tariff = -0.1
+	icon = 9
+}
+
 ### Propaganda ###
 
 war_propaganda = {
@@ -5567,13 +5591,12 @@ war_torn = {
 }
 
 ethnic_cleansing = { 
-	factory_throughput = -0.25
-	RGO_throughput = -0.25
-	immigrant_attract = -2.5
-	global_assimilation_rate = 0.5
-	non_accepted_pop_consciousness_modifier = 0.2
-	non_accepted_pop_militancy_modifier = 0.1
-	badboy = 0.05
+	global_immigrant_attract = -2
+	non_accepted_pop_consciousness_modifier = 0.4
+	non_accepted_pop_militancy_modifier = 0.3
+	tax_efficiency = -0.05
+	administrative_efficiency_modifier = -0.4
+	badboy = 0.1
 	suppression_points_modifier = 0.5
 	icon = 18
 }
@@ -6750,6 +6773,8 @@ constitutional_crisis = {
 change_ruling_party = {
 	icon = 6
 }
+
+###TP###
 
 total_war = {
 	mobilisation_size = 1.00
