@@ -2,6 +2,14 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 
+### Cult of Personality ###
+
+cult_of_personality = {
+	ruling_party_support = 2
+	global_pop_consciousness_modifier = -0.05
+	icon = 13
+}
+
 ### Common Market Tariffs ###
 
 cmttimer = {
@@ -811,6 +819,8 @@ number_of_voters = -0.80
 random_party_votes = 0.4
 local_RGO_output = -0.40
 local_artisan_output = -0.4
+immigrant_push = 0.40
+immigrant_attract = -0.6
 icon = 14
 }
 
@@ -822,6 +832,8 @@ factory_owner_cost = 0.15
 random_party_votes = 0.2
 local_RGO_output = -0.20
 local_artisan_output = -0.2
+immigrant_push = 0.30
+immigrant_attract = -0.45
 icon = 14
 }
 
@@ -833,6 +845,8 @@ factory_owner_cost = 0.1
 random_party_votes = 0.1
 local_RGO_output = -0.10
 local_artisan_output = -0.1
+immigrant_push = 0.20
+immigrant_attract = -0.30
 icon = 14
 }
 
@@ -843,6 +857,8 @@ number_of_voters = -0.05
 random_party_votes = 0.05
 local_RGO_output = -0.05
 local_artisan_output = -0.05
+immigrant_push = 0.10
+immigrant_attract = -0.15
 icon = 14
 }
 
@@ -1129,8 +1145,9 @@ crisis_talk = {
 unethical_exp = { 
 	global_pop_militancy_modifier = 0.01
 	global_pop_consciousness_modifier = 0.05
-	research_points_modifier = 0.05
+    research_points_modifier = 0.2
 	badboy = 0.02
+	tax_efficiency = -0.01
 	icon = 4
 }
 
@@ -5677,18 +5694,20 @@ salafi_supressed = {
 
 ##### LIBERAL REVOLUTIONS #####
 liberal_agitation = {
-	pop_consciousness_modifier = 0.1
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.05
 	icon = 4
 }
 
 springtime_of_nations = {
-	core_pop_militancy_modifier = 0.3
+    core_pop_militancy_modifier = 0.2
 	icon = 8
 }
 
 global_liberal_agitation = {
-	core_pop_militancy_modifier = 0.02
-	global_pop_consciousness_modifier = 0.05
+	global_pop_consciousness_modifier = 0.2
+	global_pop_militancy_modifier = 0.01
+	prestige = -0.03
 	icon = 4
 }
 
@@ -6237,6 +6256,7 @@ imperious_autocrat = {
 prince_of_terror = {
 	global_pop_militancy_modifier = -0.1
 	badboy = 0.02
+	suppression_points_modifier = 0.5
 	icon = 17
 }
 

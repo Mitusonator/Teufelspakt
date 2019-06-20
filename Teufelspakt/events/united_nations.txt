@@ -817,20 +817,20 @@ country_event = { # TODO Eritrea trigger
   
   option = {
     name = EVT_85105XX_A
-	ai_chance = { factor = 100 }
+	ai_chance = { factor = 0.8 }
 	set_global_flag = un_eritrea_intervention
   }
 
   option = {
     name = EVT_85105XX_B
 	set_global_flag = un_eritrea_interventionveto 
-	ai_chance = { factor = 0 }
+	ai_chance = { factor = 0.1 }
   }
 
   option = {
     name = EVT_85105XX_C
 	set_global_flag = un_eritrea_totalveto 
-	ai_chance = { factor = 0 }
+	ai_chance = { factor = 0.1 }
   }
 }
 country_event = {
@@ -850,7 +850,7 @@ country_event = {
 
   option = {
     name = EVT_8510506_A
-	country_event = 8005311 
+	prestige = 50
   }
 }
 
